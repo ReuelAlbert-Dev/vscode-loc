@@ -326,11 +326,11 @@
 			"editor.experimental.asyncTokenization": "控制權杖化是否應該在 Web 工作者上非同步進行。",
 			"editor.experimental.asyncTokenizationLogging": "控制是否應該記錄非同步權杖化。僅適用偵錯。",
 			"editor.experimental.asyncTokenizationVerification": "控制是否應使用舊版背景 Token 化來驗證非同步 Token 化。可能會減慢 Token 化的速度。僅用於偵錯。",
-			"editor.experimental.preferTreeSitter.css": "控制是否應該開啟 css 的樹狀座標 (tree sitter) 剖析。針對 css，這將優先於 `editor.experimental.treeSitterTelemetry`。",
-			"editor.experimental.preferTreeSitter.ini": "控制是否應該開啟 ini 的樹狀座標 (tree sitter) 剖析。針對 ini，這將優先於 `editor.experimental.treeSitterTelemetry`。",
-			"editor.experimental.preferTreeSitter.regex": "控制是否應該開啟 regex 的樹狀座標 (tree sitter) 剖析。針對 regex，這將優先於 `editor.experimental.treeSitterTelemetry`。",
-			"editor.experimental.preferTreeSitter.typescript": "控制是否應該開啟 TypeScript 的樹狀座標 (tree sitter) 剖析。針對 TypeScript，這將優先於 `editor.experimental.treeSitterTelemetry`。",
-			"editor.experimental.treeSitterTelemetry": "控制是否應該開啟樹狀座標剖析並收集遙測。設定特定語言的 'editor.experimental.preferTreeSitter' 會優先。",
+			"editor.experimental.preferTreeSitter.css": "控制是否應該開啟 css 的樹狀座標 (tree sitter) 剖析。針對 css，這將優先於 `#editor.experimental.treeSitterTelemetry#`。",
+			"editor.experimental.preferTreeSitter.ini": "控制是否應該開啟 ini 的樹狀座標 (tree sitter) 剖析。針對 ini，這將優先於 `#editor.experimental.treeSitterTelemetry#`。",
+			"editor.experimental.preferTreeSitter.regex": "控制是否應該開啟 regex 的樹狀座標 (tree sitter) 剖析。針對 Regex，這將優先於 `#editor.experimental.treeSitterTelemetry#`。",
+			"editor.experimental.preferTreeSitter.typescript": "控制是否應該開啟 TypeScript 的樹狀座標 (tree sitter) 剖析。針對 TypeScript，這將優先於 `#editor.experimental.treeSitterTelemetry#`。",
+			"editor.experimental.treeSitterTelemetry": "控制是否應該開啟樹狀座標剖析並收集遙測。設定特定語言的 `#editor.experimental.preferTreeSitter#` 會優先。",
 			"editorConfigurationTitle": "編輯器",
 			"hideUnchangedRegions.contextLineCount": "控制比較未變更的區域時，要使用多少行作為內容。",
 			"hideUnchangedRegions.enabled": "控制差異編輯器是否顯示未變更的區域。",
@@ -573,7 +573,7 @@
 			"hover.above": "如果有空間，則偏好在行上方顯示游標。",
 			"hover.delay": "控制暫留顯示的延遲時間 (以毫秒為單位)。",
 			"hover.enabled": "控制是否顯示暫留。",
-			"hover.hidingDelay": "控制暫留隱藏的延遲時間 (以毫秒為單位)。需要啟用 `editor.hover.sticky`。",
+			"hover.hidingDelay": "控制暫留隱藏的延遲時間 (以毫秒為單位)。需要啟用 `#editor.hover.sticky#`。",
 			"hover.sticky": "控制當滑鼠移過時，是否應保持顯示暫留。",
 			"inertialScroll": "將捲動設為慣性 - 主要適用於 Linux 上的觸控板。",
 			"inlayHints.enable": "啟用編輯器中的內嵌提示。",
@@ -588,6 +588,8 @@
 			"inlineSuggest.edits.showCollapsed": "控制在跳到建議之前，是否將建議顯示為折疊。",
 			"inlineSuggest.enabled": "控制是否要在編輯器中自動顯示內嵌建議。",
 			"inlineSuggest.fontFamily": "控制內嵌建議的字體系列。",
+			"inlineSuggest.minShowDelay": "控制輸入後顯示內嵌建議的最小延遲時間 (以毫秒為單位)。",
+			"inlineSuggest.showOnSuggestConflict": "控制在建議衝突時是否顯示內嵌建議。",
 			"inlineSuggest.showToolbar": "控制何時顯示內嵌建議工具列。",
 			"inlineSuggest.showToolbar.always": "每當顯示內嵌建議時，顯示內嵌建議工具列。",
 			"inlineSuggest.showToolbar.never": "永不顯示內嵌建議工具列。",
@@ -663,13 +665,13 @@
 			"quickSuggestions.strings": "允許在字串內顯示即時建議。",
 			"quickSuggestionsDelay": "控制在快速建議顯示後的延遲 (以毫秒為單位)。",
 			"renameOnType": "控制編輯器是否會自動依類型重新命名。",
-			"renameOnTypeDeprecate": "已淘汰，請改用 `editor.linkedEditing`。",
+			"renameOnTypeDeprecate": "已淘汰，請改用 `#editor.linkedEditing#`。",
 			"renderControlCharacters": "控制編輯器是否應顯示控制字元。",
 			"renderFinalNewline": "在檔案結尾為新行時，呈現最後一行的號碼。",
 			"renderLineHighlight": "控制編輯器如何顯示目前行的醒目提示。",
 			"renderLineHighlight.all": "醒目提示裝訂邊和目前的行。",
 			"renderLineHighlightOnlyWhenFocus": "控制當聚焦於編輯器時，編輯器是否應僅轉譯目前行的醒目提示。",
-			"renderRichScreenReaderContent": "啟用 'editor.editContext' 時，是否要轉譯豐富的螢幕閱讀程式內容。",
+			"renderRichScreenReaderContent": "啟用 `#editor.editContext#` 設定時，是否要轉譯豐富的螢幕閱讀程式內容。",
 			"renderWhitespace": "控制編輯器應如何轉譯空白字元。",
 			"renderWhitespace.boundary": "轉譯空白字元，但文字之間的單一空格除外。",
 			"renderWhitespace.selection": "只轉譯所選文字的空白字元。",
@@ -760,7 +762,7 @@
 			"wordBreak": "控制用於中文/日文/韓文 (CJK) 文字的斷字規則。",
 			"wordBreak.keepAll": "中文/日文/韓文 (CJK) 文字不應該使用斷字。非中日韓的文字行為與一般文字相同。",
 			"wordBreak.normal": "使用預設的分行符號規則。",
-			"wordSegmenterLocales": "Locales to be used for word segmentation when doing word related navigations or operations. Specify the BCP 47 language tag of the word you wish to recognize (e.g., ja, zh-CN, zh-Hant-TW, etc.).",
+			"wordSegmenterLocales": "執行與文字相關的瀏覽或作業時，用於文字分割的地區設定。指定您要辨識的文字的 BCP 47 語言標記 (例如 ja、zh-CN、zh-Hant-TW 等)。",
 			"wordSeparators": "在執行文字相關導覽或作業時要用作文字分隔符號的字元",
 			"wordWrap": "控制如何換行。",
 			"wordWrap.bounded": "當檢視區縮至最小並設定 '#editor.wordWrapColumn#' 時換行。",
@@ -768,7 +770,7 @@
 			"wordWrap.on": "依檢視區寬度換行。",
 			"wordWrap.wordWrapColumn": "於 '#editor.wordWrapColumn#' 換行。",
 			"wordWrapColumn": "當 `#editor.wordWrap#` 為 `wordWrapColumn` 或 `bounded` 時，控制編輯器中的資料行換行。",
-			"wrapOnEscapedLineFeeds": "控制常值 '\\n' 是否應該觸發自動換行。\r\n例如:\r\n```c\r\nchar* str=\"hello\\nworld\"\r\n```\r\n會顯示為\r\n```c\r\nchar* str=\"hello\\n\r\n           world\"\r\n```",
+			"wrapOnEscapedLineFeeds": "控制啟用 `#editor.wordWrap#` 時，常值 `\\n` 是否應該觸發 wordWrap。\r\n\r\n例如:\r\n```c\r\nchar* str=\"hello\\nworld\"\r\n```\r\n會顯示為\r\n```c\r\nchar* str=\"hello\\n\r\n           world\"\r\n```",
 			"wrappingIndent": "控制換行的縮排。",
 			"wrappingIndent.deepIndent": "換行縮排為父行 +2。",
 			"wrappingIndent.indent": "換行的縮排為父行 +1。",
@@ -2116,12 +2118,18 @@
 			"contextkey.scanner.hint.didYouMean2": "您是指 {0} 或 {1}?",
 			"contextkey.scanner.hint.didYouMean3": "您是指 {0}、{1} 或 {2}?"
 		},
+		"vs/platform/dialogs/browser/dialog": {
+			"aboutDetail": "版本: {0}\r\n提交: {1}\r\n日期: {2}\r\n瀏覽器: {3}"
+		},
 		"vs/platform/dialogs/common/dialogs": {
 			"cancelButton": "取消",
 			"moreFile": "...另外 1 個檔案未顯示",
 			"moreFiles": "...另外 {0} 個檔案未顯示",
 			"okButton": "確定(&&O)",
 			"yesButton": "是(&&Y)"
+		},
+		"vs/platform/dialogs/electron-browser/dialog": {
+			"aboutDetail": "版本: {0}\r\n認可: {1}\r\n日期: {2}\r\nElectron: {3}\r\nElectronBuildId: {4}\r\nChromium: {5}\r\nNode.js: {6}\r\nV8: {7}\r\nOS: {8}"
 		},
 		"vs/platform/dialogs/electron-main/dialogMainService": {
 			"open": "開啟",
@@ -2176,7 +2184,6 @@
 			"reuseWindow": "強制在已開啟的視窗中開啟檔案或資料夾。",
 			"reuseWindowForChat": "強制使用上一個使用中視窗進行聊天工作階段。",
 			"showVersions": "使用 --list-extensions 時，顯示安裝的延伸模組版本。",
-			"startupExperimentGroup": "覆寫啟動實驗群組。",
 			"status": "列印處理程序使用方式和診斷資訊。",
 			"stdinUsage": "若要從 stdin 讀取，請附加 '-' (如 '{0}')",
 			"subcommands": "子命令",
@@ -2577,7 +2584,7 @@
 			"quickInput.visibleCount": "{0} 個結果"
 		},
 		"vs/platform/quickinput/browser/quickInputList": {
-			"quickInput": "Quick Input"
+			"quickInput": "快速輸入"
 		},
 		"vs/platform/quickinput/browser/quickInputUtils": {
 			"executeCommand": "按一下以執行命令 ‘{0}’"
@@ -2588,10 +2595,10 @@
 			"terminal.commands.pinned": "已釘選"
 		},
 		"vs/platform/quickinput/browser/tree/quickInputTreeAccessibilityProvider": {
-			"quickTree": "Quick Tree"
+			"quickTree": "快速樹狀圖"
 		},
 		"vs/platform/quickinput/browser/tree/quickTree": {
-			"quickInputBox.ariaLabel": "Type to narrow down results."
+			"quickInputBox.ariaLabel": "輸入以縮小結果範圍。"
 		},
 		"vs/platform/remoteTunnel/common/remoteTunnel": {
 			"remoteTunnelLog": "遠端通道服務"
@@ -2637,7 +2644,7 @@
 			"telemetry.enableTelemetry": "允許收集診斷資料。這能協助我們更好了解 {0} 的表現，以及需要改善的地方。",
 			"telemetry.enableTelemetryMd": "允許收集診斷資料。這能協助我們更好了解 {0} 的表現，以及需要改善的地方。[深入了解]({1})我們會收集的資料，以及我們的隱私權聲明。",
 			"telemetry.errors": "錯誤遙測",
-			"telemetry.feedback.enabled": "在 Copilot Chat 等功能中啟用意見反應機制，例如問題回報程式、調查和意見反應選項。",
+			"telemetry.feedback.enabled": "Enable feedback mechanisms such as the issue reporter, surveys, and other feedback options.",
 			"telemetry.restart": "必須重新啟動應用程式，當機報告變更才會生效。",
 			"telemetry.telemetryLevel.crash": "傳送 OS 層級當機報告。",
 			"telemetry.telemetryLevel.default": "傳送使用狀況資料、錯誤和當機報告。",
@@ -3232,6 +3239,9 @@
 			"provideClientDetails": "繼續",
 			"yes": "是"
 		},
+		"vs/workbench/api/browser/mainThreadChatSessions": {
+			"interruptActiveResponse": "確定要中斷使用中工作階段?"
+		},
 		"vs/workbench/api/browser/mainThreadCLICommands": {
 			"cannot be installed": "因為 '{0}' 延伸模組已宣告為不在此安裝程式中執行，所以無法進行安裝。"
 		},
@@ -3691,8 +3701,8 @@
 			"sideBarPosition": "主要提要欄位位置",
 			"sidebar": "側邊欄",
 			"sidebarContainer": "提要欄位/{0}",
-			"sidebarHidden": "Primary Side Bar hidden",
-			"sidebarVisible": "Primary Side Bar shown",
+			"sidebarHidden": "隱藏的主要側邊欄",
+			"sidebarVisible": "顯示的主要側邊欄",
 			"statusBar": "狀態列",
 			"statusBarIcon": "代表狀態列",
 			"tabBar": "索引標籤列",
@@ -3829,8 +3839,8 @@
 			"top": "頂端"
 		},
 		"vs/workbench/browser/parts/auxiliarybar/auxiliaryBarActions": {
-			"auxiliaryBarHidden": "Secondary Side Bar hidden",
-			"auxiliaryBarVisible": "Secondary Side Bar shown",
+			"auxiliaryBarHidden": "隱藏的次要側邊欄",
+			"auxiliaryBarVisible": "顯示的次要側邊欄",
 			"closeIcon": "關閉次要側邊欄的圖示。",
 			"closeSecondarySideBar": "隱藏次要提要欄位",
 			"focusAuxiliaryBar": "將焦點放入次要提要欄位",
@@ -3884,7 +3894,6 @@
 			"viewsAndMoreActions": "檢視及更多動作..."
 		},
 		"vs/workbench/browser/parts/dialogs/dialogHandler": {
-			"aboutDetail": "版本: {0}\r\n提交: {1}\r\n日期: {2}\r\n瀏覽器: {3}",
 			"copy": "複製(&&C)",
 			"ok": "確定"
 		},
@@ -3962,6 +3971,7 @@
 		"vs/workbench/browser/parts/editor/diffEditorCommands": {
 			"compare": "比較",
 			"compare.nextChange": "移至下一個變更",
+			"compare.openSide": "Open Active Diff Side",
 			"compare.previousChange": "移至上一個變更",
 			"swapDiffSides": "交換左側和右側編輯器端",
 			"toggleInlineView": "切換內嵌檢視"
@@ -4106,6 +4116,7 @@
 		"vs/workbench/browser/parts/editor/editorActions": {
 			"clearButtonLabel": "清除(&&C)",
 			"clearEditorHistory": "清除編輯器記錄",
+			"clearEditorHistoryWithoutConfirm": "Clear Editor History without Confirmation",
 			"clearRecentFiles": "清除最近開啟的...",
 			"closeAllEditors": "關閉所有編輯器",
 			"closeAllGroups": "關閉所有編輯器群組",
@@ -4300,6 +4311,7 @@
 			"requiresFolderTrustText": "檔案未顯示在編輯器中，因為尚未將信任授予資料夾。",
 			"requiresWorkspaceTrustText": "檔案不會顯示在編輯器中，因為尚未將信任授予工作區。",
 			"retry": "再試一次",
+			"showLogs": "顯示記錄",
 			"trustRequiredEditor": "需要工作區信任",
 			"unavailableResourceErrorEditorText": "無法開啟編輯器，因為找不到檔案。",
 			"unknownErrorEditorTextWithError": "發生意外的錯誤，無法開啟編輯器。如需詳細數據，請參閱記錄檔。",
@@ -4348,7 +4360,10 @@
 			"pickEndOfLine": "選取行尾順序",
 			"pickLanguage": "選取語言模式",
 			"pickLanguageToConfigure": "選取要與 '{0}' 建立關聯的語言模式",
+			"reopen": "關閉變更並重新開啟",
 			"reopenWithEncoding": "以編碼重新開啟",
+			"reopenWithEncodingDetail": "這會捨棄任何未儲存的變更。",
+			"reopenWithEncodingWarning": "您要還原使用中的文字編輯器並以不同的編碼重新開啟嗎?",
 			"saveWithEncoding": "以編碼儲存",
 			"selectEOL": "選取行尾順序",
 			"selectEncoding": "選取編碼",
@@ -4400,6 +4415,7 @@
 			"loading": "正在載入...",
 			"manage": "管理",
 			"manage profile": "管理 {0} (設定檔)",
+			"manageDynamicAuthProviders": "管理動態驗證提供者...",
 			"manageTrustedExtensions": "管理受信任的延伸模組",
 			"manageTrustedMCPServers": "管理受信任的 MCP 伺服器",
 			"signOut": "登出"
@@ -4765,6 +4781,7 @@
 			"sharedViewState": "在所有編輯器群組中保留最新的編輯器檢視狀態 (例如捲動位置)，並在找不到該編輯器群組的特定編輯器檢視狀態時，還原該狀態。",
 			"showEditorTabs": "控制開啟的編輯器是否應該顯示為個別的索引標籤、單一大型索引標籤，或不應顯示標題區域。",
 			"showIcons": "控制已開啟的編輯器是否應以圖示顯示。此選項也需要同時啟用檔案圖示主題。",
+			"showTabIndex": "啟用後，將顯示索引標籤索引。當未將 {0} 設為 {1} 時，會忽略此值。",
 			"sideBarLocation": "控制主要提要欄位和活動列的位置。它們可以顯示在工作台的左側或右側。次要提要欄位則會顯示在工作台的另一端。",
 			"sideBySideDirection": "控制並排開啟 (例如: 從總管) 的編輯器預設方向。根據預設，編輯器會在目前使用中編輯器的右方開啟。若變更為 `down`，編輯器會在目前使用中編輯器的下方開啟。這也會影響編輯器工具列中的分割編輯器動作。",
 			"splitInGroupLayout": "控制編輯器在編輯器群組中分割為垂直或水準時的版面配置。",
@@ -4777,6 +4794,7 @@
 			"tabScrollbarHeight": "控制編輯器標題區域中，定位字元和階層連結所用捲軸的高度。",
 			"tabSizing": "控制編輯器索引標籤的大小。當未設為 {1} 時，會忽略 {0}。",
 			"tips.enabled": "如有啟用，將會在編輯器未開啟時以浮水印方式顯示提示。",
+			"titleScrollbarVisibility": "控制編輯器標題區域中，定位字元和階層連結所用捲軸的可見度。",
 			"untitledLabelFormat": "控制無標題編輯器的標籤格式。",
 			"useSplitJSON": "控制是否要在將設定編輯為 JSON 時使用分割 JSON 編輯器。",
 			"viewVisibility": "控制檢視標頭動作的可見度。檢視標頭動作可為總是可見，或在檢視為焦點或暫留時才可見。",
@@ -4865,6 +4883,9 @@
 			"workbench.editor.tabSizingFixedMinWidth": "當 {0} 大小設為 {1} 時，控制索引標籤的最小寬度。",
 			"workbench.editor.titleScrollbarSizing.default": "預設大小。",
 			"workbench.editor.titleScrollbarSizing.large": "請增加大小，以便滑鼠更容易抓取。",
+			"workbench.editor.titleScrollbarVisibility.auto": "水平捲軸只有在必要時才可見。",
+			"workbench.editor.titleScrollbarVisibility.hidden": "水平捲軸永遠隱藏。",
+			"workbench.editor.titleScrollbarVisibility.visible": "水平捲軸永遠可見。",
 			"workbench.editor.untitled.labelFormat.content": "除非有相關檔案路徑，否則無標題檔案的名稱會衍生自其第一行內容。如果該行為空白或不包含文字字元，將會遞補至名稱。",
 			"workbench.editor.untitled.labelFormat.name": "無標題檔案的名稱不會衍生自檔案的內容。",
 			"workbench.fontAliasing.antialiased": "相對於子像素，根據像素層級平滑字型。可以讓字型整體顯得較細。",
@@ -4945,6 +4966,7 @@
 			"embedderIdentifier": "根據產品服務的內嵌者識別碼 (如果已定義的話)",
 			"focusedView": "具有鍵盤焦點之檢視的識別碼",
 			"groupEditorsCount": "開啟的編輯器群組數",
+			"inAutomation": "Whether VS Code is running under automation/smoke test",
 			"inZenMode": "是否啟用了 Zen Mode",
 			"isAuxiliaryWindow": "視窗是輔助視窗",
 			"isAuxiliaryWindowFocusedContext": "是否聚焦輔助視窗",
@@ -5225,6 +5247,7 @@
 			"argv.logLevel": "使用的記錄層級。預設為「資訊」。允許的值是「錯誤」、「警告」、「資訊」、「偵錯」、「追蹤」、「關閉」。",
 			"argv.passwordStore": "在 Linux 上設定用於儲存秘密的後端。Windows & macOS 上已忽略此引數。",
 			"argv.proxyBypassList": "略過指定以分號分隔之主機清單的任何指定 Proxy。範例值 \"<local>;*.microsoft.com;*foo.com;1.2.3.4:5678\"，會為所有主機使用 Proxy 伺服器，除了本機位址 (localhost 127.0.0.1 等)、microsoft.com 子網域、包含後綴 foo.com 的主機，以及位於 1.2.3.4:5678 的主機",
+			"argv.remoteDebuggingPort": "指定用於遠端偵錯的連接埠。",
 			"argv.useInMemorySecretStorage": "確保記憶體內部存放區將用於秘密儲存體，而不是使用 OS 的認證存放區。當您執行 VS Code 擴充功能測試或認證存放區發生問題時，通常會使用此功能。",
 			"closeWhenEmpty": "控制關閉上個編輯器時，是否也應關閉視窗。此設定僅適用於未顯示資料夾的視窗。",
 			"confirmSaveUntitledWorkspace": "控制在切換到另一個工作區時，是否顯示確認對話框要求儲存或捨棄視窗中已開啟的未命名工作區。停用確認對話框一律會捨棄未命名的工作區。",
@@ -5287,7 +5310,6 @@
 			"join.closeStorage": "正在儲存 UI 狀態"
 		},
 		"vs/workbench/electron-browser/parts/dialogs/dialogHandler": {
-			"aboutDetail": "版本: {0}\r\n認可: {1}\r\n日期: {2}\r\nElectron: {3}\r\nElectronBuildId: {4}\r\nChromium: {5}\r\nNode.js: {6}\r\nV8: {7}\r\nOS: {8}",
 			"copy": "複製(&&C)",
 			"okButton": "確定"
 		},
@@ -5612,6 +5634,7 @@
 			"noAccounts": "此延伸模組目前未使用任何帳戶。",
 			"pickAProviderTitle": "管理延伸模組帳戶喜好設定",
 			"placeholder v2": "管理 {1} 的 '{0}' 帳戶喜好設定...",
+			"selectExtension": "選取用於管理帳戶喜好設定的延伸模組",
 			"selectProvider": "選取要管理帳戶喜好設定的驗證提供者",
 			"title": "此工作區的 '{0}' 帳戶喜好設定",
 			"use new account": "使用新帳戶..."
@@ -5763,6 +5786,13 @@
 			"to": "{0} 的呼叫者",
 			"tree.aria": "呼叫階層"
 		},
+		"vs/workbench/contrib/chat/browser/actions/chatAccessibilityActions": {
+			"chat.category": "聊天",
+			"chatNotReady": "聊天介面尚未準備好。",
+			"focusChatConfirmation": "焦點聊天確認",
+			"noChatSession": "找不到進行中的聊天工作階段。",
+			"noConfirmationRequired": "無需聊天確認"
+		},
 		"vs/workbench/contrib/chat/browser/actions/chatAccessibilityHelp": {
 			"chat.announcement": "聊天回應會在傳入時宣告。回應會指出程式碼區塊的數目 (如果有的話)，接著是回應的其餘部分。",
 			"chat.differencePanel": "面板聊天檢視是持續性介面，也支援瀏覽建議的後續追蹤問題，而快速聊天檢視是用於建立和檢視要求的暫時性介面。",
@@ -5793,7 +5823,7 @@
 			"chatEditing.sections": "使用流覽上一個{0} 和下一個{1}，在編輯器中的編輯之間流覽",
 			"chatEditing.undoKeepSounds": "接受或復原變更時，將會播放音效。您可以使用 accessibility.signals.editsKept 和 accessibility.signals.editsUndone 來停用音效。",
 			"chatEditing.viewChanges": "- 檢視變更{0}。",
-			"chatEditing.viewPreviousEdits": "- View Previous Edits{0}.",
+			"chatEditing.viewPreviousEdits": "- 檢視先前的編輯{0}。",
 			"inlineChat.access": "可以透過程式碼動作或直接使用命令: Inline Chat: Start Inline Chat 來啟用{0}。",
 			"inlineChat.contextActions": "操作功能表動作可能會執行前置詞為 / 的要求。輸入 / 以探索這類現成的命令。",
 			"inlineChat.diff": "進入 Diff 編輯器後，使用 {0} 進入檢閱模式。使用向上鍵和向下鍵來瀏覽具有建議變更的行。",
@@ -5802,6 +5832,7 @@
 			"inlineChat.overview": "內嵌聊天發生在程式碼編輯器中，並將目前選取項目考慮在內。它對於變更目前編輯器非常有用。例如，修正診斷、記錄或重構程式碼。請記住，AI 產生的程式碼可能不正確。",
 			"inlineChat.requestHistory": "在輸入方塊中，使用 [顯示上一個{0}] 和 [顯示下一個{1}] 來瀏覽您的要求歷程記錄。編輯輸入，並使用 Enter 或 [提交] 按鈕來執行新要求。",
 			"inlineChat.toolbar": "使用索引標籤連線到像是命令、狀態、訊息回應等條件式部分。",
+			"workbench.action.chat.announceConfirmation": "若要聚焦擱置的聊天確認對話方塊，請調用焦點聊天確認狀態命令{0}。",
 			"workbench.action.chat.editing.attachFiles": "- 附加檔案{0}。",
 			"workbench.action.chat.focus": "若要聚焦於聊天要求/回應清單 (可使用向上/向下鍵瀏覽)，請叫用 Focus Chat 命令{0}。",
 			"workbench.action.chat.focusInput": "若要聚焦於聊天要求的輸入方塊，請叫用 Focus Chat Input 命令{0}。",
@@ -5814,18 +5845,26 @@
 			"agent.newSession": "啟動新工作階段?",
 			"agent.newSession.confirm": "是",
 			"agent.newSessionMessage": "變更聊天模式將會結束您目前的編輯工作階段。是否要變更聊天模式?",
-			"ai actions": "AI 動作",
 			"chat.category": "聊天",
 			"chat.clear.label": "清除所有工作區聊天",
+			"chat.editToolApproval.label": "編輯工具核准",
+			"chat.editToolApproval.title": "{0} 的核准設定",
 			"chat.history.label": "顯示聊天...",
 			"chat.history.recent": "最近的聊天",
 			"chat.history.rename": "重新命名",
 			"chat.history.showMore": "顯示更多...",
 			"chat.history.showMoreAgents": "顯示更多...",
+			"chat.openNewChatToTheSide.label": "在側邊開啟新聊天編輯器",
 			"chat.toggleDefaultVisibility.label": "預設顯示檢視",
+			"chat.toolApproval.manual": "一律需要手動核准",
+			"chat.toolApproval.profile": "全球自動核准",
+			"chat.toolApproval.session": "自動核准此工作階段",
+			"chat.toolApproval.workspace": "自動核准此工作區",
 			"chatAndCompletionsQuotaExceeded": "您已達到每月聊天訊息和程式碼完成配額。",
 			"chatQuotaExceeded": "您已達到每月聊天訊息配額。您仍有可用的免費程式碼完成。",
 			"chatQuotaExceededButton": "已達到 Copilot 免費版方案聊天訊息配額。按一下以查看詳細資料。",
+			"chatSessions.newChatInSideBar": "在側邊欄中開啟新聊天",
+			"chatSessions.openNewChatInNewWindow": "在新視窗中開啟新聊天",
 			"chatWith": "使用延伸模組聊天",
 			"completionsQuotaExceeded": "您已達到每月程式碼完成配額。您仍有可用的免費聊天訊息。",
 			"config.label": "設定聊天...",
@@ -5833,8 +5872,13 @@
 			"copilotQuotaReached": "已達 Copilot 配額",
 			"currentChatLabel": "目前",
 			"dismiss": "關閉",
+			"explain": "Explain",
+			"fix": "Fix",
+			"generateCode": "Generate Code",
+			"generateDocs": "Generate Docs",
 			"generateInstructions": "產生工作區指示檔案",
 			"generateInstructions.short": "產生指示",
+			"generateTests": "Generate Tests",
 			"interactiveSession.clearHistory.label": "清除輸入歷程記錄",
 			"interactiveSession.focusInput.label": "聚焦聊天輸入",
 			"interactiveSession.history.clear": "清除所有工作區聊天",
@@ -5844,21 +5888,24 @@
 			"interactiveSession.history.title": "工作區聊天記錄",
 			"interactiveSession.history.titleAll": "所有工作區聊天記錄",
 			"interactiveSession.open": "新聊天編輯器",
-			"manageCopilot": "管理 Copilot",
+			"manageCopilot": "管理聊天",
 			"more": "其他...",
 			"newChatTitle": "新增聊天標題",
 			"openChat": "開啟聊天",
+			"openChatFeatureSettings": "聊天設定",
+			"openChatFeatureSettings.short": "聊天設定",
 			"openChatMode": "開啟聊天 ({0})",
 			"quotaResetDate": "允許額度將於 {0} 重設。",
 			"resetTrustedTools": "重設工具確認",
 			"resetTrustedToolsSuccess": "已重設工具確認喜好設定。",
+			"review": "Code Review",
 			"showCopilotUsageExtensions": "顯示使用 Copilot 的延伸模組",
 			"signInToChatSetup": "登入以使用 Copilot...",
 			"switchChat.confirmPhrase": "切換聊天將會結束您目前的編輯工作階段。",
 			"switchMode.confirmPhrase": "切換聊天模式將會結束您目前的編輯工作階段。",
 			"title4": "Copilot",
-			"toggle.chatControl": "Copilot 控制項",
-			"toggle.chatControlsDescription": "切換 Copilot 控制項在標題列中的可見度",
+			"toggle.chatControl": "聊天控制項",
+			"toggle.chatControlsDescription": "切換聊天控制項在標題列中的可見度",
 			"toggleChat": "切換聊天",
 			"upgradeChat": "升級 Copilot 方案",
 			"upgradePlan": "升級 Copilot 方案",
@@ -5937,11 +5984,12 @@
 			"interactive.submitWithoutDispatch.label": "傳送",
 			"interactive.switchToNextModel.label": "切換到下一個模型",
 			"interactive.toggleAgent.label": "設定聊天模式",
-			"interactive.toggleRequestPausd.label": "切換要求已暫停",
 			"remoteAgentError": "編碼代理程式工作階段已取消。",
+			"remoteAgentResponse": "編碼代理程式回應: {0}",
+			"remoteAgentResponse2": "您的工作將在此提取要求中繼續。",
 			"remoteJobCreating": "正在委派至編碼代理程式",
-			"requestIsPaused": "繼續要求",
-			"requestNotPaused": "暫停要求",
+			"selectCodingAgent": "選取編碼代理程式",
+			"sendToRemoteAgent": "傳送至編碼代理程式",
 			"setChatMode": "設定模式"
 		},
 		"vs/workbench/contrib/chat/browser/actions/chatFileTreeActions": {
@@ -5982,6 +6030,19 @@
 			"toggle.isPartialQuery": "無論查詢是否為部分；都會等待更多使用者輸入",
 			"toggle.query": "用來開啟快速聊天的查詢"
 		},
+		"vs/workbench/contrib/chat/browser/actions/chatSessionActions": {
+			"chat.openSessionInNewEditorGroup.label": "Open Chat to the Side",
+			"chat.openSessionInNewWindow.label": "Open Chat in New Window",
+			"chat.openSessionInSidebar.label": "Open Chat in Sidebar",
+			"openSessionInNewEditorGroup": "Open in New Editor Group",
+			"openSessionInNewWindow": "Open in New Window",
+			"openSessionInSidebar": "Open in Sidebar",
+			"renameSession": "重新命名",
+			"renameSession.emptyName": "名稱不得空白",
+			"renameSession.error": "無法重新命名聊天工作階段: {0}",
+			"renameSession.nameTooLong": "名稱太長 (最多 100 個字元)",
+			"renameSession.placeholder": "輸入聊天工作階段的新名稱"
+		},
 		"vs/workbench/contrib/chat/browser/actions/chatTitleActions": {
 			"chat.retry.confirmation.checkbox": "不要再詢問",
 			"chat.retry.confirmation.message2": "這會將在此要求後對 {0} 所做的編輯復原。",
@@ -6001,24 +6062,22 @@
 			"chat.tools.placeholder.global": "選取可用於聊天的工具。",
 			"chat.tools.placeholder.mode": "選取此聊天模式的工具",
 			"chat.tools.placeholder.session": "選取此聊天工作階段的工具",
+			"chatTools.tooManyEnabled": "啟用超過 {0} 個工具時，您可能會遇到工具呼叫降級的情況。",
 			"label": "設定工具..."
 		},
 		"vs/workbench/contrib/chat/browser/actions/chatToolPicker": {
-			"addAny": "新增更多工具...",
-			"addExtension": "安裝延伸模組...",
-			"addExtensionButton": "Install Extension...",
-			"addMcpServer": "Add MCP Server...",
-			"addServer": "新增 MCP 伺服器...",
+			"addExtensionButton": "安裝延伸模組...",
+			"addMcpServer": "新增 MCP 伺服器...",
 			"configMcpCol": "設定 {0}",
-			"configToolSet": "設定工具集...",
-			"configToolSets": "Configure Tool Sets...",
-			"configureTools": "Configure Tools",
+			"configToolSets": "設定工具集...",
+			"configureTools": "設定工具",
 			"defaultBucketLabel": "內建",
 			"editUserBucket": "編輯工具組",
 			"ext": "延伸模組: {0}",
 			"mcpShowOutput": "顯示輸出",
 			"mcplabel": "MCP 伺服器: {0}",
 			"noTools": "將工具新增至聊天",
+			"toolLimitExceeded": "已啟用 {0} 個工具。超過 {1} 個工具時，您可能會遇到工具呼叫降級的情況。",
 			"userBucket": "使用者定義工具組"
 		},
 		"vs/workbench/contrib/chat/browser/actions/codeBlockOperations": {
@@ -6055,10 +6114,12 @@
 			"chat": "聊天",
 			"chat.agent.enabled.description": "為 {0} 啟用代理程式模式。啟用此功能時，可透過檢視中的下拉式清單啟用代理程式模式。",
 			"chat.agent.maxRequests": "允許 Copilot 在代理程式模式中使用每個回合的要求數目上限。達到限制時，Copilot 會要求使用者確認是否應繼續。",
+			"chat.agent.showThinking": "控制是否要在聊天回應中顯示模型的思考流程。",
 			"chat.checkpoints.enabled": "啟用聊天中的檢查點。檢查點可讓您將聊天還原至先前的狀態。",
-			"chat.checkpoints.showFileChanges": "Controls whether to show chat checkpoint file changes.",
+			"chat.checkpoints.showFileChanges": "控制是否顯示聊天檢查點檔案變更。",
 			"chat.commandCenter.enabled": "控制命令中心是否顯示可控制 Copilot 的動作功能表 (需要 {0})。",
 			"chat.detectParticipant.enabled": "為小組聊天啟用聊天參與者自動偵測。",
+			"chat.disableAIFeatures": "Disable and hide built-in AI features provided by GitHub Copilot, including chat, code completions and next edit suggestions.",
 			"chat.editRequests": "啟用在聊天中編輯要求。這可讓您變更要求內容並重新提交給模型。",
 			"chat.editing.autoAcceptDelay": "自動接受聊天所做變更的延遲時間。值以秒為單位，'0' 表示停用，'100' 秒為最大值。",
 			"chat.editing.confirmEditRequestRemoval": "是否要在移除要求及其相關編輯之前顯示確認。",
@@ -6077,13 +6138,12 @@
 			"chat.implicitContext.value.never": "永不啟用隱含內容。",
 			"chat.instructions.config.locations.description": "指定可在「聊天」工作階段中附加的指令檔案 (`*{0}`) 之位置。[深入了解]({1})。\r\n\r\n相對路徑會從工作區的根目錄解析。",
 			"chat.instructions.config.locations.title": "指令檔案位置",
-			"chat.manageTasksTool.enabled": "Enables manageTasksTool in chat. This tool allows you to use task lists in chat.",
-			"chat.mathEnabled.description": "使用 Katex 在聊天回應中啟用數學轉譯。",
-			"chat.mcp.assisted.nuget.enabled.description": "Enables NuGet packages for AI-assisted MCP server installation. Used to install MCP servers by name from the central registry for .NET packages (NuGet.org).",
-			"chat.mcp.autostart": "Controls whether MCP servers should be automatically started when the chat messages are submitted.",
-			"chat.mcp.autostart.never": "Never automatically start MCP servers.",
-			"chat.mcp.autostart.newAndOutdated": "Automatically start new and outdated MCP servers that are not yet running.",
-			"chat.mcp.autostart.onlyNew": "Only automatically start new MCP servers that have never been run.",
+			"chat.mathEnabled.description": "使用 KaTeX 在聊天回應中啟用數學轉譯。",
+			"chat.mcp.assisted.nuget.enabled.description": "啟用 NuGet 套件，以進行 AI 協助的 MCP 伺服器安裝。用於針對 .NET 套件 (NuGet.org)，從中央登錄依名稱安裝 MCP 伺服器。",
+			"chat.mcp.autostart": "控制在提交聊天訊息時是否應自動啟動 MCP 伺服器。",
+			"chat.mcp.autostart.never": "一律不自動啟動 MCP 伺服器。",
+			"chat.mcp.autostart.newAndOutdated": "自動啟動尚未執行的全新和過期的 MCP 伺服器。",
+			"chat.mcp.autostart.onlyNew": "僅自動啟動從未執行過的新 MCP 伺服器。",
 			"chat.mcp.enabled": "啟用與模型內容通訊協定伺服器的整合，以提供其他工具和功能。",
 			"chat.mcp.serverSampling": "設定哪些模型會向 MCP 伺服器公開，以進行取樣 (在背景中進行模型要求)。您可以在 '{0}' 命令下以圖形方式編輯此設定。",
 			"chat.mcp.serverSampling.allowedDuringChat": "此伺服器是否在其於聊天工作階段的工具呼叫期間進行取樣要求。",
@@ -6103,35 +6163,35 @@
 			"chat.sendElementsToChat.enabled": "控制是否可從簡單瀏覽器將元素傳送至聊天。",
 			"chat.sessionsViewLocation.description": "控制顯示代理程式工作階段功能表的位置。",
 			"chat.signInDialogVariant": "控制登入對話方塊的變化。",
+			"chat.todoListTool.enabled": "啟用聊天中的待辦事項清單，代理程式會用來作為複雜開發工作流程的規劃、進度追蹤和內容管理工具。",
+			"chat.todoListTool.writeOnly": "啟用後，待辦事項工具將以唯寫模式運行，要求代理程式記住內容中的待辦事項。",
 			"chat.tools.autoApprove.description": "控制是否應自動批准工具使用。允許所有工具在未經使用者確認的情況下自動執行，並覆寫任何工具特定設定，例如終端機自動核准。謹慎使用: 仔細檢閱選取的工具，並特別小心可能的提示輸入來源!",
+			"chat.tools.autoApprove.edits": "控制是否自動核准聊天所做的編輯。預設值為核准所有編輯，但對某些檔案的編輯除外，這些檔案可能會立即造成無意的副作用，例如 `**/.vscode/*.json`。\r\n\r\n檔案會依照指定的順序與 Glob 模式進行比對。",
 			"chat.tools.autoApprove.markdownDescription": "控制是否應自動批准工具使用。\r\n\r\n允許_所有_工具在未經使用者確認的情況下自動執行，並覆寫任何工具特定設定，例如終端機自動核准。\r\n\r\n謹慎使用: 仔細檢閱選取的工具，並特別小心可能的提示輸入來源!",
-			"chat.tools.useTreePicker": "Use the new tree-based tools picker interface instead of the flat list. Provides better hierarchical organization of tools and tool sets with collapsible sections, improved visual hierarchy, and native tree interactions. MCP servers are displayed as expandable parent nodes with their tools as children.",
 			"chat.undoRequests.restoreInput": "控制是否應在提出復原要求時還原聊天的輸入。輸入將會填入已還原要求的文字。",
 			"chat.useFileStorage": "啟用將聊天工作階段儲存於磁碟上，而非儲存在儲存體服務中。啟用此功能會將現有工作階段的每個工作區一次性移轉為新格式。",
 			"clear": "開始新的聊天",
-			"file": "選擇工作區中的檔案",
 			"interactiveSession.editor.fontFamily": "控制聊天程式碼區塊中的字型家族。",
 			"interactiveSession.editor.fontSize": "控制聊天程式碼區塊中的字型大小 (像素)。",
 			"interactiveSession.editor.fontWeight": "控制聊天程式碼區塊中的字型粗細。",
 			"interactiveSession.editor.lineHeight": "控制聊天程式碼區塊中的行高 (像素)。使用 0 可從字型大小計算行高。",
 			"interactiveSession.editor.wordWrap": "控制聊天程式碼區塊中的行是否應該換行。",
 			"interactiveSessionConfigurationTitle": "聊天",
-			"mcp.discovery.enabled": "設定機器上模型內容通訊協定伺服器的探索。可以將其設定為 `true` 或 `false`，以停用或啟用所有來源，並設定對應來啟用您希望使用的來源。",
-			"mcp.discovery.source": "啟用 {0} 伺服器的探索",
+			"mcp.discovery.enabled": "從其他各種應用程式的設定中，設定探索模型內容通訊協定伺服器。",
 			"mcp.gallery.serviceUrl": "設定要連線的 MCP 圖庫服務 URL",
 			"mcp.list": "列出伺服器",
 			"save-chat-to-prompt-file": "將聊天儲存至提示檔案"
 		},
 		"vs/workbench/contrib/chat/browser/chatAccessibilityProvider": {
 			"chat": "聊天",
-			"multiCodeBlock": "{0}{1}{2} code blocks: {3} {4}",
-			"multiCodeBlockHint": "{0}{1}{2}{3} code blocks: {4}{5} {6}",
+			"multiCodeBlock": "{0}{1}{2} 個程式碼區塊: {3} {4}",
+			"multiCodeBlockHint": "{0}{1}{2}{3} 個程式碼區塊: {4}{5} {6}",
 			"multiFileTreeHint": "{0} 個檔案樹狀結構",
 			"multiTableHint": "{0} 個資料表",
 			"noCodeBlocks": "{0}{1}{2} {3}",
 			"noCodeBlocksHint": "{0}{1}{2}{3}{4} {5}",
-			"singleCodeBlock": "{0}{1}1 code block: {2} {3}",
-			"singleCodeBlockHint": "{0}{1}{2}1 code block: {3} {4}{5}",
+			"singleCodeBlock": "{0}{1}1 個程式碼區塊: {2} {3}",
+			"singleCodeBlockHint": "{0}{1}{2}1 個程式碼區塊: {3} {4}{5}",
 			"singleFileTreeHint": "1 個檔案樹狀結構",
 			"singleTableHint": "1 個資料表",
 			"toolCompletedHint": "工具 {0} 完成。",
@@ -6175,6 +6235,9 @@
 		"vs/workbench/contrib/chat/browser/chatContentParts/chatAgentCommandContentPart": {
 			"rerun": "重新運行而不 {0}{1}"
 		},
+		"vs/workbench/contrib/chat/browser/chatContentParts/chatChangesSummaryPart": {
+			"chat.viewFileChangesSummary": "檢視所有檔案變更"
+		},
 		"vs/workbench/contrib/chat/browser/chatContentParts/chatCodeCitationContentPart": {
 			"viewMatches": "檢視相符項目"
 		},
@@ -6190,6 +6253,7 @@
 			"dismiss": "關閉"
 		},
 		"vs/workbench/contrib/chat/browser/chatContentParts/chatConfirmationWidget": {
+			"chat.confirmationWidget.ariaLabel": "聊天確認對話方塊 {0} {1}",
 			"defaultTitle": "聊天: 需要確認",
 			"notificationDetail": "目前的「聊天」工作階段需要您的確認才能繼續。",
 			"notificationTitle": "聊天: {0}"
@@ -6206,10 +6270,21 @@
 			"chat.codeblock.insertions.one": "1 個插入",
 			"summary": "已編輯 {0}、{1}、{2}"
 		},
+		"vs/workbench/contrib/chat/browser/chatContentParts/chatMultiDiffContentPart": {
+			"chatMultiDiff.manyFiles": "已變更 {0} 個檔案",
+			"chatMultiDiff.oneFile": "已變更 1 個檔案",
+			"chatMultiDiffList": "檔案變更"
+		},
+		"vs/workbench/contrib/chat/browser/chatContentParts/chatPinnedContentPart": {
+			"chat.pinned.thinking.header.base": "Thinking...",
+			"chat.pinned.thinking.header.count": "Thought for a few seconds...",
+			"chat.pinned.thinking.header.count.time": "Thought for {0}"
+		},
 		"vs/workbench/contrib/chat/browser/chatContentParts/chatProgressContentPart": {
-			"pausedMessage": "已暫停",
-			"resume": "按一下以繼續",
 			"workingMessage": "處理中..."
+		},
+		"vs/workbench/contrib/chat/browser/chatContentParts/chatPullRequestContentPart": {
+			"chatPullRequest.seeMore": "查看更多"
 		},
 		"vs/workbench/contrib/chat/browser/chatContentParts/chatQuotaExceededPart": {
 			"clickToContinue": "按一下以重試。",
@@ -6220,6 +6295,7 @@
 		"vs/workbench/contrib/chat/browser/chatContentParts/chatReferencesContentPart": {
 			"addToChat": "將檔案新增至聊天",
 			"chatCollapsibleList": "可摺疊的聊天參考清單",
+			"chatEditingSession.fileCounts": "已新增 {0} 行，已移除 {1} 行",
 			"copyLink": "複製連結",
 			"setting.hover": "開啟設定 '{0}'",
 			"usedReferencesPlural": "已使用 {0} 個參考",
@@ -6228,6 +6304,12 @@
 		"vs/workbench/contrib/chat/browser/chatContentParts/chatTextEditContentPart": {
 			"edits0": "進行變更已中止。",
 			"editsSummary": "已進行變更。"
+		},
+		"vs/workbench/contrib/chat/browser/chatContentParts/chatTodoListWidget": {
+			"chat.todoList.clearButton": "清除所有待辦事項",
+			"chat.todoList.clearButton.ariaLabel": "清除所有待辦事項",
+			"chat.todoList.title": "待辦事項",
+			"chat.todoList.titleWithProgress": "待辦事項 ({0}/{1})"
 		},
 		"vs/workbench/contrib/chat/browser/chatContentParts/chatToolInputOutputContentPart": {
 			"chat.input": "輸入",
@@ -6247,12 +6329,17 @@
 			"installExtensions": "安裝延伸模組",
 			"installExtensionsConfirmation": "按一下延伸模組上的 [安裝] 按鈕，然後在完成時按 [繼續]。"
 		},
-		"vs/workbench/contrib/chat/browser/chatContentParts/toolInvocationParts/chatTaskListSubPart": {
-			"chat.task.title": "Tasks"
-		},
-		"vs/workbench/contrib/chat/browser/chatContentParts/toolInvocationParts/chatTerminalToolSubPart": {
-			"cancel": "取消",
-			"continue": "繼續"
+		"vs/workbench/contrib/chat/browser/chatContentParts/toolInvocationParts/chatTerminalToolConfirmationSubPart": {
+			"autoApprove.button.enable": "啟用",
+			"autoApprove.enable": "啟用自動核准...",
+			"autoApprove.markdown": "這將使可設定的命令子集能夠在終端機中自主運行。它提供 *最佳努力保護*，並假設代理程式不會進行惡意行為。",
+			"autoApprove.title": "啟用終端機自動核准?",
+			"continue": "繼續",
+			"newRule": "已新增自動核准規則 {0}",
+			"newRule.plural": "已新增自動核准規則 {0}",
+			"ruleTooltip": "檢視設定中的規則",
+			"skip": "Skip",
+			"skip.detail": "Proceed without executing this command"
 		},
 		"vs/workbench/contrib/chat/browser/chatContentParts/toolInvocationParts/chatToolConfirmationSubPart": {
 			"allowGloballTooltip": "永遠允許此工具無需確認即可執行。",
@@ -6264,10 +6351,19 @@
 			"cancel": "取消",
 			"chat.input": "輸入",
 			"continue": "繼續",
-			"seeMore": "查看更多内容"
+			"seeMore": "查看更多内容",
+			"showMore": "顯示較多"
+		},
+		"vs/workbench/contrib/chat/browser/chatContentParts/toolInvocationParts/chatToolInvocationPart": {
+			"chat.autoapprove.lmServicePerTool.profile": "自動核准此設定檔",
+			"chat.autoapprove.lmServicePerTool.session": "自動核准此工作階段",
+			"chat.autoapprove.lmServicePerTool.workspace": "自動核准此工作區",
+			"chat.autoapprove.setting": "由 {0} 自動核准",
+			"edit": "編輯"
 		},
 		"vs/workbench/contrib/chat/browser/chatContentParts/toolInvocationParts/chatToolOutputPart": {
-			"loading": "Rendering tool output..."
+			"chat.toolOutputError": "Error rendering the tool output",
+			"loading": "正在轉譯工具輸出..."
 		},
 		"vs/workbench/contrib/chat/browser/chatDragAndDrop": {
 			"attacAsContext": "附加 {0} 為內容",
@@ -6287,8 +6383,8 @@
 			"acceptAllEdits": "保留所有編輯",
 			"addFilesFromReferences": "從參考新增檔案",
 			"chat.editRequests.label": "編輯要求",
-			"chat.editing.discardAll.confirmation.manyFiles": "這將會復原 {0} 對 {1} 個檔案進行的變更。是否要繼續?",
-			"chat.editing.discardAll.confirmation.oneFile": "這將會復原 {0} 對 {1} 進行的變更。是否要繼續?",
+			"chat.editing.discardAll.confirmation.manyFiles": "這將會復原 {0} 檔案中的變更。是否要繼續?",
+			"chat.editing.discardAll.confirmation.oneFile": "這將會復原 {0} 中的變更。是否要繼續?",
 			"chat.editing.discardAll.confirmation.primaryButton": "是",
 			"chat.editing.discardAll.confirmation.title": "要復原所有編輯嗎？",
 			"chat.openFileUpdatedBySnapshot.label": "開啟檔案",
@@ -6347,7 +6443,6 @@
 		"vs/workbench/contrib/chat/browser/chatEditing/chatEditingEditorOverlay": {
 			"0Of0": "—",
 			"nOfM": "{0}/{1}",
-			"paused": "已暫停",
 			"tooltip": "{0} ({1})",
 			"tooltip_11": "1 個檔案中 1 個變更",
 			"tooltip_1n": "{0} 個檔案中 1 個變更",
@@ -6432,8 +6527,10 @@
 			"chatAttachFiles": "搜尋要新增至要求的檔案和內容",
 			"chatEditingSession.addSuggested": "新增建議",
 			"chatEditingSession.addSuggestion": "新增建議 {0}",
+			"chatEditingSession.ariaLabelWithCounts": "{0}，已新增 {1} 行，已移除 {2} 行",
 			"chatEditingSession.manyFiles.1": "{0} 個檔案已變更",
 			"chatEditingSession.oneFile.1": "已變更 1 個檔案",
+			"chatEditingSession.toggleWorkingSet": "切換變更的檔案。",
 			"chatInput.accessibilityHelp": "聊天輸入 {0}。",
 			"chatInput.accessibilityHelpNoKb": "聊天輸入 {0} 按 [Enter] 以傳送要求。如需詳細資訊，請使用 [聊天協助工具説明] 命令。",
 			"chatInput.mode.agent": "(代理程式模式)，編輯工作區中的檔案。",
@@ -6451,7 +6548,6 @@
 			"missingContext": "遺失內容",
 			"offensiveOrUnsafe": "冒犯性或不安全",
 			"other": "其他",
-			"paused": "已暫停",
 			"poorlyWrittenOrFormatted": "寫入或格式不正確",
 			"refusedAValidRequest": "已拒絕有效的要求",
 			"renderFailMsg": "無法轉譯內容",
@@ -6462,8 +6558,9 @@
 			"working": "處理中"
 		},
 		"vs/workbench/contrib/chat/browser/chatOutputItemRenderer": {
-			"chatOutputRenderer.mimeTypes": "MIME types that this renderer can handle",
-			"vscode.extension.contributes.chatOutputRenderer": "Contributes a renderer for specific MIME types in chat outputs"
+			"chatOutputRenderer.mimeTypes": "此轉譯器可以處理的 MIME 類型",
+			"chatOutputRenderer.viewType": "轉譯器的唯一識別碼。",
+			"vscode.extension.contributes.chatOutputRenderer": "在聊天輸出中提供特定 MIME 類型的轉譯器"
 		},
 		"vs/workbench/contrib/chat/browser/chatParticipant.contribution": {
 			"chat.viewContainer.label": "聊天",
@@ -6507,20 +6604,29 @@
 			"pastedImageName": "貼上的影像"
 		},
 		"vs/workbench/contrib/chat/browser/chatSessions": {
-			"chat.sessions": "Chat Sessions",
-			"chat.sessions.chatView": "Chat",
-			"chat.sessions.chatView.description": "Chat View",
-			"chat.sessions.title": "Chat Sessions",
-			"chatSessions.treeAriaLabel": "Chat Sessions",
-			"interactiveSession.open": "New Chat Editor"
+			"chat.sessions": "聊天工作階段",
+			"chat.sessions.chatView": "聊天",
+			"chat.sessions.chatView.description": "聊天檢視",
+			"chat.sessions.showHistory": "History",
+			"chat.sessions.title": "聊天工作階段",
+			"chatSessionInputAriaLabel": "輸入工作階段名稱。請按下 ENTER 以確認，或按 ESCAPE 取消。",
+			"chatSessions": "Chat Sessions",
+			"chatSessions.dragLabel": "{0} 聊天工作階段",
+			"chatSessions.loading": "正在載入聊天工作階段...",
+			"chatSessions.noResults": "沒有本機聊天工作階段\r\n[開始聊天](command:workbench.action.openChat)",
+			"chatSessions.refreshing": "正在重新整理聊天工作階段...",
+			"interactiveSession.open": "新聊天編輯器"
 		},
 		"vs/workbench/contrib/chat/browser/chatSessions.contribution": {
-			"chatSessionsExtPoint": "Contributes chat session integrations to the chat widget.",
-			"chatSessionsExtPoint.description": "Description of the chat session for use in menus and tooltips.",
-			"chatSessionsExtPoint.displayName": "A longer name for this item which is used for display in menus.",
-			"chatSessionsExtPoint.id": "A unique identifier for this item.",
-			"chatSessionsExtPoint.name": "Name shown in the chat widget. (eg: @agent)",
-			"chatSessionsExtPoint.when": "Condition which must be true to show this item."
+			"chatSessionNotFound": "使用 #copilotCodingAgent 開始新的[編碼代理程式工作階段]({0})。",
+			"chatSessionsExtPoint": "將聊天工作階段整合內容提供給聊天小工具。",
+			"chatSessionsExtPoint.chatSessionType": "聊天工作階段類型的唯一識別碼。",
+			"chatSessionsExtPoint.description": "用於功能表和工具提示的聊天工作階段描述。",
+			"chatSessionsExtPoint.displayName": "此項目的較長名稱，用於顯示在功能表中。",
+			"chatSessionsExtPoint.name": "聊天小工具中顯示的名稱。(例如: @agent)",
+			"chatSessionsExtPoint.when": "顯示此項目必須為 True 的條件。",
+			"continueInNewChat": "在新的聊天編輯器中繼續 **{0}**",
+			"interactiveSession.openNewSessionEditor": "新 {0} 聊天編輯器"
 		},
 		"vs/workbench/contrib/chat/browser/chatSetup": {
 			"chat.category": "聊天",
@@ -6533,17 +6639,19 @@
 			"enterpriseInstance": "您的 {0} 執行個體為何?",
 			"enterpriseInstancePlaceholder": "即「octocat」或「https://octocat.ghe.com」...",
 			"forceSignIn": "登入以使用 Copilot",
-			"hideChatSetup": "隱藏 Copilot",
-			"hideChatSetupButton": "隱藏 Copilot",
-			"hideChatSetupConfirm": "確定要隱藏 Copilot 嗎?",
-			"hideChatSetupDetail": "您可以執行 '{0}' 命令來還原 Copilot。",
+			"hideChatSetup": "隱藏 AI 功能",
+			"hideChatSetupButton": "隱藏 AI 功能",
+			"hideChatSetupConfirm": "是否確定要隱藏 AI 功能?",
+			"hideChatSetupDetail": "您可以執行 '{0}' 命令以還原 AI 功能。",
 			"installingCopilot": "正在準備 Copilot",
 			"invalidEnterpriseInstance": "您必須輸入有效的 {0} 執行個體 (即 \"octocat\" 或 \"https://octocat.ghe.com\")",
 			"manageOverages": "管理 Copilot 超額",
 			"managePlan": "升級至 Copilot Pro",
+			"restartExtensionHost.reason.disable": "Disabling AI features",
+			"restartExtensionHost.reason.enable": "Enabling AI features",
 			"retry": "重試",
 			"settingUpCopilotNeeded": "您必須設定 Copilot 並登入以使用 Chat。",
-			"settings": "{0} Copilot Free、Pro 和 Pro+ 可能會顯示 [公用程式碼]({1}) 建議，且我們可能會使用您的資料來改進產品。您可以隨時變更這些 [設定]({2})。",
+			"settings": "一旦繼續，即表示您同意 {0} 的[條款]({1})和[隱私權原則]({2})。{3} Copilot 可能會顯示[公用程式碼]({4})建議，並使用您的資料來改善產品。您可以隨時變更這些[設定]({5})。",
 			"setupChatProgress": "正在準備 Copilot...",
 			"setupChatSignIn2": "正在登入 {0}。",
 			"setupCopilot": "設定 Copilot。",
@@ -6551,10 +6659,10 @@
 			"setupErrorDialog": "Copilot 設定失敗。您想要再試一次嗎?",
 			"setupToolDisplayName": "新增工作區",
 			"setupToolsDescription": "在 VS Code 中架起新的工作區",
-			"signIn": "登入以使用 Copilot",
+			"signIn": "登入以使用 {0} Copilot",
 			"skipForNow": "暫時跳過",
-			"startUsing": "開始使用 Copilot",
-			"triggerChatSetup": "使用 AI 功能搭配 Copilot 免費版...",
+			"startUsing": "開始使用 {0} Copilot",
+			"triggerChatSetup": "Use AI Features with GitHub Copilot for free...",
 			"triggerChatSetupFromAccounts": "登入以使用 Copilot...",
 			"trustNeeded": "您必須信任此工作區才能使用 [聊天]。",
 			"unknownSetupError": "設定 Copilot 時發生錯誤。您要再試一次嗎？",
@@ -6573,6 +6681,7 @@
 			"cancelSnooze": "取消延遲",
 			"chatAndCompletionsQuotaExceededStatus": "已達配額",
 			"chatQuotaExceededStatus": "已達聊天配額",
+			"chatSessionsTitle": "Chat Sessions",
 			"chatStatus": "Copilot 狀態",
 			"chatsLabel": "聊天訊息",
 			"codeCompletions": "程式碼完成",
@@ -6598,6 +6707,7 @@
 			"gaugeForeground": "量測計前景色彩。",
 			"gaugeWarningBackground": "量測計警告背景色彩。",
 			"gaugeWarningForeground": "量測計警告前景色彩。",
+			"inProgressChatSession": "$(loading~spin) {0} {1} in progress",
 			"learnMore": "深入了解",
 			"limitQuota": "允許額度重設 {0}。",
 			"notSignedIntoCopilot": "已登出",
@@ -6616,11 +6726,14 @@
 			"signInDescription": "登入以使用 Copilot AI 功能。",
 			"signInToUseCopilotButton": "登入以使用 Copilot",
 			"upgradeToCopilotPro": "升級至 Copilot Pro",
-			"usageTitle": "Copilot 使用量"
+			"usageTitle": "Copilot 使用量",
+			"viewChatSessionsLabel": "View Chat Sessions",
+			"viewChatSessionsTooltip": "View Chat Sessions"
 		},
 		"vs/workbench/contrib/chat/browser/chatWidget": {
 			"agentMessage": "要求 Copilot 在 [代理程式模式]({0}) 中編輯您的檔案。Copilot 將自動使用多個要求來選擇要編輯的檔案、執行終端命令，並反覆調整錯誤。",
 			"agentTitle": "使用代理程式模式建置。",
+			"chat.input.placeholder.lockedToAgent": "Chat with {0}",
 			"chatDescription": "提出有關您程式碼的問題。",
 			"chatDisclaimer": "AI 回應可能不準確。",
 			"chatMessage": "Copilot 是由 AI 提供，因此可能會發生錯誤。使用前請仔細檢閱輸出。",
@@ -6634,6 +6747,8 @@
 			"chatWidget.suggestedPrompts.newProjectPrompt": "在 TypeScript 中建立 #new Hello World 專案",
 			"chatWidget.tips": "{0} 或輸入 {1} 以附加內容\r\n\r\n{2} 可使用延伸模組聊天\r\n\r\n輸入 {3} 可使用命令",
 			"chatWidget.tips.withoutParticipants": "{0} 或輸入 {1} 以附加內容",
+			"codingAgentMessage": "此聊天工作階段將轉寄至 {0} 編碼代理程式",
+			"codingAgentTitle": "與 {0} 聊天",
 			"editsHelp": "定義一組您要使用的檔案以開始編輯工作階段。然後向 Copilot 詢問您想要進行的變更。",
 			"editsTitle": "在內容中編輯。",
 			"expChatAdditionalMessage": "使用前請仔細檢閱 AI 輸出。",
@@ -6669,8 +6784,7 @@
 			"tool_source_completion": "{0}: {1}"
 		},
 		"vs/workbench/contrib/chat/browser/contrib/chatInputEditorContrib": {
-			"askPlaceholderHint": "# 以新增內容; @ 用於擴充; / 用於命令",
-			"editPlaceholderHint": "# 以新增內容"
+			"chatPlaceholderHint": "新增內容 (#)、延伸模組 (@)、命令 (/)"
 		},
 		"vs/workbench/contrib/chat/browser/contrib/chatInputEditorHover": {
 			"hoverAccessibilityChatAgent": "此處有聊天專員懸停部分。"
@@ -6832,10 +6946,9 @@
 			"chat.requestCodeBorder": "聊天要求泡泡內程式碼區塊的邊框顏色。",
 			"chat.slashCommandBackground": "聊天斜線命令的背景色彩。",
 			"chat.slashCommandForeground": "聊天 Slash 命令的前景色彩。",
-			"chatCheckpointSeparator": "Chat checkpoint separator color."
+			"chatCheckpointSeparator": "聊天檢查點分隔符號顏色。"
 		},
 		"vs/workbench/contrib/chat/common/chatContextKeys": {
-			"chatCanRequestBePaused": "當目前的要求可以暫停時為 True。",
 			"chatEditApplied": "已套用聊天文字編輯時為 True。",
 			"chatEditingCanRedo": "可以重做編輯面板中的互動時，則為 True。",
 			"chatEditingCanUndo": "可以復原編輯面板中的互動時，則為 True。",
@@ -6844,21 +6957,26 @@
 			"chatHasCustomChatModes": "當聊天有可用的自訂聊天模式時為 True。",
 			"chatHasFileAttachments": "當聊天有檔案附件時為 True。",
 			"chatIsEnabled": "啟用聊天時為 True，因為預設聊天參與者已使用實作來啟用。",
+			"chatIsHistoryItem": "True when the chat session item is from history.",
 			"chatItemId": "聊天項目的識別碼。",
 			"chatLastItemId": "最後一個聊天項目的識別碼。",
 			"chatMode": "目前聊天模式的「種類」 - 自訂模式的代理程式。",
+			"chatModelsAreUserSelectable": "當使用者可手動選取聊天模型時為 True。",
 			"chatPanelExtensionParticipantRegistered": "當預設聊天參與者是從擴充功能註冊面板時為 True。",
 			"chatPanelLocation": "聊天面板的位置。",
 			"chatParticipantRegistered": "當預設聊天參與者註冊面板時為 True。",
 			"chatPromptFileAttachedContextDescription": "當聊天附加提示檔案時為 True。",
 			"chatRemoteJobCreating": "正在建立遠端編碼代理程式工作時，為 True。",
 			"chatRequest": "聊天項目是要求",
-			"chatRequestIsPaused": "當目前的要求暫停時，為 True。",
 			"chatResponse": "聊天項目是回應。",
 			"chatResponseErrored": "當聊天回應導致錯誤時為 True。",
 			"chatResponseFiltered": "當伺服器篩選出聊天回應時為 True。",
 			"chatResponseSupportsIssueReporting": "目前的聊天回應支持問題報告時為 True。",
 			"chatSessionResponseDetectedAgentOrCommand": "自動偵測到代理程式或命令時",
+			"chatSessionType": "目前聊天工作階段項目的類型。",
+			"chatSkipRequestInProgressMessage": "當應跳過「聊天要求進行中」訊息時，為 True。",
+			"chatToolCount": "目前聊天模式中可用的工具數量。",
+			"chatToolGroupingThreshold": "開始進行虛擬分組的工具數量。",
 			"enableRemoteCodingAgentPromptFileOverlay": "是否已啟用遠端編碼代理程式提示檔案覆疊功能?",
 			"hasRemoteCodingAgent": "是否有任何可用的遠端編碼代理程式",
 			"inChat": "聚焦於聊天小工具時為 True，否則為 False。",
@@ -6871,6 +6989,7 @@
 			"interactiveSessionCurrentlyEditingInput": "正在編輯底部的目前要求輸入時為 True。",
 			"interactiveSessionRequestInProgress": "當目前的要求仍在進行中時為 True。",
 			"interactiveSessionResponseVote": "當對回應投票向上時，設定為 'up'。當投票向下時，設定為 'down'。否則為空字串。",
+			"lockedToCodingAgent": "當聊天小工具鎖定至編碼代理程式工作階段時，為 True。",
 			"toolsCount": "聊天中可用的工具計數。"
 		},
 		"vs/workbench/contrib/chat/common/chatEditingService": {
@@ -6891,10 +7010,12 @@
 		"vs/workbench/contrib/chat/common/chatModel": {
 			"codeCitation": "找到 1 種授權類型的類似代碼",
 			"codeCitations": "找到 {0} 種授權類型的類似代碼",
-			"editsSummary": "已進行變更。"
+			"copyrightContentRetry": "回應已清除，因為可能符合公用程式碼，正在使用修改的提示重試。",
+			"editsSummary": "已進行變更。",
+			"filteredContentRetry": "回應已清除，因為內容安全篩選條件，正在使用修改的提示重試。"
 		},
 		"vs/workbench/contrib/chat/common/chatModes": {
-			"agentDescription": "自主建置。",
+			"agentDescription": "提供指示。",
 			"chatDescription": "詢問問題。",
 			"editsDescription": "編輯檔案。"
 		},
@@ -6906,8 +7027,7 @@
 			"newChat": "新增聊天"
 		},
 		"vs/workbench/contrib/chat/common/chatSessionStore": {
-			"join.chatSessionStore": "正在儲存聊天記錄",
-			"newChat": "新增聊天"
+			"join.chatSessionStore": "正在儲存聊天記錄"
 		},
 		"vs/workbench/contrib/chat/common/chatVariableEntries": {
 			"chat.attachment.problems.all": "所有問題",
@@ -6948,6 +7068,7 @@
 			"chat.prompt.frontMatter.inactiveBackground.description": "非使用中 Front Matter 標題區塊的背景顏色。"
 		},
 		"vs/workbench/contrib/chat/common/promptSyntax/languageProviders/promptHeaderDiagnosticsProvider": {
+			"promptHeaderDiagnosticsProvider.modeNotFound": "未知的模式 '{0}'。可用的模式: {1}",
 			"promptHeaderDiagnosticsProvider.modelNotFound": "未知的模型 '{0}'",
 			"promptHeaderDiagnosticsProvider.modelNotSuited": "模型 '{0}' 不適用於代理程式模式",
 			"promptHeaderDiagnosticsProvider.toolNotFound": "未知的工具 '{0}'"
@@ -6962,7 +7083,12 @@
 			"promptHeader.mode.model": "要在此模式中使用的模型。",
 			"promptHeader.mode.tools": "要在此模型中使用的工具。",
 			"promptHeader.prompt.description": "提示檔案的描述。它可以用來提供有關提示的額外內容或資訊，供提示作者參考。",
-			"promptHeader.prompt.mode": "執行此提示時所使用的模式 (要求、編輯或代理程式)。",
+			"promptHeader.prompt.mode": "要在此提示中使用的模式。",
+			"promptHeader.prompt.mode.builtInDesc": "內建聊天模式",
+			"promptHeader.prompt.mode.builtin": "**內建模式:**",
+			"promptHeader.prompt.mode.custom": "**自訂模式:**",
+			"promptHeader.prompt.mode.customDesc": "自訂聊天模式",
+			"promptHeader.prompt.mode.description": "執行此提示時所使用聊天模式。",
 			"promptHeader.prompt.model": "要在此提示中使用的模型。",
 			"promptHeader.prompt.tools": "要在此提示中使用的工具。",
 			"toolSetName": "工具組: {0}\r\n\r\n"
@@ -6981,10 +7107,10 @@
 			"prompt.header.metadata.string.diagnostics.invalid-language": "'{0}' 標頭屬性只在指示檔案中有效。"
 		},
 		"vs/workbench/contrib/chat/common/promptSyntax/parsers/promptHeader/metadata/base/enum": {
-			"prompt.header.metadata.enum.diagnostics.invalid-value": "'{0}' 中繼資料必須是 {1} 的其中一個，但得到 '{2}'。"
+			"prompt.header.metadata.enum.diagnostics.invalid-value": "屬性 '{0}' 必須是 {1} 的其中一個，但得到 '{2}'。"
 		},
 		"vs/workbench/contrib/chat/common/promptSyntax/parsers/promptHeader/metadata/base/string": {
-			"prompt.header.metadata.string.diagnostics.invalid-value-type": "'{0}' 中繼資料必須是 '{1}'，但得到 '{2}'。"
+			"prompt.header.metadata.string.diagnostics.invalid-value-type": "屬性 '{0}' 的類型必須為 '{1}'，但為 '{2}'。"
 		},
 		"vs/workbench/contrib/chat/common/promptSyntax/parsers/promptHeader/metadata/tools": {
 			"prompt.header.metadata.tools.diagnostics.duplicate-tool-name": "重複的工具名稱 '{0}'。",
@@ -6993,7 +7119,7 @@
 			"prompt.header.metadata.tools.diagnostics.invalid-value-type": "必須是工具名稱的陣列，但得到　'{0}'。"
 		},
 		"vs/workbench/contrib/chat/common/promptSyntax/parsers/promptHeader/promptHeader": {
-			"prompt.header.metadata.mode.diagnostics.incompatible-with-tools": "工具只能在 'agent' 模式中使用，但目前模式設定為 '{0}'。將忽略工具。"
+			"prompt.header.metadata.mode.diagnostics.incompatible-with-tools": "工具無法在 '{0}' 模式下使用，將會忽略。"
 		},
 		"vs/workbench/contrib/chat/common/promptSyntax/parsers/topError": {
 			"broken": "中斷",
@@ -7014,7 +7140,7 @@
 			"canBeReferencedInPrompt": "如果為 true，則此工具會顯示為附件，使用者可以手動將附件新增至其要求。聊天參與者會在 {0} 中收到工具。",
 			"condition": "必須為 True 才能啟用此工具的條件。請注意，即使工具的 'when' 條件為 false，工具仍可能由另一個延伸模組叫用。",
 			"descriptions": "描述",
-			"icon": "代表此工具的圖示。檔案路徑、具有深色和淺色主題檔案路徑的物件，或主題圖示參考，例如 `$(zap)`",
+			"icon": "代表此工具的圖示。檔案路徑、具有深色和淺色主題檔案路徑的物件，或主題圖示參照，例如 '\\$(zap)'",
 			"icon.dark": "使用暗色主題時的圖像路徑",
 			"icon.light": "使用亮色主題時的圖示路徑",
 			"langModelToolSets": "語言模型工具組",
@@ -7046,16 +7172,13 @@
 			"workbench.action.chat.openStorageFolder.label": "開啟聊天儲存資料夾"
 		},
 		"vs/workbench/contrib/chat/electron-browser/actions/voiceChatActions": {
-			"installProviderForVoiceChat.justification": "麥克風支援需要此延伸模組。",
 			"keywordActivation.status.active": "正在聆聽 'Hey Code'...",
 			"keywordActivation.status.inactive": "等候語音聊天結束...",
 			"keywordActivation.status.name": "語音關鍵詞啟用",
 			"listening": "我正在接聽",
-			"retry": "重試",
 			"scopedChatSynthesisInProgress": "定義為從麥克風進行的語音錄製正在進行語音聊天的位置。此索引鍵只會根據聊天內容定義範圍。",
 			"scopedVoiceChatGettingReady": "準備從麥克風接收語音聊天的語音輸入時為 True。此索引鍵只會根據聊天內容定義範圍。",
 			"scopedVoiceChatInProgress": "定義為從麥克風進行的語音錄製正在進行語音聊天的位置。此索引鍵只會根據聊天內容定義範圍。",
-			"unknownSetupError": "設定語音交談時發生錯誤。您想要再試一次嗎?",
 			"voice.keywordActivation": "控制是否辨識關鍵詞片語 'Hey Code' 以啟動語音聊天工作階段。啟用此功能會開始從麥克風錄製，但音訊會在本機處理，且永遠不會傳送到伺服器。",
 			"voice.keywordActivation.chatInContext": "已啟用關鍵詞啟用，並接聽 'Hey Code' 以在使用中的編輯器中啟動語音聊天工作階段，或視鍵盤焦點進行檢視。",
 			"voice.keywordActivation.chatInView": "已啟用關鍵詞啟用，並聆聽 'Hey Code'以在聊天檢視中啟動語音聊天工作階段。",
@@ -7064,7 +7187,6 @@
 			"voice.keywordActivation.quickChat": "已啟用關鍵詞啟用，並聆聽 'Hey Code' 以在快速聊天中啟動語音聊天工作階段。",
 			"workbench.action.chat.holdToVoiceChatInChatView.label": "按住以在聊天檢視中進行語音聊天",
 			"workbench.action.chat.inlineVoiceChat": "內嵌語音聊天",
-			"workbench.action.chat.installProviderForVoiceChat.label": "開始語音聊天",
 			"workbench.action.chat.quickVoiceChat.label": "快速語音聊天",
 			"workbench.action.chat.readChatResponseAloud": "大聲朗讀",
 			"workbench.action.chat.startVoiceChat.label": "開始語音聊天",
@@ -7075,12 +7197,17 @@
 			"workbench.action.speech.stopReadAloud": "停止大聲朗讀"
 		},
 		"vs/workbench/contrib/chat/electron-browser/chat.contribution": {
+			"changeWorkspace.detail": "如果您變更工作區，聊天要求將會停止。",
 			"changeWorkspace.message": "聊天要求進行中。確定要變更工作區嗎?",
+			"chatRequestInProgress": "聊天要求進行中。",
+			"closeTheWindow.detail": "如果您關閉視窗，聊天要求將會停止。",
 			"closeTheWindow.message": "聊天要求進行中。確定要關閉視窗嗎?",
 			"copilotWorkspaceTrust": "目前僅在受信任的工作區中支援 Copilot。",
+			"exit.detail": "如果您離開，聊天要求將會停止。",
 			"exit.message": "聊天要求進行中。確定要結束嗎?",
-			"quit.detail": "如果您繼續，將會取消聊天要求。",
+			"quit.detail": "如果您結束，聊天要求將會停止。",
 			"quit.message": "聊天要求進行中。確定要結束嗎?",
+			"reloadTheWindow.detail": "如果您重新載入視窗，聊天要求將停止。",
 			"reloadTheWindow.message": "聊天要求進行中。確定要重新載入視窗嗎?"
 		},
 		"vs/workbench/contrib/chat/electron-browser/tools/fetchPageTool": {
@@ -7815,6 +7942,7 @@
 			"addConfiguration": "新增組態...",
 			"addInlineBreakpoint": "新增內嵌中斷點",
 			"addToWatchExpressions": "加入監看",
+			"attachToCurrentCodeRenderer": "附加至目前程式碼轉譯器",
 			"callStackBottom": "瀏覽至呼叫堆疊底層",
 			"callStackDown": "向下瀏覽呼叫堆疊",
 			"callStackTop": "瀏覽至呼叫堆疊頂層",
@@ -7840,13 +7968,15 @@
 			"selectAndStartDebugging": "選取並開始偵錯",
 			"selectDebugConsole": "選取偵錯主控台",
 			"selectDebugSession": "選取偵錯工作階段",
+			"selectExceptionBreakpointsPlaceholder": "挑選已啟用的例外狀況中斷點",
 			"startDebug": "開始偵錯",
 			"startWithoutDebugging": "開始但不偵錯",
 			"stepIntoDebug": "逐步執行",
 			"stepIntoTargetDebug": "逐步執行目標",
 			"stepOutDebug": "跳離函式",
 			"stepOverDebug": "不進入函式",
-			"stop": "停止"
+			"stop": "停止",
+			"toggleExceptionBreakpoints": "切換例外狀況中斷點"
 		},
 		"vs/workbench/contrib/debug/browser/debugConfigurationManager": {
 			"DebugConfig.failed": "無法在 '.vscode' 資料夾 ({0}) 中建立 'launch.json' 檔案。",
@@ -8438,15 +8568,16 @@
 			"cloudChangesLog": "雲端變更"
 		},
 		"vs/workbench/contrib/editTelemetry/browser/editStats/aiStatsStatusBar": {
-			"aiStatsStatusBarHeader": "AI Usage Statistics",
+			"aiStats.statusBar.configure": "設定",
+			"aiStatsStatusBarHeader": "AI 使用量統計資料",
 			"inlineSuggestions": "內嵌建議",
 			"inlineSuggestionsStatusBar": "內嵌建議狀態列",
-			"text1": "Manual vs. AI typing ratio: {0}",
-			"text2": "Accepted inline suggestions today: {0}"
+			"text1": "AI 與輸入平均: {0}",
+			"text2": "今天已接受的內嵌建議: {0}"
 		},
 		"vs/workbench/contrib/editTelemetry/browser/editTelemetry.contribution": {
 			"editTelemetry": "編輯遙測",
-			"editor.aiStats.enabled": "控制是否在編輯器中啟用 AI 統計資料。",
+			"editor.aiStats.enabled": "控制是否在編輯器中啟用 AI 統計資料。量測計代表 AI 與手動輸入在 24 小時的期間中插入的平均程式碼數量。",
 			"telemetry.editStats.detailed.enabled": "控制是否啟用詳細編輯統計資料的遙測 (僅在啟用一般遙測時才會傳送統計資料)。",
 			"telemetry.editStats.enabled": "控制是否啟用編輯統計資料的遙測 (僅在啟用一般遙測時才會傳送統計資料)。",
 			"telemetry.editStats.showDecorations": "控制是否顯示編輯遙測的裝飾。",
@@ -9043,7 +9174,7 @@
 			"download": "下載",
 			"download title": "選取要下載 VSIX 的資料夾",
 			"download.completed": "已成功下載 VSIX",
-			"download.failed": "Error while downloading the VSIX: {0}",
+			"download.failed": "下載 VSIX 時發生錯誤: {0}",
 			"downloading...": "下載 VSIX...",
 			"enable locally": "請 {0} 以本機啟用此延伸模組。",
 			"enable remote": "請 {0} 以於 {1} 啟用此延伸模組。",
@@ -9151,14 +9282,14 @@
 			"searchExtensionsTool.userDescription": "在 Visual Studio Code 延伸模組市集中搜尋延伸模組"
 		},
 		"vs/workbench/contrib/extensions/electron-browser/debugExtensionHostAction": {
-			"debugExtensionHost": "在新視窗中開始偵錯延伸主機",
+			"debugExtensionHost": "在新視窗中對針對延伸主機進行偵錯",
 			"debugExtensionHost.launch.name": "附加延伸主機",
 			"debugExtensionHost.progress": "正在將偵錯工具連結到延伸主機",
-			"openDevToolsForExtensionHost": "Open Developer Tools for Extension Host",
+			"openDevToolsForExtensionHost": "在開發工具中對針對延伸主機進行偵錯",
 			"restart1": "偵錯延伸模組",
 			"restart2": "為了偵錯延伸模組，需要重新啟動。要立即重新啟動 '{0}' 嗎?",
 			"restart3": "重新啟動(&&R)",
-			"selectExtensionHost": "Pick extension host"
+			"selectExtensionHost": "選擇延伸主機"
 		},
 		"vs/workbench/contrib/extensions/electron-browser/extensionProfileService": {
 			"profilingExtensionHost": "分析延伸主機",
@@ -9739,13 +9870,14 @@
 			"moveToPreviousHunk": "移至上一個變更",
 			"rerun": "重新執行",
 			"reveal": "切換內嵌聊天",
-			"run": "編輯器內嵌聊天",
+			"run": "Open Inline Chat",
 			"showChanges": "切換變更",
 			"startInlineChat": "從編輯器工具列繁衍內嵌聊天的圖示。",
 			"unstash": "繼續上次關閉的內嵌聊天",
 			"viewInChat": "在聊天中檢視"
 		},
 		"vs/workbench/contrib/inlineChat/browser/inlineChatController": {
+			"askOrEditInContext": "在內容中詢問或編輯",
 			"create.fail": "無法啟動編輯器聊天",
 			"empty": "沒有結果，請精簡您的輸入，然後再試一次",
 			"err.apply": "無法套用變更。",
@@ -9810,7 +9942,7 @@
 			"inlineChatResponseTypes": "收到的回應類型是什麼，尚未收到任何回應，只有訊息，或訊息和本機編輯",
 			"inlineChatVisible": "互動式編輯器輸入是否顯示",
 			"lineSuffixHint": "由自然語言或虛擬程式代碼取代的行是否顯示提示以繼續進行內嵌聊天。例如，「具有名稱和嗜好的課程人員」會顯示繼續聊天的提示。",
-			"notebookAgent": "Enable agent-like behavior for inline chat widget in notebooks. Depends on the `#inlineChat.enableV2#` setting being enabled."
+			"notebookAgent": "為筆記本中的內嵌聊天小工具啟用類似代理程式的行為。取決於啟用的 `#inlineChat.enableV2#` 設定。"
 		},
 		"vs/workbench/contrib/inlineChat/electron-browser/inlineChatActions": {
 			"holdForSpeech": "發言"
@@ -10423,6 +10555,7 @@
 			"mcp.addConfiguration.description": "將新的模型內容通訊協定安裝至 mcp.json 設定",
 			"mcp.addServer": "新增伺服器",
 			"mcp.addServer.description": "新增新伺服器設定",
+			"mcp.autoStart": "傳送聊天訊息時自動啟動 MCP 伺服器",
 			"mcp.browseResources": "瀏覽資源...",
 			"mcp.command.browse": "MCP 伺服器",
 			"mcp.command.browse.mcp": "瀏覽伺服器",
@@ -10443,8 +10576,12 @@
 			"mcp.configureSamplingModels.ph": "挑選 {0} 可透過 MCP 取樣存取的模型",
 			"mcp.disconnect": "中斷連線帳戶",
 			"mcp.editStoredInput": "編輯儲存的輸入",
+			"mcp.err.md.multi": "多個 MCP 伺服器無法成功啟動:\r\n\r\n{0}",
+			"mcp.err.md.single": "MCP 伺服器 {0} 無法成功啟動。",
 			"mcp.list": "列出伺服器",
 			"mcp.newTools": "有新工具可用 ({0})",
+			"mcp.newTools.md.multi": "MCP 伺服器已更新，且可能有新的工具可用:\r\n\r\n{0}",
+			"mcp.newTools.md.single": "MCP 伺服器 {0} 已更新，且可能有新的工具可用。",
 			"mcp.options": "伺服器選項",
 			"mcp.resetCachedTools": "重設快取的工具",
 			"mcp.resetTrust": "重設信任",
@@ -10476,9 +10613,10 @@
 			"install.title": "安裝 MCP 伺服器 {0}",
 			"mcp.command.placeholder": "要執行的命令 (具有選用引數)",
 			"mcp.command.title": "輸入命令",
-			"mcp.confirmPublish": "要從 {1} 安裝 {0} 嗎?",
+			"mcp.confirmPublish": "要從 {2} 安裝 {0}{1} 嗎?",
 			"mcp.docker.placeholder": "映像名稱 (例如 mcp/imagename)",
 			"mcp.docker.title": "輸入 Docker 映像名稱",
+			"mcp.error.openHelpUri": "開啟說明 URL",
 			"mcp.error.retry": "請嘗試其他套件",
 			"mcp.loading.title": "正在載入套件的詳細資料...",
 			"mcp.npm.placeholder": "套件名稱 (例如 @org/package)",
@@ -10505,6 +10643,7 @@
 			"mcp.serverType.pip.description": "從 Pip 套件名稱安裝",
 			"mcp.serverType.placeholder": "選擇要新增的 MCP 伺服器的類型",
 			"mcp.servers.browse": "瀏覽 MCP 伺服器...",
+			"mcp.servers.discovery": "從另一個應用程式新增...",
 			"mcp.target..remote.description": "可在此遠端電腦上使用，並在 {0} 上執行",
 			"mcp.target.remote": "遠端",
 			"mcp.target.title": "選擇安裝 MCP 伺服器的位置",
@@ -10585,6 +10724,7 @@
 		},
 		"vs/workbench/contrib/mcp/browser/mcpServerActions": {
 			"config": "顯示設定",
+			"configJson": "顯示設定 (JSON)",
 			"disabled - not allowed": "此 MCP 伺服器已停用，因為 {0}",
 			"install": "安裝",
 			"installing": "正在安裝",
@@ -10664,7 +10804,7 @@
 			"cannot be installed": "無法安裝 '{0}' MCP Server，因為此設定中無法使用。。",
 			"mcp.configuration.userLocalValue": "{0} 中的全域",
 			"not an extension": "所提供的物件不是 MCP Server。",
-			"overwriting": "Overwriting mcp server '{0}' from {1} with {2}."
+			"overwriting": "正在使用 {2} 覆寫來自 {1} 的 MCP 伺服器 '{0}'。"
 		},
 		"vs/workbench/contrib/mcp/common/discovery/extensionMcpDiscovery": {
 			"invalidData": "應該有 MCP 集合的陣列",
@@ -10693,9 +10833,13 @@
 			"app.mcp.json.url.pattern": "URL 的開頭必須是 'http://' 或 'https://'。",
 			"id": "識別碼",
 			"mcp.discovery.source.claude-desktop": "Claude 桌面版",
+			"mcp.discovery.source.claude-desktop.config": "Claude Desktop 設定 (`claude_desktop_config.json`)",
 			"mcp.discovery.source.cursor-global": "游標 (全域)",
+			"mcp.discovery.source.cursor-global.config": "游標全域設定 (`~/.cursor/mcp.json`)",
 			"mcp.discovery.source.cursor-workspace": "Cursor (工作區)",
+			"mcp.discovery.source.cursor-workspace.config": "游標工作區設定 (`.cursor/mcp.json`)",
 			"mcp.discovery.source.windsurf": "Windsurf",
+			"mcp.discovery.source.windsurf.config": "Windsurf 設定 (`~/.codeium/windsurf/mcp_config.json`)",
 			"mcpServerDefinitionProviders": "MCP 伺服器",
 			"name": "名稱",
 			"vscode.extension.contributes.mcp": "參與模型內容通訊協定伺服器。此項目的使用者也應該使用 `vscode.lm.registerMcpServerDefinitionProvider`。",
@@ -10713,24 +10857,24 @@
 			"mcp.debug.pythonBinReq": "MCP 伺服器必須以 \"python\" 可執行檔啟動，才能啟用偵錯，但已使用 \"{0}\" 啟動"
 		},
 		"vs/workbench/contrib/mcp/common/mcpLanguageModelToolContribution": {
-			"mcp.tool.warning": "Note that MCP servers or malicious conversation content may attempt to misuse '{0}' through tools.",
-			"mcp.toolset": "{0}: All Tools",
-			"msg.ran": "Ran {0} ",
-			"msg.run": "Running {0}",
-			"msg.subtitle": "{0} (MCP Server)",
-			"msg.title": "Run {0}"
+			"mcp.tool.warning": "請注意，MCP 伺服器或惡意交談內容可能會嘗試透過工具誤用 '{0}'。",
+			"mcp.toolset": "{0}: 所有工具",
+			"msg.ran": "已執行 {0}",
+			"msg.run": "正在執行 {0}",
+			"msg.subtitle": "{0} (MCP 伺服器)",
+			"msg.title": "執行 {0}"
 		},
 		"vs/workbench/contrib/mcp/common/mcpRegistry": {
 			"mcp.launchError": "啟動 {0}時發生錯誤: {1}",
 			"mcp.launchError.openConfig": "開啟設定",
-			"mcp.trust.details": "The MCP server {0} was updated. MCP servers may add context to your chat session and lead to unexpected behavior. Do you want to trust and run this server?",
-			"mcp.trust.detailsMulti": "Several updated MCP servers were discovered:\r\n\r\n{0}\r\n\r\n MCP servers may add context to your chat session and lead to unexpected behavior. Do you want to trust and run these server?",
+			"mcp.trust.details": "MCP 伺服器 {0} 已更新。MCP 伺服器可能會為您的聊天工作階段新增內容，並導致未預期的行為。您要信任並執行此伺服器嗎?",
+			"mcp.trust.detailsMulti": "已找到幾個更新的 MCP 伺服器:\r\n\r\n{0}\r\n\r\n MCP 伺服器可能會為您的聊天工作階段新增內容，並導致未預期的行為。您要信任並執行這些伺服器嗎?",
 			"mcp.trust.no": "不信任",
-			"mcp.trust.pick": "Pick Trusted",
+			"mcp.trust.pick": "選擇信任的",
 			"mcp.trust.yes": "信任",
-			"trustFromExt": "from {0}",
-			"trustTitleWithOrigin": "Trust and run MCP server {0}?",
-			"trustTitleWithOriginMulti": "Trust and run {0} MCP servers?"
+			"trustFromExt": "從 {0}",
+			"trustTitleWithOrigin": "信任並執行 MCP 伺服器 {0}?",
+			"trustTitleWithOriginMulti": "信任並執行 {0} MCP 伺服器?"
 		},
 		"vs/workbench/contrib/mcp/common/mcpSamplingLog": {
 			"mcp.sampling.rpd": "{0} 過去 7 天內的要求總計。"
@@ -10763,6 +10907,10 @@
 			"mcpServer.starting": "正在啟動伺服器 {0}",
 			"mcpServer.state": "連線狀態: {0}",
 			"mcpServer.stopping": "正在停止伺服器 {0}"
+		},
+		"vs/workbench/contrib/mcp/common/mcpService": {
+			"mcp.autostart.configure": "設定 MCP 自動啟動",
+			"mcp.autostart.progress": "正在啟動 MCP 伺服器: {0}"
 		},
 		"vs/workbench/contrib/mcp/common/mcpTypes": {
 			"mcpstate.error": "錯誤 {0}",
@@ -11119,7 +11267,7 @@
 			"breadcrumbs.showCodeCells": "啟用時，筆記本切換階層連結會包含程式碼儲存格。",
 			"filter": "篩選項目",
 			"notebook.gotoSymbols.showAllSymbols": "啟用時，[移至符號] 快速選取會顯示筆記本中的完整程式碼符號，以及 Markdown 標頭。",
-			"outline.showCodeCellSymbols": "啟用時，筆記本大綱會顯示程式碼儲存格符號。依賴正在啟用的 `notebook.outline.showCodeCells`。",
+			"outline.showCodeCellSymbols": "啟用時，筆記本大綱會顯示程式碼儲存格符號。依賴正在啟用的 `#notebook.outline.showCodeCells#`。",
 			"outline.showCodeCells": "啟用時，筆記本外框會顯示程式碼儲存格。",
 			"outline.showMarkdownHeadersOnly": "啟用時，筆記本大綱只會顯示包含標頭的 Markdown 儲存格。",
 			"toggleCodeCellSymbols": "程式碼儲存格符號",
@@ -11198,7 +11346,7 @@
 			"notebookChatUserDidEdit": "使用者是否在筆記本儲存格聊天的頂端進行了變更"
 		},
 		"vs/workbench/contrib/notebook/browser/controller/chat/notebookChatController": {
-			"default.placeholder": "詢問問題",
+			"default.placeholder": "在內容中詢問或編輯",
 			"welcome.1": "AI 產生的程式碼可能不正確"
 		},
 		"vs/workbench/contrib/notebook/browser/controller/coreActions": {
@@ -11228,6 +11376,7 @@
 			"notebookActions.deleteCell": "刪除儲存格",
 			"notebookActions.editCell": "編輯儲存格",
 			"notebookActions.quitEdit": "停止編輯儲存格",
+			"notebookActions.quitEditAllCells": "停止編輯所有儲存格",
 			"pickAction": "選取動作",
 			"pickLanguageToConfigure": "選取語言模式",
 			"selectNotebookIndentation": "選擇縮排"
@@ -13631,7 +13780,7 @@
 			"ProblemPatternExtPoint": "提供問題模式",
 			"ProblemPatternParser.invalidRegexp": "錯誤: 字串 {0} 不是有效的規則運算式。\r\n",
 			"ProblemPatternParser.loopProperty.notLast": "只有最後一行比對器才支援迴圈屬性。",
-			"ProblemPatternParser.problemPattern.emptyPattern": "The problem pattern is invalid. It must contain at least one pattern.",
+			"ProblemPatternParser.problemPattern.emptyPattern": "問題模式無效。至少必須包含一個模式。",
 			"ProblemPatternParser.problemPattern.kindProperty.notFirst": "問題模式無效。 這類屬性只能在第一個元素中提供",
 			"ProblemPatternParser.problemPattern.missingLocation": "問題模式無效。其必須有任一類型: \"檔案\" 或者是有行或位置符合群組。 ",
 			"ProblemPatternParser.problemPattern.missingProperty": "問題模式無效。其必須至少有一個檔案及訊息。",
@@ -13697,7 +13846,8 @@
 			"tasks.processExecutionSupported": "是否支援 ProcessExecution 工作。請考慮在 'taskDefinition' 貢獻的 when 子句中使用。",
 			"tasks.serverlessWebContext": "當在沒有遠端授權的 Web 中時為 True。",
 			"tasks.shellExecutionSupported": "是否支援 ShellExecution 工作。請考慮在 'taskDefinition' 貢獻的 when 子句中使用。",
-			"tasks.taskCommandsRegistered": "工作命令是否已註冊"
+			"tasks.taskCommandsRegistered": "工作命令是否已註冊",
+			"tasks.tasksAvailable": "工作區中是否有任何可取得的工作。"
 		},
 		"vs/workbench/contrib/tasks/common/taskTemplates": {
 			"Maven": "執行一般 maven 命令",
@@ -13844,11 +13994,12 @@
 		"vs/workbench/contrib/terminal/browser/terminalMenus": {
 			"defaultTerminalProfile": "{0} (預設)",
 			"launchProfile": "啟動設定檔...",
+			"miNewInNewWindow": "新增終端機視窗(&&W)",
 			"miNewTerminal": "新增終端(&&N)",
 			"miRunActiveFile": "執行使用中的檔案(&&A)",
 			"miRunSelectedText": "執行選取的文字(&&S)",
 			"miSplitTerminal": "分割終端(&&S)",
-			"splitTerminal": "分割終端",
+			"split.profile": "使用設定檔分割終端機",
 			"workbench.action.tasks.configureTaskRunner": "設定工作...",
 			"workbench.action.tasks.runTask": "執行工作...",
 			"workbench.action.terminal.changeColor": "變更色彩...",
@@ -13984,6 +14135,7 @@
 			"terminalOverviewRuler.findMatchHighlightForeground": "在終端中尋找符合項目的概觀尺規標記色彩。"
 		},
 		"vs/workbench/contrib/terminal/common/terminalConfiguration": {
+			"autoApproveMode.description": "控制是否允許在終端機工具中自動核准。",
 			"cwd": "終端的目前工作目錄。",
 			"cwdFolder": "當值與初始工作目錄不同時，終端的目前工作目錄為多根工作區或在單根工作區中顯示。這將不會在 Windows 中顯示。在 Windows 上，只有在啟用殼層整合時，才會顯示此功能。",
 			"enableFileLinks.notRemote": "僅不在遠端工作區時啟用。",
@@ -14146,6 +14298,7 @@
 		"vs/workbench/contrib/terminal/common/terminalContextKey": {
 			"inTerminalRunCommandPickerContextKey": "終端機執行命令選擇器目前是否開啟。",
 			"isSplitTerminalContextKey": "焦點索引標籤的終端是否為分割終端。",
+			"splitPaneActive": "使用中的終端機是否為分割窗格。",
 			"terminalAltBufferActive": "終端的 alt 緩衝區是否作用中。",
 			"terminalCountContextKey": "目前的終端數目。",
 			"terminalEditorFocusContextKey": "編輯器區域中的終端是否為焦點。",
@@ -14169,6 +14322,7 @@
 			"local": "本機",
 			"moveIntoNewWindow": "將終端機移至新視窗",
 			"moveToEditor": "將終端移入編輯器區域",
+			"newInNewWindow": "新增終端機視窗",
 			"previousSessionCategory": "上一個工作階段",
 			"splitTerminal": "分割終端機",
 			"splitTerminal.short": "分割",
@@ -14275,64 +14429,94 @@
 			"runCommand": "執行聊天命令",
 			"runFirst": "先執行",
 			"runFirstCommand": "執行第一個聊天命令",
-			"startChat": "終端內嵌聊天",
+			"startChat": "Open Inline Chat",
+			"terminalCategory": "Terminal",
 			"viewInChat": "在聊天中檢視"
 		},
 		"vs/workbench/contrib/terminalContrib/chat/browser/terminalChatWidget": {
-			"askAI": "詢問 AI"
+			"askAboutCommands": "詢問命令"
 		},
 		"vs/workbench/contrib/terminalContrib/chat/common/terminalInitialHintConfiguration": {
 			"terminal.integrated.initialHint": "控制沒有輸入的第一個終端機在聚焦時是否顯示相關可用動作的提示。"
 		},
-		"vs/workbench/contrib/terminalContrib/chatAgentTools/browser/bufferOutputPolling": {
-			"poll.terminal.accept": "是",
-			"poll.terminal.polling": "Copilot 會持續輪詢輸出內容，最多達 2 分鐘，以判斷終端機是否處於閒置狀態。",
-			"poll.terminal.reject": "否",
-			"poll.terminal.waiting": "繼續等待 `{0}` 完成?"
+		"vs/workbench/contrib/terminalContrib/chatAgentTools/browser/runInTerminalHelpers": {
+			"autoApprove.baseCommand": "一律允許命令: {0}",
+			"autoApprove.baseCommandSingle": "一律允許命令: {0}",
+			"autoApprove.configure": "設定自動核准...",
+			"autoApprove.exactCommand": "一律允許確切的命令列: {0}"
 		},
-		"vs/workbench/contrib/terminalContrib/chatAgentTools/browser/getTerminalOutputTool": {
+		"vs/workbench/contrib/terminalContrib/chatAgentTools/browser/terminal.chatAgentTools.contribution": {
+			"addTerminalSelection": "將終端機選取項目新增至聊天",
+			"terminalSelection": "終端機選取範圍",
+			"toolset.runCommands": "在終端機中執行命令",
+			"toolset.runTasks": "執行工作並為您的工作區取得其輸出"
+		},
+		"vs/workbench/contrib/terminalContrib/chatAgentTools/browser/tools/getTerminalLastCommandTool": {
+			"getTerminalLastCommand.past": "已取得最後一個終端機命令",
+			"getTerminalLastCommand.progressive": "正在取得最後一個終端機命令",
+			"terminalLastCommandTool.displayName": "取得終端機最後命令"
+		},
+		"vs/workbench/contrib/terminalContrib/chatAgentTools/browser/tools/getTerminalOutputTool": {
 			"bg.past": "已檢查背景終端輸出",
 			"bg.progressive": "正在檢查背景終端輸出",
 			"getTerminalOutputTool.displayName": "取得終端輸出"
 		},
-		"vs/workbench/contrib/terminalContrib/chatAgentTools/browser/runInTerminalTool": {
-			"runInTerminal.background": "在背景終端機中執行命令",
-			"runInTerminal.foreground": "在終端機中執行命令",
+		"vs/workbench/contrib/terminalContrib/chatAgentTools/browser/tools/getTerminalSelectionTool": {
+			"getTerminalSelection.past": "讀取終端機選取範圍",
+			"getTerminalSelection.progressive": "正在讀取終端機選取範圍",
+			"terminalSelectionTool.displayName": "取得終端機選取範圍"
+		},
+		"vs/workbench/contrib/terminalContrib/chatAgentTools/browser/tools/monitoring/outputMonitor": {
+			"poll.terminal.accept": "Yes",
+			"poll.terminal.acceptRun": "Yes",
+			"poll.terminal.confirmRun": "Run `{0}` in the terminal?",
+			"poll.terminal.confirmRunDetail": "The terminal output appears to require a response. Do you want to send `{0}` to the terminal?",
+			"poll.terminal.polling": "This will continue to poll for output to determine when the terminal becomes idle for up to 2 minutes.",
+			"poll.terminal.reject": "No",
+			"poll.terminal.rejectRun": "No",
+			"poll.terminal.waiting": "Continue waiting for `{0}`?"
+		},
+		"vs/workbench/contrib/terminalContrib/chatAgentTools/browser/tools/runInTerminalTool": {
+			"autoApprove.global": "由設定 {0} 自動核准",
+			"autoApprove.rule": "由規則 {0} 自動核准",
+			"autoApprove.rules": "由規則 {0} 自動核准",
+			"autoApproveDenied.rule": "規則 {0} 拒絕自動核准",
+			"autoApproveDenied.rules": "規則 {0} 拒絕自動核准",
+			"ruleTooltip": "檢視設定中的規則",
+			"ruleTooltip.global": "檢視設定",
+			"runInTerminal": "執行 `{0}` 命令?",
+			"runInTerminal.background": "執行 `{0}` 命令?(背景終端機)",
+			"runInTerminal.promptInjectionDisclaimer": "網頁內容可能包含惡意程式碼或嘗試提示插入攻擊。",
 			"runInTerminalTool.displayName": "在終端中執行",
 			"runInTerminalTool.userDescription": "在終端中執行命令的工具"
 		},
-		"vs/workbench/contrib/terminalContrib/chatAgentTools/browser/task.chatAgentTools.contribution": {
-			"toolset.runTasks": "Runs tasks and gets their output for your workspace"
+		"vs/workbench/contrib/terminalContrib/chatAgentTools/browser/tools/task/createAndRunTaskTool": {
+			"allowTaskCreationExecution": "是否允許建立及執行工作?",
+			"alreadyRunning": "工作 `{0}` 已在執行。",
+			"copilotChat.fetchingTask": "正在解析工作",
+			"copilotChat.noTerminal": "工作已啟動，但找不到 `{0}` 的終端機",
+			"copilotChat.runningTask": "正在執行工作 `{0}`",
+			"copilotChat.taskNotFound": "找不到工作: `{0}`",
+			"copilotCreateTask": "Copilot 將使用命令 `{1}`{2} 建立工作 `{0}`。",
+			"createAndRunTask.displayName": "建立並執行工作",
+			"createAndRunTask.modelDescription": "透過根據專案結構 (例如 package.json 或 README.md) 產生或新增 tasks.json 檔案，來建立和執行工作區的建置、執行或自訂工作。如果使用者要求建置、執行或啟動，但沒有 tasks.json 檔案，請使用此工具。如果他們要求建立或新增工作，請使用此工具。",
+			"createAndRunTask.userDescription": "在工作區中建立並執行工作",
+			"createdTask": "已建立工作 `{0}`",
+			"createdTaskPast": "已建立工作 `{0}`",
+			"taskExists": "工作 `{0}` 已存在。",
+			"taskExistsPast": "工作 `{0}` 已存在。"
 		},
-		"vs/workbench/contrib/terminalContrib/chatAgentTools/browser/task/createAndRunTaskTool": {
-			"allowTaskCreationExecution": "Allow task creation and execution?",
-			"alreadyRunning": "Task `{0}` is already running.",
-			"copilotChat.checkingOutput": "Checking output for `{0}`",
-			"copilotChat.fetchingTask": "Resolving the task",
-			"copilotChat.noTerminal": "Task started but no terminal was found for: `{0}`",
-			"copilotChat.runningTask": "Running task `{0}`",
-			"copilotChat.taskNotFound": "Task not found: `{0}`",
-			"copilotCreateTask": "Copilot will create the task `{0}` with command `{1}`{2}.",
-			"createAndRunTask.displayName": "Create and run Task",
-			"createAndRunTask.modelDescription": "For a workspace, this tool will create a task based on the package.json, README.md, and project structure so that the project can be built and run.",
-			"createAndRunTask.userDescription": "Create and run a task in the workspace",
-			"createdTask": "Created task `{0}`",
-			"createdTaskPast": "Created task `{0}`",
-			"taskExists": "Task `{0}` already exists.",
-			"taskExistsPast": "Task `{0}` already exists."
-		},
-		"vs/workbench/contrib/terminalContrib/chatAgentTools/browser/task/getTaskOutputTool": {
-			"copilotChat.checkedTerminalOutput": "Checked output for task `{0}`",
-			"copilotChat.checkingTerminalOutput": "Checking output for task `{0}`",
+		"vs/workbench/contrib/terminalContrib/chatAgentTools/browser/tools/task/getTaskOutputTool": {
+			"copilotChat.checkedTerminalOutput": "已檢查工作 `{0}` 的輸出",
+			"copilotChat.checkingTerminalOutput": "正在檢查工作 `{0}` 的輸出",
 			"copilotChat.taskAlreadyRunning": "工作 `{0}` 已在執行。",
 			"copilotChat.taskNotFound": "找不到工作: `{0}`",
 			"copilotChat.terminalNotFound": "找不到工作 `{0}` 的終端機",
 			"getTaskOutputTool.displayName": "取得工作輸出"
 		},
-		"vs/workbench/contrib/terminalContrib/chatAgentTools/browser/task/runTaskTool": {
+		"vs/workbench/contrib/terminalContrib/chatAgentTools/browser/tools/task/runTaskTool": {
 			"copilotChat.allowTaskRunMsg": "是否允許 Copilot 執行 `{0}` 工作?",
 			"copilotChat.allowTaskRunTitle": "是否允許執行工作?",
-			"copilotChat.checkingOutput": "正在檢查 `{0}` 的輸出",
 			"copilotChat.noTerminal": "工作已啟動，但找不到 `{0}` 的終端機",
 			"copilotChat.ranTask": "已執行 `{0}`",
 			"copilotChat.runningTask": "正在執行 `{0}`",
@@ -14345,11 +14529,13 @@
 			"runInTerminalTool.displayName": "執行工作",
 			"runInTerminalTool.userDescription": "用於在工作區中執行工作的工具"
 		},
-		"vs/workbench/contrib/terminalContrib/chatAgentTools/browser/terminal.chatAgentTools.contribution": {
-			"toolset.runCommands": "在終端機中執行命令"
+		"vs/workbench/contrib/terminalContrib/chatAgentTools/browser/tools/task/taskHelpers": {
+			"copilotChat.taskFailedWithExitCode": "Task `{0}` failed with exit code {1}."
 		},
 		"vs/workbench/contrib/terminalContrib/chatAgentTools/common/terminalChatAgentToolsConfiguration": {
-			"autoApprove.description.commandLine": "物件可用來比對完整命令列，而不是比對子命令和內嵌命令，例如 {0}。這將在檢查子命令 _之後_ 進行檢查，甚至優先於被拒絕的子命令。",
+			"autoApprove.deprecated": "請改用 {0}",
+			"autoApprove.description.commandLine": "物件可用來比對完整命令列，而不是比對子命令和內嵌命令，例如 {0}。若要自動核准 _兩者_，子命令和命令行都不得被明確拒絕，然後必須核准 _任一_ 所有子命令或命令行。",
+			"autoApprove.description.examples.binTest": "允許所有符合路徑 {0} ({1}、{2} 等) 的命令",
 			"autoApprove.description.examples.description": "描述",
 			"autoApprove.description.examples.mkdir": "允許所有以 {0} 開頭的命令",
 			"autoApprove.description.examples.npmRunBuild": "允許所有以 {0} 開頭的命令",
@@ -14362,7 +14548,7 @@
 			"autoApprove.description.examples.title": "範例:",
 			"autoApprove.description.examples.value": "值",
 			"autoApprove.description.intro": "控制終端工具命令中的執行是否要求明確核准命令或規則運算式清單。這些將與命令的開頭進行比對。可以將字串包裹在 {0} 字元中，後面接著用於不區分大小寫的選擇性旗標 (例如 {1}) 來提供規則運算式。",
-			"autoApprove.description.subCommands": "請注意，這些命令和規則運算式會針對完整 _命令列_ 內的每個 _子命令_ 進行評估，因此，舉例來說，{0} 將需要 {1} 和 {2} 同時符合 {3} 項目，而且不能符合 {4} 項目，才能自動核准。系統也會偵測內嵌命令，因此 {5} 需要 {5} 和 {6} 兩者才能通過。",
+			"autoApprove.description.subCommands": "Note that these commands and regular expressions are evaluated for every _sub-command_ within the full _command line_, so {0} for example will need both {1} and {2} to match a {3} entry and must not match a {4} entry in order to auto approve. Inline commands such as {5} (command sustitution) or {6} (process substitution) are currently blocked by default via broad rules that detect these patterns.",
 			"autoApprove.description.values": "設為 [{0}] 以自動核准命令，設為 [{1}] 以一律要求明確核准，或設為 [{2}] 以取消設定該值。",
 			"autoApprove.false": "需要對該模式進行明確核准。",
 			"autoApprove.key": "要比對的命令開頭。可以通過將字串包裹在 '/' 字元中來提供規則運算式。",
@@ -14370,7 +14556,8 @@
 			"autoApprove.matchCommandLine.false": "與子命令和內嵌命令進行比對，例如 `foo && bar` 需要同時比對 `foo` 和 `bar`。",
 			"autoApprove.matchCommandLine.true": "與完整的命令列進行比對，例如 `foo && bar`。",
 			"autoApprove.null": "忽略此模式，這對於取消在較高範圍內設定的相同模式非常有用。",
-			"autoApprove.true": "自動核准該模式。"
+			"autoApprove.true": "自動核准該模式。",
+			"shellIntegrationTimeout.description": "Configures the duration in milliseconds to wait for shell integration to be detected when the run in terminal tool launches a new terminal. Set to `0` to wait the minimum time, the default value `-1` means the wait time is variable based on the value of {0} and whether it's a remote window. A large value can be useful if your shell starts very slowly and a low value if you're intentionally not using shell integration."
 		},
 		"vs/workbench/contrib/terminalContrib/clipboard/browser/terminal.clipboard.contribution": {
 			"workbench.action.terminal.copyAndClearSelection": "複製並清除選取範圍",
@@ -14607,9 +14794,8 @@
 			"suggest.inlineSuggestion.alwaysOnTop": "啟用功能，並一律將內嵌建議放在最上方。",
 			"suggest.inlineSuggestion.alwaysOnTopExceptExactMatch": "啟用功能並排序內嵌建議，而不強制將它排在最上方。這表示完全相符的專案將高於內嵌建議。",
 			"suggest.inlineSuggestion.off": "停用功能。",
-			"suggest.provider.description": "Whether to enable this provider.",
-			"suggest.provider.pwsh.deprecation": "This is deprecated as it has performance problems, the upcoming LSP provider will supersede this.",
-			"suggest.provider.pwsh.description": "Enable or disable the PowerShell script-based provider. This enables PowerShell-specific argument completion.",
+			"suggest.provider.description": "是否要啟用此提供者。",
+			"suggest.provider.lsp.description": "啟用或停用 LSP 型提供者。這會啟用語言伺服器通訊協定特定的引數完成。",
 			"suggest.providers": "默認會啟用提供者。將提供者的標識碼設為 『false』 以省略。",
 			"suggest.quickSuggestions": "控制輸入時是否應自動顯示建議。另外也請注意 {0} 設定，其會控制建議是否由特殊字元所觸發。",
 			"suggest.quickSuggestions.arguments": "啟用自變數的快速建議，在命令行輸入的第一個字之後的任何專案。",
@@ -14667,9 +14853,12 @@
 			"coverage.toggleInline": "切換內嵌涵蓋範圍",
 			"testing.coverageForTestAvailable": "{0} 個測試在此檔案中執行程式碼",
 			"testing.filterActionLabel": "篩選要測試的涵蓋範圍",
+			"testing.hideCoverageInExplorer": "在 Explorer 中隱藏覆蓋範圍",
 			"testing.hideInlineCoverage": "隱藏內嵌涵蓋範圍",
 			"testing.rerun": "重新執行",
 			"testing.showInlineCoverage": "顯示內嵌涵蓋範圍",
+			"testing.toggleCoverageInExplorerDesc": "切換檔案總管檢視中的測試覆蓋範圍顯示。",
+			"testing.toggleCoverageInExplorerTitle": "在 Explorer 中切換覆蓋範圍",
 			"testing.toggleInlineCoverage": "切換內嵌",
 			"testing.toggleToolbarDesc": "在編輯器中切換自黏涵蓋範圍列。",
 			"testing.toggleToolbarTitle": "測試涵蓋範圍工具列"
@@ -14725,6 +14914,7 @@
 			"testCoverageTreeLabel": "測試涵蓋範圍總管",
 			"testing.changeCoverageFilter": "依測試篩選涵蓋範圍",
 			"testing.changeCoverageSort": "變更排序次序",
+			"testing.coverageCollapseAll": "Collapse All Coverage",
 			"testing.coverageSortByCoverage": "依涵蓋範圍排序",
 			"testing.coverageSortByCoverageDescription": "檔案和宣告會依涵蓋範圍總計排序",
 			"testing.coverageSortByLocation": "依位置排序",
@@ -15000,17 +15190,17 @@
 			"testing.treeElementLabel": "{0} ({1})"
 		},
 		"vs/workbench/contrib/testing/common/testingChatAgentTool": {
-			"runTestTool.confirm.all": "The model wants to run all tests.",
-			"runTestTool.confirm.invocation": "Running tests...",
-			"runTestTool.confirm.message": "The model wants to run tests in {0}.",
-			"runTestTool.confirm.title": "Allow test run?",
-			"runTestTool.invoke.cancelled": "Test run was cancelled.",
-			"runTestTool.invoke.filesProgress": "Discovering tests...",
-			"runTestTool.invoke.filterProgress": "Filtering tests...",
-			"runTestTool.invoke.progress": "Starting test run...",
-			"runTestTool.noRunStarted": "No test run was started. This may be an issue with your test runner or extension.",
-			"runTestTool.noTests": "No tests found in the files",
-			"runTestTool.userDescription": "Runs unit tests"
+			"runTestTool.confirm.all": "模型想要執行所有測試。",
+			"runTestTool.confirm.invocation": "正在執行測試...",
+			"runTestTool.confirm.message": "模型想要在 {0} 中執行測試。",
+			"runTestTool.confirm.title": "允許執行測試?",
+			"runTestTool.invoke.cancelled": "測試回合已取消。",
+			"runTestTool.invoke.filesProgress": "正在探索測試...",
+			"runTestTool.invoke.filterProgress": "正在篩選測試...",
+			"runTestTool.invoke.progress": "開始測試執行...",
+			"runTestTool.noRunStarted": "未啟動任何測試執行。這可能是測試執行器或延伸模組的問題。",
+			"runTestTool.noTests": "在檔案中找不到測試",
+			"runTestTool.userDescription": "執行單元測試"
 		},
 		"vs/workbench/contrib/testing/common/testingContentProvider": {
 			"runNoOutout": "測試回合未記錄任何輸出。"
@@ -15027,6 +15217,7 @@
 			"testing.hasCoverableTests": "指出是否有任何測試控制器已註冊涵蓋範圍設定",
 			"testing.hasCoverageInFile": "表示已在目前的編輯器中回報涵蓋範圍。",
 			"testing.hasDebuggableTests": "指出是否有任何測試控制器已註冊偵錯組態",
+			"testing.hasInlineCoverageDetails": "指出內嵌顯示是否提供詳細的逐行覆蓋範圍",
 			"testing.hasNonDefaultConfig": "指出是否有任何測試控制器已註冊非預設設定",
 			"testing.hasPerTestCoverage": "指出每一測試涵蓋範圍是否可用",
 			"testing.hasRunnableTests": "指出是否有任何測試控制器已註冊執行設定",
@@ -15048,11 +15239,11 @@
 			"testing.testResultState": "可用於測試/項目/結果的值，指出項目的狀態。"
 		},
 		"vs/workbench/contrib/testing/common/testingProgressMessages": {
-			"testProgress.completed": "{0}/{1} tests passed ({2}%)",
-			"testProgress.running": "Running tests, {0}/{1} passed ({2}%)",
-			"testProgress.runningInitial": "Running tests...",
-			"testProgressWithSkip.completed": "{0}/{1} tests passed ({2}%, {3} skipped)",
-			"testProgressWithSkip.running": "Running tests, {0}/{1} tests passed ({2}%, {3} skipped)"
+			"testProgress.completed": "有 {0}/{1} 個測試通過 ({2}%)",
+			"testProgress.running": "正在執行測試，{0}/{1} 已通過 ({2}%)",
+			"testProgress.runningInitial": "正在執行測試...",
+			"testProgressWithSkip.completed": "有 {0}/{1} 個測試通過 ({2}%，已跳過 {3} 個)",
+			"testProgressWithSkip.running": "正在執行測試，{0}/{1} 個測試已通過 ({2}%，已跳過 {3} 個)"
 		},
 		"vs/workbench/contrib/testing/common/testResult": {
 			"runFinished": "測試回合於 {0}",
@@ -15544,7 +15735,6 @@
 			"acessibleViewHint": "在可存取檢視中檢查此項目 ({0})。\r\n",
 			"acessibleViewHintNoKbOpen": "透過目前無法透過按鍵繫結關係觸發的命令 [開啟可存取檢視]，在可存取檢視中檢查此項目。\r\n",
 			"allDone": "標記完成",
-			"back": "返回",
 			"checkboxTitle": "核取時，啟動時會顯示此頁面。",
 			"close": "隱藏",
 			"closeAriaLabel": "隱藏",
@@ -15555,18 +15745,13 @@
 			"gettingStarted.someStepsComplete": "{1} 個步驟中已完成 {0} 個",
 			"goBack": "返回",
 			"imageShowing": "顯示 {0} 的影像",
-			"last": "開始編碼",
-			"lastStep": "開始編碼",
 			"new": "新增",
 			"newItems": "已更新",
-			"next": "下一步",
 			"nextOne": "下一節",
-			"nextStep": "下一步",
 			"noRecents": "您沒有最近使用的資料夾，",
 			"openFolder": "開啟資料夾",
 			"optOut": "退出",
 			"pickWalkthroughs": "開啟逐步解說...",
-			"previousStep": "上一步",
 			"privacy statement": "隱私權聲明",
 			"recent": "最近使用",
 			"show more recents": "顯示所有最近使用的資料夾 {0}",
@@ -15593,7 +15778,6 @@
 			"welcome.markStepComplete": "標記步驟完成",
 			"welcome.markStepInomplete": "將步驟標記為未完成",
 			"welcome.showAllWalkthroughs": "開啟逐步解說...",
-			"welcome.showNewWelcome": "開啟新的歡迎使用體驗",
 			"workbench.startupEditor": "控制在啟動時顯示哪個編輯器，若沒有，則從上個工作階段還原。",
 			"workbench.startupEditor.newUntitledFile": "開啟一個新的無標題文字檔 (僅在開啟空白視窗時適用)。",
 			"workbench.startupEditor.none": "不使用編輯器開始。",
@@ -15692,8 +15876,6 @@
 			"gettingStarted.accessibilitySignals.title": "微調您要透過音訊或點字裝置接收的協助工具訊號",
 			"gettingStarted.accessibleView.description.interpolated": "可存取的檢視可供終端機、暫留、通知、註解、筆記本輸出、聊天回應、內嵌完成和偵錯主控台輸出使用。\r\n 焦點位於這些功能之一時，可以使用 [開啟可存取的檢視] 命令來開啟它。\r\n{0}",
 			"gettingStarted.accessibleView.title": "螢幕助讀程式使用者能在可存取的檢視中，逐行及逐字元檢查內容。",
-			"gettingStarted.agentMode.description": "分析問題、規劃後續步驟，以及為您進行變更。",
-			"gettingStarted.agentMode.title": "代理程式模式",
 			"gettingStarted.beginner.description": "取得最重要功能的概觀",
 			"gettingStarted.beginner.title": "了解基礎",
 			"gettingStarted.beginner.walkthroughPageTitle": "基本功能",
@@ -15704,9 +15886,7 @@
 			"gettingStarted.commandPaletteAccessibility.description.interpolated": "在 VS Code 中執行命令而不需使用滑鼠來完成任何工作。\r\n{0}",
 			"gettingStarted.commandPaletteAccessibility.title": "使用命令選擇區發掘生產力",
 			"gettingStarted.copilotSetup.description": "您可以使用 [Copilot]({0})，跨多個檔案產生程式代碼、修正錯誤、詢問有關程式碼的問題，以及使用自然語言進行其他作業。",
-			"gettingStarted.copilotSetup.title": "使用 AI 功能搭配 Copilot 免費版",
-			"gettingStarted.customize.description": "切換模型、新增代理程式模式工具，以及建立個人化指示。\r\n{0}",
-			"gettingStarted.customize.title": "個人化您的工作方式",
+			"gettingStarted.copilotSetup.title": "Use AI features with GitHub Copilot for free",
 			"gettingStarted.debug.description.interpolated": "設定啟動設定，加速您的編輯、編譯、測試和偵錯迴圈。\r\n{0}",
 			"gettingStarted.debug.title": "觀看您的程式碼執行",
 			"gettingStarted.extensions.description.interpolated": "延伸模組是 VS Code 的一大助力。範圍涵蓋實用的生產力工具，可以不斷擴展現成可用的功能，以及持續增加的新功能。\r\n{0}",
@@ -15716,7 +15896,7 @@
 			"gettingStarted.findLanguageExts.title": "您所有語言的豐富支援",
 			"gettingStarted.goToSymbol.description.interpolated": "[移至符號] 命令對於在文件中的重要地標之間瀏覽很有用。\r\n{0}",
 			"gettingStarted.goToSymbol.title": "瀏覽至檔案中的符號",
-			"gettingStarted.hover.description.interpolated": "While focus is in the editor on a variable or symbol, a hover can be focused with the Show or Open Hover command.\r\n{0}",
+			"gettingStarted.hover.description.interpolated": "焦點位於編輯器的變數或符號上時，可以使用 [顯示或開啟暫留] 命令來聚焦暫留。\r\n{0}",
 			"gettingStarted.hover.title": "存取編輯器中的暫留，以取得變數或符號的詳細資訊",
 			"gettingStarted.installGit.description.interpolated": "安裝 Git 以追蹤專案中的變更。\r\n{0}\r\n安裝後{1}重新載入視窗{2}以完成 Git 設定。",
 			"gettingStarted.installGit.title": "安裝 Git",
@@ -15726,15 +15906,10 @@
 			"gettingStarted.keyboardShortcuts.title": "自訂您的鍵盤快速鍵",
 			"gettingStarted.menuBar.description.interpolated": "下拉式功能表中提供完整的功能表列，可為程式碼騰出空間。切換其外觀以加快存取速度。\r\n{0}",
 			"gettingStarted.menuBar.title": "正確的 UI 數量",
-			"gettingStarted.nes.description": "取得可預測接下來編輯的程式碼建議。",
-			"gettingStarted.nes.title": "下一個編輯建議",
-			"gettingStarted.new.description": "使用 AI 加速編碼",
-			"gettingStarted.new.title": "開始使用 VS Code",
-			"gettingStarted.new.walkthroughPageTitle": "設定 VS Code",
 			"gettingStarted.newFile.description": "開啟新的無標題文字檔、筆記本或自訂編輯器。",
 			"gettingStarted.newFile.title": "新增檔案...",
-			"gettingStarted.newWorkspaceChat.description": "使用 Copilot 建立新工作區",
-			"gettingStarted.newWorkspaceChat.title": "使用 Copilot 新增工作區...",
+			"gettingStarted.newWorkspaceChat.description": "聊天以建立新工作區",
+			"gettingStarted.newWorkspaceChat.title": "產生新工作區...",
 			"gettingStarted.notebook.title": "自訂筆記本",
 			"gettingStarted.notebook.walkthroughPageTitle": "筆記本",
 			"gettingStarted.notebookProfile.description": "讓筆記本成為您喜歡的方式",
@@ -15793,9 +15968,6 @@
 			"keyboardShortcuts": "鍵盤快速鍵",
 			"listSignalAnnouncements": "列出訊號公告",
 			"listSignalSounds": "列出訊號音效",
-			"newgettingStarted.commandPalette.title": "所有命令都觸手可及",
-			"newgettingStarted.findLanguageExts.description.interpolated": "在工具組中安裝您需要的語言擴充。\r\n{0}",
-			"newgettingStarted.findLanguageExts.title": "支援所有語言",
 			"openAccessibilityHelp": "開啟協助工具說明",
 			"openAccessibilitySettings": "開啟協助工具設定",
 			"openAccessibleView": "開啟可存取的檢視",
@@ -15813,7 +15985,6 @@
 			"setupCopilotButton.signIn": "設定 Copilot",
 			"showOrFocusHover": "顯示或聚焦暫留",
 			"showTerminal": "開啟終端機",
-			"signUp": "啟用 AI 功能",
 			"titleID": "瀏覽色彩主題",
 			"toggleFold": "切換摺疊",
 			"toggleFoldRecursively": "以遞迴方式切換摺疊",
@@ -16061,14 +16232,15 @@
 			"keyboard shortcuts": "鍵盤快速鍵",
 			"menuContexts": "功能表內容",
 			"menus.changeTitle": "原始檔控制內嵌變更功能表",
+			"menus.chatMultiDiffContext": "The Chat Multi-Diff context menu.",
 			"menus.chatSessions": "聊天工作階段功能表。",
-			"menus.chatTerminal": "終端操作功能表中的 [聊天] 子功能表。",
 			"menus.chatTextEditor": "文字編輯器操作功能表中的 [聊天] 子功能表。",
 			"menus.commandPalette": "命令選擇區",
 			"menus.debugCallstackContext": "偵錯呼叫堆疊檢視操作功能表",
 			"menus.debugCreateConfiguation": "偵錯建立設定功能表",
 			"menus.debugToolBar": "偵錯工具列功能表",
 			"menus.debugVariablesContext": "偵錯變數檢視操作功能表",
+			"menus.debugWatchContext": "偵錯監看檢視快顯功能表",
 			"menus.diffEditorGutterToolBarMenus": "Diff 編輯器中的裝訂邊工具列",
 			"menus.editorContext": "編輯器操作功能表",
 			"menus.editorContextCopyAs": "編輯器操作功能表中的 [複製為] 子功能表",
@@ -16557,6 +16729,7 @@
 			"vscode.extension.activationEvents.onFileSystem": "在每次透過指定的配置存取檔案或資料夾時，所發出的啟用事件。",
 			"vscode.extension.activationEvents.onIssueReporterOpened": "當問題報告程式開啟時，會發出啟用事件。",
 			"vscode.extension.activationEvents.onLanguage": "只要開啟了可解析為指定語言的檔案時，就會發出啟動事件。",
+			"vscode.extension.activationEvents.onLanguageModelChat": "當要求特定廠商的聊天模型提供者時，會發出一個啟用事件。",
 			"vscode.extension.activationEvents.onLanguageModelTool": "叫用指定的語言模型工具時，會發出啟用事件。",
 			"vscode.extension.activationEvents.onMcpCollection": "每當從 MCP 伺服器要求工具時發出的啟用事件。",
 			"vscode.extension.activationEvents.onNotebook": "當指定的筆記本文件開啟時，就會發出啟用事件。",

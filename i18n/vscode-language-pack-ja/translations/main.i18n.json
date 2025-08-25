@@ -326,11 +326,11 @@
 			"editor.experimental.asyncTokenization": "Web ワーカーでトークン化を非同期的に行うかどうかを制御します。",
 			"editor.experimental.asyncTokenizationLogging": "非同期トークン化をログに記録するかどうかを制御します。デバッグ用のみ。",
 			"editor.experimental.asyncTokenizationVerification": "従来のバックグラウンド トークン化に対して非同期トークン化を検証するかどうかを制御します。トークン化が遅くなる可能性があります。デバッグ専用です。",
-			"editor.experimental.preferTreeSitter.css": "css に対してツリー シッター解析を有効にするかどうかを制御します。これは、css に対する 'editor.experimental.treeSitterTelemetry' よりも優先されます。",
-			"editor.experimental.preferTreeSitter.ini": "ini に対してツリー シッターの解析を有効にするかどうかを制御します。ini の場合、これは 'editor.experimental.treeSitterTelemetry' よりも優先されます。",
-			"editor.experimental.preferTreeSitter.regex": "RegEx に対してツリー シッター解析を有効にするかどうかを制御します。これは、'editor.experimental.treeSitterTelemetry' よりも優先されます。",
-			"editor.experimental.preferTreeSitter.typescript": "typescript に対してツリー シッターの解析を有効にするかどうかを制御します。これは、typescript の 'editor.experimental.treeSitterTelemetry' よりも優先されます。",
-			"editor.experimental.treeSitterTelemetry": "ツリー シッターの解析を有効にし、テレメトリを収集するかどうかを制御します。特定の言語に対する 'editor.experimental.preferTreeSitter' の設定が優先されます。",
+			"editor.experimental.preferTreeSitter.css": "css に対してツリー シッター解析を有効にするかどうかを制御します。これは、css に対する `#editor.experimental.treeSitterTelemetry#` よりも優先されます。",
+			"editor.experimental.preferTreeSitter.ini": "ini に対してツリー シッター解析を有効にするかどうかを制御します。これは、ini に対する `#editor.experimental.treeSitterTelemetry#` よりも優先されます。",
+			"editor.experimental.preferTreeSitter.regex": "RegEx に対してツリー シッター解析を有効にするかどうかを制御します。これは、RegEx に対する `#editor.experimental.treeSitterTelemetry#` よりも優先されます。",
+			"editor.experimental.preferTreeSitter.typescript": "TypeScript に対してツリー シッター解析を有効にするかどうかを制御します。これは、TypeScript に対する `#editor.experimental.treeSitterTelemetry#` よりも優先されます。",
+			"editor.experimental.treeSitterTelemetry": "ツリー シッターの解析を有効にし、テレメトリを収集するかどうかを制御します。特定の言語に対する `#editor.experimental.preferTreeSitter#` の設定が優先されます。",
 			"editorConfigurationTitle": "エディター",
 			"hideUnchangedRegions.contextLineCount": "変更されていない領域を比較するときにコンテキストとして使用される行の数を制御します。",
 			"hideUnchangedRegions.enabled": "差分エディターに変更されていない領域を表示するかどうかを制御します。",
@@ -573,7 +573,7 @@
 			"hover.above": "スペースがある場合は、行の上にマウス カーソルを被せて表示する。",
 			"hover.delay": "ホバーを表示後の待ち時間 (ミリ秒) を制御します。",
 			"hover.enabled": "ホバーを表示するかどうかを制御します。",
-			"hover.hidingDelay": "ホバーが非表示になるまでの遅延をミリ秒単位で制御します。`editor.hover.sticky` を有効にする必要があります。",
+			"hover.hidingDelay": "ホバーが非表示になるまでの延期期間をミリ秒単位で制御します。`#editor.hover.sticky#` を有効にする必要があります。",
 			"hover.sticky": "ホバーにマウスを移動したときに、ホバーを表示し続けるかどうかを制御します。",
 			"inertialScroll": "スクロールを慣性にする - Linux 上のタッチパッドでほとんど役に立ちます。",
 			"inlayHints.enable": "エディターでインレー ヒントを有効にします。",
@@ -588,6 +588,8 @@
 			"inlineSuggest.edits.showCollapsed": "候補が折りたたまれた状態で表示されるかどうかを、その候補にジャンプするまで制御します。",
 			"inlineSuggest.enabled": "エディターにインライン候補を自動的に表示するかどうかを制御します。",
 			"inlineSuggest.fontFamily": "インライン提案のフォント ファミリを制御します。",
+			"inlineSuggest.minShowDelay": "入力後にインライン提案が表示されるまでの最小延期期間 (ミリ秒) を制御します。",
+			"inlineSuggest.showOnSuggestConflict": "提案の競合がある場合にインライン候補を表示するかどうかを制御します。",
 			"inlineSuggest.showToolbar": "インライン候補ツール バーを表示するタイミングを制御します。",
 			"inlineSuggest.showToolbar.always": "インライン候補が表示されるたびに、インライン候補ツール バーを表示します。",
 			"inlineSuggest.showToolbar.never": "インライン候補ツール バーを今後は表示しないでください。",
@@ -663,13 +665,13 @@
 			"quickSuggestions.strings": "文字列内でクイック候補を有効にします。",
 			"quickSuggestionsDelay": "クイック候補が表示されるまでのミリ秒を制御します。",
 			"renameOnType": "エディターでの型の自動名前変更を制御します。",
-			"renameOnTypeDeprecate": "非推奨です。代わりに、`editor.linkedEditing` を使用してください。",
+			"renameOnTypeDeprecate": "非推奨です。代わりに、`#editor.linkedEditing#` を使用してください。",
 			"renderControlCharacters": "エディターで制御文字を表示するかどうかを制御します。",
 			"renderFinalNewline": "ファイルの末尾が改行の場合は、最後の行番号を表示します。",
 			"renderLineHighlight": "エディターが現在の行をどのように強調表示するかを制御します。",
 			"renderLineHighlight.all": "余白と現在の行を強調表示します。",
 			"renderLineHighlightOnlyWhenFocus": "エディターにフォーカスがある場合にのみ現在の行をエディターで強調表示する必要があるかどうかを制御します。",
-			"renderRichScreenReaderContent": "`editor.editContext` が有効な場合にリッチ スクリーン リーダー コンテンツをレンダリングするかどうか。",
+			"renderRichScreenReaderContent": "`#editor.editContext#` 設定が有効な場合にリッチ スクリーン リーダー コンテンツをレンダリングするかどうか。",
 			"renderWhitespace": "エディターで空白文字を表示するかどうかを制御します。",
 			"renderWhitespace.boundary": "単語間の単一スペース以外の空白文字を表示します。",
 			"renderWhitespace.selection": "選択したテキストにのみ空白文字を表示します。",
@@ -760,7 +762,7 @@
 			"wordBreak": "中国語/日本語/韓国語 (CJK) テキストに使用される単語区切り規則を制御します。",
 			"wordBreak.keepAll": "中国語/日本語/韓国語 (CJK) のテキストには単語区切りを使用しないでください。CJK 以外のテキストの動作は、通常の場合と同じです。",
 			"wordBreak.normal": "既定の改行ルールを使用します。",
-			"wordSegmenterLocales": "Locales to be used for word segmentation when doing word related navigations or operations. Specify the BCP 47 language tag of the word you wish to recognize (e.g., ja, zh-CN, zh-Hant-TW, etc.).",
+			"wordSegmenterLocales": "単語に関連するナビゲーションまたは操作を行うときに単語のセグメント化に使用されるロケール。認識する単語の BCP 47 言語タグを指定します (例: ja、zh-CN、zh-Hant-TW など)。",
 			"wordSeparators": "単語に関連したナビゲーションまたは操作を実行するときに、単語の区切り文字として使用される文字。",
 			"wordWrap": "行の折り返し方法を制御します。",
 			"wordWrap.bounded": "ビューポートと `#editor.wordWrapColumn#` の最小値で行を折り返します。",
@@ -768,7 +770,7 @@
 			"wordWrap.on": "行をビューポートの幅で折り返します。",
 			"wordWrap.wordWrapColumn": "`#editor.wordWrapColumn#` で行を折り返します。",
 			"wordWrapColumn": "`#editor.wordWrap#` が `wordWrapColumn` または `bounded` の場合に、エディターの折り返し桁を制御します。",
-			"wrapOnEscapedLineFeeds": "リテラル '\\n' が wordWrap をトリガーするかどうかを制御します。\r\n例:\r\n```c\r\nchar* str=\"hello\\nworld\"\r\n```\r\nは次のように表示されます\r\n```c\r\nchar* str=\"hello\\n\r\n           world\"\r\n```",
+			"wrapOnEscapedLineFeeds": "`#editor.wordWrap#` が有効になっている場合に、リテラルの `\\n` によって行の折り返しをトリガーするかどうかを制御します。\r\n\r\n例:\r\n```c\r\nchar* str=\"hello\\nworld\"\r\n```\r\nは次のように表示されます\r\n```c\r\nchar* str=\"hello\\n\r\n           world\"\r\n```",
 			"wrappingIndent": "折り返し行のインデントを制御します。",
 			"wrappingIndent.deepIndent": "折り返し行は、親 +2 のインデントになります。",
 			"wrappingIndent.indent": "折り返し行は、親 +1 のインデントになります。",
@@ -2116,12 +2118,18 @@
 			"contextkey.scanner.hint.didYouMean2": "{0} または {1} を意図していましたか?",
 			"contextkey.scanner.hint.didYouMean3": "{0}、{1}、または {2} を意図していましたか?"
 		},
+		"vs/platform/dialogs/browser/dialog": {
+			"aboutDetail": "バージョン: {0}\r\nコミット: {1}\r\n日付: {2}\r\nブラウザー: {3}"
+		},
 		"vs/platform/dialogs/common/dialogs": {
 			"cancelButton": "キャンセル",
 			"moreFile": "...1 つの追加ファイルが表示されていません",
 			"moreFiles": "...{0} 個の追加ファイルが表示されていません",
 			"okButton": "OK(&&O)",
 			"yesButton": "はい(&&Y)"
+		},
+		"vs/platform/dialogs/electron-browser/dialog": {
+			"aboutDetail": "バージョン: {0}\r\nコミット: {1}\r\n日付: {2}\r\nElectron: {3}\r\nElectronBuildId: {4}\r\nChromium: {5}\r\nNode.js: {6}\r\nV8: {7}\r\nOS: {8}"
 		},
 		"vs/platform/dialogs/electron-main/dialogMainService": {
 			"open": "開く",
@@ -2176,7 +2184,6 @@
 			"reuseWindow": "強制的に既に開いているウィンドウ内でファイルかフォルダーを開きます。",
 			"reuseWindowForChat": "チャット セッションで最後にアクティブだったウィンドウを強制的に使用します。",
 			"showVersions": "--list-extensions を使用する場合、インストールされている拡張機能のバージョンを表示します。",
-			"startupExperimentGroup": "スタートアップ実験グループをオーバーライドします。",
 			"status": "プロセスの使用状況や診断情報を印刷します。",
 			"stdinUsage": "stdin から読み取るには、'-' を追加します (例: '{0}')",
 			"subcommands": "サブコマンド",
@@ -2577,7 +2584,7 @@
 			"quickInput.visibleCount": "{0} 件の結果"
 		},
 		"vs/platform/quickinput/browser/quickInputList": {
-			"quickInput": "Quick Input"
+			"quickInput": "クイック入力"
 		},
 		"vs/platform/quickinput/browser/quickInputUtils": {
 			"executeCommand": "クリックして '{0}' コマンドを実行"
@@ -2588,10 +2595,10 @@
 			"terminal.commands.pinned": "ピン留め済み"
 		},
 		"vs/platform/quickinput/browser/tree/quickInputTreeAccessibilityProvider": {
-			"quickTree": "Quick Tree"
+			"quickTree": "クイック ツリー"
 		},
 		"vs/platform/quickinput/browser/tree/quickTree": {
-			"quickInputBox.ariaLabel": "Type to narrow down results."
+			"quickInputBox.ariaLabel": "入力すると結果が絞り込まれます。"
 		},
 		"vs/platform/remoteTunnel/common/remoteTunnel": {
 			"remoteTunnelLog": "リモート トンネル サービス"
@@ -2637,7 +2644,7 @@
 			"telemetry.enableTelemetry": "診断データの収集を有効にします。これにより、{0} の実行方法と改善が必要な場所について理解を深めることができます。",
 			"telemetry.enableTelemetryMd": "診断データの収集を有効にします。これにより、{0} の実行状況と改善が必要な箇所について理解を深めることができます。収集する情報とプライバシーに関する声明についての [Read more]({1}) をご覧ください。",
 			"telemetry.errors": "エラー テレメトリ",
-			"telemetry.feedback.enabled": "Copilot Chat などの機能について、問題報告機能、アンケート、フィードバック オプションなどのフィードバック メカニズムを有効にします。",
+			"telemetry.feedback.enabled": "Enable feedback mechanisms such as the issue reporter, surveys, and other feedback options.",
 			"telemetry.restart": "クラッシュ レポートの変更を有効にするには、アプリケーションを完全に再起動する必要があります。",
 			"telemetry.telemetryLevel.crash": "OS レベルのクラッシュ レポートを送信します。",
 			"telemetry.telemetryLevel.default": "使用状況データ、エラー、クラッシュ レポートを送信します。",
@@ -3232,6 +3239,9 @@
 			"provideClientDetails": "続行",
 			"yes": "はい"
 		},
+		"vs/workbench/api/browser/mainThreadChatSessions": {
+			"interruptActiveResponse": "アクティブなセッションを中断しますか?"
+		},
 		"vs/workbench/api/browser/mainThreadCLICommands": {
 			"cannot be installed": "'{0}' 拡張機能は、このセットアップでは実行されないように宣言されているため、インストールできません。"
 		},
@@ -3691,8 +3701,8 @@
 			"sideBarPosition": "プライマリ サイド バーの位置",
 			"sidebar": "サイド バー",
 			"sidebarContainer": "サイド バー/{0}",
-			"sidebarHidden": "Primary Side Bar hidden",
-			"sidebarVisible": "Primary Side Bar shown",
+			"sidebarHidden": "プライマリ サイド バーが表示されていません",
+			"sidebarVisible": "プライマリ サイド バーが表示されています",
 			"statusBar": "ステータス バー",
 			"statusBarIcon": "ステータス バーを表します",
 			"tabBar": "タブ バー",
@@ -3829,8 +3839,8 @@
 			"top": "上部"
 		},
 		"vs/workbench/browser/parts/auxiliarybar/auxiliaryBarActions": {
-			"auxiliaryBarHidden": "Secondary Side Bar hidden",
-			"auxiliaryBarVisible": "Secondary Side Bar shown",
+			"auxiliaryBarHidden": "セカンダリ サイド バーが表示されていません",
+			"auxiliaryBarVisible": "セカンダリ サイド バーが表示されています",
 			"closeIcon": "補助サイド バーを閉じるアイコンです。",
 			"closeSecondarySideBar": "セカンダリ サイド バーを非表示にする",
 			"focusAuxiliaryBar": "セカンダリ サイド バーにフォーカスする",
@@ -3884,7 +3894,6 @@
 			"viewsAndMoreActions": "ビューとその他のアクション..."
 		},
 		"vs/workbench/browser/parts/dialogs/dialogHandler": {
-			"aboutDetail": "バージョン: {0}\r\nコミット: {1}\r\n日付: {2}\r\nブラウザー: {3}",
 			"copy": "コピー(&&C)",
 			"ok": "OK"
 		},
@@ -3962,6 +3971,7 @@
 		"vs/workbench/browser/parts/editor/diffEditorCommands": {
 			"compare": "比較",
 			"compare.nextChange": "次の変更に移動",
+			"compare.openSide": "Open Active Diff Side",
 			"compare.previousChange": "前の変更に移動",
 			"swapDiffSides": "エディターの左側と右側を入れ替える",
 			"toggleInlineView": "インライン ビューの切り替え"
@@ -4106,6 +4116,7 @@
 		"vs/workbench/browser/parts/editor/editorActions": {
 			"clearButtonLabel": "クリア(&&C)",
 			"clearEditorHistory": "エディター履歴のクリア",
+			"clearEditorHistoryWithoutConfirm": "Clear Editor History without Confirmation",
 			"clearRecentFiles": "最近開いた項目をクリアします...",
 			"closeAllEditors": "すべてのエディターを閉じる",
 			"closeAllGroups": "すべてのエディター グループを閉じる",
@@ -4300,6 +4311,7 @@
 			"requiresFolderTrustText": "信頼がフォルダーに付与されていないため、ファイルはエディターに表示されません。",
 			"requiresWorkspaceTrustText": "信頼がワークスペースに付与されていないため、ファイルはエディターに表示されません。",
 			"retry": "再試行",
+			"showLogs": "ログを表示する",
 			"trustRequiredEditor": "ワークスペースの信頼が必須です",
 			"unavailableResourceErrorEditorText": "ファイルが見つからなかったため、エディターを開くことができませんでした。",
 			"unknownErrorEditorTextWithError": "予期しないエラーが発生したため、エディターを開けませんでした。詳細については、ログを参照してください。",
@@ -4348,7 +4360,10 @@
 			"pickEndOfLine": "改行コードの選択",
 			"pickLanguage": "言語モードの選択",
 			"pickLanguageToConfigure": "'{0}' に関連付ける言語モードの選択",
+			"reopen": "変更を破棄して再度開く",
 			"reopenWithEncoding": "エンコード付きで再度開く",
+			"reopenWithEncodingDetail": "これにより、保存されていない変更がすべて破棄されます。",
+			"reopenWithEncodingWarning": "アクティブなテキスト エディターを元に戻し、別のエンコードで再度開きますか?",
 			"saveWithEncoding": "エンコード付きで保存",
 			"selectEOL": "改行コードの選択",
 			"selectEncoding": "エンコードの選択",
@@ -4400,6 +4415,7 @@
 			"loading": "読み込み中...",
 			"manage": "管理",
 			"manage profile": "{0} (プロファイル) の管理",
+			"manageDynamicAuthProviders": "動的認証プロバイダーの管理...",
 			"manageTrustedExtensions": "信頼された拡張機能の管理",
 			"manageTrustedMCPServers": "信頼された MCP サーバーの管理",
 			"signOut": "サインアウト"
@@ -4765,6 +4781,7 @@
 			"sharedViewState": "すべてのエディター グループで最新のエディター ビューの状態 (スクロール位置など) を保持し、エディター グループに対する特定のエディター ビュー状態が検出された場合は復元します。",
 			"showEditorTabs": "開いているエディターを個々のタブとして表示するか、1 つの大きなタブとして表示するか、タイトル領域を表示しないかを制御します。",
 			"showIcons": "開いているエディターをアイコン付きで表示するかどうかを制御します。これにはファイル アイコン テーマも有効にする必要があります。",
+			"showTabIndex": "有効にすると、タブ インデックスが表示されます。{0} が {1} に設定されていない場合、この値は無視されます。",
 			"sideBarLocation": "プライマリ サイド バーとアクティビティ バーの場所を制御します。ワークベンチの左側または右側に表示できます。2 番目のサイド バーはワークベンチの反対側に表示されます。",
 			"sideBySideDirection": "(たとえば、エクスプローラーから) 並べて開く複数のエディターの既定の向きを制御します。既定では、エディターを現在アクティブなものの右側に開きます。`down` に変更すると、エディターを現在アクティブなものの下側に開きます。これは、エディター ツール バーの分割エディター アクションにも影響します。",
 			"splitInGroupLayout": "エディター グループ内でエディターが分割された場合のレイアウトを、垂直方向または水平方向に制御します。",
@@ -4777,6 +4794,7 @@
 			"tabScrollbarHeight": "エディター タイトル領域のタブおよび階層リンクに使用するスクロール バーの高さを制御します。",
 			"tabSizing": "エディター タブのサイズを制御します。{0} が {1} に設定されていない場合、この値は無視されます。",
 			"tips.enabled": "有効にすると、エディターを 1 つも開いていないときに透かしのヒントが表示されます。",
+			"titleScrollbarVisibility": "エディター タイトル領域のタブと階層リンクに使用されるスクロール バーの表示を制御します。",
 			"untitledLabelFormat": "無題のエディターのラベルの形式を制御します。",
 			"useSplitJSON": "JSON として設定を編集するときに、split JSON エディターを使用するかどうかを制御します。",
 			"viewVisibility": "ビュー ヘッダー アクションを表示するかどうかを制御します。ビュー ヘッダー アクションは常に表示されるか、パネルをフォーカスやホバーしたときのみ表示のいずれかです。",
@@ -4865,6 +4883,9 @@
 			"workbench.editor.tabSizingFixedMinWidth": "{0} サイズが {1} に設定されている場合のタブの最小幅を制御します。",
 			"workbench.editor.titleScrollbarSizing.default": "既定のサイズ。",
 			"workbench.editor.titleScrollbarSizing.large": "マウスでつかみやすいサイズに拡大する。",
+			"workbench.editor.titleScrollbarVisibility.auto": "水平スクロールバーは、必要な場合にのみ表示されます。",
+			"workbench.editor.titleScrollbarVisibility.hidden": "水平スクロールバーは常に非表示になります。",
+			"workbench.editor.titleScrollbarVisibility.visible": "水平スクロールバーは常に表示されます。",
 			"workbench.editor.untitled.labelFormat.content": "無題ファイルの名前は、ファイル パスが関連付けられていない限り、最初の行の内容から導き出されます。行が空であるか、単語文字が含まれていない場合に、名前にフォールバックします。",
 			"workbench.editor.untitled.labelFormat.name": "無題のファイルの名前は、ファイルの内容から派生していません。",
 			"workbench.fontAliasing.antialiased": "サブピクセルとは対照的に、ピクセルのレベルでフォントを滑らかにします。フォント全体がより細く見えるようになります。",
@@ -4945,6 +4966,7 @@
 			"embedderIdentifier": "製品サービスに従った埋め込みの識別子 (定義されている場合)",
 			"focusedView": "キーボード フォーカスがあるビューの識別子",
 			"groupEditorsCount": "開かれているエディター グループの数",
+			"inAutomation": "Whether VS Code is running under automation/smoke test",
 			"inZenMode": "Zen Mode が有効になっているかどうか",
 			"isAuxiliaryWindow": "ウィンドウは補助ウィンドウです",
 			"isAuxiliaryWindowFocusedContext": "補助ウィンドウがフォーカスされているかどうか",
@@ -5225,6 +5247,7 @@
 			"argv.logLevel": "使用するログレベル。既定値は 'info' です。利用可能な値は 'error'、'warn'、'info'、'debug'、'trace'、'off' です。",
 			"argv.passwordStore": "Linux にシークレットを格納するために使用されるバックエンドを構成します。この引数は、Windows および macOS では無視されます。",
 			"argv.proxyBypassList": "指定されたセミコロンで区切られたホストのリストに関して、指定されたプロキシをバイパスします。値の例 \"<local>;*.microsoft.com;*foo.com;1.2.3.4:5678\" では、ローカル アドレス (localhost、127.0.0.1 など)、microsoft.com サブドメイン、サフィックス foo.com を含むホスト、1.2.3.4:5678 にある任意のホストを除くすべてのホストにプロキシ サーバーが使用されます",
+			"argv.remoteDebuggingPort": "リモート デバッグに使用するポートを指定します。",
 			"argv.useInMemorySecretStorage": "OS の資格情報ストアを使用する代わりに、メモリ内ストアがシークレット ストレージに使用されるようにします。これは、VS Code 拡張機能テストを実行する場合、または資格情報ストアで問題が発生している場合によく使用されます。",
 			"closeWhenEmpty": "最後のエディターを閉じた場合にウィンドウも閉じるかどうかを制御します。この設定は、フォルダーを表示していないウィンドウにのみ適用されます。",
 			"confirmSaveUntitledWorkspace": "別のワークスペースに切り替えるときに、開かれている無題のワークスペースを保存するか破棄するかの質問を、確認ダイアログに表示するかどうかを制御します。確認ダイアログを無効にすると、無題のワークスペースは常に破棄されるようになります。",
@@ -5287,7 +5310,6 @@
 			"join.closeStorage": "UI 状態を保存しています"
 		},
 		"vs/workbench/electron-browser/parts/dialogs/dialogHandler": {
-			"aboutDetail": "バージョン: {0}\r\nコミット: {1}\r\n日付: {2}\r\nElectron: {3}\r\nElectronBuildId: {4}\r\nChromium: {5}\r\nNode.js: {6}\r\nV8: {7}\r\nOS: {8}",
 			"copy": "コピー(&&C)",
 			"okButton": "OK"
 		},
@@ -5612,6 +5634,7 @@
 			"noAccounts": "この拡張機能で現在使用されているアカウントはありません。",
 			"pickAProviderTitle": "拡張機能アカウント設定の管理",
 			"placeholder v2": "{1} の '{0}' アカウント設定を管理...",
+			"selectExtension": "次のアカウント設定を管理する拡張機能を選択してください",
 			"selectProvider": "アカウント設定を管理する認証プロバイダーを選択してください",
 			"title": "このワークスペースのアカウント設定の '{0}'",
 			"use new account": "新しいアカウントの使用..."
@@ -5763,6 +5786,13 @@
 			"to": "{0} の呼び出し元",
 			"tree.aria": "呼び出し階層"
 		},
+		"vs/workbench/contrib/chat/browser/actions/chatAccessibilityActions": {
+			"chat.category": "チャット",
+			"chatNotReady": "チャット インターフェイスの準備ができていません。",
+			"focusChatConfirmation": "フォーカス チャットの確認",
+			"noChatSession": "アクティブなチャット セッションが見つかりません。",
+			"noConfirmationRequired": "チャットの確認は必要ありませｎ"
+		},
 		"vs/workbench/contrib/chat/browser/actions/chatAccessibilityHelp": {
 			"chat.announcement": "チャットの応答は、届いた時に通知されます。応答は、コード ブロックの数 (存在する場合)、応答の残りの部分を示します。",
 			"chat.differencePanel": "パネル チャット ビューは、提案されたフォローアップの質問へのナビゲートもサポートする永続的なインターフェイスですが、クイック チャット ビューは要求を行ったり表示したりするための一時的なインターフェイスです。",
@@ -5793,7 +5823,7 @@
 			"chatEditing.sections": "エディター内の編集間を移動し、前の{0} と次の{1} に移動します",
 			"chatEditing.undoKeepSounds": "変更が承諾または元に戻されるときに、サウンドが再生されます。サウンドは、accessibility.signals.editsKept および accessibility.signals.editsUndone で無効にできます。",
 			"chatEditing.viewChanges": "- [変更の表示]{0}。",
-			"chatEditing.viewPreviousEdits": "- View Previous Edits{0}.",
+			"chatEditing.viewPreviousEdits": "- 以前の編集内容{0}を表示します。",
 			"inlineChat.access": "これは、コード アクションを介して、または次のコマンドを直接使用してアクティブ化することもできます: Inline Chat: Start Code Chat{0}。",
 			"inlineChat.contextActions": "コンテキスト メニューアクションでは、/ というプレフィックスが付いた要求を実行できます。/ を入力するとすると、既製のコマンドが表示されます。",
 			"inlineChat.diff": "差分エディターで、{0} を使用してレビュー モードにします。上矢印/下矢印を使用して、提案された変更を含む行間を移動します。",
@@ -5802,6 +5832,7 @@
 			"inlineChat.overview": "インライン チャットはコード エディター内で行われ、現在の選択内容が考慮されます。現在のエディターを変更する場合に便利です。たとえば、診断の修正、コードの文書化またはリファクタリングなどです。AI によって生成されたコードは正しくない可能性があることに注意してください。",
 			"inlineChat.requestHistory": "入力ボックスで、[前を表示] {0} および [次を表示] {1} を使用して要求履歴を移動します。入力を編集し、Enter キーまたは [送信] ボタンを使用して新しい要求を実行します。",
 			"inlineChat.toolbar": "タブを使用して、コマンド、ステータス、メッセージ応答などの条件付き部分にアクセスします。",
+			"workbench.action.chat.announceConfirmation": "保留中のチャットの確認ダイアログにフォーカスを設定するには、フォーカス チャットの確認状態コマンド{0}を呼び出します。",
 			"workbench.action.chat.editing.attachFiles": "- [ファイルの添付]{0}。",
 			"workbench.action.chat.focus": "上矢印と下矢印で移動できるチャット要求/応答リストにフォーカスするには、Focus Chat コマンドを呼び出します{0}。",
 			"workbench.action.chat.focusInput": "チャット要求の入力ボックスをフォーカスするには、Focus Chat Input コマンドを呼び出します{0}。",
@@ -5814,18 +5845,26 @@
 			"agent.newSession": "新しいセッションを開始しますか?",
 			"agent.newSession.confirm": "はい",
 			"agent.newSessionMessage": "チャット モードを変更すると、現在の編集セッションが終了します。チャット モードを変更しますか?",
-			"ai actions": "AI アクション",
 			"chat.category": "チャット",
 			"chat.clear.label": "すべてのワークスペース チャットをクリア",
+			"chat.editToolApproval.label": "ツールの承認を編集する",
+			"chat.editToolApproval.title": "{0} の承認の設定",
 			"chat.history.label": "チャットの表示...",
 			"chat.history.recent": "最近のチャット",
 			"chat.history.rename": "名前の変更",
 			"chat.history.showMore": "さらに表示...",
 			"chat.history.showMoreAgents": "さらに表示...",
+			"chat.openNewChatToTheSide.label": "新しいチャット エディターをサイドに開く",
 			"chat.toggleDefaultVisibility.label": "既定でビューを表示",
+			"chat.toolApproval.manual": "常に手動承認を要求する",
+			"chat.toolApproval.profile": "グローバルに自動承認",
+			"chat.toolApproval.session": "このセッションの自動承認",
+			"chat.toolApproval.workspace": "このワークスペースの自動承認",
 			"chatAndCompletionsQuotaExceeded": "チャット メッセージとコード補完の月間クォータに達しました。",
 			"chatQuotaExceeded": "チャット メッセージの月間クォータに達しました。無料のコード補完はまだご利用いただけます。",
 			"chatQuotaExceededButton": "Copilot Free プランのチャット メッセージ クォータに達しました。クリックして詳細を表示します。",
+			"chatSessions.newChatInSideBar": "サイド バーで新しいチャットを開く",
+			"chatSessions.openNewChatInNewWindow": "新しいウィンドウで新しいチャットを開く",
 			"chatWith": "拡張機能を使用してチャットする",
 			"completionsQuotaExceeded": "コード補完の月間クォータに達しました。無料のチャット メッセージはまだご利用いただけます。",
 			"config.label": "チャットの構成...",
@@ -5833,8 +5872,13 @@
 			"copilotQuotaReached": "Copilot クォータに達しました",
 			"currentChatLabel": "現在",
 			"dismiss": "無視",
+			"explain": "Explain",
+			"fix": "Fix",
+			"generateCode": "Generate Code",
+			"generateDocs": "Generate Docs",
 			"generateInstructions": "ワークスペース指示ファイルを生成する",
 			"generateInstructions.short": "指示の生成",
+			"generateTests": "Generate Tests",
 			"interactiveSession.clearHistory.label": "入力履歴のクリア",
 			"interactiveSession.focusInput.label": "Focus Chat Input",
 			"interactiveSession.history.clear": "すべてのワークスペース チャットをクリア",
@@ -5844,21 +5888,24 @@
 			"interactiveSession.history.title": "ワークスペース チャット履歴",
 			"interactiveSession.history.titleAll": "すべてのワークスペース チャット履歴",
 			"interactiveSession.open": "新しいチャット エディター",
-			"manageCopilot": "Copilot の管理",
+			"manageCopilot": "チャットの管理",
 			"more": "その他...",
 			"newChatTitle": "新しいチャットのタイトル",
 			"openChat": "チャットを開く",
+			"openChatFeatureSettings": "チャット設定",
+			"openChatFeatureSettings.short": "チャット設定",
 			"openChatMode": "チャットを開く ({0})",
 			"quotaResetDate": "上限は {0} にリセットされます。",
 			"resetTrustedTools": "リセット ツールの確認",
 			"resetTrustedToolsSuccess": "ツールの確認設定がリセットされました。",
+			"review": "Code Review",
 			"showCopilotUsageExtensions": "Copilot を使用して拡張機能を表示する",
 			"signInToChatSetup": "サインインして Copilot を使用する...",
 			"switchChat.confirmPhrase": "チャットを切り替えると、現在の編集セッションが終了します。",
 			"switchMode.confirmPhrase": "チャット モードを切り替えると、現在の編集セッションが終了します。",
 			"title4": "Copilot",
-			"toggle.chatControl": "Copilot コントロール",
-			"toggle.chatControlsDescription": "タイトル バーの Copilot コントロールの表示/非表示を切り替えます",
+			"toggle.chatControl": "チャット コントロール",
+			"toggle.chatControlsDescription": "タイトル バーのチャット コントロールの表示/非表示を切り替えます",
 			"toggleChat": "チャットの切り替え",
 			"upgradeChat": "Copilot プランのアップグレード",
 			"upgradePlan": "Copilot プランのアップグレード",
@@ -5937,11 +5984,12 @@
 			"interactive.submitWithoutDispatch.label": "送信",
 			"interactive.switchToNextModel.label": "次のモデルに切り替える",
 			"interactive.toggleAgent.label": "チャット モードの設定",
-			"interactive.toggleRequestPausd.label": "要求の一時停止の切り替え",
 			"remoteAgentError": "コーディング エージェント セッションがキャンセルされました。",
+			"remoteAgentResponse": "コーディング エージェントの応答: {0}",
+			"remoteAgentResponse2": "作業は、この pull request 内で続行されます。",
 			"remoteJobCreating": "コーディング エージェントに委任しています",
-			"requestIsPaused": "要求の再開",
-			"requestNotPaused": "要求の一時停止",
+			"selectCodingAgent": "コーディング エージェントの選択",
+			"sendToRemoteAgent": "コーディング エージェントに送信する",
 			"setChatMode": "モードの設定"
 		},
 		"vs/workbench/contrib/chat/browser/actions/chatFileTreeActions": {
@@ -5982,6 +6030,19 @@
 			"toggle.isPartialQuery": "クエリが部分的かどうか。より多くのユーザー入力を待機します",
 			"toggle.query": "クイック チャットを開くクエリ"
 		},
+		"vs/workbench/contrib/chat/browser/actions/chatSessionActions": {
+			"chat.openSessionInNewEditorGroup.label": "Open Chat to the Side",
+			"chat.openSessionInNewWindow.label": "Open Chat in New Window",
+			"chat.openSessionInSidebar.label": "Open Chat in Sidebar",
+			"openSessionInNewEditorGroup": "Open in New Editor Group",
+			"openSessionInNewWindow": "Open in New Window",
+			"openSessionInSidebar": "Open in Sidebar",
+			"renameSession": "名前の変更",
+			"renameSession.emptyName": "名前を空にすることはできません",
+			"renameSession.error": "チャット セッションの名前を変更できませんでした: {0}",
+			"renameSession.nameTooLong": "名前が長すぎます (最大 100 文字)",
+			"renameSession.placeholder": "チャット セッションの新しい名前を入力してください"
+		},
 		"vs/workbench/contrib/chat/browser/actions/chatTitleActions": {
 			"chat.retry.confirmation.checkbox": "今後は確認しない",
 			"chat.retry.confirmation.message2": "これを行うと、この要求以降に {0} に対して行われた編集が元に戻されます。",
@@ -6001,24 +6062,22 @@
 			"chat.tools.placeholder.global": "チャットに使用できるツールを選択してください。",
 			"chat.tools.placeholder.mode": "このチャット モードのツールを選択してください",
 			"chat.tools.placeholder.session": "このチャット セッションのツールを選択してください",
+			"chatTools.tooManyEnabled": "{0} を超えるのツールが有効になっていると、ツールの呼び出しが低下する可能性があります。",
 			"label": "ツールの構成..."
 		},
 		"vs/workbench/contrib/chat/browser/actions/chatToolPicker": {
-			"addAny": "その他のツールを追加...",
-			"addExtension": "拡張機能のインストール...",
-			"addExtensionButton": "Install Extension...",
-			"addMcpServer": "Add MCP Server...",
-			"addServer": "MCP サーバーの追加...",
+			"addExtensionButton": "拡張機能のインストール...",
+			"addMcpServer": "MCP サーバーの追加...",
 			"configMcpCol": "{0} の構成",
-			"configToolSet": "ツール セットの構成...",
-			"configToolSets": "Configure Tool Sets...",
-			"configureTools": "Configure Tools",
+			"configToolSets": "ツール セットの構成...",
+			"configureTools": "ツールの構成...",
 			"defaultBucketLabel": "組み込み",
 			"editUserBucket": "ツール セットの編集",
 			"ext": "拡張機能: {0}",
 			"mcpShowOutput": "出力の表示",
 			"mcplabel": "MCP サーバー: {0}",
 			"noTools": "チャットにツールを追加",
+			"toolLimitExceeded": "{0} 個のツールが有効になっています。上記 {1} 個のツールの呼び出しが低下する場合があります。",
 			"userBucket": "ユーザー定義ツール セット"
 		},
 		"vs/workbench/contrib/chat/browser/actions/codeBlockOperations": {
@@ -6055,10 +6114,12 @@
 			"chat": "チャット",
 			"chat.agent.enabled.description": "{0} のエージェント モードを有効にします。これを有効にすると、ビューのドロップダウンからエージェント モードをアクティブ化できます。",
 			"chat.agent.maxRequests": "エージェント モードでターンごとに Copilot の使用を許可する要求の最大数。制限に達すると、Copilot はユーザーに続行するかどうかの確認を求めます。",
+			"chat.agent.showThinking": "チャット応答でモデルの思考プロセスを表示するかどうかを制御します。",
 			"chat.checkpoints.enabled": "チャットでチェックポイントを有効にします。チェックポイントを使用すると、チャットを以前の状態に復元できます。",
-			"chat.checkpoints.showFileChanges": "Controls whether to show chat checkpoint file changes.",
+			"chat.checkpoints.showFileChanges": "チャット チェックポイント ファイルの変更を表示するかどうかを制御します。",
 			"chat.commandCenter.enabled": "コマンド センターが Copilot を制御するための操作のメニューを表示するかどうかを制御します ({0} が必要です)。",
 			"chat.detectParticipant.enabled": "パネル チャットのチャット参加者の自動検出を有効にします。",
+			"chat.disableAIFeatures": "Disable and hide built-in AI features provided by GitHub Copilot, including chat, code completions and next edit suggestions.",
 			"chat.editRequests": "チャット内の要求の編集を有効にします。これにより、要求の内容を変更し、モデルに再送信できます。",
 			"chat.editing.autoAcceptDelay": "チャットによる変更が自動的に反映されるまでの遅延。値は秒単位、'0' は無効、'100' 秒が最大値であることを意味します。",
 			"chat.editing.confirmEditRequestRemoval": "要求とそれに関連付けられた編集を削除する前に確認を表示するかどうか。",
@@ -6077,13 +6138,12 @@
 			"chat.implicitContext.value.never": "暗黙的なコンテキストが有効になることはありまん。",
 			"chat.instructions.config.locations.description": "チャット セッションに添付できる指示ファイル (`*{0}`) の場所を指定します。[詳細情報]({1})。\r\n\r\n相対パスは、ワークスペースのルート フォルダーから解決されます。",
 			"chat.instructions.config.locations.title": "指示ファイルの場所",
-			"chat.manageTasksTool.enabled": "Enables manageTasksTool in chat. This tool allows you to use task lists in chat.",
-			"chat.mathEnabled.description": "Katex を使用してチャット応答で数式レンダリングを有効にします。",
-			"chat.mcp.assisted.nuget.enabled.description": "Enables NuGet packages for AI-assisted MCP server installation. Used to install MCP servers by name from the central registry for .NET packages (NuGet.org).",
-			"chat.mcp.autostart": "Controls whether MCP servers should be automatically started when the chat messages are submitted.",
-			"chat.mcp.autostart.never": "Never automatically start MCP servers.",
-			"chat.mcp.autostart.newAndOutdated": "Automatically start new and outdated MCP servers that are not yet running.",
-			"chat.mcp.autostart.onlyNew": "Only automatically start new MCP servers that have never been run.",
+			"chat.mathEnabled.description": "KaTeX を使用してチャット応答で数式レンダリングを有効にします。",
+			"chat.mcp.assisted.nuget.enabled.description": "AI 支援 MCP サーバーのインストール用に NuGet パッケージを有効にします。.NET パッケージ (NuGet.org) の中央レジストリから MCP サーバーを名前でインストールするために使用されます。",
+			"chat.mcp.autostart": "チャット メッセージの送信時に MCP サーバーを自動的に起動するかどうかを制御します。",
+			"chat.mcp.autostart.never": "MCP サーバーを自動的に起動しません。",
+			"chat.mcp.autostart.newAndOutdated": "まだ実行されていない新しい古い MCP サーバーを自動的に起動します。",
+			"chat.mcp.autostart.onlyNew": "実行されたことがない新しい MCP サーバーのみを自動的に起動します。",
 			"chat.mcp.enabled": "モデル コンテキスト プロトコル サーバーとの統合を有効にし、追加のツールと機能を提供します。",
 			"chat.mcp.serverSampling": "サンプリングのために MCP サーバーに公開するモデルを構成します (バックグラウンドでモデル要求を行います)。この設定は、'{0}' コマンドでグラフィカルに編集できます。",
 			"chat.mcp.serverSampling.allowedDuringChat": "このサーバーがチャット セッションでのツール呼び出し中にサンプリング要求を行うかどうか。",
@@ -6103,35 +6163,35 @@
 			"chat.sendElementsToChat.enabled": "Simple Browser からチャットに要素を送信できるかどうかを制御します。",
 			"chat.sessionsViewLocation.description": "エージェント セッション メニューを表示する場所を制御します。",
 			"chat.signInDialogVariant": "サインイン ダイアログのバリエーションを制御します。",
+			"chat.todoListTool.enabled": "チャットで ToDo リストを有効にします。このリストは、複雑な開発ワークフローの計画、進行状況の追跡、コンテキスト管理のツールとしてエージェントが使用します。",
+			"chat.todoListTool.writeOnly": "有効にすると、ToDo ツールは書き込み専用モードで動作し、エージェントはコンテキスト内で ToDo を記憶する必要があります。",
 			"chat.tools.autoApprove.description": "ツールの使用を自動的に承認するかどうかを制御します。すべてのツールをユーザーの確認なしで自動的に実行し、ターミナルの自動承認などツール固有の設定をオーバーライドすることを許可します。使用には注意: 選択したツールを慎重に確認し、プロンプト インジェクションの可能性があるソースには、特に警戒してください。",
+			"chat.tools.autoApprove.edits": "チャットによる編集が自動的に承認されるかどうかを制御します。既定では、`**/.vscode/*.json` のように、直ちに意図しない副作用を引き起こす可能性のある特定のファイルに対して行われた編集を除き、すべての編集を承認します。\r\n\r\nファイルは、指定された順序で glob パターンと照合されます。",
 			"chat.tools.autoApprove.markdownDescription": "ツールの使用を自動的に承認するかどうかを制御します。\r\n\r\nAllows _all_ tools ですべてのツールをユーザーの確認なしで自動的に実行し、ターミナルの自動承認などツール固有の設定をオーバーライドすることを許可します。\r\n\r\n使用には注意: 選択したツールを慎重に確認し、プロンプト インジェクションの可能性があるソースには、特に警戒してください。",
-			"chat.tools.useTreePicker": "Use the new tree-based tools picker interface instead of the flat list. Provides better hierarchical organization of tools and tool sets with collapsible sections, improved visual hierarchy, and native tree interactions. MCP servers are displayed as expandable parent nodes with their tools as children.",
 			"chat.undoRequests.restoreInput": "元に戻す要求が行われたときにチャットの入力を復元するかどうかを制御します。入力には、復元された要求のテキストが入力されます。",
 			"chat.useFileStorage": "ストレージ サービスではなく、ディスクにチャット セッションを格納できるようにします。これを有効にすると、既存のセッションが新しい形式に、ワークスペースごとに 1 回限り移行されます。",
 			"clear": "新しいチャットの開始",
-			"file": "ワークスペースでファイルを選択する",
 			"interactiveSession.editor.fontFamily": "チャット コード ブロック内のフォント ファミリを制御します。",
 			"interactiveSession.editor.fontSize": "チャット コード ブロック内のフォント サイズをピクセル単位で制御します。",
 			"interactiveSession.editor.fontWeight": "チャット コード ブロック内のフォントの太さを制御します。",
 			"interactiveSession.editor.lineHeight": "チャット コード ブロック内の行の高さをピクセル単位で制御します。フォント サイズから行の高さを計算するには 0 を使用します。",
 			"interactiveSession.editor.wordWrap": "チャット コード ブロックで行を折り返すかどうかを制御します。",
 			"interactiveSessionConfigurationTitle": "チャット",
-			"mcp.discovery.enabled": "マシン上のモデル コンテキスト プロトコル サーバーの検出を構成します。`true` または `false` に設定してすべてのソースを無効または有効にして、有効にしたいマッピング ソースを指定します。",
-			"mcp.discovery.source": "{0} サーバーの検出を有効にします",
+			"mcp.discovery.enabled": "他のさまざまなアプリケーションからの構成を基に、モデル コンテキスト プロトコル サーバーの検出を構成します。",
 			"mcp.gallery.serviceUrl": "接続する MCP ギャラリー サービス URL を構成する",
 			"mcp.list": "サーバーの一覧表示",
 			"save-chat-to-prompt-file": "チャットをプロンプト ファイルに保存"
 		},
 		"vs/workbench/contrib/chat/browser/chatAccessibilityProvider": {
 			"chat": "チャット",
-			"multiCodeBlock": "{0}{1}{2} code blocks: {3} {4}",
-			"multiCodeBlockHint": "{0}{1}{2}{3} code blocks: {4}{5} {6}",
+			"multiCodeBlock": "{0}{1}{2} コード ブロック: {3} {4}",
+			"multiCodeBlockHint": "{0}{1}{2}{3} コード ブロック: {4}{5} {6}",
 			"multiFileTreeHint": "{0} 個のファイル ツリー",
 			"multiTableHint": "{0} 個の表",
 			"noCodeBlocks": "{0}{1}{2} {3}",
 			"noCodeBlocksHint": "{0}{1}{2}{3}{4} {5}",
-			"singleCodeBlock": "{0}{1}1 code block: {2} {3}",
-			"singleCodeBlockHint": "{0}{1}{2}1 code block: {3} {4}{5}",
+			"singleCodeBlock": "{0}{1}1 コード ブロック: {2} {3}",
+			"singleCodeBlockHint": "{0}{1}{2}1 個のコード ブロック: {3} {4}{5}",
 			"singleFileTreeHint": "1 個のファイル ツリー",
 			"singleTableHint": "1 個のテーブル",
 			"toolCompletedHint": "ツール {0} が完了しました。",
@@ -6175,6 +6235,9 @@
 		"vs/workbench/contrib/chat/browser/chatContentParts/chatAgentCommandContentPart": {
 			"rerun": "{0}{1} なしで再実行する"
 		},
+		"vs/workbench/contrib/chat/browser/chatContentParts/chatChangesSummaryPart": {
+			"chat.viewFileChangesSummary": "すべてのファイルの変更を表示する"
+		},
 		"vs/workbench/contrib/chat/browser/chatContentParts/chatCodeCitationContentPart": {
 			"viewMatches": "一致を表示する"
 		},
@@ -6190,6 +6253,7 @@
 			"dismiss": "閉じる"
 		},
 		"vs/workbench/contrib/chat/browser/chatContentParts/chatConfirmationWidget": {
+			"chat.confirmationWidget.ariaLabel": "チャット確認ダイアログ {0} {1}",
 			"defaultTitle": "チャット: 確認が必要です",
 			"notificationDetail": "現在のチャット セッションを続行するには、確認が必要です。",
 			"notificationTitle": "チャット: {0}"
@@ -6206,10 +6270,21 @@
 			"chat.codeblock.insertions.one": "1 件の挿入",
 			"summary": "{0}、{1}、{2} を編集しました"
 		},
+		"vs/workbench/contrib/chat/browser/chatContentParts/chatMultiDiffContentPart": {
+			"chatMultiDiff.manyFiles": "{0} 個のファイルが変更されました",
+			"chatMultiDiff.oneFile": "1 個のファイルが変更されました",
+			"chatMultiDiffList": "ファイルの変更"
+		},
+		"vs/workbench/contrib/chat/browser/chatContentParts/chatPinnedContentPart": {
+			"chat.pinned.thinking.header.base": "Thinking...",
+			"chat.pinned.thinking.header.count": "Thought for a few seconds...",
+			"chat.pinned.thinking.header.count.time": "Thought for {0}"
+		},
 		"vs/workbench/contrib/chat/browser/chatContentParts/chatProgressContentPart": {
-			"pausedMessage": "一時停止",
-			"resume": "クリックして再開",
 			"workingMessage": "作業中..."
+		},
+		"vs/workbench/contrib/chat/browser/chatContentParts/chatPullRequestContentPart": {
+			"chatPullRequest.seeMore": "表示を増やす"
 		},
 		"vs/workbench/contrib/chat/browser/chatContentParts/chatQuotaExceededPart": {
 			"clickToContinue": "クリックして、もう一度お試しください。",
@@ -6220,6 +6295,7 @@
 		"vs/workbench/contrib/chat/browser/chatContentParts/chatReferencesContentPart": {
 			"addToChat": "ファイルをチャットに追加",
 			"chatCollapsibleList": "折りたたみ可能なチャット参照リスト",
+			"chatEditingSession.fileCounts": "{0} 行が追加され、{1} 行が削除されました",
 			"copyLink": "リンクのコピー",
 			"setting.hover": "設定 '{0}' を開く",
 			"usedReferencesPlural": "{0} 参照 使用済み",
@@ -6228,6 +6304,12 @@
 		"vs/workbench/contrib/chat/browser/chatContentParts/chatTextEditContentPart": {
 			"edits0": "変更が中止されました。",
 			"editsSummary": "変更を行いました。"
+		},
+		"vs/workbench/contrib/chat/browser/chatContentParts/chatTodoListWidget": {
+			"chat.todoList.clearButton": "すべての Todo をクリアする",
+			"chat.todoList.clearButton.ariaLabel": "すべての Todo をクリアする",
+			"chat.todoList.title": "Todos",
+			"chat.todoList.titleWithProgress": "Todos ({0}/{1})"
 		},
 		"vs/workbench/contrib/chat/browser/chatContentParts/chatToolInputOutputContentPart": {
 			"chat.input": "入力",
@@ -6247,12 +6329,17 @@
 			"installExtensions": "拡張機能のインストール",
 			"installExtensionsConfirmation": "拡張機能の [インストール] ボタンをクリックし、完了したら [続行] を押します。"
 		},
-		"vs/workbench/contrib/chat/browser/chatContentParts/toolInvocationParts/chatTaskListSubPart": {
-			"chat.task.title": "Tasks"
-		},
-		"vs/workbench/contrib/chat/browser/chatContentParts/toolInvocationParts/chatTerminalToolSubPart": {
-			"cancel": "キャンセル",
-			"continue": "続行"
+		"vs/workbench/contrib/chat/browser/chatContentParts/toolInvocationParts/chatTerminalToolConfirmationSubPart": {
+			"autoApprove.button.enable": "有効にする",
+			"autoApprove.enable": "自動承認を有効にする...",
+			"autoApprove.markdown": "これにより、構成可能なコマンドのサブセットをターミナルで自律的に実行できるようになります。これは、*ベスト エフォート保護* を提供し、エージェントが悪意のある動作をしていないと想定しています。",
+			"autoApprove.title": "ターミナルの自動承認を有効にしますか?",
+			"continue": "続行",
+			"newRule": "自動承認ルール {0} が追加されました",
+			"newRule.plural": "自動承認ルール {0} が追加されました",
+			"ruleTooltip": "設定でルールを表示する",
+			"skip": "Skip",
+			"skip.detail": "Proceed without executing this command"
 		},
 		"vs/workbench/contrib/chat/browser/chatContentParts/toolInvocationParts/chatToolConfirmationSubPart": {
 			"allowGloballTooltip": "このツールの実行を確認せずに常に許可します。",
@@ -6264,10 +6351,19 @@
 			"cancel": "キャンセル",
 			"chat.input": "入力",
 			"continue": "続行",
-			"seeMore": "さらに表示"
+			"seeMore": "さらに表示",
+			"showMore": "表示数を増やす"
+		},
+		"vs/workbench/contrib/chat/browser/chatContentParts/toolInvocationParts/chatToolInvocationPart": {
+			"chat.autoapprove.lmServicePerTool.profile": "このプロフィールに関して自動承認済み",
+			"chat.autoapprove.lmServicePerTool.session": "このセッションに関して自動承認済み",
+			"chat.autoapprove.lmServicePerTool.workspace": "このワークスペースについて自動承認済み",
+			"chat.autoapprove.setting": "{0} によって自動承認されました",
+			"edit": "編集"
 		},
 		"vs/workbench/contrib/chat/browser/chatContentParts/toolInvocationParts/chatToolOutputPart": {
-			"loading": "Rendering tool output..."
+			"chat.toolOutputError": "Error rendering the tool output",
+			"loading": "ツールの出力をレンダリングしています..."
 		},
 		"vs/workbench/contrib/chat/browser/chatDragAndDrop": {
 			"attacAsContext": "{0} をコンテキストとしてアタッチする",
@@ -6287,8 +6383,8 @@
 			"acceptAllEdits": "すべての編集内容を保持",
 			"addFilesFromReferences": "参照からファイルを追加",
 			"chat.editRequests.label": "要求の編集",
-			"chat.editing.discardAll.confirmation.manyFiles": "これにより、{1} ファイルに {0} によって行われた変更が元に戻されます。続行しますか?",
-			"chat.editing.discardAll.confirmation.oneFile": "これにより、{1} で {0} によって行われた変更が元に戻されます。続行しますか?",
+			"chat.editing.discardAll.confirmation.manyFiles": "これにより、{0} 個のファイルで行われた変更が元に戻されます。続行しますか?",
+			"chat.editing.discardAll.confirmation.oneFile": "これにより、{0} で行われた変更が元に戻されます。続行しますか?",
 			"chat.editing.discardAll.confirmation.primaryButton": "はい",
 			"chat.editing.discardAll.confirmation.title": "すべての編集を元に戻しますか?",
 			"chat.openFileUpdatedBySnapshot.label": "ファイルを開く",
@@ -6347,7 +6443,6 @@
 		"vs/workbench/contrib/chat/browser/chatEditing/chatEditingEditorOverlay": {
 			"0Of0": "—",
 			"nOfM": "{0}/{1}",
-			"paused": "一時停止",
 			"tooltip": "{0} ({1})",
 			"tooltip_11": "1 個のファイル内の 1 件の変更",
 			"tooltip_1n": "{0} 個のファイル内の 1 件の変更",
@@ -6432,8 +6527,10 @@
 			"chatAttachFiles": "要求に追加するファイルとコンテキストを検索します",
 			"chatEditingSession.addSuggested": "提案の追加",
 			"chatEditingSession.addSuggestion": "提案 {0} の追加",
+			"chatEditingSession.ariaLabelWithCounts": "{0}、{1} 行が追加され、 {2} 行が削除されました",
 			"chatEditingSession.manyFiles.1": "{0} 個のファイルが変更されました",
 			"chatEditingSession.oneFile.1": "1 個のファイルが変更されました",
+			"chatEditingSession.toggleWorkingSet": "変更されたファイルを切り替えます。",
 			"chatInput.accessibilityHelp": "チャット入力 {0}。",
 			"chatInput.accessibilityHelpNoKb": "チャット入力 {0} Enter キーを押して要求を送信します。詳細については、チャット アクセシビリティのヘルプ コマンドを使用します。",
 			"chatInput.mode.agent": "(エージェント モード)、ワークスペース内のファイルを編集します。",
@@ -6451,7 +6548,6 @@
 			"missingContext": "コンテキストが欠落している",
 			"offensiveOrUnsafe": "不快感を与える、または安全でない",
 			"other": "その他",
-			"paused": "一時停止",
 			"poorlyWrittenOrFormatted": "不適切な書き込みまたは書式設定",
 			"refusedAValidRequest": "有効な要求を拒否した",
 			"renderFailMsg": "コンテンツを表示できませんでした",
@@ -6462,8 +6558,9 @@
 			"working": "作業中"
 		},
 		"vs/workbench/contrib/chat/browser/chatOutputItemRenderer": {
-			"chatOutputRenderer.mimeTypes": "MIME types that this renderer can handle",
-			"vscode.extension.contributes.chatOutputRenderer": "Contributes a renderer for specific MIME types in chat outputs"
+			"chatOutputRenderer.mimeTypes": "このレンダラーが処理できる MIME の種類",
+			"chatOutputRenderer.viewType": "レンダラーの一意識別子。",
+			"vscode.extension.contributes.chatOutputRenderer": "チャット出力の特定の MIME の種類にレンダラーを提供します"
 		},
 		"vs/workbench/contrib/chat/browser/chatParticipant.contribution": {
 			"chat.viewContainer.label": "チャット",
@@ -6507,20 +6604,29 @@
 			"pastedImageName": "貼り付けられた画像"
 		},
 		"vs/workbench/contrib/chat/browser/chatSessions": {
-			"chat.sessions": "Chat Sessions",
-			"chat.sessions.chatView": "Chat",
-			"chat.sessions.chatView.description": "Chat View",
-			"chat.sessions.title": "Chat Sessions",
-			"chatSessions.treeAriaLabel": "Chat Sessions",
-			"interactiveSession.open": "New Chat Editor"
+			"chat.sessions": "チャット セッション",
+			"chat.sessions.chatView": "チャット",
+			"chat.sessions.chatView.description": "チャット ビュー",
+			"chat.sessions.showHistory": "History",
+			"chat.sessions.title": "チャット セッション",
+			"chatSessionInputAriaLabel": "セッション名を入力します。Enter キーを押して確認するか、Esc キーを押して取り消します。",
+			"chatSessions": "Chat Sessions",
+			"chatSessions.dragLabel": "{0} チャット セッション",
+			"chatSessions.loading": "チャット セッションを読み込んでいます...",
+			"chatSessions.noResults": "ローカル チャット セッションはありません\r\n[チャットを開始する](command:workbench.action.openChat)",
+			"chatSessions.refreshing": "チャット セッションを更新しています...",
+			"interactiveSession.open": "新しいチャット エディター"
 		},
 		"vs/workbench/contrib/chat/browser/chatSessions.contribution": {
-			"chatSessionsExtPoint": "Contributes chat session integrations to the chat widget.",
-			"chatSessionsExtPoint.description": "Description of the chat session for use in menus and tooltips.",
-			"chatSessionsExtPoint.displayName": "A longer name for this item which is used for display in menus.",
-			"chatSessionsExtPoint.id": "A unique identifier for this item.",
-			"chatSessionsExtPoint.name": "Name shown in the chat widget. (eg: @agent)",
-			"chatSessionsExtPoint.when": "Condition which must be true to show this item."
+			"chatSessionNotFound": "`#copilotCodingAgent` を使用して、新しい [コーディング エージェント セッション]({0}) を開始します。",
+			"chatSessionsExtPoint": "チャット ウィジェットにチャット セッションの統合を提供します。",
+			"chatSessionsExtPoint.chatSessionType": "チャット セッションの種類の一意識別子。",
+			"chatSessionsExtPoint.description": "メニューやヒントで使用するチャット セッションの説明。",
+			"chatSessionsExtPoint.displayName": "メニューでの表示に使用される、この項目の長い名前。",
+			"chatSessionsExtPoint.name": "チャット ウィジェットに表示される名前。(例: @agent)",
+			"chatSessionsExtPoint.when": "このアイテムを表示するために満たす必要がある条件。",
+			"continueInNewChat": "新しいチャット エディターで **{0}** を続行する",
+			"interactiveSession.openNewSessionEditor": "新しい {0} チャット エディター"
 		},
 		"vs/workbench/contrib/chat/browser/chatSetup": {
 			"chat.category": "チャット",
@@ -6533,17 +6639,19 @@
 			"enterpriseInstance": "{0} インスタンスは何ですか?",
 			"enterpriseInstancePlaceholder": "つまり\"octocat\" or \"https://octocat.ghe.com\"...",
 			"forceSignIn": "サインインして Copilot を使用する",
-			"hideChatSetup": "Copilot を非表示にする",
-			"hideChatSetupButton": "Copilot を非表示にする",
-			"hideChatSetupConfirm": "Copilot を非表示にしますか?",
-			"hideChatSetupDetail": "'{0}' コマンドを実行して Copilot を復元できます。",
+			"hideChatSetup": "AI 機能を非表示にする",
+			"hideChatSetupButton": "AI 機能を非表示にする",
+			"hideChatSetupConfirm": "AI 機能を非表示にしますか?",
+			"hideChatSetupDetail": "AI 機能を復元するには、'{0}' コマンドを実行します。",
 			"installingCopilot": "Copilot を準備しています",
 			"invalidEnterpriseInstance": "有効な {0} インスタンス (\"octocat\" または \"https://octocat.ghe.com\" など) を入力する必要があります",
 			"manageOverages": "Copilot 超過分の管理",
 			"managePlan": "Copilot Pro にアップグレード",
+			"restartExtensionHost.reason.disable": "Disabling AI features",
+			"restartExtensionHost.reason.enable": "Enabling AI features",
 			"retry": "再試行",
 			"settingUpCopilotNeeded": "チャットを使用するには、Copilot を設定し、サインインする必要があります。",
-			"settings": "{0} GitHub Copilot Free、Pro、Pro+ では [パブリック コード]({1}) の提案が表示される場合があり、製品の改善のためにお客様のデータを使用する場合があります。これらの [設定]({2}) はいつでも変更できます。",
+			"settings": "続行すると、{0} の [使用条件]({1}) および [プライバシーに関する声明]({2}) に同意したものと見なされます。{3} Copilot は、[公開コード]({4}) の提案を表示し、お客様のデータを使用して製品を改善する場合があります。これらの [設定]({5}) はいつでも変更できます。",
 			"setupChatProgress": "Copilot を準備中...",
 			"setupChatSignIn2": "{0} にサインインしています。",
 			"setupCopilot": "Copilot を設定します。",
@@ -6551,10 +6659,10 @@
 			"setupErrorDialog": "Copilot のセットアップに失敗しました。もう一度やり直しますか?",
 			"setupToolDisplayName": "新しいワークスペース",
 			"setupToolsDescription": "VS Code で新しいワークスペースをスキャフォールディングします",
-			"signIn": "サインインして Copilot を使用する",
+			"signIn": "サインインして {0} Copilot を使用する",
 			"skipForNow": "今はスキップする",
-			"startUsing": "Copilot の使用を開始する",
-			"triggerChatSetup": "Copilot で AI 機能を無料で使用する...",
+			"startUsing": "{0} Copilot の使用を開始する",
+			"triggerChatSetup": "Use AI Features with GitHub Copilot for free...",
 			"triggerChatSetupFromAccounts": "サインインして Copilot を使用する...",
 			"trustNeeded": "チャットを使用するには、このワークスペースを信頼する必要があります。",
 			"unknownSetupError": "Copilot の設定中にエラーが発生しました。もう一度やり直しますか?",
@@ -6573,6 +6681,7 @@
 			"cancelSnooze": "一時停止の取り消し",
 			"chatAndCompletionsQuotaExceededStatus": "クォータに達しました",
 			"chatQuotaExceededStatus": "チャット クォータに達しました",
+			"chatSessionsTitle": "Chat Sessions",
 			"chatStatus": "Copilot の状態",
 			"chatsLabel": "チャット メッセージ",
 			"codeCompletions": "コード補完",
@@ -6598,6 +6707,7 @@
 			"gaugeForeground": "ゲージの前景色。",
 			"gaugeWarningBackground": "ゲージ警告の背景色。",
 			"gaugeWarningForeground": "ゲージ警告の前景色。",
+			"inProgressChatSession": "$(loading~spin) {0} {1} in progress",
 			"learnMore": "詳細情報",
 			"limitQuota": "上限は {0} リセットされます。",
 			"notSignedIntoCopilot": "サインアウト済み",
@@ -6616,11 +6726,14 @@
 			"signInDescription": "Copilot AI 機能を使用するにはサインインしてください。",
 			"signInToUseCopilotButton": "サインインして Copilot を使用する",
 			"upgradeToCopilotPro": "Copilot Pro にアップグレード",
-			"usageTitle": "Copilot の使用状況"
+			"usageTitle": "Copilot の使用状況",
+			"viewChatSessionsLabel": "View Chat Sessions",
+			"viewChatSessionsTooltip": "View Chat Sessions"
 		},
 		"vs/workbench/contrib/chat/browser/chatWidget": {
 			"agentMessage": "[エージェント モード]({0}) でファイルを編集するように Copilot に依頼します。Copilot は、複数の要求を自動的に使用して編集するファイルを選択し、ターミナル コマンドを実行し、エラーを繰り返し処理します。",
 			"agentTitle": "エージェント モードでビルドします。",
+			"chat.input.placeholder.lockedToAgent": "Chat with {0}",
 			"chatDescription": "コードに関して質問します。",
 			"chatDisclaimer": "AI の応答が不正確である可能性があります。",
 			"chatMessage": "Copilot は AI によって動作しているため、間違っている場合があります。出力されたものは、使用する前に慎重にレビューしてください。",
@@ -6634,6 +6747,8 @@
 			"chatWidget.suggestedPrompts.newProjectPrompt": "TypeScript で #new Hello World プロジェクトを作成する",
 			"chatWidget.tips": "{0}、または {1} と入力し、コンテキストをアタッチします\r\n\r\n{2}は、拡張機能を使用してチャットします\r\n\r\nコマンドを使用するには、{3} と入力します",
 			"chatWidget.tips.withoutParticipants": "{0}、または {1} と入力し、コンテキストをアタッチします",
+			"codingAgentMessage": "このチャット セッションは、{0} コーディング エージェントに転送されます",
+			"codingAgentTitle": "{0} さんとチャットする",
 			"editsHelp": "作業する一連のファイルを定義して、編集セッションを開始します。次に、行う変更を Copilot に依頼します。",
 			"editsTitle": "コンテキストで編集します。",
 			"expChatAdditionalMessage": "AI の出力は、使用する前に慎重にレビューしてください。",
@@ -6669,8 +6784,7 @@
 			"tool_source_completion": "{0}: {1}"
 		},
 		"vs/workbench/contrib/chat/browser/contrib/chatInputEditorContrib": {
-			"askPlaceholderHint": "コンテキストを追加する場合は #、拡張機能の場合は @、コマンドの場合は /",
-			"editPlaceholderHint": "コンテキストを追加するには #"
+			"chatPlaceholderHint": "コンテキスト (#)、拡張機能 (@)、コマンド (/) を追加します"
 		},
 		"vs/workbench/contrib/chat/browser/contrib/chatInputEditorHover": {
 			"hoverAccessibilityChatAgent": "ここにチャット エージェントのホバー部分があります。"
@@ -6832,10 +6946,9 @@
 			"chat.requestCodeBorder": "チャット要求バブル内のコード ブロックの境界線の色。",
 			"chat.slashCommandBackground": "チャット スラッシュ コマンドの背景色。",
 			"chat.slashCommandForeground": "チャット スラッシュ コマンドの前景色。",
-			"chatCheckpointSeparator": "Chat checkpoint separator color."
+			"chatCheckpointSeparator": "チャット チェックポイントの区切り記号の色。"
 		},
 		"vs/workbench/contrib/chat/common/chatContextKeys": {
-			"chatCanRequestBePaused": "現在の要求を一時停止できる場合は True です。",
 			"chatEditApplied": "チャット テキストの編集が適用されている場合は true。",
 			"chatEditingCanRedo": "編集パネルで操作をやり直しできる場合は True です。",
 			"chatEditingCanUndo": "編集パネルで操作を元に戻すことができる場合は True です。",
@@ -6844,21 +6957,26 @@
 			"chatHasCustomChatModes": "チャットでカスタム チャット モードを使用できる場合は true。",
 			"chatHasFileAttachments": "チャットに添付ファイルがあると true になります。",
 			"chatIsEnabled": "既定のチャット参加者が実装でアクティブ化されるためにチャットが有効になっている場合は true です。",
+			"chatIsHistoryItem": "True when the chat session item is from history.",
 			"chatItemId": "チャットアイテムの ID。",
 			"chatLastItemId": "最後のチャットアイテムの ID。",
 			"chatMode": "現在のチャット モードの \"種類\" - カスタム モードのエージェント。",
+			"chatModelsAreUserSelectable": "ユーザーがチャット モデルを手動で選択できる場合は TRUE です。",
 			"chatPanelExtensionParticipantRegistered": "既定のチャット参加者が拡張機能からパネルに登録されている場合は true です。",
 			"chatPanelLocation": "チャット パネルの場所。",
 			"chatParticipantRegistered": "既定のチャット参加者がパネルに登録されている場合は true です。",
 			"chatPromptFileAttachedContextDescription": "チャットにプロンプト ファイルが添付されている場合は True です。",
 			"chatRemoteJobCreating": "リモート コーディング エージェント ジョブが作成されている場合は true です。",
 			"chatRequest": "チャット アイテムは要求です",
-			"chatRequestIsPaused": "現在の要求が一時停止されている場合は True です。",
 			"chatResponse": "チャット アイテムは応答です。",
 			"chatResponseErrored": "チャット応答でエラーが発生した場合は True。",
 			"chatResponseFiltered": "サーバーによってチャット応答がフィルターで除外された場合は True です。",
 			"chatResponseSupportsIssueReporting": "現在のチャット応答で問題の報告がサポートされている場合は True です。",
 			"chatSessionResponseDetectedAgentOrCommand": "エージェントまたはコマンドが自動的に検出されたとき",
+			"chatSessionType": "現在のチャット セッション項目の種類です。",
+			"chatSkipRequestInProgressMessage": "チャット要求の進行中メッセージをスキップする必要がある場合は、True です。",
+			"chatToolCount": "現在のチャット モードで使用できるツールの数。",
+			"chatToolGroupingThreshold": "仮想グループ化の実行を開始するツールの数。",
 			"enableRemoteCodingAgentPromptFileOverlay": "リモート コーディング エージェントのプロンプト ファイル オーバーレイ機能が有効になっているかどうか",
 			"hasRemoteCodingAgent": "リモート コーディング エージェントが使用可能かどうか",
 			"inChat": "フォーカスがチャット ウィジェットにある場合は True、それ以外の場合は False です。",
@@ -6871,6 +6989,7 @@
 			"interactiveSessionCurrentlyEditingInput": "下部にある現在の要求入力が編集されている場合は true です。",
 			"interactiveSessionRequestInProgress": "現在の要求がまだ進行中の場合は True です。",
 			"interactiveSessionResponseVote": "回答が可決されると、'up' に設定されます。否決されると、'down' に設定されます。それ以外の場合は空の文字列です。",
+			"lockedToCodingAgent": "チャット ウィジェットがコーディング エージェント セッションにロックされている場合は、True です。",
 			"toolsCount": "チャットで使用できるツールの数。"
 		},
 		"vs/workbench/contrib/chat/common/chatEditingService": {
@@ -6891,10 +7010,12 @@
 		"vs/workbench/contrib/chat/common/chatModel": {
 			"codeCitation": "1 種類のライセンスで類似のコードが見つかりました",
 			"codeCitations": "{0} 種類のライセンスで類似のコードが見つかりました",
-			"editsSummary": "変更を行いました。"
+			"copyrightContentRetry": "応答が公開コードと一致する可能性があるためクリアされました。修正されたプロンプトで再試行しています。",
+			"editsSummary": "変更を行いました。",
+			"filteredContentRetry": "コンテンツの安全性フィルターにより応答がクリアされました。修正されたプロンプトで再試行しています。"
 		},
 		"vs/workbench/contrib/chat/common/chatModes": {
-			"agentDescription": "自律的に構築します。",
+			"agentDescription": "手順を指定してください。",
 			"chatDescription": "質問します。",
 			"editsDescription": "ファイルを編集します。"
 		},
@@ -6906,8 +7027,7 @@
 			"newChat": "新しいチャット"
 		},
 		"vs/workbench/contrib/chat/common/chatSessionStore": {
-			"join.chatSessionStore": "チャット履歴を保存しています",
-			"newChat": "新しいチャット"
+			"join.chatSessionStore": "チャット履歴を保存しています"
 		},
 		"vs/workbench/contrib/chat/common/chatVariableEntries": {
 			"chat.attachment.problems.all": "すべての問題",
@@ -6948,6 +7068,7 @@
 			"chat.prompt.frontMatter.inactiveBackground.description": "非アクティブな Front Matter ヘッダー ブロックの背景色。"
 		},
 		"vs/workbench/contrib/chat/common/promptSyntax/languageProviders/promptHeaderDiagnosticsProvider": {
+			"promptHeaderDiagnosticsProvider.modeNotFound": "不明なモデル '{0}'。使用可能なモード: {1}",
 			"promptHeaderDiagnosticsProvider.modelNotFound": "不明なモデル '{0}'",
 			"promptHeaderDiagnosticsProvider.modelNotSuited": "モデル '{0}' はエージェント モードには適していません",
 			"promptHeaderDiagnosticsProvider.toolNotFound": "不明なツール '{0}'"
@@ -6962,7 +7083,12 @@
 			"promptHeader.mode.model": "このモードで使用するモデルです。",
 			"promptHeader.mode.tools": "このモードで使用するツールです。",
 			"promptHeader.prompt.description": "プロンプト ファイルの説明です。プロンプト作成者にプロンプトに関する追加のコンテキストや情報を提供するために使用できます。",
-			"promptHeader.prompt.mode": "このプロンプトの実行時に使用するモード (確認、編集、またはエージェント) です。",
+			"promptHeader.prompt.mode": "このプロンプトで使用するモデルです。",
+			"promptHeader.prompt.mode.builtInDesc": "組み込みのチャット モード",
+			"promptHeader.prompt.mode.builtin": "**組み込みモード:**",
+			"promptHeader.prompt.mode.custom": "**カスタム モード:**",
+			"promptHeader.prompt.mode.customDesc": "カスタム チャット モード",
+			"promptHeader.prompt.mode.description": "このプロンプトの実行時に使用するチャット モード。",
 			"promptHeader.prompt.model": "このプロンプトで使用するモデルです。",
 			"promptHeader.prompt.tools": "このプロンプトで使用するツールです。",
 			"toolSetName": "ツールセット: {0}\r\n\r\n"
@@ -6981,10 +7107,10 @@
 			"prompt.header.metadata.string.diagnostics.invalid-language": "'{0}' ヘッダー プロパティは指示ファイルでのみ有効です。"
 		},
 		"vs/workbench/contrib/chat/common/promptSyntax/parsers/promptHeader/metadata/base/enum": {
-			"prompt.header.metadata.enum.diagnostics.invalid-value": "'{0}' メタデータは、{1} のいずれかである必要がありますが、'{2}' が取得されました。"
+			"prompt.header.metadata.enum.diagnostics.invalid-value": "'{0}' プロパティは、{1} のいずれかである必要がありますが、'{2}' が指定されました。"
 		},
 		"vs/workbench/contrib/chat/common/promptSyntax/parsers/promptHeader/metadata/base/string": {
-			"prompt.header.metadata.string.diagnostics.invalid-value-type": "'{0}' メタデータは '{1}' である必要がありますが、'{2}' が取得されました。"
+			"prompt.header.metadata.string.diagnostics.invalid-value-type": "プロパティ '{0}' の型は '{1}' である必要がありますが、'{2}' が指定されました。"
 		},
 		"vs/workbench/contrib/chat/common/promptSyntax/parsers/promptHeader/metadata/tools": {
 			"prompt.header.metadata.tools.diagnostics.duplicate-tool-name": "ツール名 '{0}' が重複しています。",
@@ -6993,7 +7119,7 @@
 			"prompt.header.metadata.tools.diagnostics.invalid-value-type": "ツール名の配列である必要がありますが、'{0}' が取得されました。"
 		},
 		"vs/workbench/contrib/chat/common/promptSyntax/parsers/promptHeader/promptHeader": {
-			"prompt.header.metadata.mode.diagnostics.incompatible-with-tools": "ツールは 'agent' モードの場合にのみ使用できますが、モードは '{0}' に設定されています。このツールは無視されます。"
+			"prompt.header.metadata.mode.diagnostics.incompatible-with-tools": "ツールは '{0}' モードでは使用できないため、無視されます。"
 		},
 		"vs/workbench/contrib/chat/common/promptSyntax/parsers/topError": {
 			"broken": "切断されました",
@@ -7014,7 +7140,7 @@
 			"canBeReferencedInPrompt": "true の場合は、このツールが添付ファイルとして表示され、ユーザーが手動で要求に追加できます。チャット参加者は、このツールを {0} で受け取ります。",
 			"condition": "このツールを有効にするために true にする必要がある条件。'when' 条件が false であっても、ツールが別の拡張機能によって呼び出される可能性があることに注意してください。",
 			"descriptions": "説明",
-			"icon": "このツールを表すアイコン。ファイル パスか、暗いテーマと明るいテーマのファイル パスを含んだオブジェクトか、テーマ アイコン参照 (例: '$(zap)') です",
+			"icon": "このツールを表すアイコン。ファイル パス、暗いテーマと明るいテーマのファイル パスを持つオブジェクト、または '\\$(zap)' などのテーマ アイコン参照のいずれかです",
 			"icon.dark": "暗いテーマを使用した場合のアイコンのパス",
 			"icon.light": "明るいテーマを使用した場合のアイコンのパス",
 			"langModelToolSets": "言語モデル ツール セット",
@@ -7046,16 +7172,13 @@
 			"workbench.action.chat.openStorageFolder.label": "チャット ストレージ フォルダーを開く"
 		},
 		"vs/workbench/contrib/chat/electron-browser/actions/voiceChatActions": {
-			"installProviderForVoiceChat.justification": "マイクのサポートには、この拡張機能が必要です。",
 			"keywordActivation.status.active": "'Hey Code' をリッスンしています...",
 			"keywordActivation.status.inactive": "ボイス チャットが終了するのを待っています...",
 			"keywordActivation.status.name": "音声キーワードのアクティブ化",
 			"listening": "聞いています",
-			"retry": "再試行",
 			"scopedChatSynthesisInProgress": "ボイス チャットでマイクからの音声録音が進行中の場所として定義されます。このキーは、チャット コンテキストごとにスコープのみを定義します。",
 			"scopedVoiceChatGettingReady": "ボイス チャット用のマイクから音声入力を受信する準備をしている場合は True です。このキーは、チャット コンテキストごとにスコープのみを定義します。",
 			"scopedVoiceChatInProgress": "ボイス チャットでマイクからの音声録音が進行中の場所として定義されます。このキーは、チャット コンテキストごとにスコープのみを定義します。",
-			"unknownSetupError": "ボイス チャットの設定中にエラーが発生しました。もう一度やり直しますか?",
 			"voice.keywordActivation": "ボイス チャット セッションを開始するためにキーワード フレーズ 'Hey Code' を認識するかどうかを制御します。これを有効にすると、マイクからのレコーディングが開始されますが、オーディオはローカルで処理され、サーバーに送信されることはありません。",
 			"voice.keywordActivation.chatInContext": "キーワードのアクティブ化が有効になっており、キーボード フォーカスに応じてアクティブなエディターまたはビューでボイス チャット セッションを開始するために 'Hey Code' をリッスンしています。",
 			"voice.keywordActivation.chatInView": "キーワードのアクティブ化が有効になっており、チャット ビューでボイス チャット セッションを開始するために 'Hey Code' をリッスンしています。",
@@ -7064,7 +7187,6 @@
 			"voice.keywordActivation.quickChat": "キーワードのアクティブ化が有効になっており、クイック チャットでボイス チャット セッションを開始するために 'Hey Code' をリッスンしています。",
 			"workbench.action.chat.holdToVoiceChatInChatView.label": "長押ししてチャット ビューでボイス チャット",
 			"workbench.action.chat.inlineVoiceChat": "インライン ボイス チャット",
-			"workbench.action.chat.installProviderForVoiceChat.label": "ボイス チャットの開始",
 			"workbench.action.chat.quickVoiceChat.label": "クイック ボイス チャット",
 			"workbench.action.chat.readChatResponseAloud": "音声読み上げ",
 			"workbench.action.chat.startVoiceChat.label": "ボイス チャットの開始",
@@ -7075,12 +7197,17 @@
 			"workbench.action.speech.stopReadAloud": "音声読み上げを停止する"
 		},
 		"vs/workbench/contrib/chat/electron-browser/chat.contribution": {
+			"changeWorkspace.detail": "ワークスペースを変更すると、チャット要求が停止します。",
 			"changeWorkspace.message": "チャット要求を処理しています。ワークスペースを変更しますか?",
+			"chatRequestInProgress": "チャット要求が処理中です。",
+			"closeTheWindow.detail": "ウィンドウを閉じると、チャット要求は停止します。",
 			"closeTheWindow.message": "チャット要求を処理しています。ウィンドウを閉じますか?",
 			"copilotWorkspaceTrust": "現在、Copilot は信頼されたワークスペースでのみサポートされています。",
+			"exit.detail": "終了すると、チャット要求が停止します。",
 			"exit.message": "チャット要求を処理しています。終了しますか?",
-			"quit.detail": "続行すると、チャット要求は取り消されます。",
+			"quit.detail": "終了すると、チャット要求が停止します。",
 			"quit.message": "チャット要求を処理しています。終了しますか?",
+			"reloadTheWindow.detail": "ウィンドウを再度読み込むと、チャット要求が停止します。",
 			"reloadTheWindow.message": "チャット要求を処理しています。ウィンドウを再度読み込みますか?"
 		},
 		"vs/workbench/contrib/chat/electron-browser/tools/fetchPageTool": {
@@ -7815,6 +7942,7 @@
 			"addConfiguration": "構成の追加...",
 			"addInlineBreakpoint": "インライン ブレークポイントを追加",
 			"addToWatchExpressions": "ウォッチに追加",
+			"attachToCurrentCodeRenderer": "現在のコード レンダラーにアタッチする",
 			"callStackBottom": "呼び出し履歴の一番下に移動",
 			"callStackDown": "呼び出し履歴の下へ移動",
 			"callStackTop": "呼び出し履歴の先頭に移動",
@@ -7840,13 +7968,15 @@
 			"selectAndStartDebugging": "選択してデバッグを開始",
 			"selectDebugConsole": "デバッグ コンソールを選択",
 			"selectDebugSession": "デバッグ セッションの選択",
+			"selectExceptionBreakpointsPlaceholder": "有効な例外ブレークポイントを選択する",
 			"startDebug": "デバッグの開始",
 			"startWithoutDebugging": "デバッグなしで開始",
 			"stepIntoDebug": "ステップ インする",
 			"stepIntoTargetDebug": "ターゲットにステップ イン",
 			"stepOutDebug": "ステップ アウト",
 			"stepOverDebug": "ステップ オーバー",
-			"stop": "停止"
+			"stop": "停止",
+			"toggleExceptionBreakpoints": "例外ブレークポイントの切り替え"
 		},
 		"vs/workbench/contrib/debug/browser/debugConfigurationManager": {
 			"DebugConfig.failed": "'launch.json' ファイルを '.vscode' フォルダー ({0}) 内に作成できません。",
@@ -8438,15 +8568,16 @@
 			"cloudChangesLog": "クラウドの変更"
 		},
 		"vs/workbench/contrib/editTelemetry/browser/editStats/aiStatsStatusBar": {
-			"aiStatsStatusBarHeader": "AI Usage Statistics",
+			"aiStats.statusBar.configure": "構成",
+			"aiStatsStatusBarHeader": "AI 使用状況の統計",
 			"inlineSuggestions": "インライン候補",
 			"inlineSuggestionsStatusBar": "インライン候補のステータス バー",
-			"text1": "Manual vs. AI typing ratio: {0}",
-			"text2": "Accepted inline suggestions today: {0}"
+			"text1": "AI 対 タイピングの平均: {0}",
+			"text2": "現在受け入れられたインライン提案: {0}"
 		},
 		"vs/workbench/contrib/editTelemetry/browser/editTelemetry.contribution": {
 			"editTelemetry": "テレメトリの編集",
-			"editor.aiStats.enabled": "エディターで AI 統計を有効にするかどうかを制御します。",
+			"editor.aiStats.enabled": "エディターで AI 統計を有効にするかどうかを制御します。ゲージは、手動入力されたコードに対比する、 AI により挿入されたコードの 24 時間にわたる平均量を表します。",
 			"telemetry.editStats.detailed.enabled": "詳細な編集統計のテレメトリを有効にするかどうかを制御します (一般的なテレメトリが有効な場合にのみ統計が送信されます)。",
 			"telemetry.editStats.enabled": "編集統計のテレメトリを有効にするかどうかを制御します (一般的なテレメトリが有効な場合にのみ統計が送信されます)。",
 			"telemetry.editStats.showDecorations": "編集テレメトリ用の装飾を表示するかどうかを制御します。",
@@ -9043,7 +9174,7 @@
 			"download": "ダウンロード",
 			"download title": "VSIX をダウンロードするフォルダーの選択",
 			"download.completed": "VSIX が正常にダウンロードされました",
-			"download.failed": "Error while downloading the VSIX: {0}",
+			"download.failed": "VSIX のダウンロード中にエラーが発生しました: {0}",
 			"downloading...": "VSIX をダウンロードしています...",
 			"enable locally": "この拡張機能をローカルで有効にするには、{0} してください。",
 			"enable remote": "{1} でこの拡張機能を有効にするには、{0} してください。",
@@ -9151,14 +9282,14 @@
 			"searchExtensionsTool.userDescription": "Visual Studio Code 拡張機能マーケットプレースで拡張機能を検索します"
 		},
 		"vs/workbench/contrib/extensions/electron-browser/debugExtensionHostAction": {
-			"debugExtensionHost": "新しいウィンドウで拡張機能ホストのデバッグを開始する",
+			"debugExtensionHost": "新しいウィンドウで拡張機能ホストをデバッグする",
 			"debugExtensionHost.launch.name": "拡張機能ホストのアタッチ",
 			"debugExtensionHost.progress": "拡張機能ホストにデバッガーをアタッチしています",
-			"openDevToolsForExtensionHost": "Open Developer Tools for Extension Host",
+			"openDevToolsForExtensionHost": "開発ツールで拡張機能ホストをデバッグする",
 			"restart1": "拡張機能をデバッグする",
 			"restart2": "拡張機能をデバッグするには、再起動が必要です。今すぐ '{0}' を再起動しますか?",
 			"restart3": "再起動(&&R)",
-			"selectExtensionHost": "Pick extension host"
+			"selectExtensionHost": "拡張機能ホストの選択"
 		},
 		"vs/workbench/contrib/extensions/electron-browser/extensionProfileService": {
 			"profilingExtensionHost": "プロファイル拡張機能ホスト",
@@ -9739,13 +9870,14 @@
 			"moveToPreviousHunk": "前の変更箇所に移動",
 			"rerun": "再実行",
 			"reveal": "インライン チャットの切り替え",
-			"run": "エディター内でのインライン チャット",
+			"run": "Open Inline Chat",
 			"showChanges": "変更の切り替え",
 			"startInlineChat": "エディター ツール バーからインライン チャットを生成するアイコン。",
 			"unstash": "最後に閉じられたインライン チャットの再開",
 			"viewInChat": "チャットで表示する"
 		},
 		"vs/workbench/contrib/inlineChat/browser/inlineChatController": {
+			"askOrEditInContext": "コンテキストで質問または編集",
 			"create.fail": "エディター チャットを開始できませんでした",
 			"empty": "結果なし。入力を絞り込んで、もう一度お試しください。",
 			"err.apply": "変更を適用できませんでした。",
@@ -9810,7 +9942,7 @@
 			"inlineChatResponseTypes": "受信した応答の種類、まだ何もない、メッセージのみ、またはメッセージとして送信されたローカルの編集",
 			"inlineChatVisible": "対話型エディター入力が表示されているかどうか",
 			"lineSuffixHint": "自然言語または擬似コードによって優先される行が、インライン チャットを続行するためのヒントを示しているかどうか。たとえば、'名前と趣味を持つクラスの人' はチャットを続行するためのヒントを表示します。",
-			"notebookAgent": "Enable agent-like behavior for inline chat widget in notebooks. Depends on the `#inlineChat.enableV2#` setting being enabled."
+			"notebookAgent": "ノートブックのインライン チャット ウィジェットに対してエージェントのような動作を有効にします。有効になっている '#inlineChat.enableV2#' 設定によって異なります。"
 		},
 		"vs/workbench/contrib/inlineChat/electron-browser/inlineChatActions": {
 			"holdForSpeech": "押したままにして話す"
@@ -10423,6 +10555,7 @@
 			"mcp.addConfiguration.description": "新しいモデル コンテキスト プロトコルを mcp.json 設定にインストールします",
 			"mcp.addServer": "サーバーを追加する",
 			"mcp.addServer.description": "新しいサーバー構成を追加する",
+			"mcp.autoStart": "チャット メッセージを送信する際に MCP サーバーを自動的に起動する",
 			"mcp.browseResources": "リソースの参照...",
 			"mcp.command.browse": "MCP サーバー",
 			"mcp.command.browse.mcp": "サーバーを参照する",
@@ -10443,8 +10576,12 @@
 			"mcp.configureSamplingModels.ph": "MCP サンプリングを使用して {0} がアクセスできるモデルを選択します",
 			"mcp.disconnect": "アカウントを切断します",
 			"mcp.editStoredInput": "保存された入力の編集",
+			"mcp.err.md.multi": "複数の MCP サーバーを正常に起動できませんでした:\r\n\r\n{0}",
+			"mcp.err.md.single": "MCP サーバー {0} を正常に起動できませんでした。",
 			"mcp.list": "サーバーの一覧表示",
 			"mcp.newTools": "新しいツールが利用可能です ({0})",
+			"mcp.newTools.md.multi": "MCP サーバーが更新され、新しいツールが利用可能になった可能性があります。\r\n\r\n{0}",
+			"mcp.newTools.md.single": "MCP サーバー {0} が更新され、新しいツールが利用可能になった可能性があります。",
 			"mcp.options": "サーバー オプション",
 			"mcp.resetCachedTools": "キャッシュされたツールのリセット",
 			"mcp.resetTrust": "信頼のリセット",
@@ -10476,9 +10613,10 @@
 			"install.title": "MCP サーバー {0} のインストール",
 			"mcp.command.placeholder": "実行するコマンド (省略可能な引数を含む)",
 			"mcp.command.title": "コマンドの入力",
-			"mcp.confirmPublish": "{1} から {0} をインストールしますか?",
+			"mcp.confirmPublish": "{2} から {0}{1} をインストールしますか?",
 			"mcp.docker.placeholder": "イメージ名 (例: mcp/imagename)",
 			"mcp.docker.title": "Docker イメージ名を入力してください",
+			"mcp.error.openHelpUri": "ヘルプの URL を開く",
 			"mcp.error.retry": "別のパッケージを試してください",
 			"mcp.loading.title": "パッケージの詳細を読み込んでいます...",
 			"mcp.npm.placeholder": "パッケージ名 (例: @org/package)",
@@ -10505,6 +10643,7 @@
 			"mcp.serverType.pip.description": "Pip パッケージ名からインストールする",
 			"mcp.serverType.placeholder": "追加する MCP サーバーの種類を選択する",
 			"mcp.servers.browse": "MCP サーバーを参照...",
+			"mcp.servers.discovery": "別のアプリケーションから追加...",
 			"mcp.target..remote.description": "このリモート コンピューターで利用可能で、{0} で実行されます",
 			"mcp.target.remote": "リモート",
 			"mcp.target.title": "MCP サーバーをインストールする場所を選択する",
@@ -10585,6 +10724,7 @@
 		},
 		"vs/workbench/contrib/mcp/browser/mcpServerActions": {
 			"config": "構成の表示",
+			"configJson": "構成の表示 (JSON)",
 			"disabled - not allowed": "この MCP サーバーは次の理由で無効になっています: {0}",
 			"install": "インストール",
 			"installing": "インストール中",
@@ -10664,7 +10804,7 @@
 			"cannot be installed": "'{0}' MCP サーバーは、このセットアップで使用できないため、インストールできません。",
 			"mcp.configuration.userLocalValue": "{0} のグローバル",
 			"not an extension": "指定されたオブジェクトは、MCP サーバーではありません。",
-			"overwriting": "Overwriting mcp server '{0}' from {1} with {2}."
+			"overwriting": "{1}から mcp サーバー '{0}' を {2} で上書きしています。"
 		},
 		"vs/workbench/contrib/mcp/common/discovery/extensionMcpDiscovery": {
 			"invalidData": "MCP コレクションの配列が必要です",
@@ -10693,9 +10833,13 @@
 			"app.mcp.json.url.pattern": "URL の先頭は http:// か https:// でなければなりません。",
 			"id": "ID",
 			"mcp.discovery.source.claude-desktop": "Claude Desktop",
+			"mcp.discovery.source.claude-desktop.config": "Claude Desktop の構成 ('claude_desktop_config.json')",
 			"mcp.discovery.source.cursor-global": "カーソル (グローバル)",
+			"mcp.discovery.source.cursor-global.config": "カーソルのグローバル構成 (`~/.cursor/mcp.json`)",
 			"mcp.discovery.source.cursor-workspace": "カーソル (ワークスペース)",
+			"mcp.discovery.source.cursor-workspace.config": "カーソル ワークスペースの構成 ('.cursor/mcp.json')",
 			"mcp.discovery.source.windsurf": "Windsurf",
+			"mcp.discovery.source.windsurf.config": "Windsurf の構成 (`~/.codeium/windsurf/mcp_config.json`)",
 			"mcpServerDefinitionProviders": "MCP サーバー",
 			"name": "名前",
 			"vscode.extension.contributes.mcp": "モデル コンテキスト プロトコル サーバーを提供します。このユーザーは `vscode.lm.registerMcpServerDefinitionProvider` も使用する必要があります。",
@@ -10713,24 +10857,24 @@
 			"mcp.debug.pythonBinReq": "デバッグを有効にするには、MCP サーバーを \"python\" 実行可能ファイルで起動する必要がありますが、\"{0}\" で起動されました"
 		},
 		"vs/workbench/contrib/mcp/common/mcpLanguageModelToolContribution": {
-			"mcp.tool.warning": "Note that MCP servers or malicious conversation content may attempt to misuse '{0}' through tools.",
-			"mcp.toolset": "{0}: All Tools",
-			"msg.ran": "Ran {0} ",
-			"msg.run": "Running {0}",
-			"msg.subtitle": "{0} (MCP Server)",
-			"msg.title": "Run {0}"
+			"mcp.tool.warning": "MCP サーバーまたは悪意のある会話コンテンツは、ツールを介して '{0}' を悪用しようとする可能性があることに注意してください。",
+			"mcp.toolset": "{0}: すべてのツール",
+			"msg.ran": "{0} を実行しました",
+			"msg.run": "{0} を実行しています",
+			"msg.subtitle": "{0} (MCP サーバー)",
+			"msg.title": "{0} を実行する"
 		},
 		"vs/workbench/contrib/mcp/common/mcpRegistry": {
 			"mcp.launchError": "{0} の起動でエラーが発生しました: {1}",
 			"mcp.launchError.openConfig": "構成を開く",
-			"mcp.trust.details": "The MCP server {0} was updated. MCP servers may add context to your chat session and lead to unexpected behavior. Do you want to trust and run this server?",
-			"mcp.trust.detailsMulti": "Several updated MCP servers were discovered:\r\n\r\n{0}\r\n\r\n MCP servers may add context to your chat session and lead to unexpected behavior. Do you want to trust and run these server?",
+			"mcp.trust.details": "MCP サーバー {0} が更新されました。MCP サーバーがチャット セッションにコンテキストを追加し、予期しない動作を引き起こす可能性があります。このサーバーを信頼して実行しますか?",
+			"mcp.trust.detailsMulti": "更新された MCP サーバーがいくつか検出されました:\r\n\r\n{0}\r\n\r\n MCP サーバーがチャット セッションにコンテキストを追加し、予期しない動作を引き起こす可能性があります。これらのサーバーを信頼して実行しますか?",
 			"mcp.trust.no": "信頼しない",
-			"mcp.trust.pick": "Pick Trusted",
+			"mcp.trust.pick": "信頼済みを選択する",
 			"mcp.trust.yes": "信頼する",
-			"trustFromExt": "from {0}",
-			"trustTitleWithOrigin": "Trust and run MCP server {0}?",
-			"trustTitleWithOriginMulti": "Trust and run {0} MCP servers?"
+			"trustFromExt": "{0} から",
+			"trustTitleWithOrigin": "MCP サーバー {0} を信頼して実行しますか?",
+			"trustTitleWithOriginMulti": "{0} MCP サーバーを信頼して実行しますか?"
 		},
 		"vs/workbench/contrib/mcp/common/mcpSamplingLog": {
 			"mcp.sampling.rpd": "過去 7 日間の要求の合計は {0} です。"
@@ -10763,6 +10907,10 @@
 			"mcpServer.starting": "サーバー {0} を起動しています",
 			"mcpServer.state": "接続状態: {0}",
 			"mcpServer.stopping": "サーバー {0} を停止しています"
+		},
+		"vs/workbench/contrib/mcp/common/mcpService": {
+			"mcp.autostart.configure": "MCP 自動開始の構成",
+			"mcp.autostart.progress": "MCP サーバーを開始しています: {0}"
 		},
 		"vs/workbench/contrib/mcp/common/mcpTypes": {
 			"mcpstate.error": "エラー {0}",
@@ -11119,7 +11267,7 @@
 			"breadcrumbs.showCodeCells": "有効にすると、ノートブックの階層リンクにコード セルが含まれます。",
 			"filter": "エントリのフィルター処理",
 			"notebook.gotoSymbols.showAllSymbols": "シンボルに移動 クイック 選択を有効にすると、ノートブックの完全なコード シンボルと Markdown ヘッダーが表示されます。",
-			"outline.showCodeCellSymbols": "有効にすると、ノートブックのアウトラインにコード セルの記号が表示されます。'notebook.outline.showCodeCells' が有効になっていることに依存します。",
+			"outline.showCodeCellSymbols": "有効にすると、ノートブックのアウトラインにコード セルの記号が表示されます。'#notebook.outline.showCodeCells#' が有効になっていることに依存します。",
 			"outline.showCodeCells": "有効にすると、ノートブック アウトラインにコード セルが表示されます。",
 			"outline.showMarkdownHeadersOnly": "有効にすると、ノートブックのアウトラインにヘッダーを含むマークダウン セルのみが表示されます。",
 			"toggleCodeCellSymbols": "コード セル記号",
@@ -11198,7 +11346,7 @@
 			"notebookChatUserDidEdit": "ユーザーが Notebook セル チャットの上部で変更を行ったかどうか"
 		},
 		"vs/workbench/contrib/notebook/browser/controller/chat/notebookChatController": {
-			"default.placeholder": "質問してください",
+			"default.placeholder": "コンテキストで質問または編集",
 			"welcome.1": "AI によって生成されたコードが正しくない可能性があります。"
 		},
 		"vs/workbench/contrib/notebook/browser/controller/coreActions": {
@@ -11228,6 +11376,7 @@
 			"notebookActions.deleteCell": "セルの削除",
 			"notebookActions.editCell": "セルの編集",
 			"notebookActions.quitEdit": "セルの編集を停止",
+			"notebookActions.quitEditAllCells": "すべてのセルの編集を停止する",
 			"pickAction": "アクションの選択",
 			"pickLanguageToConfigure": "言語モードの選択",
 			"selectNotebookIndentation": "インデントを選択"
@@ -13631,7 +13780,7 @@
 			"ProblemPatternExtPoint": "問題パターンを提供",
 			"ProblemPatternParser.invalidRegexp": "エラー: 文字列 {0} は有効な正規表現ではありません。\r\n",
 			"ProblemPatternParser.loopProperty.notLast": "ループ プロパティは、最終行マッチャーでのみサポートされています。",
-			"ProblemPatternParser.problemPattern.emptyPattern": "The problem pattern is invalid. It must contain at least one pattern.",
+			"ProblemPatternParser.problemPattern.emptyPattern": "問題のパターンが無効です。少なくとも 1 つのパターンが含まれている必要があります。",
 			"ProblemPatternParser.problemPattern.kindProperty.notFirst": "問題のパターンが正しくありません。kind プロパティは最初の要素のみで指定される必要があります。",
 			"ProblemPatternParser.problemPattern.missingLocation": "問題のパターンが正しくありません。kind: \"file\" または line や location の一致グループのいずれかが必要です。",
 			"ProblemPatternParser.problemPattern.missingProperty": "問題のパターンが正しくありません。少なくとも、file と message が必要です",
@@ -13697,7 +13846,8 @@
 			"tasks.processExecutionSupported": "ProcessExecution タスクがサポートされているかどうか。'taskDefinition' コントリビューションの WHEN 句で使用することを検討してください。",
 			"tasks.serverlessWebContext": "リモート権限のない Web の場合は True です。",
 			"tasks.shellExecutionSupported": "ShellExecution タスクがサポートされているかどうか。'taskDefinition' コントリビューションの WHEN 句で使用することを検討してください。",
-			"tasks.taskCommandsRegistered": "タスク コマンドがまだ登録されているかどうか"
+			"tasks.taskCommandsRegistered": "タスク コマンドがまだ登録されているかどうか",
+			"tasks.tasksAvailable": "ワークスペースに利用可能なタスクがあるかどうか。"
 		},
 		"vs/workbench/contrib/tasks/common/taskTemplates": {
 			"Maven": "共通の maven コマンドを実行する",
@@ -13844,11 +13994,12 @@
 		"vs/workbench/contrib/terminal/browser/terminalMenus": {
 			"defaultTerminalProfile": "{0} (既定値)",
 			"launchProfile": "プロファイルを起動...",
+			"miNewInNewWindow": "新しいターミナル ウィンドウ(&W)",
 			"miNewTerminal": "新しいターミナル(&&N)",
 			"miRunActiveFile": "アクティブなファイルの実行(&&A)",
 			"miRunSelectedText": "選択したテキストの実行(&&S)",
 			"miSplitTerminal": "ターミナルの分割(&&S)",
-			"splitTerminal": "ターミナルの分割",
+			"split.profile": "プロファイルを使用してターミナルを分割する",
 			"workbench.action.tasks.configureTaskRunner": "タスクの構成...",
 			"workbench.action.tasks.runTask": "タスクの実行...",
 			"workbench.action.terminal.changeColor": "色の変更...",
@@ -13984,6 +14135,7 @@
 			"terminalOverviewRuler.findMatchHighlightForeground": "ターミナルで一致する検索の概要ルーラー マーカーの色。"
 		},
 		"vs/workbench/contrib/terminal/common/terminalConfiguration": {
+			"autoApproveMode.description": "ターミナル ツールでの実行時に自動承認を許可するかどうかを制御します。",
 			"cwd": "ターミナルの現在の作業ディレクトリ。",
 			"cwdFolder": "現在のターミナルの作業ディレクトリ。マルチ ルート ワークスペースの場合は表示され、または初期作業ディレクトリと値が異なる場合にはシングル ルート ワークスペースに表示されます。Windows では、シェル統合が有効になっている場合にのみ表示されます。",
 			"enableFileLinks.notRemote": "リモート ワークスペースにない場合にのみ有効にします。",
@@ -14146,6 +14298,7 @@
 		"vs/workbench/contrib/terminal/common/terminalContextKey": {
 			"inTerminalRunCommandPickerContextKey": "ターミナルの実行コマンド ピッカーが現在開いているかどうか。",
 			"isSplitTerminalContextKey": "優先タブのターミナルがターミナルの分割かどうか。",
+			"splitPaneActive": "アクティブなターミナルが分割ウィンドウかどうか。",
 			"terminalAltBufferActive": "ターミナルの Alt バッファーがアクティブであるかどうか。",
 			"terminalCountContextKey": "現在のターミナル数。",
 			"terminalEditorFocusContextKey": "エディター領域内のターミナルが対象であるかどうか。",
@@ -14169,6 +14322,7 @@
 			"local": "ローカル",
 			"moveIntoNewWindow": "ターミナルを新しいウィンドウに移動",
 			"moveToEditor": "ターミナルをエディター領域へ移動",
+			"newInNewWindow": "新しいターミナル ウィンドウ",
 			"previousSessionCategory": "前のセッション",
 			"splitTerminal": "ターミナルの分割",
 			"splitTerminal.short": "分割",
@@ -14275,64 +14429,94 @@
 			"runCommand": "チャットの実行コマンド",
 			"runFirst": "最初に実行",
 			"runFirstCommand": "最初のチャット コマンドの実行",
-			"startChat": "ターミナル インライン チャット",
+			"startChat": "Open Inline Chat",
+			"terminalCategory": "Terminal",
 			"viewInChat": "チャットで表示する"
 		},
 		"vs/workbench/contrib/terminalContrib/chat/browser/terminalChatWidget": {
-			"askAI": "AI に質問する"
+			"askAboutCommands": "コマンドについて質問"
 		},
 		"vs/workbench/contrib/terminalContrib/chat/common/terminalInitialHintConfiguration": {
 			"terminal.integrated.initialHint": "入力されていない最初のターミナルがフォーカスされているときに使用可能なアクションに関するヒントを表示するかどうかを制御します。"
 		},
-		"vs/workbench/contrib/terminalContrib/chatAgentTools/browser/bufferOutputPolling": {
-			"poll.terminal.accept": "はい",
-			"poll.terminal.polling": "Copilot は引き続き出力のポーリングを行い、ターミナルが最大 2 分間アイドル状態になるタイミングを判断します。",
-			"poll.terminal.reject": "いいえ",
-			"poll.terminal.waiting": "引き続き `{0}` が完了するのを待ちますか?"
+		"vs/workbench/contrib/terminalContrib/chatAgentTools/browser/runInTerminalHelpers": {
+			"autoApprove.baseCommand": "コマンドを常に許可する: {0}",
+			"autoApprove.baseCommandSingle": "コマンドを常に許可する: {0}",
+			"autoApprove.configure": "自動承認の構成...",
+			"autoApprove.exactCommand": "常に正確なコマンド ラインを許可する: {0}"
 		},
-		"vs/workbench/contrib/terminalContrib/chatAgentTools/browser/getTerminalOutputTool": {
+		"vs/workbench/contrib/terminalContrib/chatAgentTools/browser/terminal.chatAgentTools.contribution": {
+			"addTerminalSelection": "チャットにターミナルの選択を追加する",
+			"terminalSelection": "ターミナルの選択",
+			"toolset.runCommands": "ターミナルでコマンドを実行します",
+			"toolset.runTasks": "タスクを実行し、ワークスペースの出力を取得します"
+		},
+		"vs/workbench/contrib/terminalContrib/chatAgentTools/browser/tools/getTerminalLastCommandTool": {
+			"getTerminalLastCommand.past": "最後のターミナル コマンドを取得しました",
+			"getTerminalLastCommand.progressive": "最後のターミナル コマンドを取得しています",
+			"terminalLastCommandTool.displayName": "ターミナルの最後のコマンドを取得する"
+		},
+		"vs/workbench/contrib/terminalContrib/chatAgentTools/browser/tools/getTerminalOutputTool": {
 			"bg.past": "バックグラウンド ターミナル出力を確認しました",
 			"bg.progressive": "バックグラウンド ターミナル出力を確認しています",
 			"getTerminalOutputTool.displayName": "ターミナル出力の取得"
 		},
-		"vs/workbench/contrib/terminalContrib/chatAgentTools/browser/runInTerminalTool": {
-			"runInTerminal.background": "バックグラウンド ターミナルでコマンドを実行する",
-			"runInTerminal.foreground": "ターミナルでコマンドを実行する",
+		"vs/workbench/contrib/terminalContrib/chatAgentTools/browser/tools/getTerminalSelectionTool": {
+			"getTerminalSelection.past": "ターミナル選択の読み取り",
+			"getTerminalSelection.progressive": "ターミナルの選択を読み取っています",
+			"terminalSelectionTool.displayName": "ターミナルの選択を取得する"
+		},
+		"vs/workbench/contrib/terminalContrib/chatAgentTools/browser/tools/monitoring/outputMonitor": {
+			"poll.terminal.accept": "Yes",
+			"poll.terminal.acceptRun": "Yes",
+			"poll.terminal.confirmRun": "Run `{0}` in the terminal?",
+			"poll.terminal.confirmRunDetail": "The terminal output appears to require a response. Do you want to send `{0}` to the terminal?",
+			"poll.terminal.polling": "This will continue to poll for output to determine when the terminal becomes idle for up to 2 minutes.",
+			"poll.terminal.reject": "No",
+			"poll.terminal.rejectRun": "No",
+			"poll.terminal.waiting": "Continue waiting for `{0}`?"
+		},
+		"vs/workbench/contrib/terminalContrib/chatAgentTools/browser/tools/runInTerminalTool": {
+			"autoApprove.global": "{0} の設定による自動承認",
+			"autoApprove.rule": "ルール {0} による自動承認",
+			"autoApprove.rules": "ルール {0} による自動承認",
+			"autoApproveDenied.rule": "ルール {0} によって自動承認が拒否されました",
+			"autoApproveDenied.rules": "ルール {0} によって自動承認が拒否されました",
+			"ruleTooltip": "設定でルールを表示する",
+			"ruleTooltip.global": "設定の表示",
+			"runInTerminal": "`{0}` コマンドを実行しますか?",
+			"runInTerminal.background": "`{0}` コマンドを実行しますか?(バックグラウンド ターミナル)",
+			"runInTerminal.promptInjectionDisclaimer": "Web コンテンツには悪意のあるコードが含まれていたり、プロンプト インジェクション攻撃を試みたりする可能性があります。",
 			"runInTerminalTool.displayName": "ターミナルで実行",
 			"runInTerminalTool.userDescription": "ターミナルでコマンドを実行するためのツール"
 		},
-		"vs/workbench/contrib/terminalContrib/chatAgentTools/browser/task.chatAgentTools.contribution": {
-			"toolset.runTasks": "Runs tasks and gets their output for your workspace"
+		"vs/workbench/contrib/terminalContrib/chatAgentTools/browser/tools/task/createAndRunTaskTool": {
+			"allowTaskCreationExecution": "タスクの作成と実行を許可しますか？",
+			"alreadyRunning": "タスクは `{0}` 既に実行中です。",
+			"copilotChat.fetchingTask": "タスクの解決",
+			"copilotChat.noTerminal": "タスクが開始されましたが、次のターミナルが見つかりませんでした: `{0}`",
+			"copilotChat.runningTask": "タスク `{0}` を実行しています",
+			"copilotChat.taskNotFound": "タスクが見つかりませんでした: `{0}`",
+			"copilotCreateTask": "Copilot は、コマンド `{1}`{2} を使用してタスク `{0}` を作成します。",
+			"createAndRunTask.displayName": "タスクを作成して実行する",
+			"createAndRunTask.modelDescription": "ワークスペースのビルド、実行、またはカスタム タスクを作成して実行するには、プロジェクト構造 (package.json や README.md など) に基づいて、tasks.json ファイルを生成または追加します。ユーザーがビルド、実行、起動を依頼し、tasks.jsonファイルがない場合は、このツールを使用します。タスクの作成または追加を依頼された場合も、このツールを使用します。",
+			"createAndRunTask.userDescription": "ワークスペースでタスクを作成して実行する",
+			"createdTask": "タスク `{0}` を作成しました",
+			"createdTaskPast": "タスク `{0}` を作成しました",
+			"taskExists": "タスク `{0}` は既に存在します。",
+			"taskExistsPast": "タスク `{0}` は既に存在します。"
 		},
-		"vs/workbench/contrib/terminalContrib/chatAgentTools/browser/task/createAndRunTaskTool": {
-			"allowTaskCreationExecution": "Allow task creation and execution?",
-			"alreadyRunning": "Task `{0}` is already running.",
-			"copilotChat.checkingOutput": "Checking output for `{0}`",
-			"copilotChat.fetchingTask": "Resolving the task",
-			"copilotChat.noTerminal": "Task started but no terminal was found for: `{0}`",
-			"copilotChat.runningTask": "Running task `{0}`",
-			"copilotChat.taskNotFound": "Task not found: `{0}`",
-			"copilotCreateTask": "Copilot will create the task `{0}` with command `{1}`{2}.",
-			"createAndRunTask.displayName": "Create and run Task",
-			"createAndRunTask.modelDescription": "For a workspace, this tool will create a task based on the package.json, README.md, and project structure so that the project can be built and run.",
-			"createAndRunTask.userDescription": "Create and run a task in the workspace",
-			"createdTask": "Created task `{0}`",
-			"createdTaskPast": "Created task `{0}`",
-			"taskExists": "Task `{0}` already exists.",
-			"taskExistsPast": "Task `{0}` already exists."
-		},
-		"vs/workbench/contrib/terminalContrib/chatAgentTools/browser/task/getTaskOutputTool": {
-			"copilotChat.checkedTerminalOutput": "Checked output for task `{0}`",
-			"copilotChat.checkingTerminalOutput": "Checking output for task `{0}`",
+		"vs/workbench/contrib/terminalContrib/chatAgentTools/browser/tools/task/getTaskOutputTool": {
+			"copilotChat.checkedTerminalOutput": "タスク '{0}' の出力を確認しました",
+			"copilotChat.checkingTerminalOutput": "タスク '{0}' の出力を確認しています",
 			"copilotChat.taskAlreadyRunning": "タスク `{0}` は既に実行中です。",
 			"copilotChat.taskNotFound": "タスクが見つかりませんでした: `{0}`",
 			"copilotChat.terminalNotFound": "タスク `{0}` のターミナルが見つかりません",
 			"getTaskOutputTool.displayName": "タスク出力の取得"
 		},
-		"vs/workbench/contrib/terminalContrib/chatAgentTools/browser/task/runTaskTool": {
+		"vs/workbench/contrib/terminalContrib/chatAgentTools/browser/tools/task/runTaskTool": {
 			"copilotChat.allowTaskRunMsg": "Copilot にタスク `{0}` の実行を許可しますか?",
 			"copilotChat.allowTaskRunTitle": "タスクの実行を許可しますか?",
-			"copilotChat.checkingOutput": "`{0}` の出力を確認しています",
 			"copilotChat.noTerminal": "タスクが開始されましたが、次のターミナルが見つかりませんでした: `{0}`",
 			"copilotChat.ranTask": "`{0}` を実行しました",
 			"copilotChat.runningTask": "`{0}` を実行しています",
@@ -14345,11 +14529,13 @@
 			"runInTerminalTool.displayName": "タスクの実行",
 			"runInTerminalTool.userDescription": "ワークスペースでタスクを実行するためのツール"
 		},
-		"vs/workbench/contrib/terminalContrib/chatAgentTools/browser/terminal.chatAgentTools.contribution": {
-			"toolset.runCommands": "ターミナルでコマンドを実行します"
+		"vs/workbench/contrib/terminalContrib/chatAgentTools/browser/tools/task/taskHelpers": {
+			"copilotChat.taskFailedWithExitCode": "Task `{0}` failed with exit code {1}."
 		},
 		"vs/workbench/contrib/terminalContrib/chatAgentTools/common/terminalChatAgentToolsConfiguration": {
-			"autoApprove.description.commandLine": "オブジェクトは、サブコマンドとインライン コマンドを照合する代わりに、完全なコマンド ラインと照合するために使用できます (例: {0})。これは、サブコマンドがチェックされた \"後\" に確認され、拒否されたサブコマンドよりも優先されます。",
+			"autoApprove.deprecated": "代わりに {0} を使用してください",
+			"autoApprove.description.commandLine": "オブジェクトを使用すると、サブコマンドやインライン コマンドではなく、完全なコマンド ラインと照合できます (例: {0}）。自動承認されるためには、サブコマンドとコマンド ラインの両方が明示的に拒否されていない必要があり、その後、すべてのサブコマンドまたはコマンド ラインのいずれかが承認される必要があります。",
+			"autoApprove.description.examples.binTest": "パス {0} ({1}、{2} など) に一致するすべてのコマンドを許可する",
 			"autoApprove.description.examples.description": "説明",
 			"autoApprove.description.examples.mkdir": "{0} で始まるすべてのコマンドを許可する",
 			"autoApprove.description.examples.npmRunBuild": "{0} で始まるすべてのコマンドを許可する",
@@ -14362,7 +14548,7 @@
 			"autoApprove.description.examples.title": "例:",
 			"autoApprove.description.examples.value": "値",
 			"autoApprove.description.intro": "ターミナル ツール コマンドでの実行に明示的な承認が必要かどうかを制御するコマンドまたは正規表現のリスト。これらはコマンドの先頭と照合されます。正規表現を指定するには、文字列を {0} 文字でラップし、その後に大文字と小文字を区別しない省略可能なフラグ ({1} など) を付けます。",
-			"autoApprove.description.subCommands": "これらのコマンドと正規表現は、完全な \"コマンド ライン\" 内のすべての \"サブコマンド\" に対して評価されるため、たとえば、{0} は {1} と {2} の両方が {3} エントリと一致する必要があり、自動承認のためには {4} エントリと一致してはなりません。インライン コマンドも検出されるため、{5} がパスするには、{5} と {6} の両方が必要になります。",
+			"autoApprove.description.subCommands": "これらのコマンドと正規表現は、完全な _コマンド ライン_ 内のすべての _サブコマンド_ に対して評価されます。たとえば {0} は、{1} と {2} の両方が {3} エントリと一致し、自動承認を実行するために {4} エントリと一致しないことが必要となります。現在、{5} (コマンドの置換) や {6} (プロセスの置換) などのインライン コマンドは、これらのパターンを検出する広範なルールによって既定でブロックされています。",
 			"autoApprove.description.values": "コマンドを自動的に承認するには {0} に設定し、明示的な承認を常に必要とするには {1} に設定し、値を設定解除するには {2} に設定します。",
 			"autoApprove.false": "パターンの明示的な承認が必要です。",
 			"autoApprove.key": "照合するコマンドの先頭。正規表現は、文字列を '/' 文字で囲むことで指定できます。",
@@ -14370,7 +14556,8 @@
 			"autoApprove.matchCommandLine.false": "サブコマンドとインライン コマンドと一致させます。例: `foo && bar` は `foo` と `bar` の両方が一致する必要があります。",
 			"autoApprove.matchCommandLine.true": "完全なコマンド ラインと照合します。例: 'foo && bar'。",
 			"autoApprove.null": "パターンを無視します。これは、上位スコープで設定された同じパターンを解除するのに便利です。",
-			"autoApprove.true": "パターンを自動的に承認します。"
+			"autoApprove.true": "パターンを自動的に承認します。",
+			"shellIntegrationTimeout.description": "ターミナル ツールで実行が新しいターミナルを起動したときに、シェル統合が検出されるまでの待機時間をミリ秒単位で構成します。待機時間を最小限にするには '0' に設定します。既定値 '-1' は、待機時間が {0} の値とリモート ウィンドウかどうかに基づいて可変することを意味します。シェルの起動が非常に遅い場合は値を大きくし、シェル統合を意図的に使用していない場合は値を低くします。"
 		},
 		"vs/workbench/contrib/terminalContrib/clipboard/browser/terminal.clipboard.contribution": {
 			"workbench.action.terminal.copyAndClearSelection": "選択範囲のコピーとクリア",
@@ -14607,9 +14794,8 @@
 			"suggest.inlineSuggestion.alwaysOnTop": "機能を有効にして、常にインライン提案を上に配置します。",
 			"suggest.inlineSuggestion.alwaysOnTopExceptExactMatch": "機能を有効にして、インライン候補を強制的に一番上に表示せずに並べ替えます。これは、完全一致がインライン提案の上にあることを意味します。",
 			"suggest.inlineSuggestion.off": "機能を無効にします。",
-			"suggest.provider.description": "Whether to enable this provider.",
-			"suggest.provider.pwsh.deprecation": "This is deprecated as it has performance problems, the upcoming LSP provider will supersede this.",
-			"suggest.provider.pwsh.description": "Enable or disable the PowerShell script-based provider. This enables PowerShell-specific argument completion.",
+			"suggest.provider.description": "このプロバイダーを有効にするかどうか。",
+			"suggest.provider.lsp.description": "LSP ベースのプロバイダーを有効または無効にします。これにより、言語サーバー プロトコル固有の引数補完が有効になります。",
 			"suggest.providers": "プロバイダーは既定で有効になっています。プロバイダーの ID を 'false' に設定して、これらを省略します。",
 			"suggest.quickSuggestions": "入力中に候補を自動的に表示するかどうかを制御します。また、提案が特殊文字によってトリガーされるかどうかを制御する {0}-設定にも注意してください。",
 			"suggest.quickSuggestions.arguments": "コマンド ライン入力の最初の単語の後にある引数のクイック候補を有効にします。",
@@ -14667,9 +14853,12 @@
 			"coverage.toggleInline": "インライン カバレッジの切り替え",
 			"testing.coverageForTestAvailable": "{0} 個のテストがこのファイルでコードを実行しました",
 			"testing.filterActionLabel": "テスト カバレッジをフィルター処理する",
+			"testing.hideCoverageInExplorer": "エクスプローラーでカバレッジを非表示にする",
 			"testing.hideInlineCoverage": "インライン カバレッジを非表示にする",
 			"testing.rerun": "再実行",
 			"testing.showInlineCoverage": "インライン カバレッジの表示",
+			"testing.toggleCoverageInExplorerDesc": "エクスプローラー ビューでテスト カバレッジの表示を切り替えます。",
+			"testing.toggleCoverageInExplorerTitle": "エクスプローラーでカバレッジを切り替える",
 			"testing.toggleInlineCoverage": "インラインの切り替え",
 			"testing.toggleToolbarDesc": "エディターで固定カバレッジ バーを切り替えます。",
 			"testing.toggleToolbarTitle": "テスト カバレッジ ツール バー"
@@ -14725,6 +14914,7 @@
 			"testCoverageTreeLabel": "テスト カバレッジ エクスプローラー",
 			"testing.changeCoverageFilter": "テストでカバレッジをフィルター処理",
 			"testing.changeCoverageSort": "並べ替え順序の変更",
+			"testing.coverageCollapseAll": "Collapse All Coverage",
 			"testing.coverageSortByCoverage": "カバレッジで並べ替え",
 			"testing.coverageSortByCoverageDescription": "ファイルと宣言は、合計カバレッジ順に並べ替えられます",
 			"testing.coverageSortByLocation": "場所で並べ替え",
@@ -15000,17 +15190,17 @@
 			"testing.treeElementLabel": "{0} ({1})"
 		},
 		"vs/workbench/contrib/testing/common/testingChatAgentTool": {
-			"runTestTool.confirm.all": "The model wants to run all tests.",
-			"runTestTool.confirm.invocation": "Running tests...",
-			"runTestTool.confirm.message": "The model wants to run tests in {0}.",
-			"runTestTool.confirm.title": "Allow test run?",
-			"runTestTool.invoke.cancelled": "Test run was cancelled.",
-			"runTestTool.invoke.filesProgress": "Discovering tests...",
-			"runTestTool.invoke.filterProgress": "Filtering tests...",
-			"runTestTool.invoke.progress": "Starting test run...",
-			"runTestTool.noRunStarted": "No test run was started. This may be an issue with your test runner or extension.",
-			"runTestTool.noTests": "No tests found in the files",
-			"runTestTool.userDescription": "Runs unit tests"
+			"runTestTool.confirm.all": "モデルはすべてのテストを実行しようとしています。",
+			"runTestTool.confirm.invocation": "テストを実行しています...",
+			"runTestTool.confirm.message": "モデルは {0}でテストを実行しようとしています。",
+			"runTestTool.confirm.title": "テストの実行を許可しますか?",
+			"runTestTool.invoke.cancelled": "テストの実行が取り消されました。",
+			"runTestTool.invoke.filesProgress": "テストを検出しています...",
+			"runTestTool.invoke.filterProgress": "テストをフィルター処理しています...",
+			"runTestTool.invoke.progress": "テストの実行を開始しています...",
+			"runTestTool.noRunStarted": "テストの実行は開始されませんでした。これは、テスト実行プログラムまたは拡張機能の問題である可能性があります。",
+			"runTestTool.noTests": "ファイルにテストが見つかりませんでした",
+			"runTestTool.userDescription": "単体テストを実行します"
 		},
 		"vs/workbench/contrib/testing/common/testingContentProvider": {
 			"runNoOutout": "テストの実行で、出力が記録されませんでした。"
@@ -15027,6 +15217,7 @@
 			"testing.hasCoverableTests": "任意のテスト コントローラーがカバレッジ構成を登録したかどうかを示します",
 			"testing.hasCoverageInFile": "現在のエディターでカバレッジが報告されたことを示します。",
 			"testing.hasDebuggableTests": "任意のテスト コントローラーがデバッグ構成を登録したかどうかを示します",
+			"testing.hasInlineCoverageDetails": "インライン表示で詳細な行単位カバレッジを使用できるかどうかを示します",
 			"testing.hasNonDefaultConfig": "任意のテスト コントローラーが既定以外の構成を登録したかどうかを示します",
 			"testing.hasPerTestCoverage": "テストごとのカバレッジが利用可能かどうかを示します",
 			"testing.hasRunnableTests": "任意のテスト コントローラーが実行構成を登録したかどうかを示します",
@@ -15048,11 +15239,11 @@
 			"testing.testResultState": "項目の状態を示す使用可能なテスト/項目/結果の値。"
 		},
 		"vs/workbench/contrib/testing/common/testingProgressMessages": {
-			"testProgress.completed": "{0}/{1} tests passed ({2}%)",
-			"testProgress.running": "Running tests, {0}/{1} passed ({2}%)",
-			"testProgress.runningInitial": "Running tests...",
-			"testProgressWithSkip.completed": "{0}/{1} tests passed ({2}%, {3} skipped)",
-			"testProgressWithSkip.running": "Running tests, {0}/{1} tests passed ({2}%, {3} skipped)"
+			"testProgress.completed": "{1} 個中 {0} 個のテストが成功しました ({2}%)",
+			"testProgress.running": "テストを実行しています。{1} 個中 {0} 個が成功しました ({2}%)",
+			"testProgress.runningInitial": "テストを実行しています...",
+			"testProgressWithSkip.completed": "{1} 個中 {0} 個のテストが成功しました ({2}%、{3} 個がスキップされました)",
+			"testProgressWithSkip.running": "テストを実行しています。{1} 個中 {0} 個が成功しました ({2}%、{3} 個がスキップされました)"
 		},
 		"vs/workbench/contrib/testing/common/testResult": {
 			"runFinished": "{0} でのテスト実行",
@@ -15544,7 +15735,6 @@
 			"acessibleViewHint": "ユーザー補助対応のビューでこれを検査します ({0})。\r\n",
 			"acessibleViewHintNoKbOpen": "キー バインドを介して現在トリガーできない [ユーザー補助対応のビューを開く] コマンドを使用して、ユーザー補助対応のビューでこれを検査します。\r\n",
 			"allDone": "完了のマーク",
-			"back": "戻る",
 			"checkboxTitle": "チェックをオンにすると、スタートアップ時にこのページが表示されます。",
 			"close": "非表示",
 			"closeAriaLabel": "非表示",
@@ -15555,18 +15745,13 @@
 			"gettingStarted.someStepsComplete": "{1} ステップのうち {0} ステップが完了",
 			"goBack": "戻る",
 			"imageShowing": "{0} を示す画像",
-			"last": "コーディングを始める",
-			"lastStep": "コーディングを始める",
 			"new": "新規",
 			"newItems": "更新",
-			"next": "次へ",
 			"nextOne": "次のセクション",
-			"nextStep": "次へ",
 			"noRecents": "最近使用したフォルダーはありません。",
 			"openFolder": "フォルダーを開く",
 			"optOut": "オプトアウト",
 			"pickWalkthroughs": "チュートリアルを開きます...",
-			"previousStep": "前の手順",
 			"privacy statement": "プライバシーに関する声明",
 			"recent": "最近",
 			"show more recents": "最近使ったフォルダーをすべて表示 {0}",
@@ -15593,7 +15778,6 @@
 			"welcome.markStepComplete": "ステップ完了のマーク",
 			"welcome.markStepInomplete": "ステップを未完了としてマーク",
 			"welcome.showAllWalkthroughs": "チュートリアルを開きます...",
-			"welcome.showNewWelcome": "新しいウェルカム エクスペリエンスを開く",
 			"workbench.startupEditor": "起動時にどのエディターを表示するかを制御します。無い場合、前のセッションを復元します。",
 			"workbench.startupEditor.newUntitledFile": "無題の新規テキスト ファイルを開きます (空のウィンドウが開かれているときのみ)。",
 			"workbench.startupEditor.none": "エディターなしで開始",
@@ -15692,8 +15876,6 @@
 			"gettingStarted.accessibilitySignals.title": "オーディオまたは点字デバイスを介して受信するアクセシビリティ信号を微調整する",
 			"gettingStarted.accessibleView.description.interpolated": "アクセシビリティ対応ビューは、ターミナル、ホバー、通知、コメント、ノートブック出力、チャット応答、インライン入力候補、デバッグ コンソール出力で使用できます。\r\n これらの機能にフォーカスがある場合は、[アクセシビリティ対応ビューを開く] コマンドを使用して開くことができます。\r\n{0}",
 			"gettingStarted.accessibleView.title": "スクリーン リーダー ユーザーは、アクセス可能なビューで、コンテンツを 1 行ずつ、文字ごとに検査できます。",
-			"gettingStarted.agentMode.description": "問題を分析し、次の手順を計画し、変更を加えてくれます。",
-			"gettingStarted.agentMode.title": "エージェント モード",
 			"gettingStarted.beginner.description": "最も重要な機能の概要を取得する",
 			"gettingStarted.beginner.title": "基礎の学習",
 			"gettingStarted.beginner.walkthroughPageTitle": "重要な機能",
@@ -15704,9 +15886,7 @@
 			"gettingStarted.commandPaletteAccessibility.description.interpolated": "マウスに接続せずにコマンドを実行して、VS Code のタスクを完了します。\r\n{0}",
 			"gettingStarted.commandPaletteAccessibility.title": "コマンド パレットを使用して生産性を高める",
 			"gettingStarted.copilotSetup.description": "[Copilot]({0}) を使用すると、自然言語を使用して、複数のファイル間でコードを生成したり、エラーを修正したり、コードに関する質問をしたりすることなどができます。",
-			"gettingStarted.copilotSetup.title": "Copilot で AI 機能を無料で使用する",
-			"gettingStarted.customize.description": "モデルを入れ替え、エージェント モード ツールを追加し、パーソナライズされた指示を作成します。\r\n{0}",
-			"gettingStarted.customize.title": "作業スタイルに合わせてパーソナライズされています",
+			"gettingStarted.copilotSetup.title": "Use AI features with GitHub Copilot for free",
 			"gettingStarted.debug.description.interpolated": "起動構成を設定して、編集、ビルド、テスト、デバッグのループを高速化します。\r\n{0}",
 			"gettingStarted.debug.title": "動作中のコードを監視する",
 			"gettingStarted.extensions.description.interpolated": "拡張機能により、VS Code が強化されます。生産性を上げる便利なコツから、すぐに使える機能の拡張、まったく新しい機能の追加まで、多岐に渡ります。\r\n{0}",
@@ -15716,7 +15896,7 @@
 			"gettingStarted.findLanguageExts.title": "すべての言語の豊富なサポート",
 			"gettingStarted.goToSymbol.description.interpolated": "[シンボルに移動] コマンドは、ドキュメント内の重要なランドマーク間を移動する場合に便利です。\r\n{0}",
 			"gettingStarted.goToSymbol.title": "ファイル内のシンボルに移動する",
-			"gettingStarted.hover.description.interpolated": "While focus is in the editor on a variable or symbol, a hover can be focused with the Show or Open Hover command.\r\n{0}",
+			"gettingStarted.hover.description.interpolated": "エディター上で変数またはシンボルにフォーカスがある状態で [ホバーを表示] または [ホバーを開く] コマンドを使用すると、ホバーにフォーカスを移動できます。\r\n{0}",
 			"gettingStarted.hover.title": "エディターでホバー機能を使用して、変数またはシンボルに関する詳細情報を取得する",
 			"gettingStarted.installGit.description.interpolated": "Git をインストールして、プロジェクトの変更を追跡します。\r\n{0}\r\nインストール後に{1}ウィンドウを再読み込み{2}して、Git のセットアップを完了します。",
 			"gettingStarted.installGit.title": "Git をインストール",
@@ -15726,15 +15906,10 @@
 			"gettingStarted.keyboardShortcuts.title": "キーボード ショートカットをカスタマイズする",
 			"gettingStarted.menuBar.description.interpolated": "ドロップダウン メニューで充実したメニュー バーを利用でき、コードを入力するスペースを確保できます。その外観を切り替えることで、より速いアクセスが可能になります。\r\n{0}",
 			"gettingStarted.menuBar.title": "適度な UI の量",
-			"gettingStarted.nes.description": "次の編集を予測するコード候補を取得します。",
-			"gettingStarted.nes.title": "次の編集提案",
-			"gettingStarted.new.description": "AI を使用してコーディングを進化させます",
-			"gettingStarted.new.title": "VS Code の使用を開始する",
-			"gettingStarted.new.walkthroughPageTitle": "VS Code を設定する",
 			"gettingStarted.newFile.description": "無題の新しいテキスト ファイル、ノートブック、またはカスタム エディターを開きます。",
 			"gettingStarted.newFile.title": "新しいファイル...",
-			"gettingStarted.newWorkspaceChat.description": "Copilot を使用して新しいワークスペースを作成する",
-			"gettingStarted.newWorkspaceChat.title": "Copilot を使用した新しいワークスペース...",
+			"gettingStarted.newWorkspaceChat.description": "新しいワークスペースを作成するためにチャットする",
+			"gettingStarted.newWorkspaceChat.title": "新しいワークスペースの生成...",
 			"gettingStarted.notebook.title": "ノートブックのカスタマイズ",
 			"gettingStarted.notebook.walkthroughPageTitle": "ノートブック",
 			"gettingStarted.notebookProfile.description": "ノートブックを好みの感覚にする",
@@ -15793,9 +15968,6 @@
 			"keyboardShortcuts": "キーボード ショートカット",
 			"listSignalAnnouncements": "シグナル アナウンスを一覧表示する",
 			"listSignalSounds": "シグナル サウンドの一覧表示",
-			"newgettingStarted.commandPalette.title": "範囲内のすべてのコマンド",
-			"newgettingStarted.findLanguageExts.description.interpolated": "ツールキットに必要な言語拡張機能をインストールします。\r\n{0}",
-			"newgettingStarted.findLanguageExts.title": "すべての言語をサポートします",
 			"openAccessibilityHelp": "アクセシビリティのヘルプを開く",
 			"openAccessibilitySettings": "アクセシビリティ設定を開く",
 			"openAccessibleView": "アクセシビリティ対応ビューを開く",
@@ -15813,7 +15985,6 @@
 			"setupCopilotButton.signIn": "Copilot の設定",
 			"showOrFocusHover": "[表示またはフォーカス] ホバー",
 			"showTerminal": "ターミナルを開く",
-			"signUp": "AI 機能を有効にする",
 			"titleID": "色のテーマを参照する",
 			"toggleFold": "折りたたみの切り替え",
 			"toggleFoldRecursively": "折りたたみを再帰的に切り替える",
@@ -16061,14 +16232,15 @@
 			"keyboard shortcuts": "キーボード ショートカット",
 			"menuContexts": "メニュー コンテキスト",
 			"menus.changeTitle": "ソース管理のインライン変更メニュー",
+			"menus.chatMultiDiffContext": "The Chat Multi-Diff context menu.",
 			"menus.chatSessions": "[チャット セッション] メニュー。",
-			"menus.chatTerminal": "ターミナル コンテキスト メニューの [チャット] サブメニュー。",
 			"menus.chatTextEditor": "テキスト エディターのコンテキスト メニューの [チャット] サブメニュー。",
 			"menus.commandPalette": "コマンド パレット",
 			"menus.debugCallstackContext": "[コール スタックのデバッグ] ビューのコンテキスト メニュー",
 			"menus.debugCreateConfiguation": "デバッグの作成構成メニュー",
 			"menus.debugToolBar": "デバッグ ツール バーのメニュー",
 			"menus.debugVariablesContext": "[変数のデバッグ] ビューのコンテキスト メニュー",
+			"menus.debugWatchContext": "デバッグ ウォッチ ビューのコンテキスト メニュー",
 			"menus.diffEditorGutterToolBarMenus": "差分エディターの余白ツール バー",
 			"menus.editorContext": "エディターのコンテキスト メニュー",
 			"menus.editorContextCopyAs": "エディターのコンテキスト メニューの [形式を選択してコピー] サブメニュー",
@@ -16557,6 +16729,7 @@
 			"vscode.extension.activationEvents.onFileSystem": "指定されたスキーマにファイルかフォルダーが関連付けられるたびにアクティブ化イベントが発行されます。",
 			"vscode.extension.activationEvents.onIssueReporterOpened": "イシュー レポーターが開かれたときに生成されるアクティブ化イベント。",
 			"vscode.extension.activationEvents.onLanguage": "指定された言語を解決するファイルが開かれるたびにアクティブ化イベントが発行されます。",
+			"vscode.extension.activationEvents.onLanguageModelChat": "特定のベンダーのチャット モデル プロバイダーが要求されたときに生成されるアクティブ化イベント。",
 			"vscode.extension.activationEvents.onLanguageModelTool": "指定した言語モデル ツールが呼び出されたときに生成されるアクティブ化イベント。",
 			"vscode.extension.activationEvents.onMcpCollection": "MCP サーバーからツールが要求されるたびにアクティブ化イベントが発生します。",
 			"vscode.extension.activationEvents.onNotebook": "指定したノートブック ドキュメントが開かれるたびにアクティブ化イベントが発行されます。",

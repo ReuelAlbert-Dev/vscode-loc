@@ -326,11 +326,11 @@
 			"editor.experimental.asyncTokenization": "Определяет, должна ли разметка происходить асинхронно в рабочей роли.",
 			"editor.experimental.asyncTokenizationLogging": "Определяет, следует ли регистрировать асинхронную разметку. Только для отладки.",
 			"editor.experimental.asyncTokenizationVerification": "Определяет, должна ли асинхронная разметка проверяться по отношению к устаревшей фоновой разметке. Может замедлить разметку. Только для отладки.",
-			"editor.experimental.preferTreeSitter.css": "Управляет включением синтаксического анализа Tree Sitter для CSS. Это будет иметь приоритет над \"editor.experimental.treeSitterTelemetry\" для css.",
-			"editor.experimental.preferTreeSitter.ini": "Определяет, следует ли включать синтаксический анализ tree sitter для ini. Этот параметр имеет приоритет над параметром \"editor.experimental.treeSitterTelemetry\" для ini.",
-			"editor.experimental.preferTreeSitter.regex": "Определяет, следует ли включать синтаксический анализ tree sitter для регулярного выражения. Этот параметр имеет приоритет над параметром \"editor.experimental.treeSitterTelemetry\" для регулярного выражения.",
-			"editor.experimental.preferTreeSitter.typescript": "Определяет, следует ли включать синтаксический анализ tree sitter для TypeScript. Этот параметр имеет приоритет над параметром \"editor.experimental.treeSitterTelemetry\" для TypeScript.",
-			"editor.experimental.treeSitterTelemetry": "Определяет, следует ли включить синтаксический анализ tree sitter и собирать данные телеметрии. Параметр \"editor.experimental.preferTreeSitter\" для определенных языков обладает приоритетом.",
+			"editor.experimental.preferTreeSitter.css": "Определяет, следует ли включать синтаксический анализ tree sitter для CSS. Этот параметр имеет приоритет над параметром \"#editor.experimental.treeSitterTelemetry#\" для CSS.",
+			"editor.experimental.preferTreeSitter.ini": "Определяет, следует ли включать синтаксический анализ tree sitter для ini. Этот параметр имеет приоритет над параметром \"#editor.experimental.treeSitterTelemetry#\" для ini.",
+			"editor.experimental.preferTreeSitter.regex": "Определяет, следует ли включать синтаксический анализ tree sitter для регулярного выражения. Этот параметр имеет приоритет над параметром \"#editor.experimental.treeSitterTelemetry#\" для регулярного выражения.",
+			"editor.experimental.preferTreeSitter.typescript": "Определяет, следует ли включать синтаксический анализ tree sitter для TypeScript. Этот параметр имеет приоритет над параметром \"#editor.experimental.treeSitterTelemetry#\" для TypeScript.",
+			"editor.experimental.treeSitterTelemetry": "Определяет, следует ли включить синтаксический анализ tree sitter и собирать данные телеметрии. Параметр \"#editor.experimental.preferTreeSitter#\" для определенных языков обладает приоритетом.",
 			"editorConfigurationTitle": "Редактор",
 			"hideUnchangedRegions.contextLineCount": "Определяет, сколько строк используется в качестве контекста при сравнении неизмененных областей.",
 			"hideUnchangedRegions.enabled": "Определяет, отображает ли редактор несовпадений неизмененные области.",
@@ -573,7 +573,7 @@
 			"hover.above": "Предпочитать отображать наведение над строкой, если есть место.",
 			"hover.delay": "Определяет время задержки в миллисекундах перед отображением наведения.",
 			"hover.enabled": "Управляет тем, отображается ли наведение.",
-			"hover.hidingDelay": "Определяет время задержки в миллисекундах перед скрытием наведения. Требуется включить \"editor.hover.sticky\".",
+			"hover.hidingDelay": "Определяет время задержки в миллисекундах перед скрытием наведения. Требуется включить \"#editor.linkedEditing#\".",
 			"hover.sticky": "Управляет тем, должно ли наведение оставаться видимым при наведении на него курсора мыши.",
 			"inertialScroll": "Сделать прокрутку инерционной — это особенно полезно при использовании сенсорной панели в Linux.",
 			"inlayHints.enable": "Включает встроенные указания в редакторе.",
@@ -588,6 +588,8 @@
 			"inlineSuggest.edits.showCollapsed": "Определяет, будет ли предложение отображаться как свернутое до прыжка к нему.",
 			"inlineSuggest.enabled": "Определяет, следует ли автоматически показывать встроенные предложения в редакторе.",
 			"inlineSuggest.fontFamily": "Управляет семейством шрифтов встроенных предложений.",
+			"inlineSuggest.minShowDelay": "Управляет минимальной задержкой в миллисекундах, по истечении которой отображаются встроенные предложения после ввода.",
+			"inlineSuggest.showOnSuggestConflict": "Управляет отображением встроенных предложений в случае конфликта предложений.",
 			"inlineSuggest.showToolbar": "Определяет, когда отображать встроенную панель инструментов предложений.",
 			"inlineSuggest.showToolbar.always": "Отображать панель инструментов встроенного предложения при каждом отображении встроенного предложения.",
 			"inlineSuggest.showToolbar.never": "Не показывать встроенную панель инструментов с предложениями.",
@@ -663,13 +665,13 @@
 			"quickSuggestions.strings": "Разрешение кратких предложений в строках.",
 			"quickSuggestionsDelay": "Управляет длительностью задержки (в мс) перед отображением кратких предложений.",
 			"renameOnType": "Определяет, выполняет ли редактор автоматическое переименование по типу.",
-			"renameOnTypeDeprecate": "Не рекомендуется; используйте вместо этого параметр \"editor.linkedEditing\".",
+			"renameOnTypeDeprecate": "Не рекомендуется; используйте вместо этого параметр \"#editor.linkedEditing#\".",
 			"renderControlCharacters": "Определяет, должны ли в редакторе отображаться управляющие символы.",
 			"renderFinalNewline": "Отображение номера последней строки, когда файл заканчивается новой строкой.",
 			"renderLineHighlight": "Определяет, должен ли редактор выделять текущую строку.",
 			"renderLineHighlight.all": "Выделяет поле и текущую строку.",
 			"renderLineHighlightOnlyWhenFocus": "Определяет, должен ли редактор отрисовывать выделение текущей строки, только когда он находится в фокусе.",
-			"renderRichScreenReaderContent": "Следует ли отображать форматированное содержимое средства чтения с экрана, когда включен параметр \"editor.editContext\".",
+			"renderRichScreenReaderContent": "Следует ли отображать форматированное содержимое средства чтения с экрана, когда включен параметр \"#editor.editContext#\".",
 			"renderWhitespace": "Определяет, должны ли в редакторе отображаться пробелы.",
 			"renderWhitespace.boundary": "Отрисовка пробелов, кроме одиночных пробелов между словами.",
 			"renderWhitespace.selection": "Отображать пробелы только в выделенном тексте.",
@@ -760,7 +762,7 @@
 			"wordBreak": "Управляет правилами разбиения по словам, используемыми для текста на китайском,японском и корейском языке (CJK).",
 			"wordBreak.keepAll": "Не следует использовать разрывы слов для текста на китайском, японском или корейском языке (CJK). Для других текстов используется обычное поведение.",
 			"wordBreak.normal": "Использовать правило разрыва строк по умолчанию.",
-			"wordSegmenterLocales": "Locales to be used for word segmentation when doing word related navigations or operations. Specify the BCP 47 language tag of the word you wish to recognize (e.g., ja, zh-CN, zh-Hant-TW, etc.).",
+			"wordSegmenterLocales": "Языки, используемые для сегментации слов при навигации, связанной со словами, или при выполнении операций, связанных со словами. Укажите тег BCP 47 языка распознаваемого слова (пример: ja, zh-CN, zh-Hant-TW, и т. д.).",
 			"wordSeparators": "Символы, которые будут использоваться как разделители слов при выполнении навигации или других операций, связанных со словами.",
 			"wordWrap": "Управляет тем, как следует переносить строки.",
 			"wordWrap.bounded": "Строки будут перенесены по минимальному значению из двух: ширина окна просмотра и \"#editor.wordWrapColumn#\".",
@@ -768,7 +770,7 @@
 			"wordWrap.on": "Строки будут переноситься по ширине окна просмотра.",
 			"wordWrap.wordWrapColumn": "Строки будут переноситься по \"#editor.wordWrapColumn#\".",
 			"wordWrapColumn": "Определяет столбец переноса редактора, если значение \"#editor.wordWrap#\" — \"wordWrapColumn\" или \"bounded\".",
-			"wrapOnEscapedLineFeeds": "Управляет тем, должен литерал \"\\n\" запускать перенос по словам.\r\nнапример\r\n```c\r\nchar* str=\"hello\\nworld\"\r\n```\r\nбудет отображаться как\r\n```c\r\nchar* str=\"hello\\n\r\n           world\"\r\n```",
+			"wrapOnEscapedLineFeeds": "Управляет тем, должен литерал \"\\n\" запускать перенос по словам, когда включен параметр \"#editor.wordWrap#\".\r\n\r\nНапример:\r\n```c\r\nchar* str=\"hello\\nworld\"\r\n```\r\nбудет отображаться как\r\n```c\r\nchar* str=\"hello\\n\r\n           world\"\r\n```",
 			"wrappingIndent": "Управляет отступом строк с переносом по словам.",
 			"wrappingIndent.deepIndent": "Перенесенные строки получат отступ, увеличенный на два по сравнению с родительской строкой.",
 			"wrappingIndent.indent": "Перенесенные строки получат отступ, увеличенный на единицу по сравнению с родительской строкой. ",
@@ -2116,12 +2118,18 @@
 			"contextkey.scanner.hint.didYouMean2": "Вы имели в виду {0} или {1}?",
 			"contextkey.scanner.hint.didYouMean3": "Вы имели в виду {0}, {1} или {2}?"
 		},
+		"vs/platform/dialogs/browser/dialog": {
+			"aboutDetail": "Версия: {0}\r\nФиксация: {1}\r\nДата: {2}\r\nБраузер: {3}"
+		},
 		"vs/platform/dialogs/common/dialogs": {
 			"cancelButton": "Отмена",
 			"moreFile": "...1 дополнительный файл не показан",
 			"moreFiles": "...не показано дополнительных файлов: {0}",
 			"okButton": "&&ОК",
 			"yesButton": "&&Да"
+		},
+		"vs/platform/dialogs/electron-browser/dialog": {
+			"aboutDetail": "Версия: {0}\r\nФиксация: {1}\r\nДата: {2}\r\nElectron: {3}\r\nElectronBuildId: {4}\r\nChromium: {5}\r\nNode.js: {6}\r\nV8: {7}\r\nОС: {8}"
 		},
 		"vs/platform/dialogs/electron-main/dialogMainService": {
 			"open": "Открыть",
@@ -2176,7 +2184,6 @@
 			"reuseWindow": "Принудительно открыть файл или папку в уже открытом окне.",
 			"reuseWindowForChat": "Принудительное использование последнего активного окна для сеанса чата.",
 			"showVersions": "Отображений версий установленных расширений при использовании параметра --list-extensions.",
-			"startupExperimentGroup": "Переопределите группу экспериментов при запуске.",
 			"status": "Выводить сведения об использовании процесса и диагностическую информацию.",
 			"stdinUsage": "Чтобы получить данные с stdin, добавьте \"-\" (например, \"{0}\")",
 			"subcommands": "Подкоманды",
@@ -2577,7 +2584,7 @@
 			"quickInput.visibleCount": "Результаты: {0}"
 		},
 		"vs/platform/quickinput/browser/quickInputList": {
-			"quickInput": "Quick Input"
+			"quickInput": "Быстрый ввод"
 		},
 		"vs/platform/quickinput/browser/quickInputUtils": {
 			"executeCommand": "Щелкните, чтобы выполнить команду \"{0}\""
@@ -2588,10 +2595,10 @@
 			"terminal.commands.pinned": "закреплено"
 		},
 		"vs/platform/quickinput/browser/tree/quickInputTreeAccessibilityProvider": {
-			"quickTree": "Quick Tree"
+			"quickTree": "Быстрое дерево"
 		},
 		"vs/platform/quickinput/browser/tree/quickTree": {
-			"quickInputBox.ariaLabel": "Type to narrow down results."
+			"quickInputBox.ariaLabel": "Введите текст, чтобы уменьшить число результатов."
 		},
 		"vs/platform/remoteTunnel/common/remoteTunnel": {
 			"remoteTunnelLog": "Служба удаленного туннеля"
@@ -2637,7 +2644,7 @@
 			"telemetry.enableTelemetry": "Включите сбор диагностических данных. Это поможет нам лучше понять, как работает {0} и где необходимо внести улучшения.",
 			"telemetry.enableTelemetryMd": "Включите сбор диагностических данных. Это поможет нам лучше понять, как работает {0} и где необходимо внести улучшения. [Дополнительные сведения]({1}) о том, что какие данные мы собираем и о нашем заявлении о конфиденциальности.",
 			"telemetry.errors": "Ошибка телеметрии",
-			"telemetry.feedback.enabled": "Включите механизмы обратной связи, такие как средство сообщения о проблемах, опросы и возможности обратной связи в таких функциях, как Copilot Chat.",
+			"telemetry.feedback.enabled": "Enable feedback mechanisms such as the issue reporter, surveys, and other feedback options.",
 			"telemetry.restart": "Чтобы изменения в отчетах о сбоях вступили в силу, требуется полная перезагрузка приложения.",
 			"telemetry.telemetryLevel.crash": "Отправляет отчеты о сбоях на уровне ОС.",
 			"telemetry.telemetryLevel.default": "Отправляет данные об использовании, сведения об ошибках и отчеты о сбоях.",
@@ -3232,6 +3239,9 @@
 			"provideClientDetails": "Продолжить",
 			"yes": "Да"
 		},
+		"vs/workbench/api/browser/mainThreadChatSessions": {
+			"interruptActiveResponse": "Вы действительно хотите прервать текущий сеанс?"
+		},
 		"vs/workbench/api/browser/mainThreadCLICommands": {
 			"cannot be installed": "Не удается установить расширение \"{0}\", так как его запуск отключен в этой установке."
 		},
@@ -3691,8 +3701,8 @@
 			"sideBarPosition": "Положение основной боковой панели",
 			"sidebar": "Боковая панель",
 			"sidebarContainer": "Боковая панель/{0}",
-			"sidebarHidden": "Primary Side Bar hidden",
-			"sidebarVisible": "Primary Side Bar shown",
+			"sidebarHidden": "Скрыта основная боковая панель",
+			"sidebarVisible": "Показана основная боковая панель",
 			"statusBar": "Строка состояния",
 			"statusBarIcon": "Представляет строку состояния",
 			"tabBar": "Панель вкладок",
@@ -3829,8 +3839,8 @@
 			"top": "Сверху"
 		},
 		"vs/workbench/browser/parts/auxiliarybar/auxiliaryBarActions": {
-			"auxiliaryBarHidden": "Secondary Side Bar hidden",
-			"auxiliaryBarVisible": "Secondary Side Bar shown",
+			"auxiliaryBarHidden": "Скрыта дополнительная боковая панель",
+			"auxiliaryBarVisible": "Показана дополнительная боковая панель",
 			"closeIcon": "Значок для закрытия дополнительной боковой панели.",
 			"closeSecondarySideBar": "Скрыть дополнительную боковую панель",
 			"focusAuxiliaryBar": "Фокус на дополнительной боковой панели",
@@ -3884,7 +3894,6 @@
 			"viewsAndMoreActions": "Представления и дополнительные действия…"
 		},
 		"vs/workbench/browser/parts/dialogs/dialogHandler": {
-			"aboutDetail": "Версия: {0}\r\nФиксация: {1}\r\nДата: {2}\r\nБраузер: {3}",
 			"copy": "&&Копировать",
 			"ok": "ОК"
 		},
@@ -3962,6 +3971,7 @@
 		"vs/workbench/browser/parts/editor/diffEditorCommands": {
 			"compare": "Сравнить",
 			"compare.nextChange": "Перейти к следующему изменению",
+			"compare.openSide": "Open Active Diff Side",
 			"compare.previousChange": "Перейти к предыдущему изменению",
 			"swapDiffSides": "Поменять местами левую и правую стороны редактора",
 			"toggleInlineView": "Переключить встроенное представление"
@@ -4106,6 +4116,7 @@
 		"vs/workbench/browser/parts/editor/editorActions": {
 			"clearButtonLabel": "&&Очистить",
 			"clearEditorHistory": "Очистить журнал редактора",
+			"clearEditorHistoryWithoutConfirm": "Clear Editor History without Confirmation",
 			"clearRecentFiles": "Очистить недавно открытые...",
 			"closeAllEditors": "Закрыть все редакторы",
 			"closeAllGroups": "Закрыть все группы редакторов",
@@ -4300,6 +4311,7 @@
 			"requiresFolderTrustText": "Файл не отображается в редакторе, поскольку не было предоставлено доверие этой папке.",
 			"requiresWorkspaceTrustText": "Файл не отображается в редакторе, поскольку не было предоставлено доверие этой рабочей области.",
 			"retry": "Повторить попытку",
+			"showLogs": "Показать журналы",
 			"trustRequiredEditor": "Требуется доверие рабочей области",
 			"unavailableResourceErrorEditorText": "Не удалось открыть редактор, так как файл не найден.",
 			"unknownErrorEditorTextWithError": "Не удалось открыть редактор из-за непредвиденной ошибки. Дополнительные сведения см. в журнале.",
@@ -4348,7 +4360,10 @@
 			"pickEndOfLine": "Выберите последовательность конца строки",
 			"pickLanguage": "Выберите языковой режим",
 			"pickLanguageToConfigure": "Выберите языковой режим для связи с \"{0}\".",
+			"reopen": "Отменить изменения и открыть заново",
 			"reopenWithEncoding": "Повторно открыть в кодировке",
+			"reopenWithEncodingDetail": "Все несохраненные изменения будут отменены.",
+			"reopenWithEncodingWarning": "Вы хотите отменить изменения в активном текстовом редакторе и открыть его снова с другой кодировкой?",
 			"saveWithEncoding": "Сохранить в кодировке",
 			"selectEOL": "Выберите последовательность конца строки",
 			"selectEncoding": "Выберите кодировку",
@@ -4400,6 +4415,7 @@
 			"loading": "Загрузка…",
 			"manage": "Управление",
 			"manage profile": "Управление {0} (профиль)",
+			"manageDynamicAuthProviders": "Управление поставщиками динамической проверки подлинности...",
 			"manageTrustedExtensions": "Управление доверенными расширениями",
 			"manageTrustedMCPServers": "Управление доверенными MCP-серверами",
 			"signOut": "Выйти"
@@ -4765,6 +4781,7 @@
 			"sharedViewState": "Сохраняет самое последнее состояние просмотра редактора (например, положение прокрутки) во всех группах редакторов и восстанавливает его, если для группы редакторов не найдено конкретное состояние просмотра редактора.",
 			"showEditorTabs": "Определяет, должны ли открытые редакторы отображаться как отдельные вкладки, одна большая вкладка или область заголовка не должна отображаться.",
 			"showIcons": "Определяет, должны ли открытые редакторы отображаться со значком. Для этого также требуется включить тему значков.",
+			"showTabIndex": "Если включено, будет отображаться индекс вкладки. Это значение игнорируется, если для {0} не установлено значение {1}.",
 			"sideBarLocation": "Управляет расположением основной боковой панели и панели действий. Они могут отображаться слева или справа от рабочего места. Дополнительная боковая панель будет отображаться на противоположной стороне рабочего места.",
 			"sideBySideDirection": "Определяет направление по умолчанию для редакторов, которые открываются рядом (например, из Обозревателя). По умолчанию новые редакторы открываются с правой стороны от текущего активного редактора. Если изменить значение этого параметра на down, новые редакторы будут открываться снизу от текущего активного редактора. Это также влияет на действие разделения редактора в панели инструментов редактора.",
 			"splitInGroupLayout": "Управляет схемой, когда редактор в группе редакторов должен быть либо вертикальным, либо горизонтальным.",
@@ -4777,6 +4794,7 @@
 			"tabScrollbarHeight": "Определяет высоту полос прокрутки, используемых для вкладок и элементов навигации в области заголовка редактора.",
 			"tabSizing": "Управляет размером вкладок редактора. Это значение игнорируется, если для {0} не установлено значение {1}.",
 			"tips.enabled": "Если параметр включен, на подложке появляются советы, если нет открытых редакторов.",
+			"titleScrollbarVisibility": "Определяет видимость полос прокрутки, используемых для вкладок и элементов навигации в области заголовка редактора.",
 			"untitledLabelFormat": "Определяет формат метки для безымянного редактора.",
 			"useSplitJSON": "Определяет, используется ли редактор JSON с разделением при изменении параметров в форме JSON.",
 			"viewVisibility": "Управляет видимостью действий в заголовке представления. Действия в заголовке представления могут быть видимы всегда или видимы только тогда, когда представление получает фокус или на него наводится курсор мыши.",
@@ -4865,6 +4883,9 @@
 			"workbench.editor.tabSizingFixedMinWidth": "Управляет минимальной шириной вкладок, если для размера {0} установлено значение {1}.",
 			"workbench.editor.titleScrollbarSizing.default": "Размер по умолчанию.",
 			"workbench.editor.titleScrollbarSizing.large": "Увеличивает размер, упрощая захват с помощью мыши.",
+			"workbench.editor.titleScrollbarVisibility.auto": "Горизонтальная полоса прокрутки будет видна только при необходимости.",
+			"workbench.editor.titleScrollbarVisibility.hidden": "Горизонтальная полоса прокрутки всегда будет скрыта.",
+			"workbench.editor.titleScrollbarVisibility.visible": "Горизонтальная полоса прокрутки всегда будет видна.",
 			"workbench.editor.untitled.labelFormat.content": "Имя безымянного файла является производным от содержимого его первой строки, если только не имеется соответствующий путь к файлу. Возврат к этому имени выполняется, если строка является пустой или содержит символы, отличные от словообразующих.",
 			"workbench.editor.untitled.labelFormat.name": "Имя безымянного файла не является производным от содержимого файла.",
 			"workbench.fontAliasing.antialiased": "Сглаживание шрифтов на уровне пикселей, в отличие от субпиксельного сглаживания. Может сделать шрифт светлее в целом.",
@@ -4945,6 +4966,7 @@
 			"embedderIdentifier": "Идентификатор средства внедрения в соответствии со службой продукта, если он определен",
 			"focusedView": "Идентификатор представления, на котором находится фокус клавиатуры",
 			"groupEditorsCount": "Число открытых групп редакторов",
+			"inAutomation": "Whether VS Code is running under automation/smoke test",
 			"inZenMode": "Включен ли режим Zen",
 			"isAuxiliaryWindow": "Окно является вспомогательным",
 			"isAuxiliaryWindowFocusedContext": "Фокусируется ли вспомогательное окно",
@@ -5225,6 +5247,7 @@
 			"argv.logLevel": "Используемый уровень ведения журнала. Значение по умолчанию — \"info\". Допустимые значения: \"error\", \"warn\", \"info\", \"debug\", \"trace\", \"off\".",
 			"argv.passwordStore": "Настраивает серверную часть, используемую для хранения секретов в Linux. Этот аргумент игнорируется в Windows и macOS.",
 			"argv.proxyBypassList": "Обход всех указанных прокси-серверов для данного списка узлов, разделенных точкой с запятой. Пример значения \"<local>;*.microsoft.com;*foo.com;1.2.3.4:5678\" будет использовать прокси-сервер для всех узлов, кроме локальных адресов (localhost, 127.0.0.1 и т. д.), microsoft.com. поддомены, узлы с суффиксом foo.com и все по адресу 1.2.3.4:5678",
+			"argv.remoteDebuggingPort": "Указывает порт, который будет использоваться для удаленной отладки.",
 			"argv.useInMemorySecretStorage": "Гарантирует, что хранилище в памяти будет использоваться для секретного хранения вместо использования хранилища учетных данных ОС. Часто используется при запуске тестов расширения VS Code или при возникновении проблем с хранилищем учетных данных.",
 			"closeWhenEmpty": "Определяет, необходимо ли также закрыть окно при закрытии последнего редактора. Этот параметр применяется только к окнам, в которых не отображаются папки.",
 			"confirmSaveUntitledWorkspace": "Будет ли отображаться диалоговое окно подтверждения, в котором будет предложено сохранить или удалить открытую в окне рабочую область без названия при переключении на другую рабочую область. Если отключить диалоговое окно подтверждения, рабочая область без названия будет всегда удаляться.",
@@ -5287,7 +5310,6 @@
 			"join.closeStorage": "Сохранение состояния пользовательского интерфейса"
 		},
 		"vs/workbench/electron-browser/parts/dialogs/dialogHandler": {
-			"aboutDetail": "Версия: {0}\r\nФиксация: {1}\r\nДата: {2}\r\nElectron: {3}\r\nElectronBuildId: {4}\r\nChromium: {5}\r\nNode.js: {6}\r\nV8: {7}\r\nОС: {8}",
 			"copy": "&&Копировать",
 			"okButton": "ОК"
 		},
@@ -5612,6 +5634,7 @@
 			"noAccounts": "В настоящее время это расширение не используется ни для каких учетных записей.",
 			"pickAProviderTitle": "Управление настройками учетной записи расширения",
 			"placeholder v2": "Управление настройками учетной записи \"{0}\" для {1}...",
+			"selectExtension": "Выберите расширение для управления настройками учетной записи",
 			"selectProvider": "Выберите поставщика проверки подлинности для управления настройками учетной записи для",
 			"title": "Настройки учетной записи {0} для этого рабочего пространства",
 			"use new account": "Использовать новую учетную запись..."
@@ -5763,6 +5786,13 @@
 			"to": "объекты, вызывающие {0}",
 			"tree.aria": "Иерархия вызовов"
 		},
+		"vs/workbench/contrib/chat/browser/actions/chatAccessibilityActions": {
+			"chat.category": "Чат",
+			"chatNotReady": "Интерфейс чата не готов.",
+			"focusChatConfirmation": "Фокус на подтверждении чата",
+			"noChatSession": "Активный сеанс чата не найден.",
+			"noConfirmationRequired": "Подтверждение чата не требуется"
+		},
 		"vs/workbench/contrib/chat/browser/actions/chatAccessibilityHelp": {
 			"chat.announcement": "Ответы в чате будут объявляться по мере их получения. В ответе будет указано количество блоков кода (если они есть), а затем остальная часть ответа.",
 			"chat.differencePanel": "Представление быстрого чата — это постоянный интерфейс, который также поддерживает навигацию по предлагаемым вопросам дальнейших действий, а представление быстрого чата — это временный интерфейс для создания и просмотра запросов.",
@@ -5793,7 +5823,7 @@
 			"chatEditing.sections": "Переход между редактированиями в редакторе с помощью перехода к предыдущей{0} и следующей{1}",
 			"chatEditing.undoKeepSounds": "При принятии или отмене изменений будут воспроизводиться звуки. Звуки можно отключить с помощью accessibility.signals.editsKept и accessibility.signals.editsUndone.",
 			"chatEditing.viewChanges": "- Просмотреть изменения{0}.",
-			"chatEditing.viewPreviousEdits": "- View Previous Edits{0}.",
+			"chatEditing.viewPreviousEdits": "– Просмотреть предыдущие изменения{0}.",
 			"inlineChat.access": "Его можно активировать с помощью действий кода или напрямую с помощью команды \"Встроенный чат: запустить встроенный чат\"{0}.",
 			"inlineChat.contextActions": "Действия контекстного меню могут выполнять запрос с префиксом /. Type / для поиска таких готовых команд.",
 			"inlineChat.diff": "В редакторе несовпадений перейдите в режим проверки с помощью {0}. Используйте клавиши СТРЕЛКА ВВЕРХ и СТРЕЛКА ВНИЗ для перехода между строками с предложенными изменениями.",
@@ -5802,6 +5832,7 @@
 			"inlineChat.overview": "Встроенный чат происходит в редакторе кода и учитывает текущий выбор. Это полезно для внесения изменений в текущий редактор. Например, исправление обнаруженных ошибок, документирование или рефакторинг кода. Имейте в виду, что код, созданный ИИ, может быть неправильным.",
 			"inlineChat.requestHistory": "В поле входных данных используйте \"Показать предыдущий\"{0} и \"Показать следующий\"{1} для навигации по журналу запросов. Измените входные данные и используйте клавишу ВВОД или кнопку отправки для выполнения нового запроса.",
 			"inlineChat.toolbar": "Используйте вкладку для доступа к условным частям, например командам, состоянию, ответам на сообщения и т. д.",
+			"workbench.action.chat.announceConfirmation": "Чтобы сосредоточиться на диалоговых окнах ожидающих подтверждений чата, вызовите команду \"Фокус на состоянии подтверждения чата\"{0}.",
 			"workbench.action.chat.editing.attachFiles": "- Вложить файлы{0}.",
 			"workbench.action.chat.focus": "Чтобы перевести фокус на список запросов/ответов чата, по которому можно переходить с помощью клавиш СТРЕЛКА ВВЕРХ и СТРЕЛКА ВНИЗ, выполните команду \"Фокус на чате\"{0}.",
 			"workbench.action.chat.focusInput": "Чтобы перевести фокус на поле ввода для запросов чата, выполните команду \"Фокус на поле ввода чата\"{0}.",
@@ -5814,18 +5845,26 @@
 			"agent.newSession": "Начать новый сеанс?",
 			"agent.newSession.confirm": "Да",
 			"agent.newSessionMessage": "Если изменить режим чата, текущий сеанс редактирования будет завершен. Изменить режим чата?",
-			"ai actions": "Действия ИИ",
 			"chat.category": "Чат",
 			"chat.clear.label": "Очистить все чаты рабочей области",
+			"chat.editToolApproval.label": "Изменить утверждение инструмента",
+			"chat.editToolApproval.title": "Параметр утверждения для {0}",
 			"chat.history.label": "Показать чаты...",
 			"chat.history.recent": "Недавние чаты",
 			"chat.history.rename": "Переименовать",
 			"chat.history.showMore": "Показать еще...",
 			"chat.history.showMoreAgents": "Показать еще...",
+			"chat.openNewChatToTheSide.label": "Открыть новый редактор чата сбоку",
 			"chat.toggleDefaultVisibility.label": "Показывать представление по умолчанию",
+			"chat.toolApproval.manual": "Всегда требовать утверждение вручную",
+			"chat.toolApproval.profile": "Автоматическое утверждение глобально",
+			"chat.toolApproval.session": "Автоматическое утверждение для этого сеанса",
+			"chat.toolApproval.workspace": "Автоматическое утверждение для этой рабочей области",
 			"chatAndCompletionsQuotaExceeded": "Вы достигли ежемесячной квоты на количество сообщений в чате и количество выполнений кода.",
 			"chatQuotaExceeded": "Вы достигли ежемесячной квоты на количество сообщений в чате. У вас по-прежнему есть бесплатные завершения кода.",
 			"chatQuotaExceededButton": "Достигнута квота на количество сообщений в чате Copilot (план \"Бесплатный\"). Щелкните, чтобы получить дополнительные сведения.",
+			"chatSessions.newChatInSideBar": "Открыть новый чат на боковой панели",
+			"chatSessions.openNewChatInNewWindow": "Открыть новый чат в новом окне",
 			"chatWith": "Общаться в чате с использованием расширений",
 			"completionsQuotaExceeded": "Вы достигли ежемесячной квоты на количество завершений кода. У вас по-прежнему есть бесплатные сообщения в чате.",
 			"config.label": "Настройка чата...",
@@ -5833,8 +5872,13 @@
 			"copilotQuotaReached": "Достигнута квота для Copilot",
 			"currentChatLabel": "текущий",
 			"dismiss": "Закрыть",
+			"explain": "Explain",
+			"fix": "Fix",
+			"generateCode": "Generate Code",
+			"generateDocs": "Generate Docs",
 			"generateInstructions": "Генерировать файл инструкций рабочей области",
 			"generateInstructions.short": "Генерировать инструкции",
+			"generateTests": "Generate Tests",
 			"interactiveSession.clearHistory.label": "Очистить журнал входных данных",
 			"interactiveSession.focusInput.label": "Фокус на вводе текста чата",
 			"interactiveSession.history.clear": "Очистить все чаты рабочей области",
@@ -5844,21 +5888,24 @@
 			"interactiveSession.history.title": "Журнал чата рабочей области",
 			"interactiveSession.history.titleAll": "Журнал чата всей рабочей области",
 			"interactiveSession.open": "Новый редактор чата",
-			"manageCopilot": "Управление Copilot",
+			"manageCopilot": "Управление чатом",
 			"more": "Дополнительно...",
 			"newChatTitle": "Название нового чата",
 			"openChat": "Открыть чат",
+			"openChatFeatureSettings": "Параметры чата",
+			"openChatFeatureSettings.short": "Параметры чата",
 			"openChatMode": "Открыть чат ({0})",
 			"quotaResetDate": "Разрешение будет сброшено {0}.",
 			"resetTrustedTools": "Подтверждения инструмента сброса",
 			"resetTrustedToolsSuccess": "Настройки подтверждения инструмента сброшены.",
+			"review": "Code Review",
 			"showCopilotUsageExtensions": "Показать расширения с помощью Copilot",
 			"signInToChatSetup": "Войдите для использования Copilot...",
 			"switchChat.confirmPhrase": "Переключение чатов завершит текущий сеанс редактирования.",
 			"switchMode.confirmPhrase": "Переключение режима чата приведет к завершению текущего сеанса редактирования.",
 			"title4": "Copilot",
-			"toggle.chatControl": "Элементы управления Copilot",
-			"toggle.chatControlsDescription": "Переключить видимость элементов управления Copilot в строке заголовка",
+			"toggle.chatControl": "Элементы управления чатом",
+			"toggle.chatControlsDescription": "Переключить видимость элементов управления чатом в строке заголовка",
 			"toggleChat": "Переключить чат",
 			"upgradeChat": "Обновить план Copilot",
 			"upgradePlan": "Обновить план Copilot",
@@ -5937,11 +5984,12 @@
 			"interactive.submitWithoutDispatch.label": "Отправить",
 			"interactive.switchToNextModel.label": "Перейти на следующую модель",
 			"interactive.toggleAgent.label": "Настроить режим чата",
-			"interactive.toggleRequestPausd.label": "Запрос на переключение приостановлен",
 			"remoteAgentError": "Сеанс агента кодирования отменен.",
+			"remoteAgentResponse": "Ответ агента кодирования: {0}",
+			"remoteAgentResponse2": "Ваша работа будет продолжена в этом запросе на вытягивание.",
 			"remoteJobCreating": "Делегирование агенту кодирования",
-			"requestIsPaused": "Возобновить запрос",
-			"requestNotPaused": "Приостановить запрос",
+			"selectCodingAgent": "Выбор агента кодирования",
+			"sendToRemoteAgent": "Отправить в агент кодирования",
 			"setChatMode": "Настроить режим"
 		},
 		"vs/workbench/contrib/chat/browser/actions/chatFileTreeActions": {
@@ -5982,6 +6030,19 @@
 			"toggle.isPartialQuery": "Независимо от того, является ли запрос частичным, он будет ожидать ввода дополнительных данных от пользователя.",
 			"toggle.query": "Запрос на открытие быстрого чата с"
 		},
+		"vs/workbench/contrib/chat/browser/actions/chatSessionActions": {
+			"chat.openSessionInNewEditorGroup.label": "Open Chat to the Side",
+			"chat.openSessionInNewWindow.label": "Open Chat in New Window",
+			"chat.openSessionInSidebar.label": "Open Chat in Sidebar",
+			"openSessionInNewEditorGroup": "Open in New Editor Group",
+			"openSessionInNewWindow": "Open in New Window",
+			"openSessionInSidebar": "Open in Sidebar",
+			"renameSession": "Переименовать",
+			"renameSession.emptyName": "Имя не может быть пустым",
+			"renameSession.error": "Не удалось переименовать сеанс чата: {0}",
+			"renameSession.nameTooLong": "Слишком длинное имя (максимум 100 символов)",
+			"renameSession.placeholder": "Введите новое имя для сеанса чата"
+		},
 		"vs/workbench/contrib/chat/browser/actions/chatTitleActions": {
 			"chat.retry.confirmation.checkbox": "Больше не спрашивать",
 			"chat.retry.confirmation.message2": "Это отменит правки, внесенные в {0} после этого запроса.",
@@ -6001,24 +6062,22 @@
 			"chat.tools.placeholder.global": "Выберите инструменты, доступные для чата.",
 			"chat.tools.placeholder.mode": "Выберите инструменты для этого режима чата",
 			"chat.tools.placeholder.session": "Выберите инструменты для этого сеанса чата",
+			"chatTools.tooManyEnabled": "Включено более {0} инструментов. Вы можете столкнуться со снижением производительности вызовов инструментов.",
 			"label": "Настройка средств..."
 		},
 		"vs/workbench/contrib/chat/browser/actions/chatToolPicker": {
-			"addAny": "Добавить дополнительные инструменты...",
-			"addExtension": "Установить расширение...",
-			"addExtensionButton": "Install Extension...",
-			"addMcpServer": "Add MCP Server...",
-			"addServer": "Добавить сервер MCP...",
+			"addExtensionButton": "Установить расширение...",
+			"addMcpServer": "Добавить сервер MCP...",
 			"configMcpCol": "Настроить {0}",
-			"configToolSet": "Настроить наборы инструментов...",
-			"configToolSets": "Configure Tool Sets...",
-			"configureTools": "Configure Tools",
+			"configToolSets": "Настроить наборы инструментов...",
+			"configureTools": "Настройка инструментов",
 			"defaultBucketLabel": "Встроенный",
 			"editUserBucket": "Изменить набор инструментов",
 			"ext": "Расширение: {0}",
 			"mcpShowOutput": "Показать выведенный результат",
 			"mcplabel": "Сервер MCP: {0}",
 			"noTools": "Добавить инструменты в чат",
+			"toolLimitExceeded": "Включено инструментов: {0}. Вы можете столкнуться со снижением производительности вызовов инструментов при превышении {1} инструментов.",
 			"userBucket": "Настраиваемые наборы инструментов"
 		},
 		"vs/workbench/contrib/chat/browser/actions/codeBlockOperations": {
@@ -6055,10 +6114,12 @@
 			"chat": "Чат",
 			"chat.agent.enabled.description": "Включить режим агента для {0}. Если включено, режим агента можно активировать через раскрывающееся меню в представлении.",
 			"chat.agent.maxRequests": "Максимальное число запросов, которые Copilot может использовать за один ход в режиме агента. При достижении ограничения Copilot попросит пользователя подтвердить, что он должен продолжить.",
+			"chat.agent.showThinking": "Управляет тем, следует ли показывать процесс размышления модели в ответах чата.",
 			"chat.checkpoints.enabled": "Включает контрольные точки в чате. Контрольные точки позволяют восстановить предыдущее состояние чата.",
-			"chat.checkpoints.showFileChanges": "Controls whether to show chat checkpoint file changes.",
+			"chat.checkpoints.showFileChanges": "Определяет, следует ли отображать изменения файлов контрольных точек чата.",
 			"chat.commandCenter.enabled": "Управляет отображением меню действий для управления Copilot в командном центре (требуется {0}).",
 			"chat.detectParticipant.enabled": "Включает автоматическое определение участников чата для чата панели.",
+			"chat.disableAIFeatures": "Disable and hide built-in AI features provided by GitHub Copilot, including chat, code completions and next edit suggestions.",
 			"chat.editRequests": "Позволяет править запросы в чате. Это позволяет изменить содержимое запроса и повторно отправить его в модель.",
 			"chat.editing.autoAcceptDelay": "Задержка, после которой изменения, внесенные чатом, автоматически принимаются. Значения находятся в секундах, \"0\" означает \"отключено\", а \"100\" секунд — максимум.",
 			"chat.editing.confirmEditRequestRemoval": "Нужно ли показывать подтверждение перед удалением запроса и связанных с ним изменений.",
@@ -6077,13 +6138,12 @@
 			"chat.implicitContext.value.never": "Неявный контекст никогда не включается.",
 			"chat.instructions.config.locations.description": "Укажите расположения файлов инструкций (\"*{0}\"), которые можно вкладывать в сеансы чата. [Подробнее]({1}).\r\n\r\nРазрешение относительных путей производится из корневых папок вашей рабочей области.",
 			"chat.instructions.config.locations.title": "Расположения файлов инструкций",
-			"chat.manageTasksTool.enabled": "Enables manageTasksTool in chat. This tool allows you to use task lists in chat.",
-			"chat.mathEnabled.description": "Включить математическую отрисовку в ответах чата с помощью Katex.",
-			"chat.mcp.assisted.nuget.enabled.description": "Enables NuGet packages for AI-assisted MCP server installation. Used to install MCP servers by name from the central registry for .NET packages (NuGet.org).",
-			"chat.mcp.autostart": "Controls whether MCP servers should be automatically started when the chat messages are submitted.",
-			"chat.mcp.autostart.never": "Never automatically start MCP servers.",
-			"chat.mcp.autostart.newAndOutdated": "Automatically start new and outdated MCP servers that are not yet running.",
-			"chat.mcp.autostart.onlyNew": "Only automatically start new MCP servers that have never been run.",
+			"chat.mathEnabled.description": "Включить математическую отрисовку в ответах чата с помощью KaTeX.",
+			"chat.mcp.assisted.nuget.enabled.description": "Включает пакеты NuGet для установки сервера MCP с помощью ИИ. Используется для установки серверов MCP по имени из центрального реестра пакетов .NET (NuGet.org).",
+			"chat.mcp.autostart": "Определяет, следует ли автоматически запускать серверы MCP при отправке сообщений в чате.",
+			"chat.mcp.autostart.never": "Никогда не запускать серверы MCP автоматически.",
+			"chat.mcp.autostart.newAndOutdated": "Автоматически запускать новые и устаревшие серверы MCP, которые еще не работают.",
+			"chat.mcp.autostart.onlyNew": "Автоматически запускать только новые серверы MCP, которые никогда не работали.",
 			"chat.mcp.enabled": "Включает интеграцию с серверами протокола контекста модели для предоставления дополнительных инструментов и функций.",
 			"chat.mcp.serverSampling": "Настраивает, какие модели будут предоставлены серверам MCP для выборки (выполнение запросов моделей в фоновом режиме). Эту настройку можно редактировать графически с помощью команды \"{0}\".",
 			"chat.mcp.serverSampling.allowedDuringChat": "Выполняет ли этот сервер запросы на выборку во время вызовов инструментов в сеансе чата.",
@@ -6103,35 +6163,35 @@
 			"chat.sendElementsToChat.enabled": "Определяет, можно ли отправить элементы в чат из Simple Browser.",
 			"chat.sessionsViewLocation.description": "Управляет тем, где отображать меню сеансов агента.",
 			"chat.signInDialogVariant": "Управление вариантами диалогового окна входа.",
+			"chat.todoListTool.enabled": "Включает списки дел в чате, которые агент использует в качестве средства планирования, отслеживания хода выполнения и управления контекстом для сложных рабочих процессов разработки.",
+			"chat.todoListTool.writeOnly": "Если включено, инструмент списка дел работает в режиме только для записи, что требует от агента запоминать дела в контексте.",
 			"chat.tools.autoApprove.description": "Определяет, следует ли автоматически утверждать использование инструмента. Разрешить автоматически запускать все инструменты без подтверждения пользователем, переопределяя любые параметры, относящиеся к инструменту, например автоматическое утверждение терминала. Будьте осторожны: внимательно изучите выбранные инструменты и будьте особенно внимательны к возможным источникам внедрения запросов!",
+			"chat.tools.autoApprove.edits": "Определяет, будут ли внесенные чатом изменения утверждаться автоматически. По умолчанию утверждаются все изменения, кроме тех, которые внесены в определенные файлы, способные вызвать немедленные непредвиденные побочные эффекты, например \"**/.vscode/*.json\".\r\n\r\nФайлы сопоставляются со стандартными масками в порядке их указания.",
 			"chat.tools.autoApprove.markdownDescription": "Определяет, следует ли автоматически утверждать использование инструмента.\r\n\r\nПозволяет автоматически запускать _все_ инструменты без подтверждения пользователем, переопределяя любые параметры, относящиеся к инструменту, например автоматическое утверждение терминала.\r\n\r\nБудьте осторожны: внимательно изучите выбранные инструменты и будьте особенно внимательны к возможным источникам внедрения запросов!",
-			"chat.tools.useTreePicker": "Use the new tree-based tools picker interface instead of the flat list. Provides better hierarchical organization of tools and tool sets with collapsible sections, improved visual hierarchy, and native tree interactions. MCP servers are displayed as expandable parent nodes with their tools as children.",
 			"chat.undoRequests.restoreInput": "Определяет, следует ли восстанавливать входные данные чата при выполнении запроса на отмену. Входные данные будут заполнены текстом восстановленного запроса.",
 			"chat.useFileStorage": "Позволяет сохранять сеансы чата на диске, а не в службе хранения. Включение этой функции позволяет единовременно перенести существующие сеансы в новый формат для каждого рабочего пространства.",
 			"clear": "Начать новый чат",
-			"file": "Выберите файл в рабочей области",
 			"interactiveSession.editor.fontFamily": "Определяет семейство шрифтов в блоках кода чата.",
 			"interactiveSession.editor.fontSize": "Определяет размер шрифта в пикселях в блоках кода чата.",
 			"interactiveSession.editor.fontWeight": "Определяет насыщенность шрифта в блоках кода чата.",
 			"interactiveSession.editor.lineHeight": "Определяет высоту строки в пикселях в блоках кода чата. Используйте значение 0 для определения высоты строки по размеру шрифта.",
 			"interactiveSession.editor.wordWrap": "Определяет, следует ли переносить строки в блоках кода чата.",
 			"interactiveSessionConfigurationTitle": "Чат",
-			"mcp.discovery.enabled": "Настойка обнаружения серверов протокола контекста модели на компьютере. Можно задать значение \"true\" или \"false\", чтобы отключить или включить все источники, а также указать источники сопоставления, которые нужно включить.",
-			"mcp.discovery.source": "Включает обнаружение серверов {0}",
+			"mcp.discovery.enabled": "Настраивает обнаружение серверов протокола контекста модели на основе конфигурации из различных других приложений.",
 			"mcp.gallery.serviceUrl": "Настройте URL-адрес службы галереи MCP для подключения",
 			"mcp.list": "Перечислить серверы",
 			"save-chat-to-prompt-file": "Сохранить чат в файле запроса"
 		},
 		"vs/workbench/contrib/chat/browser/chatAccessibilityProvider": {
 			"chat": "Чат",
-			"multiCodeBlock": "{0}{1}{2} code blocks: {3} {4}",
-			"multiCodeBlockHint": "{0}{1}{2}{3} code blocks: {4}{5} {6}",
+			"multiCodeBlock": "{0}{1}Несколько ({2}) блоков кода: {3} {4}",
+			"multiCodeBlockHint": "{0}{1}{2}Несколько ({3}) блоков кода: {4}{5} {6}",
 			"multiFileTreeHint": "Деревья файлов: {0} ",
 			"multiTableHint": "Таблиц: {0} ",
 			"noCodeBlocks": "{0}{1}{2} {3}",
 			"noCodeBlocksHint": "{0}{1}{2}{3}{4} {5}",
-			"singleCodeBlock": "{0}{1}1 code block: {2} {3}",
-			"singleCodeBlockHint": "{0}{1}{2}1 code block: {3} {4}{5}",
+			"singleCodeBlock": "{0}{1}1 блок кода: {2} {3}",
+			"singleCodeBlockHint": "{0}{1}{2}1 блок кода: {3} {4}{5}",
 			"singleFileTreeHint": "1 дерево файлов ",
 			"singleTableHint": "1 таблица ",
 			"toolCompletedHint": "Работа инструмента {0} завершена.",
@@ -6175,6 +6235,9 @@
 		"vs/workbench/contrib/chat/browser/chatContentParts/chatAgentCommandContentPart": {
 			"rerun": "Перезапустить без {0}{1}"
 		},
+		"vs/workbench/contrib/chat/browser/chatContentParts/chatChangesSummaryPart": {
+			"chat.viewFileChangesSummary": "Просмотреть все изменения файлов"
+		},
 		"vs/workbench/contrib/chat/browser/chatContentParts/chatCodeCitationContentPart": {
 			"viewMatches": "Просмотреть совпадения"
 		},
@@ -6190,6 +6253,7 @@
 			"dismiss": "Закрыть"
 		},
 		"vs/workbench/contrib/chat/browser/chatContentParts/chatConfirmationWidget": {
+			"chat.confirmationWidget.ariaLabel": "Диалоговое окно подтверждения чата {0} {1}",
 			"defaultTitle": "Чат: требуется подтверждение",
 			"notificationDetail": "Для продолжения текущего сеанса чата требуется ваше подтверждение.",
 			"notificationTitle": "Чат: {0}"
@@ -6206,10 +6270,21 @@
 			"chat.codeblock.insertions.one": "1 вставка",
 			"summary": "Изменено {0}, {1}, {2}"
 		},
+		"vs/workbench/contrib/chat/browser/chatContentParts/chatMultiDiffContentPart": {
+			"chatMultiDiff.manyFiles": "Изменено файлов: {0}",
+			"chatMultiDiff.oneFile": "Изменен 1 файл",
+			"chatMultiDiffList": "Изменения файлов"
+		},
+		"vs/workbench/contrib/chat/browser/chatContentParts/chatPinnedContentPart": {
+			"chat.pinned.thinking.header.base": "Thinking...",
+			"chat.pinned.thinking.header.count": "Thought for a few seconds...",
+			"chat.pinned.thinking.header.count.time": "Thought for {0}"
+		},
 		"vs/workbench/contrib/chat/browser/chatContentParts/chatProgressContentPart": {
-			"pausedMessage": "Приостановлено",
-			"resume": "Щелкните, чтобы продолжить",
 			"workingMessage": "Идет выполнение..."
+		},
+		"vs/workbench/contrib/chat/browser/chatContentParts/chatPullRequestContentPart": {
+			"chatPullRequest.seeMore": "Показать больше"
 		},
 		"vs/workbench/contrib/chat/browser/chatContentParts/chatQuotaExceededPart": {
 			"clickToContinue": "Щелкните, чтобы повторить попытку.",
@@ -6220,6 +6295,7 @@
 		"vs/workbench/contrib/chat/browser/chatContentParts/chatReferencesContentPart": {
 			"addToChat": "Добавить файл в чат",
 			"chatCollapsibleList": "Свертываемый список ссылок на чаты",
+			"chatEditingSession.fileCounts": "Добавлено строк: {0}, удалено строк: {1}",
 			"copyLink": "Копировать ссылку",
 			"setting.hover": "Открыть параметр \"{0}\"",
 			"usedReferencesPlural": "Использовано ссылок: {0}",
@@ -6228,6 +6304,12 @@
 		"vs/workbench/contrib/chat/browser/chatContentParts/chatTextEditContentPart": {
 			"edits0": "Внесение изменений прервано.",
 			"editsSummary": "Внесены изменения."
+		},
+		"vs/workbench/contrib/chat/browser/chatContentParts/chatTodoListWidget": {
+			"chat.todoList.clearButton": "Очистить все задачи",
+			"chat.todoList.clearButton.ariaLabel": "Очистить все задачи",
+			"chat.todoList.title": "Задачи",
+			"chat.todoList.titleWithProgress": "Задачи ({0}/{1})"
 		},
 		"vs/workbench/contrib/chat/browser/chatContentParts/chatToolInputOutputContentPart": {
 			"chat.input": "Входные данные",
@@ -6247,12 +6329,17 @@
 			"installExtensions": "Установить расширения",
 			"installExtensionsConfirmation": "Нажмите кнопку \"Установить\" на расширении, а затем нажмите \"Продолжить\" по завершении."
 		},
-		"vs/workbench/contrib/chat/browser/chatContentParts/toolInvocationParts/chatTaskListSubPart": {
-			"chat.task.title": "Tasks"
-		},
-		"vs/workbench/contrib/chat/browser/chatContentParts/toolInvocationParts/chatTerminalToolSubPart": {
-			"cancel": "Отмена",
-			"continue": "Продолжить"
+		"vs/workbench/contrib/chat/browser/chatContentParts/toolInvocationParts/chatTerminalToolConfirmationSubPart": {
+			"autoApprove.button.enable": "Включить",
+			"autoApprove.enable": "Включить автоматическое утверждение...",
+			"autoApprove.markdown": "Это позволит настраиваемому подмножеству команд выполняться в терминале автономно. Это обеспечивает *наилучшие усилия по защите* и предполагает, что агент не действует злонамеренно.",
+			"autoApprove.title": "Включить автоматическое утверждение терминала?",
+			"continue": "Продолжить",
+			"newRule": "Добавлено правило автоматического утверждения {0}",
+			"newRule.plural": "Добавлены правила автоматического утверждения {0}",
+			"ruleTooltip": "Просмотр правила в параметрах",
+			"skip": "Skip",
+			"skip.detail": "Proceed without executing this command"
 		},
 		"vs/workbench/contrib/chat/browser/chatContentParts/toolInvocationParts/chatToolConfirmationSubPart": {
 			"allowGloballTooltip": "Всегда разрешайте запуск этого инструмента без подтверждения.",
@@ -6264,10 +6351,19 @@
 			"cancel": "Отмена",
 			"chat.input": "Входные данные",
 			"continue": "Продолжить",
-			"seeMore": "Показать больше"
+			"seeMore": "Показать больше",
+			"showMore": "Показать больше"
+		},
+		"vs/workbench/contrib/chat/browser/chatContentParts/toolInvocationParts/chatToolInvocationPart": {
+			"chat.autoapprove.lmServicePerTool.profile": "Автоматически утверждено для этого профиля",
+			"chat.autoapprove.lmServicePerTool.session": "Автоматически утверждено для этого сеанса",
+			"chat.autoapprove.lmServicePerTool.workspace": "Автоматически утверждено для этой рабочей области",
+			"chat.autoapprove.setting": "Автоматически утверждено посредством {0}",
+			"edit": "Изменить"
 		},
 		"vs/workbench/contrib/chat/browser/chatContentParts/toolInvocationParts/chatToolOutputPart": {
-			"loading": "Rendering tool output..."
+			"chat.toolOutputError": "Error rendering the tool output",
+			"loading": "Отрисовка выходных данных инструмента..."
 		},
 		"vs/workbench/contrib/chat/browser/chatDragAndDrop": {
 			"attacAsContext": "Присоединить {0} как контекст",
@@ -6287,8 +6383,8 @@
 			"acceptAllEdits": "Сохранить все изменения",
 			"addFilesFromReferences": "Добавить файлы из ссылок",
 			"chat.editRequests.label": "Изменить запрос",
-			"chat.editing.discardAll.confirmation.manyFiles": "Это отменит изменения, внесенные {0} в файлах ({1}). Вы хотите продолжить?",
-			"chat.editing.discardAll.confirmation.oneFile": "Это отменит изменения, внесенные {0} в {1}. Вы хотите продолжить?",
+			"chat.editing.discardAll.confirmation.manyFiles": "Это отменит изменения, внесенные в файлах ({0}). Вы хотите продолжить?",
+			"chat.editing.discardAll.confirmation.oneFile": "Это отменит изменения, внесенные в {0}. Вы хотите продолжить?",
 			"chat.editing.discardAll.confirmation.primaryButton": "Да",
 			"chat.editing.discardAll.confirmation.title": "Отменить все изменения?",
 			"chat.openFileUpdatedBySnapshot.label": "Открыть файл",
@@ -6347,7 +6443,6 @@
 		"vs/workbench/contrib/chat/browser/chatEditing/chatEditingEditorOverlay": {
 			"0Of0": "—",
 			"nOfM": "{0} из {1}",
-			"paused": "Приостановлено",
 			"tooltip": "{0} ({1})",
 			"tooltip_11": "1 изменение в 1 файле",
 			"tooltip_1n": "1 изменение в файлах ({0})",
@@ -6432,8 +6527,10 @@
 			"chatAttachFiles": "Поиск файлов и контекста для добавления в запрос",
 			"chatEditingSession.addSuggested": "Добавить предложение",
 			"chatEditingSession.addSuggestion": "Добавить {0}",
+			"chatEditingSession.ariaLabelWithCounts": "{0}, добавлено строк: {1}, удалено строк: {2}",
 			"chatEditingSession.manyFiles.1": "Изменены файлы: {0}",
 			"chatEditingSession.oneFile.1": "Изменен 1 файл",
+			"chatEditingSession.toggleWorkingSet": "Переключить измененные файлы.",
 			"chatInput.accessibilityHelp": "Ввод чата {0}.",
 			"chatInput.accessibilityHelpNoKb": "Входные данные чата {0} Нажмите клавишу ВВОД, чтобы отправить запрос. Используйте команду \"Справка по специальным возможностям чата\" для получения дополнительных сведений.",
 			"chatInput.mode.agent": "(Режим агента), редактируйте файлы в рабочей области.",
@@ -6451,7 +6548,6 @@
 			"missingContext": "Отсутствует контекст",
 			"offensiveOrUnsafe": "Оскорбительно или небезопасно",
 			"other": "Другое",
-			"paused": "Приостановлено",
 			"poorlyWrittenOrFormatted": "Плохо написано или отформатировано",
 			"refusedAValidRequest": "Отклонен допустимый запрос",
 			"renderFailMsg": "Сбой отображения содержимого",
@@ -6462,8 +6558,9 @@
 			"working": "Выполняется"
 		},
 		"vs/workbench/contrib/chat/browser/chatOutputItemRenderer": {
-			"chatOutputRenderer.mimeTypes": "MIME types that this renderer can handle",
-			"vscode.extension.contributes.chatOutputRenderer": "Contributes a renderer for specific MIME types in chat outputs"
+			"chatOutputRenderer.mimeTypes": "Типы MIME, которые может обрабатывать этот отрисовщик",
+			"chatOutputRenderer.viewType": "Уникальный идентификатор отрисовщика.",
+			"vscode.extension.contributes.chatOutputRenderer": "Добавляет отрисовщик для определенных типов MIME в выходных данных чата"
 		},
 		"vs/workbench/contrib/chat/browser/chatParticipant.contribution": {
 			"chat.viewContainer.label": "Чат",
@@ -6507,20 +6604,29 @@
 			"pastedImageName": "Вставленное изображение"
 		},
 		"vs/workbench/contrib/chat/browser/chatSessions": {
-			"chat.sessions": "Chat Sessions",
-			"chat.sessions.chatView": "Chat",
-			"chat.sessions.chatView.description": "Chat View",
-			"chat.sessions.title": "Chat Sessions",
-			"chatSessions.treeAriaLabel": "Chat Sessions",
-			"interactiveSession.open": "New Chat Editor"
+			"chat.sessions": "Сеансы чата",
+			"chat.sessions.chatView": "Чат",
+			"chat.sessions.chatView.description": "Представление чата",
+			"chat.sessions.showHistory": "History",
+			"chat.sessions.title": "Сеансы чата",
+			"chatSessionInputAriaLabel": "Имя сеанса типа. Нажмите клавишу ВВОД, чтобы подтвердить введенные данные, или ESCAPE для отмены.",
+			"chatSessions": "Chat Sessions",
+			"chatSessions.dragLabel": "Сеансы чата ({0})",
+			"chatSessions.loading": "Загрузка сеансов чата...",
+			"chatSessions.noResults": "Нет локальных сеансов чата\r\n[Начать чат](command:workbench.action.openChat)",
+			"chatSessions.refreshing": "Обновление сеансов чата...",
+			"interactiveSession.open": "Новый редактор чата"
 		},
 		"vs/workbench/contrib/chat/browser/chatSessions.contribution": {
-			"chatSessionsExtPoint": "Contributes chat session integrations to the chat widget.",
-			"chatSessionsExtPoint.description": "Description of the chat session for use in menus and tooltips.",
-			"chatSessionsExtPoint.displayName": "A longer name for this item which is used for display in menus.",
-			"chatSessionsExtPoint.id": "A unique identifier for this item.",
-			"chatSessionsExtPoint.name": "Name shown in the chat widget. (eg: @agent)",
-			"chatSessionsExtPoint.when": "Condition which must be true to show this item."
+			"chatSessionNotFound": "Используйте #copilotCodingAgent, чтобы начать новый [сеанс агента кодирования]({0}).",
+			"chatSessionsExtPoint": "Добавляет интеграции сеансов чата в мини-приложение чата.",
+			"chatSessionsExtPoint.chatSessionType": "Уникальный идентификатор для типа сеанса чата.",
+			"chatSessionsExtPoint.description": "Описание сеанса чата для использования в меню и подсказках.",
+			"chatSessionsExtPoint.displayName": "Длинное имя этого элемента, которое используется для отображения в меню.",
+			"chatSessionsExtPoint.name": "Имя, отображаемое в мини-приложении чата. (например, @агент)",
+			"chatSessionsExtPoint.when": "Условие, которое должно иметь значение TRUE, чтобы отображался этот элемент.",
+			"continueInNewChat": "Продолжить **{0}** в новом редакторе чата",
+			"interactiveSession.openNewSessionEditor": "Новый редактор чата {0}"
 		},
 		"vs/workbench/contrib/chat/browser/chatSetup": {
 			"chat.category": "Чат",
@@ -6533,17 +6639,19 @@
 			"enterpriseInstance": "Какой у вас экземпляр {0}?",
 			"enterpriseInstancePlaceholder": "например, \"octocat\" или \"https://octocat.ghe.com\"...",
 			"forceSignIn": "Войдите для использования Copilot",
-			"hideChatSetup": "Скрыть Copilot",
-			"hideChatSetupButton": "Скрыть Copilot",
-			"hideChatSetupConfirm": "Действительно скрыть Copilot?",
-			"hideChatSetupDetail": "Вы можете восстановить Copilot, выполив команду '{0}'.",
+			"hideChatSetup": "Скрыть функции ИИ",
+			"hideChatSetupButton": "Скрыть функции ИИ",
+			"hideChatSetupConfirm": "Действительно скрыть функции ИИ?",
+			"hideChatSetupDetail": "Вы можете восстановить функции ИИ с помощью команды \"{0}\".",
 			"installingCopilot": "Подготовка Copilot",
 			"invalidEnterpriseInstance": "Необходимо ввести допустимый экземпляр {0} (например, \"octocat\" или \"https://octocat.ghe.com\")",
 			"manageOverages": "Управление избыточным использованием Copilot",
 			"managePlan": "Повысить статус до Copilot Pro",
+			"restartExtensionHost.reason.disable": "Disabling AI features",
+			"restartExtensionHost.reason.enable": "Enabling AI features",
 			"retry": "Повторить попытку",
 			"settingUpCopilotNeeded": "Для использования чата вам необходимо настроить Copilot и войти в систему.",
-			"settings": "{0} Copilot Free, Pro и Pro+ могут показывать предложения [общедоступного кода]({1}), и мы можем использовать ваши данные для улучшения продукта. Эти [настройки]({2}) можно изменить в любое время.",
+			"settings": "Продолжая, вы принимаете [условия]({1}) {0} и [заявление о конфиденциальности]({2}). {3} Copilot может показывать предложения [общедоступного кода]({4}) и использовать ваши данные для улучшения продукта. Вы можете изменить эти [параметры]({5}) в любое время.",
 			"setupChatProgress": "Подготовка Copilot...",
 			"setupChatSignIn2": "Выход в {0}.",
 			"setupCopilot": "Настройте Copilot.",
@@ -6551,10 +6659,10 @@
 			"setupErrorDialog": "Не удалось настроить Copilot. Повторить попытку?",
 			"setupToolDisplayName": "Новая рабочая область",
 			"setupToolsDescription": "Формирование шаблона для новой рабочей области в VS Code",
-			"signIn": "Войдите для использования Copilot",
+			"signIn": "Войдите для использования {0} Copilot",
 			"skipForNow": "Пока пропустить",
-			"startUsing": "Начните использовать Copilot",
-			"triggerChatSetup": "Использование функций искусственного интеллекта с Copilot бесплатно...",
+			"startUsing": "Начните использовать {0} Copilot",
+			"triggerChatSetup": "Use AI Features with GitHub Copilot for free...",
 			"triggerChatSetupFromAccounts": "Войдите для использования Copilot...",
 			"trustNeeded": "Чтобы использовать чат, необходимо доверять этой рабочей области.",
 			"unknownSetupError": "Произошла ошибка при настройке Copilot. Повторить попытку?",
@@ -6573,6 +6681,7 @@
 			"cancelSnooze": "Отменить откладывание",
 			"chatAndCompletionsQuotaExceededStatus": "Достигнута квота",
 			"chatQuotaExceededStatus": "Достигнута квота для чата",
+			"chatSessionsTitle": "Chat Sessions",
 			"chatStatus": "Состояние Copilot",
 			"chatsLabel": "Сообщения чата",
 			"codeCompletions": "Завершение кода",
@@ -6598,6 +6707,7 @@
 			"gaugeForeground": "Цвет переднего плана датчика.",
 			"gaugeWarningBackground": "Цвет фона предупреждения датчика.",
 			"gaugeWarningForeground": "Цвет переднего плана предупреждения датчика.",
+			"inProgressChatSession": "$(loading~spin) {0} {1} in progress",
 			"learnMore": "Подробнее",
 			"limitQuota": "Разрешение сбрасывается {0}.",
 			"notSignedIntoCopilot": "Выполнен выход",
@@ -6616,11 +6726,14 @@
 			"signInDescription": "Войдите, чтобы использовать функции ИИ Copilot.",
 			"signInToUseCopilotButton": "Войдите для использования Copilot",
 			"upgradeToCopilotPro": "Повысить статус до Copilot Pro",
-			"usageTitle": "Использование Copilot"
+			"usageTitle": "Использование Copilot",
+			"viewChatSessionsLabel": "View Chat Sessions",
+			"viewChatSessionsTooltip": "View Chat Sessions"
 		},
 		"vs/workbench/contrib/chat/browser/chatWidget": {
 			"agentMessage": "Попросите Copilot изменить ваши файлы в [режиме агента]({0}). Copilot автоматически использует несколько запросов, чтобы выбрать файлы для редактирования, выполнения команд терминала и итеративной обработки ошибок.",
 			"agentTitle": "Сборка в режиме агента.",
+			"chat.input.placeholder.lockedToAgent": "Chat with {0}",
 			"chatDescription": "Задавайте вопросы о своем коде.",
 			"chatDisclaimer": "Ответы ИИ могут быть неточными.",
 			"chatMessage": "Copilot работает на платформе ИИ, поэтому возможны ошибки. Перед использованием внимательно просмотрите выходные данные.",
@@ -6634,6 +6747,8 @@
 			"chatWidget.suggestedPrompts.newProjectPrompt": "Создать #new проект Hello World в TypeScript",
 			"chatWidget.tips": "{0} или введите {1}, чтобы вложить контекст\r\n\r\n{2}, чтобы общаться в чате с расширениями\r\n\r\nВведите {3}, чтобы использовать команды",
 			"chatWidget.tips.withoutParticipants": "{0} или введите {1}, чтобы вложить контекст",
+			"codingAgentMessage": "Этот сеанс чата будет перенаправлен агенту кодирования {0}",
+			"codingAgentTitle": "Чат с {0}",
 			"editsHelp": "Начните сеанс редактирования с определения набора файлов, с которыми нужно работать. Затем попросите Copilot внести необходимые изменения.",
 			"editsTitle": "Изменить в контексте.",
 			"expChatAdditionalMessage": "Перед использованием внимательно просмотрите выходные данные ИИ.",
@@ -6669,8 +6784,7 @@
 			"tool_source_completion": "{0}: {1}"
 		},
 		"vs/workbench/contrib/chat/browser/contrib/chatInputEditorContrib": {
-			"askPlaceholderHint": "# для добавления контекста, @ для расширений, / для команд",
-			"editPlaceholderHint": "# для добавления контекста"
+			"chatPlaceholderHint": "Добавить контекст (#), расширения (@), команды (/)"
 		},
 		"vs/workbench/contrib/chat/browser/contrib/chatInputEditorHover": {
 			"hoverAccessibilityChatAgent": "Здесь есть часть наведения агента чата."
@@ -6832,10 +6946,9 @@
 			"chat.requestCodeBorder": "Цвет границ блоков кода внутри облака запроса чата.",
 			"chat.slashCommandBackground": "Цвет фона команды с косой чертой чата.",
 			"chat.slashCommandForeground": "Цвет переднего плана команды с косой чертой чата.",
-			"chatCheckpointSeparator": "Chat checkpoint separator color."
+			"chatCheckpointSeparator": "Цвет разделителя контрольных точек чата."
 		},
 		"vs/workbench/contrib/chat/common/chatContextKeys": {
-			"chatCanRequestBePaused": "Значение true, если текущий запрос можно приостановить.",
 			"chatEditApplied": "ИСТИНА, если применены изменения текста чата.",
 			"chatEditingCanRedo": "Значение true, если можно повторить взаимодействие на панели изменения.",
 			"chatEditingCanUndo": "Значение true, если можно отменить взаимодействие на панели изменения.",
@@ -6844,21 +6957,26 @@
 			"chatHasCustomChatModes": "ИСТИНА, если в чате доступны пользовательские режимы чата.",
 			"chatHasFileAttachments": "ИСТИНА, если в чате есть вложенные файлы.",
 			"chatIsEnabled": "ИСТИНА, когда чат включен, поскольку участник чата по умолчанию активирован с помощью реализации.",
+			"chatIsHistoryItem": "True when the chat session item is from history.",
 			"chatItemId": "Идентификатор элемента чата.",
 			"chatLastItemId": "Идентификатор последнего элемента чата.",
 			"chatMode": "Тип текущего режима чата — агент для настраиваемых режимов.",
+			"chatModelsAreUserSelectable": "Значение true, если пользователь может выбрать модель чата вручную.",
 			"chatPanelExtensionParticipantRegistered": "ИСТИНА, когда участник стандартного чата зарегистрирован на панели из расширения.",
 			"chatPanelLocation": "Расположение панели чата.",
 			"chatParticipantRegistered": "ИСТИНА, когда для панели зарегистрирован участник чата по умолчанию.",
 			"chatPromptFileAttachedContextDescription": "ИСТИНА, если чат содержит вложенный файл запроса.",
 			"chatRemoteJobCreating": "Значение true, когда создается задание удаленного агента кодирования.",
 			"chatRequest": "Элемент чата является запросом",
-			"chatRequestIsPaused": "Значение true, если текущий запрос приостановлен.",
 			"chatResponse": "Элемент чата является ответом.",
 			"chatResponseErrored": "Значение true, если ответ чата привел к ошибке.",
 			"chatResponseFiltered": "Значение true, если ответ чата был отфильтрован сервером.",
 			"chatResponseSupportsIssueReporting": "ИСТИНА, если текущий ответ чата поддерживает отчеты о проблемах.",
 			"chatSessionResponseDetectedAgentOrCommand": "При автоматическом обнаружении агента или команды",
+			"chatSessionType": "Тип элемента текущего сеанса чата.",
+			"chatSkipRequestInProgressMessage": "Значение true, если сообщение выполняемого запроса чата должно быть пропущено.",
+			"chatToolCount": "Количество инструментов, доступных в текущем режиме чата.",
+			"chatToolGroupingThreshold": "Количество инструментов, при котором начинается виртуальное группирование.",
 			"enableRemoteCodingAgentPromptFileOverlay": "Включена ли функция наложения файла запроса для удаленного агента кодирования",
 			"hasRemoteCodingAgent": "Доступен ли какой-либо удаленный агент кодирования",
 			"inChat": "Значение TRUE, если фокус находится на мини-приложении чата, в противном случае — FALSE.",
@@ -6871,6 +6989,7 @@
 			"interactiveSessionCurrentlyEditingInput": "Истинно, когда в нижней части редактируются входные данные текущего запроса.",
 			"interactiveSessionRequestInProgress": "Значение true, если текущий запрос все еще выполняется.",
 			"interactiveSessionResponseVote": "Если для ответа получен голос \"за\", настроено значение \"up\". Если получен голос \"против\", настроено значение \"down\". В противном случае — пустая строка.",
+			"lockedToCodingAgent": "Значение true, если мини-приложение чата заблокировано для сеанса агента кодирования.",
 			"toolsCount": "Количество инструментов, доступных в чате."
 		},
 		"vs/workbench/contrib/chat/common/chatEditingService": {
@@ -6891,10 +7010,12 @@
 		"vs/workbench/contrib/chat/common/chatModel": {
 			"codeCitation": "Обнаружен похожий код с 1 типом лицензии",
 			"codeCitations": "Обнаружен похожий код с {0} типами лицензий",
-			"editsSummary": "Внесены изменения."
+			"copyrightContentRetry": "Ответ очищен из-за возможного совпадения с общедоступным кодом. Выполняется повторная попытка с измененным запросам.",
+			"editsSummary": "Внесены изменения.",
+			"filteredContentRetry": "Ответ очищен из-за фильтров безопасности контента. Выполняется повторная попытка с измененным запросам."
 		},
 		"vs/workbench/contrib/chat/common/chatModes": {
-			"agentDescription": "Выполняйте сборку автономно.",
+			"agentDescription": "Предоставьте инструкции.",
 			"chatDescription": "Задайте вопрос.",
 			"editsDescription": "Изменяйте файлы."
 		},
@@ -6906,8 +7027,7 @@
 			"newChat": "Новый чат"
 		},
 		"vs/workbench/contrib/chat/common/chatSessionStore": {
-			"join.chatSessionStore": "Сохранение журнала чата",
-			"newChat": "Новый чат"
+			"join.chatSessionStore": "Сохранение журнала чата"
 		},
 		"vs/workbench/contrib/chat/common/chatVariableEntries": {
 			"chat.attachment.problems.all": "Все проблемы",
@@ -6948,6 +7068,7 @@
 			"chat.prompt.frontMatter.inactiveBackground.description": "Цвет фона неактивного блока заголовка Front Matter."
 		},
 		"vs/workbench/contrib/chat/common/promptSyntax/languageProviders/promptHeaderDiagnosticsProvider": {
+			"promptHeaderDiagnosticsProvider.modeNotFound": "Неизвестный режим \"{0}\". Доступные режимы: {1}",
 			"promptHeaderDiagnosticsProvider.modelNotFound": "Неизвестная модель \"{0}\"",
 			"promptHeaderDiagnosticsProvider.modelNotSuited": "Модель \"{0}\" не подходит для режима агента",
 			"promptHeaderDiagnosticsProvider.toolNotFound": "Неизвестный инструмент \"{0}\""
@@ -6962,7 +7083,12 @@
 			"promptHeader.mode.model": "Модель, используемая в этом режиме.",
 			"promptHeader.mode.tools": "Инструменты, используемые в этом режиме.",
 			"promptHeader.prompt.description": "Описание файла запроса. Его можно использовать для предоставления дополнительного контекста или информации о запросе автору запроса.",
-			"promptHeader.prompt.mode": "Режим (вопрос, редактирование или агент), используемый при выполнении этого запроса.",
+			"promptHeader.prompt.mode": "Режим, используемый в этом запросе.",
+			"promptHeader.prompt.mode.builtInDesc": "Встроенный режим чата",
+			"promptHeader.prompt.mode.builtin": "**Встроенные режимы:**",
+			"promptHeader.prompt.mode.custom": "**Настраиваемые режимы:**",
+			"promptHeader.prompt.mode.customDesc": "Настраиваемый режим чата",
+			"promptHeader.prompt.mode.description": "Режим чата, который следует использовать при выполнении этого запроса.",
 			"promptHeader.prompt.model": "Модель, используемая в этом запросе.",
 			"promptHeader.prompt.tools": "Инструменты, используемые в этом запросе.",
 			"toolSetName": "Набор инструментов: {0}\r\n\r\n"
@@ -6981,10 +7107,10 @@
 			"prompt.header.metadata.string.diagnostics.invalid-language": "Свойство заголовка \"{0}\" допустимо только в файлах инструкций."
 		},
 		"vs/workbench/contrib/chat/common/promptSyntax/parsers/promptHeader/metadata/base/enum": {
-			"prompt.header.metadata.enum.diagnostics.invalid-value": "Метаданные \"{0}\" должны быть одним из {1}, которые получили \"{2}\"."
+			"prompt.header.metadata.enum.diagnostics.invalid-value": "Свойство \"{0}\" должно быть одним из {1}, получено: \"{2}\"."
 		},
 		"vs/workbench/contrib/chat/common/promptSyntax/parsers/promptHeader/metadata/base/string": {
-			"prompt.header.metadata.string.diagnostics.invalid-value-type": "Метаданные\"{0}\" должны быть \"{1}\", которые получили \"{2}\"."
+			"prompt.header.metadata.string.diagnostics.invalid-value-type": "Свойство \"{0}\" должно относиться к типу \"{1},\" получено: \"{2}\"."
 		},
 		"vs/workbench/contrib/chat/common/promptSyntax/parsers/promptHeader/metadata/tools": {
 			"prompt.header.metadata.tools.diagnostics.duplicate-tool-name": "Дублирующееся имя инструмента \"{0}\".",
@@ -6993,7 +7119,7 @@
 			"prompt.header.metadata.tools.diagnostics.invalid-value-type": "Должно быть массивом имен инструментов, получено \"{0}\"."
 		},
 		"vs/workbench/contrib/chat/common/promptSyntax/parsers/promptHeader/promptHeader": {
-			"prompt.header.metadata.mode.diagnostics.incompatible-with-tools": "Инструменты можно использовать только в режиме \"агент\", но для режима настроено значение \"{0}\". Инструменты будут пропущены."
+			"prompt.header.metadata.mode.diagnostics.incompatible-with-tools": "Средства не могут использоваться в режиме \"{0}\" и будут игнорироваться."
 		},
 		"vs/workbench/contrib/chat/common/promptSyntax/parsers/topError": {
 			"broken": "нарушено",
@@ -7046,16 +7172,13 @@
 			"workbench.action.chat.openStorageFolder.label": "Открыть папку хранилища чатов"
 		},
 		"vs/workbench/contrib/chat/electron-browser/actions/voiceChatActions": {
-			"installProviderForVoiceChat.justification": "Для поддержки микрофона требуется это расширение.",
 			"keywordActivation.status.active": "Ожидается фраза \"Hey Code\" (Привет, код)...",
 			"keywordActivation.status.inactive": "Ожидание завершения голосового чата...",
 			"keywordActivation.status.name": "Активация голосовой связи ключевыми словами",
 			"listening": "Я слушаю",
-			"retry": "Повторить попытку",
 			"scopedChatSynthesisInProgress": "Определяется как место, где выполняется запись голоса с микрофона для голосового чата. Этот ключ определяется только в рамках контекста чата.",
 			"scopedVoiceChatGettingReady": "Значение ИСТИНА при готовности к приему голосового ввода с микрофона для голосового чата. Этот ключ определяется только в рамках контекста чата.",
 			"scopedVoiceChatInProgress": "Определяется как место, где выполняется запись голоса с микрофона для голосового чата. Этот ключ определяется только в рамках контекста чата.",
-			"unknownSetupError": "Произошла ошибка при настройке голосового чата. Повторить попытку?",
 			"voice.keywordActivation": "Определяет, распознается ключевая фраза \"Hey Code\" (Привет, код) для начала сеанса голосового чата. При включении этого параметра начнется запись с микрофона, но звук обрабатывается локально и никогда не отправляется на сервер.",
 			"voice.keywordActivation.chatInContext": "Активация ключевыми словами включена и ожидает фразу \"Hey Code\" (Привет, код), чтобы начать сеанс голосового чата в активном редакторе или представлении в зависимости от фокуса клавиатуры.",
 			"voice.keywordActivation.chatInView": "Активация ключевыми словами включена и ожидает фразу \"Hey Code\" (Привет, код), чтобы начать сеанс голосового чата в представлении чата.",
@@ -7064,7 +7187,6 @@
 			"voice.keywordActivation.quickChat": "Активация ключевыми словами включена и ожидает фразу \"Hey Code\" (Привет, код), чтобы начать сеанс голосового чата в формате быстрого чата.",
 			"workbench.action.chat.holdToVoiceChatInChatView.label": "Удерживайте, чтобы открыть голосовой чат в представлении чата",
 			"workbench.action.chat.inlineVoiceChat": "Встроенный голосовой чат",
-			"workbench.action.chat.installProviderForVoiceChat.label": "Начать голосовой чат",
 			"workbench.action.chat.quickVoiceChat.label": "Быстрый голосовой чат",
 			"workbench.action.chat.readChatResponseAloud": "Прочесть вслух",
 			"workbench.action.chat.startVoiceChat.label": "Начать голосовой чат",
@@ -7075,12 +7197,17 @@
 			"workbench.action.speech.stopReadAloud": "Остановить чтение вслух"
 		},
 		"vs/workbench/contrib/chat/electron-browser/chat.contribution": {
+			"changeWorkspace.detail": "Запрос чата остановится, если вы измените рабочую область.",
 			"changeWorkspace.message": "Выполняется запрос чата. Вы уверены, что хотите изменить рабочую область?",
+			"chatRequestInProgress": "Выполняется запрос чата.",
+			"closeTheWindow.detail": "Запрос чата остановится, если вы закроете окно.",
 			"closeTheWindow.message": "Выполняется запрос чата. Действительно закрыть окно?",
 			"copilotWorkspaceTrust": "Copilot в настоящее время поддерживается только в доверенных рабочих областях.",
+			"exit.detail": "Запрос чата остановится, если вы выйдете.",
 			"exit.message": "Выполняется запрос чата. Вы действительно хотите выйти?",
-			"quit.detail": "Если вы продолжите, запрос чата будет отменен.",
+			"quit.detail": "Запрос чата остановится, если выйти.",
 			"quit.message": "Выполняется запрос чата. Вы действительно подтверждаете выход?",
+			"reloadTheWindow.detail": "Запрос чата остановится, если вы перезагрузите окно.",
 			"reloadTheWindow.message": "Выполняется запрос чата. Вы действительно хотите перезагрузить окно?"
 		},
 		"vs/workbench/contrib/chat/electron-browser/tools/fetchPageTool": {
@@ -7815,6 +7942,7 @@
 			"addConfiguration": "Добавить конфигурацию...",
 			"addInlineBreakpoint": "Добавить внутреннюю точку останова",
 			"addToWatchExpressions": "Добавить контрольное значение",
+			"attachToCurrentCodeRenderer": "Подключить к текущему отрисовщику кода",
 			"callStackBottom": "Перейти в нижнюю часть стека вызовов",
 			"callStackDown": "Перейти вниз по стеку вызовов",
 			"callStackTop": "Перейти в верхнюю часть стека вызовов",
@@ -7840,13 +7968,15 @@
 			"selectAndStartDebugging": "Выбрать и начать отладку",
 			"selectDebugConsole": "Выбрать консоль отладки",
 			"selectDebugSession": "Выбрать сеанс отладки",
+			"selectExceptionBreakpointsPlaceholder": "Выберите включенные точки останова исключений",
 			"startDebug": "Начать отладку",
 			"startWithoutDebugging": "Начать без отладки",
 			"stepIntoDebug": "Шаг с заходом",
 			"stepIntoTargetDebug": "Выполнять цель по шагам",
 			"stepOutDebug": "Шаг с выходом",
 			"stepOverDebug": "Шаг с обходом",
-			"stop": "Остановить"
+			"stop": "Остановить",
+			"toggleExceptionBreakpoints": "Переключить точки останова исключений"
 		},
 		"vs/workbench/contrib/debug/browser/debugConfigurationManager": {
 			"DebugConfig.failed": "Не удается создать файл launch.json в папке .vscode ({0}).",
@@ -8438,15 +8568,16 @@
 			"cloudChangesLog": "Изменения в облаке"
 		},
 		"vs/workbench/contrib/editTelemetry/browser/editStats/aiStatsStatusBar": {
-			"aiStatsStatusBarHeader": "AI Usage Statistics",
+			"aiStats.statusBar.configure": "Настроить",
+			"aiStatsStatusBarHeader": "Статистика использования ИИ",
 			"inlineSuggestions": "Встроенные предложения",
 			"inlineSuggestionsStatusBar": "Строка состояния встроенных предложений",
-			"text1": "Manual vs. AI typing ratio: {0}",
-			"text2": "Accepted inline suggestions today: {0}"
+			"text1": "Средние показатели ИИ и ввода с клавиатуры: {0}",
+			"text2": "Принято встроенных предложений сегодня: {0}"
 		},
 		"vs/workbench/contrib/editTelemetry/browser/editTelemetry.contribution": {
 			"editTelemetry": "Телеметрия изменения",
-			"editor.aiStats.enabled": "Управляет включением статистики ИИ в редакторе.",
+			"editor.aiStats.enabled": "Управляет включением статистики ИИ в редакторе. Индикатор показывает среднее количество кода, вставленного ИИ по сравнению с вводом вручную за 24 часа.",
 			"telemetry.editStats.detailed.enabled": "Управляет тем, следует ли включать телеметрию для подробной статистики изменения (статистика отправляется только в том случае, если включена общая телеметрия).",
 			"telemetry.editStats.enabled": "Управляет тем, следует ли включать телеметрию для статистики изменения (статистика отправляется только в том случае, если включена общая телеметрия).",
 			"telemetry.editStats.showDecorations": "Управляет тем, следует ли отображать элементы оформления для телеметрии изменения.",
@@ -9043,7 +9174,7 @@
 			"download": "Скачать",
 			"download title": "Выберите папку для загрузки VSIX",
 			"download.completed": "Скачано: VSIX",
-			"download.failed": "Error while downloading the VSIX: {0}",
+			"download.failed": "Ошибка при скачивании VSIX: {0}",
 			"downloading...": "Скачивание VSIX...",
 			"enable locally": "{0}, чтобы включить это расширение локально.",
 			"enable remote": "{0}, чтобы включить это расширение в {1}.",
@@ -9151,14 +9282,14 @@
 			"searchExtensionsTool.userDescription": "Поиск расширений в Магазине расширений Visual Studio Code"
 		},
 		"vs/workbench/contrib/extensions/electron-browser/debugExtensionHostAction": {
-			"debugExtensionHost": "Начать отладку хост-процесса для расширений в новом окне",
+			"debugExtensionHost": "Отладка хост-процесса для расширений в новом окне",
 			"debugExtensionHost.launch.name": "Подключить узел расширения",
 			"debugExtensionHost.progress": "Подключение отладчика к хост-процессу для расширений",
-			"openDevToolsForExtensionHost": "Open Developer Tools for Extension Host",
+			"openDevToolsForExtensionHost": "Отладка хост-процесса для расширений в средствах разработчика",
 			"restart1": "Отладка расширений",
 			"restart2": "Для отладки расширений требуется перезапуск. Перезапустить \"{0}\" сейчас?",
 			"restart3": "&&Перезапустить",
-			"selectExtensionHost": "Pick extension host"
+			"selectExtensionHost": "Выбрать хост-процесс для расширений"
 		},
 		"vs/workbench/contrib/extensions/electron-browser/extensionProfileService": {
 			"profilingExtensionHost": "Узел расширения профилирования",
@@ -9739,13 +9870,14 @@
 			"moveToPreviousHunk": "Перейти к предыдущему изменению",
 			"rerun": "Запустить повторно",
 			"reveal": "Переключить встроенный чат",
-			"run": "Встроенный чат редактора",
+			"run": "Open Inline Chat",
 			"showChanges": "Переключить изменения",
 			"startInlineChat": "Значок, вызывающий встроенный чат на панели инструментов редактора.",
 			"unstash": "Возобновить последний отклоненный встроенный чат",
 			"viewInChat": "Просмотреть в чате"
 		},
 		"vs/workbench/contrib/inlineChat/browser/inlineChatController": {
+			"askOrEditInContext": "Спросить или изменить в контексте",
 			"create.fail": "Не удалось запустить чат редактора",
 			"empty": "Нет результатов. Уточните входные данные и повторите попытку",
 			"err.apply": "Не удалось применить изменения.",
@@ -9810,7 +9942,7 @@
 			"inlineChatResponseTypes": "Какой тип ответов получен: \"Пока ничего\", \"Только сообщения\" или \"Отправленные сообщения\" и \"Локальные изменения\"",
 			"inlineChatVisible": "Видны ли входные данные интерактивного редактора",
 			"lineSuffixHint": "Отображаются ли строки, которые доминировали на естественном языке или псевдо-коде, показывать подсказку для продолжения во встроенного чата. Например, \"класс \"Человек с именем и хобби\" будет показывать подсказку для продолжения чата.",
-			"notebookAgent": "Enable agent-like behavior for inline chat widget in notebooks. Depends on the `#inlineChat.enableV2#` setting being enabled."
+			"notebookAgent": "Включите поведение, аналогичное агенту, из встроенного мини-приложения чата в записных книжках. Зависит от включения параметра \"#inlineChat.enableV2#\"."
 		},
 		"vs/workbench/contrib/inlineChat/electron-browser/inlineChatActions": {
 			"holdForSpeech": "Удерживайте для использования речи"
@@ -10423,6 +10555,7 @@
 			"mcp.addConfiguration.description": "Устанавливает новый протокол контекста модели в параметрах mcp.json",
 			"mcp.addServer": "Добавить сервер",
 			"mcp.addServer.description": "Добавить новую конфигурацию сервера",
+			"mcp.autoStart": "Автоматически запускать серверы MCP при отправке сообщения чата",
 			"mcp.browseResources": "Обзор ресурсов...",
 			"mcp.command.browse": "Серверы MCP",
 			"mcp.command.browse.mcp": "Просмотреть серверы",
@@ -10443,8 +10576,12 @@
 			"mcp.configureSamplingModels.ph": "Выберите модели, доступные {0} с помощью выборки MCP",
 			"mcp.disconnect": "Отключить учетную запись",
 			"mcp.editStoredInput": "Изменить сохраненный ввод",
+			"mcp.err.md.multi": "Не удалось запустить несколько серверов MCP:\r\n\r\n{0}",
+			"mcp.err.md.single": "Не удалось запустить сервер MCP {0}.",
 			"mcp.list": "Перечислить серверы",
 			"mcp.newTools": "Доступны новые инструменты ({0})",
+			"mcp.newTools.md.multi": "Серверы MCP обновлены и могут содержать новые инструменты:\r\n\r\n{0}",
+			"mcp.newTools.md.single": "Сервер MCP {0} обновлен и может содержать новые инструменты.",
 			"mcp.options": "Параметры сервера",
 			"mcp.resetCachedTools": "Сбросить кэшированные инструменты",
 			"mcp.resetTrust": "Сбросить доверие",
@@ -10476,9 +10613,10 @@
 			"install.title": "Установка сервера MCP {0}",
 			"mcp.command.placeholder": "Команда для выполнения (с необязательными аргументами)",
 			"mcp.command.title": "Введите команду",
-			"mcp.confirmPublish": "Установить {0} из {1}?",
+			"mcp.confirmPublish": "Установить {0}{1} из {2}?",
 			"mcp.docker.placeholder": "Имя образа (например, mcp/imagename)",
 			"mcp.docker.title": "Введите имя образа Docker",
+			"mcp.error.openHelpUri": "Открыть URL-адрес справки",
 			"mcp.error.retry": "Попробуйте другой пакет",
 			"mcp.loading.title": "Загрузка сведений о пакете...",
 			"mcp.npm.placeholder": "Имя пакета (например, @org/package)",
@@ -10505,6 +10643,7 @@
 			"mcp.serverType.pip.description": "Установка из имени пакета PIP",
 			"mcp.serverType.placeholder": "Выберите тип добавляемого сервера MCP",
 			"mcp.servers.browse": "Обзор серверов MCP...",
+			"mcp.servers.discovery": "Добавить из другого приложения...",
 			"mcp.target..remote.description": "Доступно на этом удаленном компьютере, выполняется в {0}",
 			"mcp.target.remote": "Удаленный",
 			"mcp.target.title": "Выберите расположение установки сервера MCP",
@@ -10585,6 +10724,7 @@
 		},
 		"vs/workbench/contrib/mcp/browser/mcpServerActions": {
 			"config": "Показать конфигурацию",
+			"configJson": "Показать конфигурацию (JSON)",
 			"disabled - not allowed": "Этот сервер MCP отключен, так как {0}",
 			"install": "Установить",
 			"installing": "Идет установка",
@@ -10664,7 +10804,7 @@
 			"cannot be installed": "Не удается установить сервер MCP \"{0}\", так как он недоступен в этой настройке.",
 			"mcp.configuration.userLocalValue": "Глобальный в {0}",
 			"not an extension": "Предоставленный объект не является сервером MCP.",
-			"overwriting": "Overwriting mcp server '{0}' from {1} with {2}."
+			"overwriting": "Перезапись сервера MCP \"{0}\" из {1} с {2}."
 		},
 		"vs/workbench/contrib/mcp/common/discovery/extensionMcpDiscovery": {
 			"invalidData": "Ожидался массив коллекций MCP",
@@ -10693,9 +10833,13 @@
 			"app.mcp.json.url.pattern": "URL-адрес должен начинаться с \"http://\" или \"https://\".",
 			"id": "Идентификатор",
 			"mcp.discovery.source.claude-desktop": "Классическая версия Claude",
+			"mcp.discovery.source.claude-desktop.config": "Конфигурация рабочего стола Claude (\"claude_desktop_config.json\")",
 			"mcp.discovery.source.cursor-global": "Cursor (глобальный)",
+			"mcp.discovery.source.cursor-global.config": "Глобальная конфигурация курсора (\"~/.cursor/mcp.json\")",
 			"mcp.discovery.source.cursor-workspace": "Cursor (рабочая область)",
+			"mcp.discovery.source.cursor-workspace.config": "Конфигурация рабочей области курсора (\".cursor/mcp.json\")",
 			"mcp.discovery.source.windsurf": "Windsurf",
+			"mcp.discovery.source.windsurf.config": "Конфигурации Windsurf (\"~/.codeium/mcp_config.json\")",
 			"mcpServerDefinitionProviders": "Серверы MCP",
 			"name": "Имя",
 			"vscode.extension.contributes.mcp": "Добавление серверов протокола контекста модели. Пользователи также должны использовать \"vscode.lm.registerMcpServerDefinitionProvider\".",
@@ -10713,24 +10857,24 @@
 			"mcp.debug.pythonBinReq": "Чтобы разрешить отладку, сервер MCP следует запустить с исполняемым файлом \"python\", но он был запущен с \"{0}\""
 		},
 		"vs/workbench/contrib/mcp/common/mcpLanguageModelToolContribution": {
-			"mcp.tool.warning": "Note that MCP servers or malicious conversation content may attempt to misuse '{0}' through tools.",
-			"mcp.toolset": "{0}: All Tools",
-			"msg.ran": "Ran {0} ",
-			"msg.run": "Running {0}",
-			"msg.subtitle": "{0} (MCP Server)",
-			"msg.title": "Run {0}"
+			"mcp.tool.warning": "Обратите внимание, что серверы MCP или вредоносный контент разговоров могут попытаться использовать \"{0}\" с помощью инструментов.",
+			"mcp.toolset": "{0}: все инструменты",
+			"msg.ran": "Выполнено: {0} ",
+			"msg.run": "Выполняется {0}",
+			"msg.subtitle": "{0} (сервер MCP)",
+			"msg.title": "Выполнить {0}"
 		},
 		"vs/workbench/contrib/mcp/common/mcpRegistry": {
 			"mcp.launchError": "Ошибка при запуске {0}: {1}",
 			"mcp.launchError.openConfig": "Открыть конфигурацию",
-			"mcp.trust.details": "The MCP server {0} was updated. MCP servers may add context to your chat session and lead to unexpected behavior. Do you want to trust and run this server?",
-			"mcp.trust.detailsMulti": "Several updated MCP servers were discovered:\r\n\r\n{0}\r\n\r\n MCP servers may add context to your chat session and lead to unexpected behavior. Do you want to trust and run these server?",
+			"mcp.trust.details": "Сервер MCP {0} обновлен. Серверы MCP могут добавить контекст в ваш сеанс чата и привести к непредвиденному поведению. Доверять этому серверу и запустить его?",
+			"mcp.trust.detailsMulti": "Обнаружено несколько обновленных серверов MCP:\r\n\r\n{0}\r\n\r\n Серверы MCP могут добавить контекст в ваш сеанс чата и привести к непредвиденному поведению. Доверять этим серверам и запустить их?",
 			"mcp.trust.no": "Не доверять",
-			"mcp.trust.pick": "Pick Trusted",
+			"mcp.trust.pick": "Выбрать доверенный",
 			"mcp.trust.yes": "Доверять",
-			"trustFromExt": "from {0}",
-			"trustTitleWithOrigin": "Trust and run MCP server {0}?",
-			"trustTitleWithOriginMulti": "Trust and run {0} MCP servers?"
+			"trustFromExt": "с {0}",
+			"trustTitleWithOrigin": "Доверять серверу MCP {0} и запустить его?",
+			"trustTitleWithOriginMulti": "Доверять серверам MCP {0} и запустить их?"
 		},
 		"vs/workbench/contrib/mcp/common/mcpSamplingLog": {
 			"mcp.sampling.rpd": "Всего запросов за последние 7 дней: {0}."
@@ -10763,6 +10907,10 @@
 			"mcpServer.starting": "Выполняется запуск сервера {0}",
 			"mcpServer.state": "Состояние подключения: {0}",
 			"mcpServer.stopping": "Остановка сервера {0}"
+		},
+		"vs/workbench/contrib/mcp/common/mcpService": {
+			"mcp.autostart.configure": "Настройка автозапуска MCP",
+			"mcp.autostart.progress": "Запуск сервера MCP: {0}"
 		},
 		"vs/workbench/contrib/mcp/common/mcpTypes": {
 			"mcpstate.error": "Ошибка {0}",
@@ -11119,7 +11267,7 @@
 			"breadcrumbs.showCodeCells": "Если этот параметр включен, элементы навигации записных книжек содержат ячейки кода.",
 			"filter": "Фильтр записей",
 			"notebook.gotoSymbols.showAllSymbols": "Если этот параметр включен, то в списке быстрого выбора символа для перехода будут отображаться полные символы кода из записной книжки, а также заголовки Markdown.",
-			"outline.showCodeCellSymbols": "Если этот параметр включен, в структуре записной книжки отображаются символы ячеек кода. Зависит от включения параметра \"notebook.outline.showCodeCells\".",
+			"outline.showCodeCellSymbols": "Если этот параметр включен, в структуре записной книжки отображаются символы ячеек кода. Зависит от включения параметра \"#notebook.outline.showCodeCells#\".",
 			"outline.showCodeCells": "Если параметр включен, в структуре записной книжки отображаются ячейки кода.",
 			"outline.showMarkdownHeadersOnly": "Если этот параметр включен, в структуре записной книжки отображаются только ячейки Markdown с заголовками.",
 			"toggleCodeCellSymbols": "Символы ячеек кода",
@@ -11198,7 +11346,7 @@
 			"notebookChatUserDidEdit": "Внес ли пользователь изменения поверх чата в ячейке записной книжки"
 		},
 		"vs/workbench/contrib/notebook/browser/controller/chat/notebookChatController": {
-			"default.placeholder": "Задайте вопрос",
+			"default.placeholder": "Спросить или изменить в контексте",
 			"welcome.1": "Созданный ИИ код может быть неправильным"
 		},
 		"vs/workbench/contrib/notebook/browser/controller/coreActions": {
@@ -11228,6 +11376,7 @@
 			"notebookActions.deleteCell": "Удалить ячейку",
 			"notebookActions.editCell": "Изменить ячейку",
 			"notebookActions.quitEdit": "Остановить редактирование ячейки",
+			"notebookActions.quitEditAllCells": "Прекратить редактирование всех ячеек",
 			"pickAction": "Выберите действие",
 			"pickLanguageToConfigure": "Выбор языкового режима",
 			"selectNotebookIndentation": "Выберите отступ"
@@ -13631,7 +13780,7 @@
 			"ProblemPatternExtPoint": "Публикует шаблоны проблем",
 			"ProblemPatternParser.invalidRegexp": "Ошибка: строка {0} не является допустимым регулярным выражением.\r\n",
 			"ProblemPatternParser.loopProperty.notLast": "Свойство loop поддерживается только в сопоставителе последней строки.",
-			"ProblemPatternParser.problemPattern.emptyPattern": "The problem pattern is invalid. It must contain at least one pattern.",
+			"ProblemPatternParser.problemPattern.emptyPattern": "Шаблон проблемы недопустим. Он должен содержать не менее одного шаблона.",
 			"ProblemPatternParser.problemPattern.kindProperty.notFirst": "Шаблон проблемы является недопустимым. Свойство kind должно быть указано только для первого элемента.",
 			"ProblemPatternParser.problemPattern.missingLocation": "Шаблон проблемы является недопустимым. Он должен иметь тип \"file\" или группу соответствия строки или расположения.",
 			"ProblemPatternParser.problemPattern.missingProperty": "Шаблон проблемы является недопустимым. Он должен включать файл и сообщение.",
@@ -13697,7 +13846,8 @@
 			"tasks.processExecutionSupported": "Поддерживаются ли задачи ProcessExecution. Рекомендуется использовать в предложении when вклада \"taskDefinition\".",
 			"tasks.serverlessWebContext": "Значение true при использовании в Интернете без удаленного центра.",
 			"tasks.shellExecutionSupported": "Поддерживаются ли задачи ShellExecution. Рекомендуется использовать в предложении when вклада \"taskDefinition\".",
-			"tasks.taskCommandsRegistered": "Зарегистрированы ли уже команды задачи"
+			"tasks.taskCommandsRegistered": "Зарегистрированы ли уже команды задачи",
+			"tasks.tasksAvailable": "Доступны ли какие-либо задачи в рабочей области."
 		},
 		"vs/workbench/contrib/tasks/common/taskTemplates": {
 			"Maven": "Выполняет стандартные команды Maven",
@@ -13844,11 +13994,12 @@
 		"vs/workbench/contrib/terminal/browser/terminalMenus": {
 			"defaultTerminalProfile": "{0} (по умолчанию)",
 			"launchProfile": "Профиль запуска…",
+			"miNewInNewWindow": "&&Новое окно терминала",
 			"miNewTerminal": "&&Создать терминал",
 			"miRunActiveFile": "Запустить &&активный файл",
 			"miRunSelectedText": "Запустить &&выбранный текст",
 			"miSplitTerminal": "&&Разделить терминал",
-			"splitTerminal": "Разделить терминал",
+			"split.profile": "Разделить терминал с профилем",
 			"workbench.action.tasks.configureTaskRunner": "Настройка задач...",
 			"workbench.action.tasks.runTask": "Запустить задачу...",
 			"workbench.action.terminal.changeColor": "Изменить цвет...",
@@ -13984,6 +14135,7 @@
 			"terminalOverviewRuler.findMatchHighlightForeground": "Цвет маркера обзорной линейки для поиска совпадений в терминале."
 		},
 		"vs/workbench/contrib/terminal/common/terminalConfiguration": {
+			"autoApproveMode.description": "Определяет, следует ли разрешить автоматическое утверждение при запуске в инструменте терминала.",
 			"cwd": "текущая рабочая папка терминала.",
 			"cwdFolder": "текущая рабочая папка терминала, отображаемая для рабочих областей с несколькими корнями или в рабочей области с одним корневым каталогом, если значение отличается от исходной рабочей папки. В Windows это будет отображаться только при включенной интеграции оболочки.",
 			"enableFileLinks.notRemote": "Включить только в том случае, если не находится в удаленной рабочей области.",
@@ -14146,6 +14298,7 @@
 		"vs/workbench/contrib/terminal/common/terminalContextKey": {
 			"inTerminalRunCommandPickerContextKey": "Определяет, открыто ли в данный момент средство выбора команд терминала.",
 			"isSplitTerminalContextKey": "Является ли терминал вкладки, на которую направлен фокус, разделенным терминалом.",
+			"splitPaneActive": "Является ли активный терминал разделенной панелью.",
 			"terminalAltBufferActive": "Активен ли буфер Alt в терминале.",
 			"terminalCountContextKey": "Текущее число терминалов.",
 			"terminalEditorFocusContextKey": "Находится ли фокус на терминале в области редактора.",
@@ -14169,6 +14322,7 @@
 			"local": "Локальный",
 			"moveIntoNewWindow": "Переместить терминал в новое окно",
 			"moveToEditor": "Переместить терминал в область редактора",
+			"newInNewWindow": "Новое окно терминала",
 			"previousSessionCategory": "предыдущий сеанс",
 			"splitTerminal": "Разделить терминал",
 			"splitTerminal.short": "Разделить",
@@ -14275,64 +14429,94 @@
 			"runCommand": "Выполнить команду чата",
 			"runFirst": "Запустить первым",
 			"runFirstCommand": "Запустите первую команду чата",
-			"startChat": "Встроенный чат терминала",
+			"startChat": "Open Inline Chat",
+			"terminalCategory": "Terminal",
 			"viewInChat": "Просмотреть в чате"
 		},
 		"vs/workbench/contrib/terminalContrib/chat/browser/terminalChatWidget": {
-			"askAI": "Спросить ИИ"
+			"askAboutCommands": "Спросить о командах"
 		},
 		"vs/workbench/contrib/terminalContrib/chat/common/terminalInitialHintConfiguration": {
 			"terminal.integrated.initialHint": "Определяет, будет ли первый терминал без ввода отображать указание о доступных действиях, когда он находится в фокусе."
 		},
-		"vs/workbench/contrib/terminalContrib/chatAgentTools/browser/bufferOutputPolling": {
-			"poll.terminal.accept": "Да",
-			"poll.terminal.polling": "Copilot продолжит опрос выходных данных, чтобы определить, когда терминал станет неактивным в течение 2 минут.",
-			"poll.terminal.reject": "Нет",
-			"poll.terminal.waiting": "Продолжить ожидание завершения \"{0}\"?"
+		"vs/workbench/contrib/terminalContrib/chatAgentTools/browser/runInTerminalHelpers": {
+			"autoApprove.baseCommand": "Всегда разрешать команды: {0}",
+			"autoApprove.baseCommandSingle": "Всегда разрешать команду: {0}",
+			"autoApprove.configure": "Настроить автоматическое утверждение...",
+			"autoApprove.exactCommand": "Всегда разрешать точную командную строку: {0}"
 		},
-		"vs/workbench/contrib/terminalContrib/chatAgentTools/browser/getTerminalOutputTool": {
+		"vs/workbench/contrib/terminalContrib/chatAgentTools/browser/terminal.chatAgentTools.contribution": {
+			"addTerminalSelection": "Добавить выбор терминала в чат",
+			"terminalSelection": "Выбор терминала",
+			"toolset.runCommands": "Выполняет команды в терминале",
+			"toolset.runTasks": "Запускает задачи и получает их выходные данные для вашей рабочей области"
+		},
+		"vs/workbench/contrib/terminalContrib/chatAgentTools/browser/tools/getTerminalLastCommandTool": {
+			"getTerminalLastCommand.past": "Получена последняя команда терминала",
+			"getTerminalLastCommand.progressive": "Получение последней команды терминала",
+			"terminalLastCommandTool.displayName": "Получить последнюю команду терминала"
+		},
+		"vs/workbench/contrib/terminalContrib/chatAgentTools/browser/tools/getTerminalOutputTool": {
 			"bg.past": "Проверен вывод фонового терминала",
 			"bg.progressive": "Проверка вывода фонового терминала",
 			"getTerminalOutputTool.displayName": "Получить выходные данные терминала"
 		},
-		"vs/workbench/contrib/terminalContrib/chatAgentTools/browser/runInTerminalTool": {
-			"runInTerminal.background": "Выполнение команд в фоновом терминале",
-			"runInTerminal.foreground": "Выполнить команду в терминале",
+		"vs/workbench/contrib/terminalContrib/chatAgentTools/browser/tools/getTerminalSelectionTool": {
+			"getTerminalSelection.past": "Прочитан выбор терминала",
+			"getTerminalSelection.progressive": "Чтение выбора терминала",
+			"terminalSelectionTool.displayName": "Получить выбор терминала"
+		},
+		"vs/workbench/contrib/terminalContrib/chatAgentTools/browser/tools/monitoring/outputMonitor": {
+			"poll.terminal.accept": "Yes",
+			"poll.terminal.acceptRun": "Yes",
+			"poll.terminal.confirmRun": "Run `{0}` in the terminal?",
+			"poll.terminal.confirmRunDetail": "The terminal output appears to require a response. Do you want to send `{0}` to the terminal?",
+			"poll.terminal.polling": "This will continue to poll for output to determine when the terminal becomes idle for up to 2 minutes.",
+			"poll.terminal.reject": "No",
+			"poll.terminal.rejectRun": "No",
+			"poll.terminal.waiting": "Continue waiting for `{0}`?"
+		},
+		"vs/workbench/contrib/terminalContrib/chatAgentTools/browser/tools/runInTerminalTool": {
+			"autoApprove.global": "Автоматически утверждено параметром {0}",
+			"autoApprove.rule": "Автоматически утверждено правилом {0}",
+			"autoApprove.rules": "Автоматически утверждено правилами {0}",
+			"autoApproveDenied.rule": "Автоматическое утверждение отклонено правилом {0}",
+			"autoApproveDenied.rules": "Автоматическое утверждение отклонено правилами {0}",
+			"ruleTooltip": "Просмотр правила в параметрах",
+			"ruleTooltip.global": "Просмотр параметров",
+			"runInTerminal": "Выполнить команду \"{0}\"?",
+			"runInTerminal.background": "Выполнить команду \"{0}\"? (фоновый терминал)",
+			"runInTerminal.promptInjectionDisclaimer": "Веб-контент может содержать вредоносный код или пытаться осуществлять атаки с использованием запросов.",
 			"runInTerminalTool.displayName": "Запуск в терминале",
 			"runInTerminalTool.userDescription": "Средство для выполнения команд в терминале"
 		},
-		"vs/workbench/contrib/terminalContrib/chatAgentTools/browser/task.chatAgentTools.contribution": {
-			"toolset.runTasks": "Runs tasks and gets their output for your workspace"
+		"vs/workbench/contrib/terminalContrib/chatAgentTools/browser/tools/task/createAndRunTaskTool": {
+			"allowTaskCreationExecution": "Разрешить создание и выполнение задач?",
+			"alreadyRunning": "Задача \"{0}\" уже выполняется.",
+			"copilotChat.fetchingTask": "Разрешение задачи",
+			"copilotChat.noTerminal": "Задача запущена, но не найден терминал для: \"{0}\"",
+			"copilotChat.runningTask": "Выполняется задача \"{0}\"",
+			"copilotChat.taskNotFound": "Задача не найдена: \"{0}\"",
+			"copilotCreateTask": "Copilot создаст задачу \"{0}\" с командой \"{1}\"{2}.",
+			"createAndRunTask.displayName": "Создать и запустить задачу",
+			"createAndRunTask.modelDescription": "Создает и запускает сборку, выполнение или пользовательскую задачу для рабочей области, генерируя или добавляя в файл tasks.json на основе структуры проекта (например, package.json или README.md). Используйте этот инструмент, если пользователь запрашивает сборку, выполнение или запуск, и у него нет файла tasks.json. Используйте этот инструмент, если он запрашивает создание или добавление задачи.",
+			"createAndRunTask.userDescription": "Создать и запустить задачу в рабочей области",
+			"createdTask": "Создана задача \"{0}\"",
+			"createdTaskPast": "Создана задача \"{0}\"",
+			"taskExists": "Задача \"{0}\" уже существует.",
+			"taskExistsPast": "Задача \"{0}\" уже существует."
 		},
-		"vs/workbench/contrib/terminalContrib/chatAgentTools/browser/task/createAndRunTaskTool": {
-			"allowTaskCreationExecution": "Allow task creation and execution?",
-			"alreadyRunning": "Task `{0}` is already running.",
-			"copilotChat.checkingOutput": "Checking output for `{0}`",
-			"copilotChat.fetchingTask": "Resolving the task",
-			"copilotChat.noTerminal": "Task started but no terminal was found for: `{0}`",
-			"copilotChat.runningTask": "Running task `{0}`",
-			"copilotChat.taskNotFound": "Task not found: `{0}`",
-			"copilotCreateTask": "Copilot will create the task `{0}` with command `{1}`{2}.",
-			"createAndRunTask.displayName": "Create and run Task",
-			"createAndRunTask.modelDescription": "For a workspace, this tool will create a task based on the package.json, README.md, and project structure so that the project can be built and run.",
-			"createAndRunTask.userDescription": "Create and run a task in the workspace",
-			"createdTask": "Created task `{0}`",
-			"createdTaskPast": "Created task `{0}`",
-			"taskExists": "Task `{0}` already exists.",
-			"taskExistsPast": "Task `{0}` already exists."
-		},
-		"vs/workbench/contrib/terminalContrib/chatAgentTools/browser/task/getTaskOutputTool": {
-			"copilotChat.checkedTerminalOutput": "Checked output for task `{0}`",
-			"copilotChat.checkingTerminalOutput": "Checking output for task `{0}`",
+		"vs/workbench/contrib/terminalContrib/chatAgentTools/browser/tools/task/getTaskOutputTool": {
+			"copilotChat.checkedTerminalOutput": "Проверены выходные данные для задачи \"{0}\"",
+			"copilotChat.checkingTerminalOutput": "Проверка выходных данных для задачи \"{0}\"",
 			"copilotChat.taskAlreadyRunning": "Задача \"{0}\" уже выполняется.",
 			"copilotChat.taskNotFound": "Задача не найдена: \"{0}\"",
 			"copilotChat.terminalNotFound": "Не найден терминал для задачи \"{0}\"",
 			"getTaskOutputTool.displayName": "Получить выходные данные задачи"
 		},
-		"vs/workbench/contrib/terminalContrib/chatAgentTools/browser/task/runTaskTool": {
+		"vs/workbench/contrib/terminalContrib/chatAgentTools/browser/tools/task/runTaskTool": {
 			"copilotChat.allowTaskRunMsg": "Разрешить Copilot выполнить задачу \"{0}\"?",
 			"copilotChat.allowTaskRunTitle": "Разрешить выполнение задачи?",
-			"copilotChat.checkingOutput": "Проверка выходных данных для \"{0}\"",
 			"copilotChat.noTerminal": "Задача запущена, но не найден терминал для: \"{0}\"",
 			"copilotChat.ranTask": "Выполнено: \"{0}\"",
 			"copilotChat.runningTask": "Выполняется \"{0}\"",
@@ -14345,11 +14529,13 @@
 			"runInTerminalTool.displayName": "Выполнить задачу",
 			"runInTerminalTool.userDescription": "Средство для выполнения задач в рабочей области"
 		},
-		"vs/workbench/contrib/terminalContrib/chatAgentTools/browser/terminal.chatAgentTools.contribution": {
-			"toolset.runCommands": "Выполняет команды в терминале"
+		"vs/workbench/contrib/terminalContrib/chatAgentTools/browser/tools/task/taskHelpers": {
+			"copilotChat.taskFailedWithExitCode": "Task `{0}` failed with exit code {1}."
 		},
 		"vs/workbench/contrib/terminalContrib/chatAgentTools/common/terminalChatAgentToolsConfiguration": {
-			"autoApprove.description.commandLine": "Объект можно использовать для сопоставления с полной командной строкой вместо сопоставления подкоманд и встроенных команд, например {0}. Это будет проверено _после_ проверки подкоманд и будет иметь приоритет даже над отклоненными подкомандами.",
+			"autoApprove.deprecated": "Вместо этого используйте {0}",
+			"autoApprove.description.commandLine": "Объект можно использовать для сопоставления с полной командной строкой вместо сопоставления подкоманд и встроенных команд, например {0}. Для автоматического утверждения _и_ подкоманда, и командная строка не должны отклоняться явным образом, а затем необходимо утвердить _либо_ все подкоманды, либо командную строку.",
+			"autoApprove.description.examples.binTest": "Разрешить все команды, соответствующие пути {0} ({1}, {2} и т. д.)",
 			"autoApprove.description.examples.description": "Описание",
 			"autoApprove.description.examples.mkdir": "Разрешить все команды, начинающиеся с {0}",
 			"autoApprove.description.examples.npmRunBuild": "Разрешить все команды, начинающиеся с {0}",
@@ -14362,7 +14548,7 @@
 			"autoApprove.description.examples.title": "Примеры:",
 			"autoApprove.description.examples.value": "Значение",
 			"autoApprove.description.intro": "Список команд или регулярных выражений, которые управляют тем, требуется ли явное утверждение для выполнения команд инструментов в терминале. Они будут сопоставлены с началом команды. Регулярное выражение можно указать, обернув строку в символы {0} и добавив необязательные флаги, например {1}, чтобы не учитывать регистр.",
-			"autoApprove.description.subCommands": "Обратите внимание: эти команды и регулярные выражения вычисляются для каждой _подкоманды_ в полной _командной строке_. Поэтому, к примеру, для {0} потребуется, чтобы и {1}, и {2} соответствовали записи {3} и не совпадали с записью {4} для выполнения автоматического утверждения. Также обнаруживаются встроенные команды, поэтому для {5} потребуется, чтобы и {5}, и {6} прошли проверку.",
+			"autoApprove.description.subCommands": "Обратите внимание: эти команды и регулярные выражения вычисляются для каждой _подкоманды_ в полной _командной строке_. Поэтому, к примеру, для {0} потребуется, чтобы и {1}, и {2} соответствовали записи {3} и не совпадали с записью {4} для выполнения автоматического утверждения. Встроенные команды, например {5} (подстановка команд) или {6} (подстановка процессов), в настоящее время заблокированы по умолчанию с помощью общих правил, которые обнаруживают эти шаблоны.",
 			"autoApprove.description.values": "Установите значение {0}, чтобы автоматически утверждать команды, {1} — чтобы всегда требовать явное утверждение, или {2} — чтобы отменить настройку значения.",
 			"autoApprove.false": "Требовать явное утверждение для шаблона.",
 			"autoApprove.key": "Начало команды для сопоставления. Регулярное выражение можно указать, обернув строку в символы \"/\".",
@@ -14370,7 +14556,8 @@
 			"autoApprove.matchCommandLine.false": "Сопоставление с подкомандами и встроенными командами, например для \"foo && bar\" потребуется совпадение как \"foo\", так и \"bar\".",
 			"autoApprove.matchCommandLine.true": "Сопоставление с полной командной строкой, например, \"foo && bar\".",
 			"autoApprove.null": "Игнорировать шаблон. Это удобно для отмены настройки того же шаблона, настроенного на более высоком уровне.",
-			"autoApprove.true": "Автоматически утверждать шаблон."
+			"autoApprove.true": "Автоматически утверждать шаблон.",
+			"shellIntegrationTimeout.description": "Настраивает продолжительность (в миллисекундах) для ожидания обнаружения интеграции оболочки при запуске нового терминала с помощью инструмента запуска в терминале. Установите значение \"0\", чтобы ожидать минимальное время; значение по умолчанию \"-1\" означает, что время ожидания переменное и зависит от значения {0} и от того, является ли это удаленным окном. Большое значение может быть полезно, если оболочка запускается очень медленно, а низкое значение — если вы намеренно не используете интеграцию оболочки."
 		},
 		"vs/workbench/contrib/terminalContrib/clipboard/browser/terminal.clipboard.contribution": {
 			"workbench.action.terminal.copyAndClearSelection": "Копировать и очистить выделенный фрагмент",
@@ -14607,9 +14794,8 @@
 			"suggest.inlineSuggestion.alwaysOnTop": "Включите эту функцию и всегда включите встроенную надстройку.",
 			"suggest.inlineSuggestion.alwaysOnTopExceptExactMatch": "Включение функции и сортировка встроенного предложения без принудительного включения его в начало. Это означает, что точное совпадение будет выше встроенного предложения.",
 			"suggest.inlineSuggestion.off": "Отключить функцию.",
-			"suggest.provider.description": "Whether to enable this provider.",
-			"suggest.provider.pwsh.deprecation": "This is deprecated as it has performance problems, the upcoming LSP provider will supersede this.",
-			"suggest.provider.pwsh.description": "Enable or disable the PowerShell script-based provider. This enables PowerShell-specific argument completion.",
+			"suggest.provider.description": "Следует ли включать этого поставщика.",
+			"suggest.provider.lsp.description": "Включение или отключение поставщика на основе LSP. Это позволяет завершать аргументы, зависящие от протокола языкового сервера.",
 			"suggest.providers": "Поставщики включены по умолчанию. Оставьте их пропусками, заданным для идентификатора поставщика значение false.",
 			"suggest.quickSuggestions": "Определяет, должны ли предложения автоматически отображаться при вводе. Необходимо также помнить о параметре{0}, который управляет активированием предложений специальными символами.",
 			"suggest.quickSuggestions.arguments": "Включите краткие предложения для аргументов, все, что находится после первого слова во входных данных командной строки.",
@@ -14667,9 +14853,12 @@
 			"coverage.toggleInline": "Переключить охват встраиваемых функций",
 			"testing.coverageForTestAvailable": "Тесты {0} запустили код в этом файле",
 			"testing.filterActionLabel": "Охват фильтра для проверки",
+			"testing.hideCoverageInExplorer": "Скрыть охват в проводнике",
 			"testing.hideInlineCoverage": "Скрыть встроенный охват",
 			"testing.rerun": "Повторный запуск",
 			"testing.showInlineCoverage": "Показать встроенный охват",
+			"testing.toggleCoverageInExplorerDesc": "Переключите отображение охвата теста в представлении проводника.",
+			"testing.toggleCoverageInExplorerTitle": "Переключить охват в проводнике",
 			"testing.toggleInlineCoverage": "Переключить встроенное представление",
 			"testing.toggleToolbarDesc": "Переключите панель закрепленного охвата в редакторе.",
 			"testing.toggleToolbarTitle": "Панель инструментов тестового охвата"
@@ -14725,6 +14914,7 @@
 			"testCoverageTreeLabel": "Обозреватель тестового покрытия",
 			"testing.changeCoverageFilter": "Фильтрация охвата по тесту",
 			"testing.changeCoverageSort": "Изменить порядок сортировки",
+			"testing.coverageCollapseAll": "Collapse All Coverage",
 			"testing.coverageSortByCoverage": "Сортировать по охвату",
 			"testing.coverageSortByCoverageDescription": "Файлы и объявления отсортированы по общему охвату",
 			"testing.coverageSortByLocation": "Сортировать по расположению",
@@ -15000,17 +15190,17 @@
 			"testing.treeElementLabel": "{0} ({1})"
 		},
 		"vs/workbench/contrib/testing/common/testingChatAgentTool": {
-			"runTestTool.confirm.all": "The model wants to run all tests.",
-			"runTestTool.confirm.invocation": "Running tests...",
-			"runTestTool.confirm.message": "The model wants to run tests in {0}.",
-			"runTestTool.confirm.title": "Allow test run?",
-			"runTestTool.invoke.cancelled": "Test run was cancelled.",
-			"runTestTool.invoke.filesProgress": "Discovering tests...",
-			"runTestTool.invoke.filterProgress": "Filtering tests...",
-			"runTestTool.invoke.progress": "Starting test run...",
-			"runTestTool.noRunStarted": "No test run was started. This may be an issue with your test runner or extension.",
-			"runTestTool.noTests": "No tests found in the files",
-			"runTestTool.userDescription": "Runs unit tests"
+			"runTestTool.confirm.all": "Модель хочет выполнить все тесты.",
+			"runTestTool.confirm.invocation": "Выполнение тестов...",
+			"runTestTool.confirm.message": "Модель хочет выполнить тесты в {0}.",
+			"runTestTool.confirm.title": "Разрешить тестовый запуск?",
+			"runTestTool.invoke.cancelled": "Тестовый запуск отменен.",
+			"runTestTool.invoke.filesProgress": "Обнаружение тестов...",
+			"runTestTool.invoke.filterProgress": "Фильтрация тестов...",
+			"runTestTool.invoke.progress": "Начало тестового запуска...",
+			"runTestTool.noRunStarted": "Тестовый запуск не начат. Это может быть связано с проблемой в вашем средстве выполнения тестов или расширении.",
+			"runTestTool.noTests": "Тесты в файлах не найдены",
+			"runTestTool.userDescription": "Запускает модульные тесты"
 		},
 		"vs/workbench/contrib/testing/common/testingContentProvider": {
 			"runNoOutout": "Тестовый запуск не записал никаких выходных данных."
@@ -15027,6 +15217,7 @@
 			"testing.hasCoverableTests": "Указывает, зарегистрировал ли какой-либо контроллер тестирования конфигурацию охвата",
 			"testing.hasCoverageInFile": "Указывает, что в текущем редакторе зафиксирован охват.",
 			"testing.hasDebuggableTests": "Указывает, зарегистрировал ли какой-либо контроллер тестирования конфигурацию отладки",
+			"testing.hasInlineCoverageDetails": "Указывает, доступен ли подробный построчный охват для встроенного отображения",
 			"testing.hasNonDefaultConfig": "Указывает, зарегистрировал ли какой-либо контроллер тестирования конфигурацию запуска",
 			"testing.hasPerTestCoverage": "Указывает, доступен ли охват каждого теста.",
 			"testing.hasRunnableTests": "Указывает, зарегистрировал ли какой-либо контроллер тестирования конфигурацию запуска",
@@ -15048,11 +15239,11 @@
 			"testing.testResultState": "Значение, указывающее состояние элемента (доступно тестирование, элемент, результат)."
 		},
 		"vs/workbench/contrib/testing/common/testingProgressMessages": {
-			"testProgress.completed": "{0}/{1} tests passed ({2}%)",
-			"testProgress.running": "Running tests, {0}/{1} passed ({2}%)",
-			"testProgress.runningInitial": "Running tests...",
-			"testProgressWithSkip.completed": "{0}/{1} tests passed ({2}%, {3} skipped)",
-			"testProgressWithSkip.running": "Running tests, {0}/{1} tests passed ({2}%, {3} skipped)"
+			"testProgress.completed": "Пройдено тестов: {0}/{1} ({2}%).",
+			"testProgress.running": "Выполняются тесты. Пройдено тестов: {0}/{1} ({2} %)",
+			"testProgress.runningInitial": "Выполнение тестов...",
+			"testProgressWithSkip.completed": "Пройдено тестов: {0}/{1} ({2}%, пропущено: {3}).",
+			"testProgressWithSkip.running": "Выполняются тесты. Пройдено тестов: {0}/{1} ({2} %, пропущено: {3})"
 		},
 		"vs/workbench/contrib/testing/common/testResult": {
 			"runFinished": "Тестовый запуск в {0}",
@@ -15544,7 +15735,6 @@
 			"acessibleViewHint": "Проверьте этот аспект в представлении с поддержкой специальных возможностей ({0}).\r\n",
 			"acessibleViewHintNoKbOpen": "Проверьте этот аспект в представлении с поддержкой специальных возможностей с помощью команды \"Открыть представление с поддержкой специальных возможностей\", которую в настоящее время нельзя активировать с помощью настраиваемого сочетания клавиш.\r\n",
 			"allDone": "Пометить как выполненное",
-			"back": "Назад",
 			"checkboxTitle": "Если флажок установлен, эта страница будет отображаться при запуске.",
 			"close": "Скрыть",
 			"closeAriaLabel": "Скрыть",
@@ -15555,18 +15745,13 @@
 			"gettingStarted.someStepsComplete": "{0} из {1} шагов завершено",
 			"goBack": "Назад",
 			"imageShowing": "Изображение с {0}",
-			"last": "Приступайте к написанию кода",
-			"lastStep": "Приступайте к написанию кода",
 			"new": "Создать",
 			"newItems": "Обновлен",
-			"next": "Далее",
 			"nextOne": "Следующий раздел",
-			"nextStep": "Далее",
 			"noRecents": "Последние папки отсутствуют.",
 			"openFolder": "открыть папку",
 			"optOut": "отказ",
 			"pickWalkthroughs": "Открыть пошаговое руководство…",
-			"previousStep": "Предыдущий шаг",
 			"privacy statement": "заявление о конфиденциальности",
 			"recent": "Последние",
 			"show more recents": "Показать все последние папки {0}",
@@ -15593,7 +15778,6 @@
 			"welcome.markStepComplete": "Пометить шаг как завершенный",
 			"welcome.markStepInomplete": "Пометить шаг как незавершенный",
 			"welcome.showAllWalkthroughs": "Открыть пошаговое руководство…",
-			"welcome.showNewWelcome": "Открыть новое взаимодействие приветствия",
 			"workbench.startupEditor": "Управляет тем, какой редактор отображается при запуске, если содержимое редактора не было восстановлено из предыдущего сеанса.",
 			"workbench.startupEditor.newUntitledFile": "Открыть новый текстовый файл без названия (применяется только при открытии пустого окна).",
 			"workbench.startupEditor.none": "Запустить без редактора.",
@@ -15692,8 +15876,6 @@
 			"gettingStarted.accessibilitySignals.title": "Настройте сигналы специальных возможностей, которые вы хотите получать с помощью звуковых уведомлений или через устройство Брайля",
 			"gettingStarted.accessibleView.description.interpolated": "Представление с поддержкой специальных возможностей доступно для терминала, при наведении указателя мыши, для уведомлений, комментариев, выходных данных записной книжки, ответов в чате, встроенных завершений и вывода консоли отладки.\r\n Если на любом из этих элементов находится фокус, представление открыть с помощью команды \"Открыть представление с поддержкой специальных возможностей\".\r\n{0}",
 			"gettingStarted.accessibleView.title": "Пользователи средства чтения с экрана могут просматривать контент строка за строкой, символ за символом в доступном виде.",
-			"gettingStarted.agentMode.description": "Анализирует проблему, планирует дальнейшие действия и вносит необходимые изменения.",
-			"gettingStarted.agentMode.title": "Режим агента",
 			"gettingStarted.beginner.description": "Получите обзор наиболее важных функций",
 			"gettingStarted.beginner.title": "Изучение основ",
 			"gettingStarted.beginner.walkthroughPageTitle": "Основные функции",
@@ -15704,9 +15886,7 @@
 			"gettingStarted.commandPaletteAccessibility.description.interpolated": "Выполняйте команды, не касаясь мыши, чтобы выполнить любую задачу в VS Code.\r\n{0}",
 			"gettingStarted.commandPaletteAccessibility.title": "Повышайте производительность с помощью палитры команд ",
 			"gettingStarted.copilotSetup.description": "С помощью [Copilot]({0}) можно создавать код для нескольких файлов, исправлять ошибки, задавать вопросы о коде и многое другое на естественном языке.",
-			"gettingStarted.copilotSetup.title": "Использование функций ИИ с бесплатным Copilot",
-			"gettingStarted.customize.description": "Переключайте модели, добавляйте инструменты режима агента и создавайте персонализированные инструкции.\r\n{0}",
-			"gettingStarted.customize.title": "Персонализировано согласно вашему способу работы",
+			"gettingStarted.copilotSetup.title": "Use AI features with GitHub Copilot for free",
 			"gettingStarted.debug.description.interpolated": "Ускоряйте редактирование, сборку, тестирование и цикл отладки, настроив конфигурацию запуска.\r\n{0}",
 			"gettingStarted.debug.title": "Просмотр кода в действии",
 			"gettingStarted.extensions.description.interpolated": "Расширения представляют собой дополнительные возможности для VS Code. Это могут быть небольшие подспорья, дополнения встроенного функционала или абсолютно новые функции.\r\n{0}",
@@ -15716,7 +15896,7 @@
 			"gettingStarted.findLanguageExts.title": "Поддержка всех языков",
 			"gettingStarted.goToSymbol.description.interpolated": "Команда \"Перейти к символу\" удобна для перехода между важными ориентирами в документе.\r\n{0}",
 			"gettingStarted.goToSymbol.title": "Перейти к символам в файле",
-			"gettingStarted.hover.description.interpolated": "While focus is in the editor on a variable or symbol, a hover can be focused with the Show or Open Hover command.\r\n{0}",
+			"gettingStarted.hover.description.interpolated": "Когда фокус в редакторе находится на переменной или символе, наведение можно сделать сфокусированным с помощью команды \"Показать\" или \"Открыть наведение\".\r\n{0}",
 			"gettingStarted.hover.title": "Чтобы получить дополнительные сведения о переменной или символе, используйте наведение указателя мыши в редакторе",
 			"gettingStarted.installGit.description.interpolated": "Установите Git, чтобы отслеживать изменения в проектах.\r\n{0}\r\n{1}Перезагрузите окно{2} после установки, чтобы завершить настройку Git.",
 			"gettingStarted.installGit.title": "Установка Git",
@@ -15726,15 +15906,10 @@
 			"gettingStarted.keyboardShortcuts.title": "Настройте сочетания клавиш",
 			"gettingStarted.menuBar.description.interpolated": "Полная строка меню доступна в виде раскрывающегося меню в целях экономии места для вашего кода. Переключите ее внешний вид для ускорения доступа. \r\n{0}",
 			"gettingStarted.menuBar.title": "Только нужный пользовательский интерфейс",
-			"gettingStarted.nes.description": "Получайте предложения кода, которые предсказывают ваше следующее изменение.",
-			"gettingStarted.nes.title": "Следующие предложения по правке",
-			"gettingStarted.new.description": "Улучшайте написание кода с помощью ИИ",
-			"gettingStarted.new.title": "Начало работы с VS Code",
-			"gettingStarted.new.walkthroughPageTitle": "Настройка VS Code",
 			"gettingStarted.newFile.description": "Открытие нового текстового файла без названия, записной книжки или специализированного редактора.",
 			"gettingStarted.newFile.title": "Создать файл…",
-			"gettingStarted.newWorkspaceChat.description": "Создать новую рабочую область с Copilot",
-			"gettingStarted.newWorkspaceChat.title": "Новая рабочая область с Copilot...",
+			"gettingStarted.newWorkspaceChat.description": "Чат для создания рабочей области",
+			"gettingStarted.newWorkspaceChat.title": "Создать рабочую область...",
 			"gettingStarted.notebook.title": "Настройка записных книг",
 			"gettingStarted.notebook.walkthroughPageTitle": "Записные книжки",
 			"gettingStarted.notebookProfile.description": "Вы можете получить доступ к записным книжкам, как вы предпочитаете",
@@ -15793,9 +15968,6 @@
 			"keyboardShortcuts": "Сочетания клавиш",
 			"listSignalAnnouncements": "Перечисление объявлений сигналов",
 			"listSignalSounds": "Перечисление звуков сигналов",
-			"newgettingStarted.commandPalette.title": "Все команды под рукой",
-			"newgettingStarted.findLanguageExts.description.interpolated": "Установите необходимые языковые расширения в свой набор инструментов.\r\n{0}",
-			"newgettingStarted.findLanguageExts.title": "Поддержка для всех языков",
 			"openAccessibilityHelp": "Открыть справку по специальным возможностям",
 			"openAccessibilitySettings": "Открыть параметры специальных возможностей",
 			"openAccessibleView": "Открыть представление с поддержкой специальных возможностей",
@@ -15813,7 +15985,6 @@
 			"setupCopilotButton.signIn": "Настроить Copilot",
 			"showOrFocusHover": "Показать наведение или перевести на него фокус",
 			"showTerminal": "Открыть терминал",
-			"signUp": "Включить функции ИИ",
 			"titleID": "Обзор цветовых тем",
 			"toggleFold": "Переключить свертывание",
 			"toggleFoldRecursively": "Рекурсивно переключить свертывание",
@@ -16061,14 +16232,15 @@
 			"keyboard shortcuts": "Сочетания клавиш",
 			"menuContexts": "Контексты меню",
 			"menus.changeTitle": "Меню встроенных изменений для системы управления версиями",
+			"menus.chatMultiDiffContext": "The Chat Multi-Diff context menu.",
 			"menus.chatSessions": "Меню сеансов чата.",
-			"menus.chatTerminal": "Подменю \"Чат\" в контекстном меню терминала.",
 			"menus.chatTextEditor": "Подменю \"Чат\" в контекстном меню текстового редактора.",
 			"menus.commandPalette": "Палитра команд",
 			"menus.debugCallstackContext": "Контекстное меню для представления стека вызовов отладки",
 			"menus.debugCreateConfiguation": "Меню конфигурации создания отладки",
 			"menus.debugToolBar": "Меню панели инструментов отладки",
 			"menus.debugVariablesContext": "Контекстное меню для представления переменных отладки",
+			"menus.debugWatchContext": "Контекстное меню представления наблюдения за отладкой",
 			"menus.diffEditorGutterToolBarMenus": "Панель инструментов переплета в редакторе несовпадений",
 			"menus.editorContext": "Контекстное меню редактора",
 			"menus.editorContextCopyAs": "Подменю \"Копировать как\" в контекстном меню редактора",
@@ -16557,6 +16729,7 @@
 			"vscode.extension.activationEvents.onFileSystem": "Событие активации выдается каждый раз при доступе к файлу или папке по заданной схеме.",
 			"vscode.extension.activationEvents.onIssueReporterOpened": "Событие активации, создаваемое при открытии средства сообщения о проблемах.",
 			"vscode.extension.activationEvents.onLanguage": "Событие активации выдается каждый раз, когда открывается файл, который разрешается к указанному языку.",
+			"vscode.extension.activationEvents.onLanguageModelChat": "Событие активации возникает, когда запрашивается поставщик модели чата для указанного поставщика.",
 			"vscode.extension.activationEvents.onLanguageModelTool": "Событие активации, возникающее при вызове указанного средства языковой модели.",
 			"vscode.extension.activationEvents.onMcpCollection": "Событие активации, которое возникает при запросе инструмента с сервера MCP.",
 			"vscode.extension.activationEvents.onNotebook": "Событие активации выдается каждый раз при открытии указанного документа записной книжки.",

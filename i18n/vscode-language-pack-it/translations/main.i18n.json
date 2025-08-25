@@ -326,11 +326,11 @@
 			"editor.experimental.asyncTokenization": "Controlla se la tokenizzazione deve essere eseguita in modo asincrono in un web worker.",
 			"editor.experimental.asyncTokenizationLogging": "Controlla se deve essere registrata la tokenizzazione asincrona. Solo per il debug.",
 			"editor.experimental.asyncTokenizationVerification": "Controlla se la tokenizzazione asincrona deve essere verificata rispetto alla tokenizzazione legacy in background. Potrebbe rallentare la tokenizzazione. Solo per il debug.",
-			"editor.experimental.preferTreeSitter.css": "Controlla se se attivare l'analisi tree-sitter per css. Ciò avrà la precedenza su 'editor.experimental.treeSitterTelemetry' per css.",
-			"editor.experimental.preferTreeSitter.ini": "Controlla se se attivare l'analisi tree-sitter per ini. Ciò avrà la precedenza su 'editor.experimental.treeSitterTelemetry' per ini.",
-			"editor.experimental.preferTreeSitter.regex": "Controlla se attivare l'analisi tree-sitter per regex. Ciò avrà la precedenza su 'editor.experimental.treeSitterTelemetry' per regex.",
-			"editor.experimental.preferTreeSitter.typescript": "Controlla di stabilire se attivare l'analisi tree-sitter per TypeScript. Ciò avrà la precedenza su 'editor.experimental.treeSitterTelemetry' per TypeScript.",
-			"editor.experimental.treeSitterTelemetry": "Consente di stabilire se attivare l'analisi di Tree-sitter e se acquisire i dati di telemetria. L’impostazione di `editor.experimental.preferTreeSitter` per linguaggi specifici avrà la precedenza.",
+			"editor.experimental.preferTreeSitter.css": "Controlla se deve essere attivata l'analisi Tree-sitter per css. Ciò avrà la precedenza su 'editor.experimental.treeSitterTelemetry' per css.",
+			"editor.experimental.preferTreeSitter.ini": "Controlla se deve essere attivata l'analisi Tree-sitter per ini. Ciò avrà la precedenza su 'editor.experimental.treeSitterTelemetry' per ini.",
+			"editor.experimental.preferTreeSitter.regex": "Controlla se deve essere attivata l'analisi Tree-sitter per regex. Ciò avrà la precedenza su 'editor.experimental.treeSitterTelemetry' per regex.",
+			"editor.experimental.preferTreeSitter.typescript": "Controlla se deve essere attivata l'analisi Tree-sitter per TypeScript. Ciò avrà la precedenza su 'editor.experimental.treeSitterTelemetry' per TypeScript.",
+			"editor.experimental.treeSitterTelemetry": "Controlla se deve essere attivata l'analisi di Tree-sitter e se acquisire i dati di telemetria. L’impostazione di 'editor.experimental.preferTreeSitter' per linguaggi specifici avrà la precedenza.",
 			"editorConfigurationTitle": "Editor",
 			"hideUnchangedRegions.contextLineCount": "Controlla il numero di righe usate come contesto durante il confronto delle aree non modificate.",
 			"hideUnchangedRegions.enabled": "Controlla se l'editor diff mostra aree non modificate.",
@@ -573,7 +573,7 @@
 			"hover.above": "Preferisci la visualizzazione al passaggio del mouse sopra la riga, se c'è spazio.",
 			"hover.delay": "Controlla il ritardo in millisecondi dopo il quale viene mostrato il passaggio del mouse.",
 			"hover.enabled": "Controlla se mostrare l'area sensibile al passaggio del mouse.",
-			"hover.hidingDelay": "Controlla il ritardo in millisecondi dopo il quale viene nascosto il passaggio del mouse. Richiede l'abilitazione di `editor.hover.sticky`.",
+			"hover.hidingDelay": "Controlla il ritardo in millisecondi dopo il quale viene nascosto il passaggio del mouse. Richiede l'abilitazione di 'editor.hover.sticky'.",
 			"hover.sticky": "Controlla se l'area sensibile al passaggio del mouse deve rimanere visibile quando vi si passa sopra con il puntatore del mouse.",
 			"inertialScroll": "Rendere lo scorrimento inerziale, particolarmente utile con il touchpad in Linux.",
 			"inlayHints.enable": "Abilita i suggerimenti incorporati nell'Editor.",
@@ -588,6 +588,8 @@
 			"inlineSuggest.edits.showCollapsed": "Controlla se il suggerimento verrà visualizzato come compresso fino a quando non viene visualizzato.",
 			"inlineSuggest.enabled": "Controlla se visualizzare automaticamente i suggerimenti inline nell'Editor.",
 			"inlineSuggest.fontFamily": "Controlla la famiglia di caratteri dei suggerimenti inline.",
+			"inlineSuggest.minShowDelay": "Controlla il ritardo minimo in millisecondi dopo il quale vengono visualizzati i suggerimenti inline dopo la digitazione.",
+			"inlineSuggest.showOnSuggestConflict": "Controlla se mostrare suggerimenti inline quando si verifica un conflitto di suggerimenti.",
 			"inlineSuggest.showToolbar": "Controlla quando mostrare la barra dei suggerimenti in linea.",
 			"inlineSuggest.showToolbar.always": "Mostra la barra degli strumenti dei suggerimenti in linea ogni volta che viene visualizzato un suggerimento in linea.",
 			"inlineSuggest.showToolbar.never": "Non mostrare mai la barra dei suggerimenti in linea.",
@@ -663,13 +665,13 @@
 			"quickSuggestions.strings": "Abilita i suggerimenti rapidi all'interno di stringhe.",
 			"quickSuggestionsDelay": "Controlla il ritardo in millisecondi dopo il quale verranno visualizzati i suggerimenti rapidi.",
 			"renameOnType": "Controlla se l'editor viene rinominato automaticamente in base al tipo.",
-			"renameOnTypeDeprecate": "Deprecata. In alternativa, usare `editor.linkedEditing`.",
+			"renameOnTypeDeprecate": "Deprecato. In alternativa, sa 'editor.linkedEditing'.",
 			"renderControlCharacters": "Controlla se l'editor deve eseguire il rendering dei caratteri di controllo.",
 			"renderFinalNewline": "Esegue il rendering dell'ultimo numero di riga quando il file termina con un carattere di nuova riga.",
 			"renderLineHighlight": "Controlla in che modo l'editor deve eseguire il rendering dell'evidenziazione di riga corrente.",
 			"renderLineHighlight.all": "Mette in evidenza sia la barra di navigazione sia la riga corrente.",
 			"renderLineHighlightOnlyWhenFocus": "Controlla se l'editor deve eseguire il rendering dell'evidenziazione della riga corrente solo quando l'editor ha lo stato attivo.",
-			"renderRichScreenReaderContent": "Indica se eseguire il rendering di contenuti avanzati nell'utilità per la lettura dello schermo quando è abilitata l'opzione 'editor.editContext'.",
+			"renderRichScreenReaderContent": "Indica se eseguire il rendering di contenuti avanzati dell'utilità per la lettura dello schermo quando è abilitata l'opzione 'editor.editContext'.",
 			"renderWhitespace": "Controlla in che modo l'editor deve eseguire il rendering dei caratteri di spazio vuoto.",
 			"renderWhitespace.boundary": "Esegue il rendering dei caratteri di spazio vuoto ad eccezione dei singoli spazi tra le parole.",
 			"renderWhitespace.selection": "Esegui il rendering dei caratteri di spazio vuoto solo nel testo selezionato.",
@@ -760,7 +762,7 @@
 			"wordBreak": "Controlla le regole di interruzione delle parole usate per il testo cinese/giapponese/coreano (CJK).",
 			"wordBreak.keepAll": "Le interruzioni di parola non devono essere usate per il testo cinese/giapponese/coreano (CJK). Il comportamento del testo non CJK è uguale a quello normale.",
 			"wordBreak.normal": "Usare la regola di interruzione di riga predefinita.",
-			"wordSegmenterLocales": "Locales to be used for word segmentation when doing word related navigations or operations. Specify the BCP 47 language tag of the word you wish to recognize (e.g., ja, zh-CN, zh-Hant-TW, etc.).",
+			"wordSegmenterLocales": "Impostazioni locali da usare per la segmentazione delle parole quando si eseguono operazioni o spostamenti correlati alle parole. Specifica il tag di lingua BCP 47 della parola che si vuole riconoscere (ad es. ja, zh-CN, zh-Hant-TW, ecc.).",
 			"wordSeparators": "Caratteri che verranno usati come separatori di parola quando si eseguono operazioni o spostamenti correlati a parole.",
 			"wordWrap": "Controlla il ritorno a capo automatico delle righe.",
 			"wordWrap.bounded": "Il ritorno a capo automatico delle righe viene applicato in corrispondenza della larghezza minima del viewport e di `#editor.wordWrapColumn#`.",
@@ -768,7 +770,7 @@
 			"wordWrap.on": "Il ritorno a capo automatico delle righe viene applicato in corrispondenza della larghezza del viewport.",
 			"wordWrap.wordWrapColumn": "Il ritorno a capo automatico delle righe viene applicato in corrispondenza di `#editor.wordWrapColumn#`.",
 			"wordWrapColumn": "Controlla la colonna per il ritorno a capo automatico dell'editor quando il valore di `#editor.wordWrap#` è `wordWrapColumn` o `bounded`.",
-			"wrapOnEscapedLineFeeds": "Controlla se il valore letterale \"\\n\" deve attivare un ritorno a capo automatico.\r\nad esempio\r\n'''c\r\nchar* str=\"hello\\nworld\"\r\n'''\r\nverrà visualizzato come\r\n'''c\r\nchar* str=\"hello\\n\r\n           world\"\r\n'''",
+			"wrapOnEscapedLineFeeds": "Controlla se il valore letterale `\\n` deve attivare un ritorno a capo automatico quando `#editor.wordWrap#` è abilitato.\r\n\r\nAd esempio:\r\n```c\r\nchar* str=\"hello\\nworld\"\r\n```\r\nverrà visualizzato come\r\n```c\r\nchar* str=\"hello\\n\r\n           world\"\r\n```",
 			"wrappingIndent": "Controlla il rientro delle righe con ritorno a capo.",
 			"wrappingIndent.deepIndent": "Le righe con ritorno a capo hanno un rientro di +2 rispetto alla riga padre.",
 			"wrappingIndent.indent": "Le righe con ritorno a capo hanno un rientro di +1 rispetto alla riga padre.",
@@ -2116,12 +2118,18 @@
 			"contextkey.scanner.hint.didYouMean2": "Si intendeva {0} o {1}?",
 			"contextkey.scanner.hint.didYouMean3": "Si intendeva {0}, {1} o {2}?"
 		},
+		"vs/platform/dialogs/browser/dialog": {
+			"aboutDetail": "Versione: {0}\r\nCommit: {1}\r\nData: {2}\r\nBrowser: {3}"
+		},
 		"vs/platform/dialogs/common/dialogs": {
 			"cancelButton": "Annulla",
 			"moreFile": "...1 altro file non visualizzato",
 			"moreFiles": "...{0} altri file non visualizzati",
 			"okButton": "&&OK",
 			"yesButton": "&&Sì"
+		},
+		"vs/platform/dialogs/electron-browser/dialog": {
+			"aboutDetail": "Versione: {0}\r\nCommit: {1}\r\nData: {2}\r\nElectron: {3}\r\nElectronBuildId: {4}\r\nChromium: {5}\r\nNode.js: {6}\r\nV8: {7}\r\nSistema operativo: {8}"
 		},
 		"vs/platform/dialogs/electron-main/dialogMainService": {
 			"open": "Apri",
@@ -2176,7 +2184,6 @@
 			"reuseWindow": "Forza l'apertura di un file o di una cartella in una finestra già aperta.",
 			"reuseWindowForChat": "Forza l'uso dell'ultima finestra attiva per la sessione di chat.",
 			"showVersions": "Mostra le versioni delle estensioni installate quando si usa --list-extensions.",
-			"startupExperimentGroup": "Esegui l'override del gruppo di esperimenti di avvio.",
 			"status": "Stampare le informazioni di utilizzo e diagnostica di processo.",
 			"stdinUsage": "Per leggere da stdin, accodare '-' (ad esempio '{0}')",
 			"subcommands": "Sottocomandi",
@@ -2577,7 +2584,7 @@
 			"quickInput.visibleCount": "{0} risultati"
 		},
 		"vs/platform/quickinput/browser/quickInputList": {
-			"quickInput": "Quick Input"
+			"quickInput": "Input rapido"
 		},
 		"vs/platform/quickinput/browser/quickInputUtils": {
 			"executeCommand": "Fare clic per eseguire il comando '{0}'"
@@ -2588,10 +2595,10 @@
 			"terminal.commands.pinned": "aggiunto"
 		},
 		"vs/platform/quickinput/browser/tree/quickInputTreeAccessibilityProvider": {
-			"quickTree": "Quick Tree"
+			"quickTree": "Albero rapido"
 		},
 		"vs/platform/quickinput/browser/tree/quickTree": {
-			"quickInputBox.ariaLabel": "Type to narrow down results."
+			"quickInputBox.ariaLabel": "Digitare per ridurre il numero di risultati."
 		},
 		"vs/platform/remoteTunnel/common/remoteTunnel": {
 			"remoteTunnelLog": "Servizio di tunnel remoto"
@@ -2637,7 +2644,7 @@
 			"telemetry.enableTelemetry": "Abilita la raccolta dei dati di diagnostica. Consente di comprendere meglio le prestazioni di {0} e i punti in cui apportare miglioramenti.",
 			"telemetry.enableTelemetryMd": "Abilita la raccolta dei dati di diagnostica. Consente di comprendere meglio le prestazioni di {0} e i punti in cui apportare miglioramenti. [Altre informazioni]({1}) sui dati raccolti e sull'informativa sulla privacy.",
 			"telemetry.errors": "Dati di telemetria degli errori",
-			"telemetry.feedback.enabled": "Abilita meccanismi di feedback come la segnalazione problemi, i sondaggi e le opzioni di feedback in funzionalità come Copilot Chat.",
+			"telemetry.feedback.enabled": "Enable feedback mechanisms such as the issue reporter, surveys, and other feedback options.",
 			"telemetry.restart": "Per rendere effettive le modifiche apportate alle segnalazioni di arresto anomalo, è necessario riavviare completamente l'applicazione.",
 			"telemetry.telemetryLevel.crash": "Invia le segnalazioni di arresto anomalo a livello di sistema operativo.",
 			"telemetry.telemetryLevel.default": "Invia dati di utilizzo, errori e segnalazioni di arresto anomalo.",
@@ -3232,6 +3239,9 @@
 			"provideClientDetails": "Continua",
 			"yes": "Sì"
 		},
+		"vs/workbench/api/browser/mainThreadChatSessions": {
+			"interruptActiveResponse": "Interrompere la sessione attiva?"
+		},
 		"vs/workbench/api/browser/mainThreadCLICommands": {
 			"cannot be installed": "Non è possibile installare l'estensione '{0}' perché è dichiarata in modo da impedirne l'esecuzione in questa configurazione."
 		},
@@ -3691,8 +3701,8 @@
 			"sideBarPosition": "Posizione della barra laterale primaria",
 			"sidebar": "Barra laterale",
 			"sidebarContainer": "Barra laterale / {0}",
-			"sidebarHidden": "Primary Side Bar hidden",
-			"sidebarVisible": "Primary Side Bar shown",
+			"sidebarHidden": "Barra laterale primaria nascosta",
+			"sidebarVisible": "Barra laterale primaria visualizzata",
 			"statusBar": "Barra di stato",
 			"statusBarIcon": "Rappresenta la barra di stato",
 			"tabBar": "Barra delle schede",
@@ -3829,8 +3839,8 @@
 			"top": "In alto"
 		},
 		"vs/workbench/browser/parts/auxiliarybar/auxiliaryBarActions": {
-			"auxiliaryBarHidden": "Secondary Side Bar hidden",
-			"auxiliaryBarVisible": "Secondary Side Bar shown",
+			"auxiliaryBarHidden": "Barra laterale secondaria nascosta",
+			"auxiliaryBarVisible": "Barra laterale secondaria visualizzata",
 			"closeIcon": "Icona per chiudere la barra laterale secondaria.",
 			"closeSecondarySideBar": "Nascondi barra laterale secondaria",
 			"focusAuxiliaryBar": "Focus su barra laterale secondaria",
@@ -3884,7 +3894,6 @@
 			"viewsAndMoreActions": "Visualizzazioni e altre azioni..."
 		},
 		"vs/workbench/browser/parts/dialogs/dialogHandler": {
-			"aboutDetail": "Versione: {0}\r\nCommit: {1}\r\nData: {2}\r\nBrowser: {3}",
 			"copy": "&&Copia",
 			"ok": "OK"
 		},
@@ -3962,6 +3971,7 @@
 		"vs/workbench/browser/parts/editor/diffEditorCommands": {
 			"compare": "Confronta",
 			"compare.nextChange": "Vai alla modifica successiva",
+			"compare.openSide": "Open Active Diff Side",
 			"compare.previousChange": "Vai alla modifica precedente",
 			"swapDiffSides": "Scambia lato editor sinistro e destro",
 			"toggleInlineView": "Attiva/Disattiva visualizzazione inline"
@@ -4106,6 +4116,7 @@
 		"vs/workbench/browser/parts/editor/editorActions": {
 			"clearButtonLabel": "&&Cancella",
 			"clearEditorHistory": "Cancella cronologia degli editor",
+			"clearEditorHistoryWithoutConfirm": "Clear Editor History without Confirmation",
 			"clearRecentFiles": "Cancella elementi aperti di recente...",
 			"closeAllEditors": "Chiudi tutti gli editor",
 			"closeAllGroups": "Chiudi tutti i gruppi di editor",
@@ -4300,6 +4311,7 @@
 			"requiresFolderTrustText": "Il file non è visualizzato nell'editor perché non è stato concessa l'attendibilità alla cartella.",
 			"requiresWorkspaceTrustText": "Il file non è visualizzato nell'editor perché non è stato concessa l'attendibilità all'area di lavoro.",
 			"retry": "Riprova",
+			"showLogs": "Mostra log",
 			"trustRequiredEditor": "Attendibilità dell'area di lavoro obbligatoria",
 			"unavailableResourceErrorEditorText": "Non è stato possibile aprire l'editor perché il file non è stato trovato.",
 			"unknownErrorEditorTextWithError": "Non è stato possibile aprire l'editor a causa di un errore imprevisto. Per altri dettagli, consultare il log.",
@@ -4348,7 +4360,10 @@
 			"pickEndOfLine": "Seleziona sequenza di fine riga",
 			"pickLanguage": "Seleziona modalità linguaggio",
 			"pickLanguageToConfigure": "Seleziona la modalità linguaggio da associare a '{0}'",
+			"reopen": "Rimuovi le modifiche e riapri",
 			"reopenWithEncoding": "Riapri con codifica",
+			"reopenWithEncodingDetail": "In questo modo verranno rimosse tutte le modifiche non salvate.",
+			"reopenWithEncodingWarning": "Vuoi ripristinare l'editor di testo attivo e riaprirlo con una codifica diversa?",
 			"saveWithEncoding": "Salva con codifica",
 			"selectEOL": "Seleziona sequenza di fine riga",
 			"selectEncoding": "Seleziona codifica",
@@ -4400,6 +4415,7 @@
 			"loading": "Caricamento in corso...",
 			"manage": "Gestisci",
 			"manage profile": "Gestisci {0} (profilo)",
+			"manageDynamicAuthProviders": "Gestisci provider di autenticazione dinamica...",
 			"manageTrustedExtensions": "Gestisci estensioni attendibili",
 			"manageTrustedMCPServers": "Gestisci server MCP attendibili",
 			"signOut": "Disconnetti"
@@ -4765,6 +4781,7 @@
 			"sharedViewState": "Mantiene lo stato di visualizzazione dell'editor più recente, ad esempio la posizione di scorrimento, in tutti i gruppi di editor e ripristina tale stato se non viene trovato alcuno stato di visualizzazione dell'editor specifico per il gruppo di editor.",
 			"showEditorTabs": "Controlla se gli editor aperti devono essere visualizzati come singole schede, una singola scheda grande o se l'area del titolo non deve essere visualizzata.",
 			"showIcons": "Controlla se visualizzare o meno un'icona per gli editor aperti. Richiede l'abilitazione anche di un tema dell'icona di file.",
+			"showTabIndex": "Se questa opzione è abilitata, verrà mostrato l'indice delle schede. Questo valore viene ignorato quando {0} non è impostato su {1}.",
 			"sideBarLocation": "Controlla la posizione della barra laterale primaria e della barra attività. Possono essere visualizzate a sinistra o a destra dell'area di lavoro. La barra laterale secondaria verrà visualizzata sul lato opposto dell'area di lavoro.",
 			"sideBySideDirection": "Controlla la direzione predefinita degli editor aperti affiancati, ad esempio da Esplora risorse. Per impostazione predefinita, gli editor verranno aperti sul lato destro di quello attualmente attivo. Se si modifica l'impostazione in \"down\", gli editor verranno aperti sotto quello attualmente attivo. Questo parametro influisce anche sull'impostazione di divisione dell'editor nella barra degli strumenti dell'editor.",
 			"splitInGroupLayout": "Controlla il layout usato quando un editor viene diviso in un gruppo di editor in modo che sia verticale o orizzontale.",
@@ -4777,6 +4794,7 @@
 			"tabScrollbarHeight": "Controlla l'altezza delle barre di scorrimento usate per le schede e le barre di navigazione nell'area del titolo dell'editor.",
 			"tabSizing": "Controlla le dimensioni delle schede dell'editor. Questo valore viene ignorato quando {0} non è impostato su {1}.",
 			"tips.enabled": "Quando questa opzione è abilitata, se non ci sono editor aperti, verranno visualizzati i suggerimenti filigrana.",
+			"titleScrollbarVisibility": "Controlla la visibilità delle barre di scorrimento usate per le schede e le barre di navigazione nell'area del titolo dell'editor.",
 			"untitledLabelFormat": "Controlla il formato dell'etichetta per un editor senza titolo.",
 			"useSplitJSON": "Controlla se usare l'editor JSON diviso quando si modificano impostazioni come JSON.",
 			"viewVisibility": "Controlla la visibilità delle azioni dell'intestazione della visualizzazione. Le azioni dell'intestazione della visualizzazione possono essere sempre visibili oppure visibili solo quando lo stato attivo è spostato sulla visualizzazione o si passa con il puntatore sulla visualizzazione.",
@@ -4865,6 +4883,9 @@
 			"workbench.editor.tabSizingFixedMinWidth": "Controlla la larghezza massima delle schede quando la dimensione {0}è impostata su {1}.",
 			"workbench.editor.titleScrollbarSizing.default": "Dimensioni predefinite.",
 			"workbench.editor.titleScrollbarSizing.large": "Aumenta le dimensioni, in modo da facilitare la selezione con il mouse.",
+			"workbench.editor.titleScrollbarVisibility.auto": "La barra di scorrimento orizzontale sarà visibile solo quando necessario.",
+			"workbench.editor.titleScrollbarVisibility.hidden": "La barra di scorrimento orizzontale sarà sempre nascosta.",
+			"workbench.editor.titleScrollbarVisibility.visible": "La barra di scorrimento orizzontale sarà sempre visibile.",
 			"workbench.editor.untitled.labelFormat.content": "Il nome del file senza nome deriva dal contenuto della prima riga, a meno che ad esso non sia associato un percorso di file. Verrà usato il nome nel caso in cui la riga sia vuota o non contenga caratteri alfanumerici.",
 			"workbench.editor.untitled.labelFormat.name": "Il nome del file senza nome non deriva dal contenuto del file.",
 			"workbench.fontAliasing.antialiased": "Anti-aliasing dei caratteri a livello di pixel, invece che a livello di sub-pixel. Consente di visualizzare i caratteri più chiari.",
@@ -4945,6 +4966,7 @@
 			"embedderIdentifier": "Identificatore dell'incorporamento in base al servizio prodotto, se definito",
 			"focusedView": "Identificatore della visualizzazione che ha lo stato attivo della tastiera",
 			"groupEditorsCount": "Numero di gruppi di editor aperti",
+			"inAutomation": "Whether VS Code is running under automation/smoke test",
 			"inZenMode": "Indica se la modalità Zen è abilitata",
 			"isAuxiliaryWindow": "La finestra è una finestra ausiliaria",
 			"isAuxiliaryWindowFocusedContext": "Indica se una finestra ausiliaria è evidenziata",
@@ -5225,6 +5247,7 @@
 			"argv.logLevel": "Livello di registrazione da usare. Livello predefinito: 'info'. Valori consentiti: 'error', 'warn', 'info', 'debug', 'trace', 'off'.",
 			"argv.passwordStore": "Configura il back-end usato per archiviare i segreti in Linux. Questo argomento viene ignorato in Windows > macOS.",
 			"argv.proxyBypassList": "Ignora qualsiasi proxy specificato per l'elenco di host delimitato da punto e virgola specificato. Valore di esempio \"<local>;*.microsoft.com;*foo.com;1.2.3.4:5678\", userà il server proxy per tutti gli host ad eccezione degli indirizzi locali (localhost, 127.0.0.1 e così via), microsoft.com subdomains, host che contengono il suffisso foo.com e qualsiasi altro elemento in 1.2.3.4:5678",
+			"argv.remoteDebuggingPort": "Specifica la porta da usare per il debug remoto.",
 			"argv.useInMemorySecretStorage": "Assicura che venga usato un archivio in memoria per l'archiviazione dei segreti invece di usare l'archivio credenziali del sistema operativo. Viene spesso usato quando si eseguono VS Code test dell'estensione o quando si verificano problemi con il Credential Store.",
 			"closeWhenEmpty": "Controlla se con la chiusura dell'ultimo editor deve essere chiusa anche la finestra. Questa impostazione viene applicata solo alle finestre che non contengono cartelle.",
 			"confirmSaveUntitledWorkspace": "Controlla se viene visualizzata una finestra di dialogo di conferma che chiede di salvare o rimuovere un'area di lavoro senza titolo aperta nella finestra quando si passa a un'altra area di lavoro. Disattivando la finestra di dialogo di conferma, l'area di lavoro senza titolo verrà sempre rimossa.",
@@ -5287,7 +5310,6 @@
 			"join.closeStorage": "Salvataggio dello stato dell'interfaccia utente"
 		},
 		"vs/workbench/electron-browser/parts/dialogs/dialogHandler": {
-			"aboutDetail": "Versione: {0}\r\nCommit: {1}\r\nData: {2}\r\nElectron: {3}\r\nElectronBuildId: {4}\r\nChromium: {5}\r\nNode.js: {6}\r\nV8: {7}\r\nSistema operativo: {8}",
 			"copy": "&&Copia",
 			"okButton": "OK"
 		},
@@ -5612,6 +5634,7 @@
 			"noAccounts": "Nessun account attualmente usato da questa estensione.",
 			"pickAProviderTitle": "Gestisci preferenze account estensione",
 			"placeholder v2": "Gestisci '{0}' preferenze account per {1}...",
+			"selectExtension": "Seleziona un'estensione per cui gestire le preferenze account",
 			"selectProvider": "Selezionare un provider di autenticazione per cui gestire le preferenze degli account",
 			"title": "'{0}' preferenze degli account per questa area di lavoro",
 			"use new account": "Usa un nuovo account..."
@@ -5763,6 +5786,13 @@
 			"to": "chiamanti di {0}",
 			"tree.aria": "Gerarchia di chiamata"
 		},
+		"vs/workbench/contrib/chat/browser/actions/chatAccessibilityActions": {
+			"chat.category": "Chat",
+			"chatNotReady": "Interfaccia chat non pronta.",
+			"focusChatConfirmation": "Conferma chat focus",
+			"noChatSession": "Nessuna sessione di chat attiva trovata.",
+			"noConfirmationRequired": "Nessuna conferma chat richiesta"
+		},
 		"vs/workbench/contrib/chat/browser/actions/chatAccessibilityHelp": {
 			"chat.announcement": "Le risposte alla chat verranno annunciate man mano che arrivano. Una risposta indicherà il numero di blocchi di codice, se presenti, e quindi il resto della risposta.",
 			"chat.differencePanel": "La vista della chat del pannello è un'interfaccia permanente che supporta anche l'esplorazione delle domande di completamento suggerite, mentre la visualizzazione della chat rapida è un'interfaccia temporanea per la creazione e la visualizzazione delle richieste.",
@@ -5793,7 +5823,7 @@
 			"chatEditing.sections": "Spostarsi tra le modifiche nell'editor esplorando le{0} precedenti e le{1} successive",
 			"chatEditing.undoKeepSounds": "I suoni verranno riprodotti quando una modifica viene accettata o annullata. I suoni possono essere disabilitati con accessibility.signals.editsKept e accessibility.signals.editsUndone.",
 			"chatEditing.viewChanges": "- Visualizza{0} modifiche.",
-			"chatEditing.viewPreviousEdits": "- View Previous Edits{0}.",
+			"chatEditing.viewPreviousEdits": "- Visualizza modifiche precedenti{0}",
 			"inlineChat.access": "Può essere attivato tramite azioni del codice o direttamente usando il comando: Inline Chat: Start Chat ({0}).",
 			"inlineChat.contextActions": "Le azioni del menu di scelta rapida possono eseguire una richiesta con prefisso /. Digitare /per individuare tali comandi pronti.",
 			"inlineChat.diff": "Una volta nell'editor diff, attivare la modalità di revisione con {0}. Usare le frecce SU e GIÙ per spostarsi tra le righe con le modifiche proposte.",
@@ -5802,6 +5832,7 @@
 			"inlineChat.overview": "La chat inline si verifica all'interno di un editor di codice e tiene conto della selezione corrente. È utile per apportare modifiche all'editor corrente. Ad esempio, la correzione della diagnostica, la documentazione o il refactoring del codice. Tenere presente che il codice generato dall'intelligenza artificiale potrebbe non essere corretto.",
 			"inlineChat.requestHistory": "Nella casella di input, usare Mostra precedente{0} e Mostra successivo{1} per esplorare la cronologia delle richieste. Modificare l'input e usare Invio o il pulsante di invio per eseguire una nuova richiesta.",
 			"inlineChat.toolbar": "Usare TAB per raggiungere parti condizionali come comandi, stato, risposte ai messaggi e altro ancora.",
+			"workbench.action.chat.announceConfirmation": "Per focalizzare le finestre di dialogo di conferma della chat in sospeso, richiama il comando Stato conferma chat{0}.",
 			"workbench.action.chat.editing.attachFiles": "- Allega file{0}.",
 			"workbench.action.chat.focus": "Per spostare lo stato attivo sull'elenco di richieste/risposte della chat, che può essere esplorato con FRECCIA SU e FRECCIA GIÙ, richiamare il comando Focus Chat{0}.",
 			"workbench.action.chat.focusInput": "Per spostare lo stato attivo sulla casella di input per le richieste della chat, richiamare il comando Focus Chat Input{0}.",
@@ -5814,18 +5845,26 @@
 			"agent.newSession": "Avviare una nuova sessione?",
 			"agent.newSession.confirm": "Sì",
 			"agent.newSessionMessage": "La modifica della modalità chat terminerà la sessione di modifica corrente. Modificare la modalità chat?",
-			"ai actions": "Azioni dell'intelligenza artificiale",
 			"chat.category": "Chat",
 			"chat.clear.label": "Cancella tutte le chat dell'area di lavoro",
+			"chat.editToolApproval.label": "Modifica approvazione strumento",
+			"chat.editToolApproval.title": "Impostazione approvazione per {0}",
 			"chat.history.label": "Mostra chat...",
 			"chat.history.recent": "Chat recenti",
 			"chat.history.rename": "Rinomina",
 			"chat.history.showMore": "Mostra di più...",
 			"chat.history.showMoreAgents": "Mostra di più...",
+			"chat.openNewChatToTheSide.label": "Apri il nuovo editor di chat a lato",
 			"chat.toggleDefaultVisibility.label": "Mostra visualizzazione per impostazione predefinita",
+			"chat.toolApproval.manual": "Richiedi sempre l'approvazione manuale",
+			"chat.toolApproval.profile": "Approva automaticamente a livello globale",
+			"chat.toolApproval.session": "Approva automaticamente per questa sessione",
+			"chat.toolApproval.workspace": "Approva automaticamente per questa area di lavoro",
 			"chatAndCompletionsQuotaExceeded": "È stata raggiunta la quota mensile di messaggi di chat e completamenti del codice.",
 			"chatQuotaExceeded": "È stata raggiunta la quota mensile di messaggi di chat. Sono ancora disponibili completamenti di codice gratuiti.",
 			"chatQuotaExceededButton": "È stata raggiunta la quota di messaggi chat del piano Gratuito di Copilot. Fare clic per informazioni dettagliate.",
+			"chatSessions.newChatInSideBar": "Apri una nuova chat nella barra laterale",
+			"chatSessions.openNewChatInNewWindow": "Apri una nuova chat in una nuova finestra",
 			"chatWith": "Chatta con estensione",
 			"completionsQuotaExceeded": "È stata raggiunta la quota mensile di completamenti del codice. Sono ancora disponibili messaggi di chat gratuiti.",
 			"config.label": "Configura chat...",
@@ -5833,8 +5872,13 @@
 			"copilotQuotaReached": "Quota Copilot raggiunta",
 			"currentChatLabel": "correnti",
 			"dismiss": "Ignora",
+			"explain": "Explain",
+			"fix": "Fix",
+			"generateCode": "Generate Code",
+			"generateDocs": "Generate Docs",
 			"generateInstructions": "Genera file di istruzioni dell'area di lavoro",
 			"generateInstructions.short": "Generare istruzioni",
+			"generateTests": "Generate Tests",
 			"interactiveSession.clearHistory.label": "Cancella cronologia input",
 			"interactiveSession.focusInput.label": "Input chat con stato attivo",
 			"interactiveSession.history.clear": "Cancella tutte le chat dell'area di lavoro",
@@ -5844,21 +5888,24 @@
 			"interactiveSession.history.title": "Cronologia chat dell'area di lavoro",
 			"interactiveSession.history.titleAll": "Tutta la cronologia chat dell'area di lavoro",
 			"interactiveSession.open": "Nuovo editor chat",
-			"manageCopilot": "Gestisci Copilot",
+			"manageCopilot": "Gestisci chat",
 			"more": "Altro...",
 			"newChatTitle": "Nuovo titolo della chat",
 			"openChat": "Apri chat",
+			"openChatFeatureSettings": "Impostazioni chat",
+			"openChatFeatureSettings.short": "Impostazioni chat",
 			"openChatMode": "Apri chat ({0})",
 			"quotaResetDate": "La quota verrà reimpostata a {0}.",
 			"resetTrustedTools": "Ripristina conferme strumenti",
 			"resetTrustedToolsSuccess": "Le preferenze di conferma dello strumento sono state reimpostate.",
+			"review": "Code Review",
 			"showCopilotUsageExtensions": "Mostra estensioni usando Copilot",
 			"signInToChatSetup": "Accedi per usare Copilot...",
 			"switchChat.confirmPhrase": "Se cambi chat, la sessione di modifica corrente verrà terminata.",
 			"switchMode.confirmPhrase": "Se cambi le modalità chat, la sessione di modifica corrente verrà terminata.",
 			"title4": "Copilot",
-			"toggle.chatControl": "Controlli di Copilot",
-			"toggle.chatControlsDescription": "Attivare/Disattivare la visibilità dei controlli Copilot nella barra del titolo",
+			"toggle.chatControl": "Controlli chat",
+			"toggle.chatControlsDescription": "Attivare/Disattivare la visibilità dei controlli chat nella barra del titolo",
 			"toggleChat": "Attiva/Disattiva chat",
 			"upgradeChat": "Aggiorna piano Copilot",
 			"upgradePlan": "Aggiorna piano Copilot",
@@ -5914,7 +5961,7 @@
 			"workbench.action.chat.logInputHistory.label": "Registra la cronologia degli input chat"
 		},
 		"vs/workbench/contrib/chat/browser/actions/chatExecuteActions": {
-			"actions.chat.createRemoteJob": "Delega all'agente di codifica",
+			"actions.chat.createRemoteJob": "Delegare all'agente di codifica",
 			"actions.chat.submitWithCodebase": "Invia con {0}",
 			"analyzingChatHistory": "Analisi della cronologia della chat",
 			"chat.newChat.label": "Invia a nuova chat",
@@ -5937,11 +5984,12 @@
 			"interactive.submitWithoutDispatch.label": "Invia",
 			"interactive.switchToNextModel.label": "Passa al modello successivo",
 			"interactive.toggleAgent.label": "Imposta modalità chat",
-			"interactive.toggleRequestPausd.label": "Attiva/Disattiva richiesta sospesa",
 			"remoteAgentError": "Sessione dell'agente di codifica annullata.",
+			"remoteAgentResponse": "Risposta dell'agente di codifica: {0}",
+			"remoteAgentResponse2": "Il lavoro proseguirà in questa richiesta pull.",
 			"remoteJobCreating": "Delega all'agente di codifica",
-			"requestIsPaused": "Riprendi richiesta",
-			"requestNotPaused": "Sospendi richiesta",
+			"selectCodingAgent": "Selezionare l'agente di codifica",
+			"sendToRemoteAgent": "Invia all'agente di codifica",
 			"setChatMode": "Imposta modalità"
 		},
 		"vs/workbench/contrib/chat/browser/actions/chatFileTreeActions": {
@@ -5982,6 +6030,19 @@
 			"toggle.isPartialQuery": "Indica se la query è parziale; attenderà più input dell'utente",
 			"toggle.query": "Query con cui aprire la chat veloce"
 		},
+		"vs/workbench/contrib/chat/browser/actions/chatSessionActions": {
+			"chat.openSessionInNewEditorGroup.label": "Open Chat to the Side",
+			"chat.openSessionInNewWindow.label": "Open Chat in New Window",
+			"chat.openSessionInSidebar.label": "Open Chat in Sidebar",
+			"openSessionInNewEditorGroup": "Open in New Editor Group",
+			"openSessionInNewWindow": "Open in New Window",
+			"openSessionInSidebar": "Open in Sidebar",
+			"renameSession": "Rinomina",
+			"renameSession.emptyName": "Il nome non può essere vuoto.",
+			"renameSession.error": "Non è possibile rinominare la sessione di chat: {0}",
+			"renameSession.nameTooLong": "Il nome è troppo lungo (massimo 100 caratteri)",
+			"renameSession.placeholder": "Immettere un nuovo nome per la sessione di chat"
+		},
 		"vs/workbench/contrib/chat/browser/actions/chatTitleActions": {
 			"chat.retry.confirmation.checkbox": "Non visualizzare più questo messaggio",
 			"chat.retry.confirmation.message2": "Questa operazione annullerà le modifiche apportate a {0} dopo questa richiesta.",
@@ -6001,24 +6062,22 @@
 			"chat.tools.placeholder.global": "Selezionare gli strumenti disponibili per la chat.",
 			"chat.tools.placeholder.mode": "Seleziona gli strumenti per questa modalità di chat",
 			"chat.tools.placeholder.session": "Seleziona gli strumenti per questa sessione di chat",
+			"chatTools.tooManyEnabled": "Più di {0} strumenti sono abilitati. È possibile che si verifichi una riduzione delle prestazioni delle chiamate degli strumenti.",
 			"label": "Configura strumenti..."
 		},
 		"vs/workbench/contrib/chat/browser/actions/chatToolPicker": {
-			"addAny": "Aggiungi altri strumenti...",
-			"addExtension": "Installa estensione...",
-			"addExtensionButton": "Install Extension...",
-			"addMcpServer": "Add MCP Server...",
-			"addServer": "Aggiungi server MCP...",
+			"addExtensionButton": "Installare estensione...",
+			"addMcpServer": "Aggiungere server MCP...",
 			"configMcpCol": "Configura {0}",
-			"configToolSet": "Configura set di strumenti...",
-			"configToolSets": "Configure Tool Sets...",
-			"configureTools": "Configure Tools",
+			"configToolSets": "Configurare i set di strumenti...",
+			"configureTools": "Configurare gli strumenti",
 			"defaultBucketLabel": "Predefinito",
 			"editUserBucket": "Modificare set di strumenti",
 			"ext": "Estensione: {0}",
 			"mcpShowOutput": "Mostra output",
 			"mcplabel": "Server MCP: {0}",
 			"noTools": "Aggiungi strumenti alla chat",
+			"toolLimitExceeded": "{0} strumenti sono abilitati. È possibile che si verifichi una riduzione delle prestazioni delle chiamate di strumenti con più di {1} strumenti.",
 			"userBucket": "Set di strumenti definiti dall'utente"
 		},
 		"vs/workbench/contrib/chat/browser/actions/codeBlockOperations": {
@@ -6055,10 +6114,12 @@
 			"chat": "Chat",
 			"chat.agent.enabled.description": "Abilita la modalità agente per {0}. Se abilitata, la modalità agente può essere attivata tramite il menu a discesa nella visualizzazione.",
 			"chat.agent.maxRequests": "Numero massimo di richieste consentite per turno a Copilot in modalità agente. Quando viene raggiunto il limite, Copilot chiederà all'utente di confermare se deve continuare.",
+			"chat.agent.showThinking": "Controlla se mostrare il processo di elaborazione del modello nelle risposte della chat.",
 			"chat.checkpoints.enabled": "Abilita i checkpoint nella chat. I checkpoint consentono di ripristinare la chat a uno stato precedente.",
-			"chat.checkpoints.showFileChanges": "Controls whether to show chat checkpoint file changes.",
+			"chat.checkpoints.showFileChanges": "Indica se visualizzare le modifiche ai file di checkpoint della chat.",
 			"chat.commandCenter.enabled": "Controllare se il centro comandi mostra un menu per le azioni per controllare Copilot (richiede {0}).",
 			"chat.detectParticipant.enabled": "Abilita il rilevamento automatico dei partecipanti alla chat per la chat del pannello.",
+			"chat.disableAIFeatures": "Disable and hide built-in AI features provided by GitHub Copilot, including chat, code completions and next edit suggestions.",
 			"chat.editRequests": "Consente di modificare le richieste nella chat. Questo permette di cambiare il contenuto della richiesta e inviarlo nuovamente al modello.",
 			"chat.editing.autoAcceptDelay": "Ritardo dopo il quale le modifiche apportate dalla chat vengono accettate automaticamente. I valori sono in secondi, '0' indica disabilitato e '100' secondi è il massimo.",
 			"chat.editing.confirmEditRequestRemoval": "Indica se visualizzare una conferma prima di rimuovere una richiesta e le modifiche associate.",
@@ -6077,13 +6138,12 @@
 			"chat.implicitContext.value.never": "Il contesto implicito non è mai abilitato.",
 			"chat.instructions.config.locations.description": "Specificare i percorsi dei file di istruzioni (\"*{0}\") che possono essere allegati nelle sessioni di chat. [Altre informazioni]({1}).\r\n\r\nI percorsi relativi vengono risolti dalle cartelle radice dell'area di lavoro.",
 			"chat.instructions.config.locations.title": "Percorsi dei file delle istruzioni",
-			"chat.manageTasksTool.enabled": "Enables manageTasksTool in chat. This tool allows you to use task lists in chat.",
-			"chat.mathEnabled.description": "Abilitare il rendering matematico nelle risposte della chat usando Katex.",
-			"chat.mcp.assisted.nuget.enabled.description": "Enables NuGet packages for AI-assisted MCP server installation. Used to install MCP servers by name from the central registry for .NET packages (NuGet.org).",
-			"chat.mcp.autostart": "Controls whether MCP servers should be automatically started when the chat messages are submitted.",
-			"chat.mcp.autostart.never": "Never automatically start MCP servers.",
-			"chat.mcp.autostart.newAndOutdated": "Automatically start new and outdated MCP servers that are not yet running.",
-			"chat.mcp.autostart.onlyNew": "Only automatically start new MCP servers that have never been run.",
+			"chat.mathEnabled.description": "Abilitare il rendering matematico nelle risposte della chat con KaTeX.",
+			"chat.mcp.assisted.nuget.enabled.description": "Abilita i pacchetti NuGet per l'installazione dei server MCP con l'assistenza dell'intelligenza artificiale. Consente di installare i server MCP in base al nome dal registro centrale dei pacchetti .NET (NuGet.org).",
+			"chat.mcp.autostart": "Indica se i server MCP devono essere avviati automaticamente quando vengono inviati i messaggi della chat.",
+			"chat.mcp.autostart.never": "Non avviare mai automaticamente i server MCP.",
+			"chat.mcp.autostart.newAndOutdated": "Avviare automaticamente i server MCP nuovi e obsoleti che non sono ancora in esecuzione.",
+			"chat.mcp.autostart.onlyNew": "Avviare automaticamente solo i nuovi server MCP che non sono mai stati eseguiti.",
 			"chat.mcp.enabled": "Consente l'integrazione con i server Model Context Protocol per fornire strumenti e funzionalità aggiuntivi.",
 			"chat.mcp.serverSampling": "Configura quali modelli vengono esposti ai server MCP per il campionamento (effettuando richieste di modello in background). Questa impostazione può essere modificata graficamente tramite il comando '{0}'.",
 			"chat.mcp.serverSampling.allowedDuringChat": "Indica se questo server effettua richieste di campionamento durante le chiamate agli strumenti in una sessione di chat.",
@@ -6103,35 +6163,35 @@
 			"chat.sendElementsToChat.enabled": "Controlla se gli elementi possono essere inviati alla chat dal browser semplice.",
 			"chat.sessionsViewLocation.description": "Consente di specificare dove mostrare il menu delle sessioni dell'agente.",
 			"chat.signInDialogVariant": "Controllare le varianti della finestra di dialogo di accesso.",
+			"chat.todoListTool.enabled": "Consente la creazione di elenchi di attività nella chat, usate dall'agente come strumento per la pianificazione, il rilevamento dello stato di avanzamento e la gestione del contesto nei flussi di lavoro di sviluppo complessi.",
+			"chat.todoListTool.writeOnly": "Se abilitato, lo strumento attività opera in modalità di sola scrittura, richiedendo all'agente di ricordare le attività nel contesto.",
 			"chat.tools.autoApprove.description": "Controlla se l'uso dello strumento deve essere approvato automaticamente. Consenti l'esecuzione automatica di tutti gli strumenti senza conferma da parte dell'utente, ignorando eventuali impostazioni specifiche degli strumenti, come l'approvazione automatica del terminale. Usare con cautela: esaminare attentamente gli strumenti selezionati e prestare particolare attenzione alle possibili origini di inserimento della richiesta.",
+			"chat.tools.autoApprove.edits": "Controlla se le modifiche apportate dalla chat vengono approvate automaticamente. Per impostazione predefinita, vengono approvate tutte le modifiche tranne quelle apportate a determinati file che potrebbero causare effetti collaterali immediati indesiderati, ad esempio '**/.vscode/*.json'.\r\n\r\nI file vengono confrontati con i modelli glob nell'ordine in cui sono specificati.",
 			"chat.tools.autoApprove.markdownDescription": "Controlla se l'uso dello strumento deve essere approvato automaticamente.\r\n\r\nConsente l'esecuzione automatica di _tutti_ gli strumenti senza conferma da parte dell'utente, ignorando eventuali impostazioni specifiche degli strumenti, come l'approvazione automatica del terminale.\r\n\r\nUsare con cautela: esaminare attentamente gli strumenti selezionati e prestare particolare attenzione alle possibili origini di inserimento della richiesta.",
-			"chat.tools.useTreePicker": "Use the new tree-based tools picker interface instead of the flat list. Provides better hierarchical organization of tools and tool sets with collapsible sections, improved visual hierarchy, and native tree interactions. MCP servers are displayed as expandable parent nodes with their tools as children.",
 			"chat.undoRequests.restoreInput": "Controlla se l'input della chat deve essere ripristinato quando viene effettuata una richiesta di annullamento. L'input verrà riempito con il testo della richiesta ripristinata.",
 			"chat.useFileStorage": "Abilita l'archiviazione delle sessioni di chat su disco anziché nel servizio di archiviazione. L'abilitazione di questa opzione esegue una migrazione una tantum per area di lavoro delle sessioni esistenti al nuovo formato.",
 			"clear": "Avvia una nuova chat",
-			"file": "Scegli un file nell'area di lavoro",
 			"interactiveSession.editor.fontFamily": "Controlla la famiglia di caratteri nei blocchi di codice della chat.",
 			"interactiveSession.editor.fontSize": "Controlla le dimensioni del carattere in pixel nei blocchi di codice della chat.",
 			"interactiveSession.editor.fontWeight": "Controlla lo spessore del carattere nei blocchi di codice della chat.",
 			"interactiveSession.editor.lineHeight": "Controlla l'altezza della riga in pixel nei blocchi di codice della chat. Usare 0 per calcolare l'altezza della riga in base alle dimensioni del carattere.",
 			"interactiveSession.editor.wordWrap": "Controlla se le righe devono andare a capo nei blocchi di codice della chat.",
 			"interactiveSessionConfigurationTitle": "Chat",
-			"mcp.discovery.enabled": "Configura l'individuazione dei server Model Context Protocol nel computer. Può essere impostato su 'true' o 'false' per disabilitare o abilitare tutte le origini e le origini di mapping che desideri abilitare.",
-			"mcp.discovery.source": "Abilita l'individuazione dei server {0}",
+			"mcp.discovery.enabled": "Configura l'individuazione dei server MCP (Model Context Protocol) a partire dalla configurazione di diverse altre applicazioni.",
 			"mcp.gallery.serviceUrl": "Configura l'URL del servizio Galleria MCP a cui connetterti",
 			"mcp.list": "Elenca i server",
 			"save-chat-to-prompt-file": "Salvare la chat in un file di richieste"
 		},
 		"vs/workbench/contrib/chat/browser/chatAccessibilityProvider": {
 			"chat": "Chat",
-			"multiCodeBlock": "{0}{1}{2} code blocks: {3} {4}",
-			"multiCodeBlockHint": "{0}{1}{2}{3} code blocks: {4}{5} {6}",
+			"multiCodeBlock": "{0}{1}{2} blocchi di codice: {3} {4}",
+			"multiCodeBlockHint": "{0}{1}{2}{3} blocchi di codice: {4}{5} {6}",
 			"multiFileTreeHint": "{0} alberi file ",
 			"multiTableHint": "{0} tabelle ",
 			"noCodeBlocks": "{0}{1}{2} {3}",
 			"noCodeBlocksHint": "{0}{1}{2}{3}{4} {5}",
-			"singleCodeBlock": "{0}{1}1 code block: {2} {3}",
-			"singleCodeBlockHint": "{0}{1}{2}1 code block: {3} {4}{5}",
+			"singleCodeBlock": "{0}{1}1 blocco codice: {2} {3}",
+			"singleCodeBlockHint": "{0}{1}{2}1 blocco di codice: {3} {4}{5}",
 			"singleFileTreeHint": "1 albero file ",
 			"singleTableHint": "1 tabella ",
 			"toolCompletedHint": "Strumento {0} completato.",
@@ -6175,6 +6235,9 @@
 		"vs/workbench/contrib/chat/browser/chatContentParts/chatAgentCommandContentPart": {
 			"rerun": "Eseguire di nuovo senza {0}{1}"
 		},
+		"vs/workbench/contrib/chat/browser/chatContentParts/chatChangesSummaryPart": {
+			"chat.viewFileChangesSummary": "Visualizza tutte le modifiche apportate ai file"
+		},
 		"vs/workbench/contrib/chat/browser/chatContentParts/chatCodeCitationContentPart": {
 			"viewMatches": "Vedi corrispondenze"
 		},
@@ -6190,6 +6253,7 @@
 			"dismiss": "Ignora"
 		},
 		"vs/workbench/contrib/chat/browser/chatContentParts/chatConfirmationWidget": {
+			"chat.confirmationWidget.ariaLabel": "Finestra di dialogo di conferma chat {0} {1}",
 			"defaultTitle": "Chat: conferma richiesta",
 			"notificationDetail": "La sessione di chat corrente richiede una conferma per andare avanti.",
 			"notificationTitle": "Chat: {0}"
@@ -6206,10 +6270,21 @@
 			"chat.codeblock.insertions.one": "1 inserimento",
 			"summary": "{0}, {1}, {2} modificati"
 		},
+		"vs/workbench/contrib/chat/browser/chatContentParts/chatMultiDiffContentPart": {
+			"chatMultiDiff.manyFiles": "{0} file modificati",
+			"chatMultiDiff.oneFile": "1 file modificato",
+			"chatMultiDiffList": "Modifiche al file"
+		},
+		"vs/workbench/contrib/chat/browser/chatContentParts/chatPinnedContentPart": {
+			"chat.pinned.thinking.header.base": "Thinking...",
+			"chat.pinned.thinking.header.count": "Thought for a few seconds...",
+			"chat.pinned.thinking.header.count.time": "Thought for {0}"
+		},
 		"vs/workbench/contrib/chat/browser/chatContentParts/chatProgressContentPart": {
-			"pausedMessage": "In pausa",
-			"resume": "Fare clic per riprendere",
 			"workingMessage": "Elaborazione..."
+		},
+		"vs/workbench/contrib/chat/browser/chatContentParts/chatPullRequestContentPart": {
+			"chatPullRequest.seeMore": "Vedi di più"
 		},
 		"vs/workbench/contrib/chat/browser/chatContentParts/chatQuotaExceededPart": {
 			"clickToContinue": "Fai clic per riprovare.",
@@ -6220,6 +6295,7 @@
 		"vs/workbench/contrib/chat/browser/chatContentParts/chatReferencesContentPart": {
 			"addToChat": "Aggiungi file alla chat",
 			"chatCollapsibleList": "Elenco riferimenti chat espandibile",
+			"chatEditingSession.fileCounts": "{0} righe aggiunte, {1} righe rimosse",
 			"copyLink": "Copia collegamento",
 			"setting.hover": "Apri impostazione \"{0}\"",
 			"usedReferencesPlural": "Riferimenti utilizzati {0}",
@@ -6228,6 +6304,12 @@
 		"vs/workbench/contrib/chat/browser/chatContentParts/chatTextEditContentPart": {
 			"edits0": "Le modifiche sono state interrotte.",
 			"editsSummary": "Modifiche apportate."
+		},
+		"vs/workbench/contrib/chat/browser/chatContentParts/chatTodoListWidget": {
+			"chat.todoList.clearButton": "Cancella tutte le attività",
+			"chat.todoList.clearButton.ariaLabel": "Cancella tutte le attività",
+			"chat.todoList.title": "Attività",
+			"chat.todoList.titleWithProgress": "Attività ({0}/{1})"
 		},
 		"vs/workbench/contrib/chat/browser/chatContentParts/chatToolInputOutputContentPart": {
 			"chat.input": "Input",
@@ -6247,12 +6329,17 @@
 			"installExtensions": "Installa estensioni",
 			"installExtensionsConfirmation": "Fare clic sul pulsante Installa nell'estensione, quindi premere Continua al termine."
 		},
-		"vs/workbench/contrib/chat/browser/chatContentParts/toolInvocationParts/chatTaskListSubPart": {
-			"chat.task.title": "Tasks"
-		},
-		"vs/workbench/contrib/chat/browser/chatContentParts/toolInvocationParts/chatTerminalToolSubPart": {
-			"cancel": "Annulla",
-			"continue": "Continua"
+		"vs/workbench/contrib/chat/browser/chatContentParts/toolInvocationParts/chatTerminalToolConfirmationSubPart": {
+			"autoApprove.button.enable": "Abilita",
+			"autoApprove.enable": "Abilita approvazione automatica...",
+			"autoApprove.markdown": "Sarà abilitato un sottoinsieme configurabile di comandi da eseguire nel terminale in modo autonomo. Fornisce *protezione con il massimo sforzo* e presuppone che l'agente non agisca in modo malevolo.",
+			"autoApprove.title": "Abilitare l'approvazione automatica del terminale?",
+			"continue": "Continua",
+			"newRule": "La regola di approvazione automatica {0} è stata aggiunta",
+			"newRule.plural": "Regole di approvazione automatica {0} aggiunte",
+			"ruleTooltip": "Visualizza la regola nelle impostazioni",
+			"skip": "Skip",
+			"skip.detail": "Proceed without executing this command"
 		},
 		"vs/workbench/contrib/chat/browser/chatContentParts/toolInvocationParts/chatToolConfirmationSubPart": {
 			"allowGloballTooltip": "Consenti sempre l'esecuzione senza conferma di questo strumento.",
@@ -6264,10 +6351,19 @@
 			"cancel": "Annulla",
 			"chat.input": "Input",
 			"continue": "Continua",
-			"seeMore": "Mostra altro"
+			"seeMore": "Mostra altro",
+			"showMore": "Mostra di più"
+		},
+		"vs/workbench/contrib/chat/browser/chatContentParts/toolInvocationParts/chatToolInvocationPart": {
+			"chat.autoapprove.lmServicePerTool.profile": "Approvato automaticamente per questo profilo",
+			"chat.autoapprove.lmServicePerTool.session": "Approvato automaticamente per questa sessione",
+			"chat.autoapprove.lmServicePerTool.workspace": "Approvato automaticamente per questa area di lavoro",
+			"chat.autoapprove.setting": "Approvato automaticamente da {0}",
+			"edit": "Modifica"
 		},
 		"vs/workbench/contrib/chat/browser/chatContentParts/toolInvocationParts/chatToolOutputPart": {
-			"loading": "Rendering tool output..."
+			"chat.toolOutputError": "Error rendering the tool output",
+			"loading": "Output dello strumento di rendering in corso..."
 		},
 		"vs/workbench/contrib/chat/browser/chatDragAndDrop": {
 			"attacAsContext": "Collega {0} come contesto",
@@ -6287,8 +6383,8 @@
 			"acceptAllEdits": "Mantieni tutte le modifiche",
 			"addFilesFromReferences": "Aggiungi file da riferimenti",
 			"chat.editRequests.label": "Modifica richiesta",
-			"chat.editing.discardAll.confirmation.manyFiles": "Questa operazione annullerà le modifiche apportate da {0} in {1} file. Continuare?",
-			"chat.editing.discardAll.confirmation.oneFile": "Questa operazione annullerà le modifiche apportate da {0} in {1}. Continuare?",
+			"chat.editing.discardAll.confirmation.manyFiles": "Questa operazione annullerà le modifiche apportate in {0} file. Continuare?",
+			"chat.editing.discardAll.confirmation.oneFile": "Questa operazione annullerà le modifiche apportate in {0}. Continuare?",
 			"chat.editing.discardAll.confirmation.primaryButton": "Sì",
 			"chat.editing.discardAll.confirmation.title": "Annullare tutte le modifiche?",
 			"chat.openFileUpdatedBySnapshot.label": "Apri file",
@@ -6347,7 +6443,6 @@
 		"vs/workbench/contrib/chat/browser/chatEditing/chatEditingEditorOverlay": {
 			"0Of0": "—",
 			"nOfM": "{0} di {1}",
-			"paused": "In pausa",
 			"tooltip": "{0} ({1})",
 			"tooltip_11": "1 modifica in 1 file",
 			"tooltip_1n": "1 modifica in {0} file",
@@ -6432,8 +6527,10 @@
 			"chatAttachFiles": "Cerca file e contesto da aggiungere alla richiesta",
 			"chatEditingSession.addSuggested": "Aggiungi suggerimento",
 			"chatEditingSession.addSuggestion": "Aggiungi {0} suggerimenti",
+			"chatEditingSession.ariaLabelWithCounts": "{0}, {1} righe aggiunte {2} righe rimosse",
 			"chatEditingSession.manyFiles.1": "{0} file modificati",
 			"chatEditingSession.oneFile.1": "1 file modificato",
+			"chatEditingSession.toggleWorkingSet": "Attiva/disattiva i file modificati.",
 			"chatInput.accessibilityHelp": "Input chat{0}.",
 			"chatInput.accessibilityHelpNoKb": "Input chat {0} Premere Invio per inviare la richiesta. Usare il comando Guida all'accessibilità della chat per altre informazioni.",
 			"chatInput.mode.agent": "(Modifica agente), modifica i file nell'area di lavoro.",
@@ -6451,7 +6548,6 @@
 			"missingContext": "Contesto mancante",
 			"offensiveOrUnsafe": "Offensiva o non sicura",
 			"other": "Altro",
-			"paused": "In pausa",
 			"poorlyWrittenOrFormatted": "Scritta o formattata male",
 			"refusedAValidRequest": "Richiesta valida rifiutata",
 			"renderFailMsg": "Non è stato possibile eseguire il rendering del contenuto",
@@ -6462,8 +6558,9 @@
 			"working": "Operazione in corso"
 		},
 		"vs/workbench/contrib/chat/browser/chatOutputItemRenderer": {
-			"chatOutputRenderer.mimeTypes": "MIME types that this renderer can handle",
-			"vscode.extension.contributes.chatOutputRenderer": "Contributes a renderer for specific MIME types in chat outputs"
+			"chatOutputRenderer.mimeTypes": "Tipi MIME gestiti da questo renderer",
+			"chatOutputRenderer.viewType": "Identificatore univoco per il renderer.",
+			"vscode.extension.contributes.chatOutputRenderer": "Aggiunge un renderer per tipi MIME specifici negli output della chat"
 		},
 		"vs/workbench/contrib/chat/browser/chatParticipant.contribution": {
 			"chat.viewContainer.label": "Chat",
@@ -6507,20 +6604,29 @@
 			"pastedImageName": "Immagine incollata"
 		},
 		"vs/workbench/contrib/chat/browser/chatSessions": {
-			"chat.sessions": "Chat Sessions",
+			"chat.sessions": "Sessioni di chat",
 			"chat.sessions.chatView": "Chat",
-			"chat.sessions.chatView.description": "Chat View",
-			"chat.sessions.title": "Chat Sessions",
-			"chatSessions.treeAriaLabel": "Chat Sessions",
-			"interactiveSession.open": "New Chat Editor"
+			"chat.sessions.chatView.description": "Visualizzazione chat",
+			"chat.sessions.showHistory": "History",
+			"chat.sessions.title": "Sessioni di chat",
+			"chatSessionInputAriaLabel": "Digitare il nome della sessione. Premere INVIO per confermare o ESC per annullare.",
+			"chatSessions": "Chat Sessions",
+			"chatSessions.dragLabel": "{0} sessioni di chat",
+			"chatSessions.loading": "Caricamento delle sessioni di chat in corso...",
+			"chatSessions.noResults": "Nessuna sessione di chat locale\r\n[Avvia una chat](command:workbench.action.openChat)",
+			"chatSessions.refreshing": "Aggiornamento delle sessioni di chat in corso...",
+			"interactiveSession.open": "Nuovo editor chat"
 		},
 		"vs/workbench/contrib/chat/browser/chatSessions.contribution": {
-			"chatSessionsExtPoint": "Contributes chat session integrations to the chat widget.",
-			"chatSessionsExtPoint.description": "Description of the chat session for use in menus and tooltips.",
-			"chatSessionsExtPoint.displayName": "A longer name for this item which is used for display in menus.",
-			"chatSessionsExtPoint.id": "A unique identifier for this item.",
-			"chatSessionsExtPoint.name": "Name shown in the chat widget. (eg: @agent)",
-			"chatSessionsExtPoint.when": "Condition which must be true to show this item."
+			"chatSessionNotFound": "Usa '#copilotCodingAgent' per avviare una nuova [coding agent session]({0}).",
+			"chatSessionsExtPoint": "Aggiunge le integrazioni delle sessioni di chat al widget chat.",
+			"chatSessionsExtPoint.chatSessionType": "Identificatore univoco per il tipo di sessione di chat.",
+			"chatSessionsExtPoint.description": "Descrizione della sessione di chat da utilizzare nei menu e nelle descrizioni comando.",
+			"chatSessionsExtPoint.displayName": "Nome più lungo per questo elemento, utilizzato per la visualizzazione nei menu.",
+			"chatSessionsExtPoint.name": "Nome visualizzato nel widget chat. (es.: @agent)",
+			"chatSessionsExtPoint.when": "Condizione che deve essere vera per mostrare questo elemento.",
+			"continueInNewChat": "Continua **{0}** in un nuovo editor di chat",
+			"interactiveSession.openNewSessionEditor": "Nuovo editor chat {0}"
 		},
 		"vs/workbench/contrib/chat/browser/chatSetup": {
 			"chat.category": "Chat",
@@ -6533,17 +6639,19 @@
 			"enterpriseInstance": "Qual è la tua istanza di {0}?",
 			"enterpriseInstancePlaceholder": "Ad esempio \"octocat\" o \"https://octocat.ghe.com\"...",
 			"forceSignIn": "Accedi per usare Copilot",
-			"hideChatSetup": "Nascondi Copilot",
-			"hideChatSetupButton": "Nascondi Copilot",
-			"hideChatSetupConfirm": "Nascondere Copilot?",
-			"hideChatSetupDetail": "È possibile ripristinare Copilot eseguendo il comando '{0}'.",
+			"hideChatSetup": "Nascondi funzionalità IA",
+			"hideChatSetupButton": "Nascondi funzionalità IA",
+			"hideChatSetupConfirm": "Nascondere le funzionalità IA?",
+			"hideChatSetupDetail": "È possibile ripristinare le funzionalità IA eseguendo il comando ''{0}''.",
 			"installingCopilot": "Preparazione di Copilot",
 			"invalidEnterpriseInstance": "È necessario immettere un'istanza {0} valida, ad esempio \"octocat\" o \"https://octocat.ghe.com\"",
 			"manageOverages": "Gestisci le eccedenze di Copilot",
 			"managePlan": "Aggiorna a Copilot Pro",
+			"restartExtensionHost.reason.disable": "Disabling AI features",
+			"restartExtensionHost.reason.enable": "Enabling AI features",
 			"retry": "Riprova",
 			"settingUpCopilotNeeded": "Per usare Chat, è necessario configurare Copilot ed effettuare l'accesso.",
-			"settings": "{0} Copilot Free, Pro e Pro+ possono mostrare [codice pubblico]({1}) suggerimenti e i dati potrebbero essere utilizzati per il miglioramento del prodotto. Puoi modificare queste [impostazioni]({2}) in qualsiasi momento.",
+			"settings": "Continuando, si accettano le {0}[Condizioni]({1}) e l'[Informativa sulla privacy]({2}). {3} Copilot può mostrare suggerimenti di [codice pubblico]({4}) e usare i dati per migliorare il prodotto. È possibile modificare queste [impostazioni]({5}) in qualsiasi momento.",
 			"setupChatProgress": "Preparazione di Copilot...",
 			"setupChatSignIn2": "Accesso a {0}.",
 			"setupCopilot": "Configura Copilot.",
@@ -6551,10 +6659,10 @@
 			"setupErrorDialog": "La configurazione di Copilot non è riuscita. Riprovare?",
 			"setupToolDisplayName": "Nuova area di lavoro",
 			"setupToolsDescription": "Eseguire lo scaffolding di una nuova area di lavoro in Visual Studio Code",
-			"signIn": "Accedi per usare Copilot",
+			"signIn": "Accedi per usare {0} Copilot",
 			"skipForNow": "Ignora per ora",
-			"startUsing": "Inizia a usare Copilot",
-			"triggerChatSetup": "Usare gratuitamente le funzionalità di intelligenza artificiale con Copilot...",
+			"startUsing": "Inizia a usare {0}Copilot",
+			"triggerChatSetup": "Use AI Features with GitHub Copilot for free...",
 			"triggerChatSetupFromAccounts": "Accedi per usare Copilot...",
 			"trustNeeded": "È necessario considerare attendibile questa area di lavoro per poter usare la chat.",
 			"unknownSetupError": "Si è verificato un errore durante la configurazione di Copilot. Riprovare?",
@@ -6573,6 +6681,7 @@
 			"cancelSnooze": "Annulla il rinvio",
 			"chatAndCompletionsQuotaExceededStatus": "Quota raggiunta",
 			"chatQuotaExceededStatus": "È stata raggiunta la quota della chat",
+			"chatSessionsTitle": "Chat Sessions",
 			"chatStatus": "Stato di Copilot",
 			"chatsLabel": "Messaggi delle chat",
 			"codeCompletions": "Completamenti del codice",
@@ -6598,6 +6707,7 @@
 			"gaugeForeground": "Colore primo piano misuratore.",
 			"gaugeWarningBackground": "Colore di sfondo avviso misuratore.",
 			"gaugeWarningForeground": "Colore primo piano avviso misuratore.",
+			"inProgressChatSession": "$(loading~spin) {0} {1} in progress",
 			"learnMore": "Altre informazioni",
 			"limitQuota": "La quota viene reimpostata a {0}.",
 			"notSignedIntoCopilot": "Disconnesso",
@@ -6616,11 +6726,14 @@
 			"signInDescription": "Accedi per utilizzare le funzionalità IA di Copilot.",
 			"signInToUseCopilotButton": "Accedi per usare Copilot",
 			"upgradeToCopilotPro": "Aggiorna a Copilot Pro",
-			"usageTitle": "Utilizzo di Copilot"
+			"usageTitle": "Utilizzo di Copilot",
+			"viewChatSessionsLabel": "View Chat Sessions",
+			"viewChatSessionsTooltip": "View Chat Sessions"
 		},
 		"vs/workbench/contrib/chat/browser/chatWidget": {
 			"agentMessage": "Chiedi a Copilot di modificare i tuoi file in [agent mode]({0}). Copilot userà automaticamente più richieste per selezionare i file da modificare, eseguire comandi del terminale ed eseguire l'interazione degli errori.",
 			"agentTitle": "Compilare con la modalità agente.",
+			"chat.input.placeholder.lockedToAgent": "Chat with {0}",
 			"chatDescription": "Chiedere informazioni sul codice.",
 			"chatDisclaimer": "Le risposte dell'intelligenza artificiale potrebbero non essere accurate.",
 			"chatMessage": "La funzionalità Copilot è basata sull'intelligenza artificiale, quindi è possibile che si verifichino errori. Controllare attentamente l'output prima dell'uso.",
@@ -6634,6 +6747,8 @@
 			"chatWidget.suggestedPrompts.newProjectPrompt": "Crea un progetto Hello World #new in TypeScript",
 			"chatWidget.tips": "{0} o digitare {1} per collegare il contesto\r\n\r\n{2} per chattare con le estensioni\r\n\r\nDigitare {3} per usare i comandi",
 			"chatWidget.tips.withoutParticipants": "{0} o digitare {1} per collegare il contesto",
+			"codingAgentMessage": "Questa sessione di chat verrà inoltrata all'agente di codifica {0}",
+			"codingAgentTitle": "Chatta con {0}",
 			"editsHelp": "Avviare la sessione di modifica definendo un set di file con cui si vuole lavorare. Chiedere quindi a Copilot di specificare le modifiche da apportare.",
 			"editsTitle": "Modificare nel contesto.",
 			"expChatAdditionalMessage": "Esaminare attentamente l'output di intelligenza artificiale prima dell'uso.",
@@ -6669,8 +6784,7 @@
 			"tool_source_completion": "{0}: {1}"
 		},
 		"vs/workbench/contrib/chat/browser/contrib/chatInputEditorContrib": {
-			"askPlaceholderHint": "# per aggiungere contesto, @ per le estensioni, / per i comandi",
-			"editPlaceholderHint": "# per aggiungere contesto"
+			"chatPlaceholderHint": "Aggiungere contesto (#), estensioni (@), comandi (/)"
 		},
 		"vs/workbench/contrib/chat/browser/contrib/chatInputEditorHover": {
 			"hoverAccessibilityChatAgent": "Qui è presente una parte con passaggio del mouse dell'agente di chat."
@@ -6832,10 +6946,9 @@
 			"chat.requestCodeBorder": "Colore del bordo dei blocchi di codice all'interno della bolla della richiesta di chat.",
 			"chat.slashCommandBackground": "Colore di sfondo di un comando slash della chat.",
 			"chat.slashCommandForeground": "Colore primo piano di un comando slash della chat.",
-			"chatCheckpointSeparator": "Chat checkpoint separator color."
+			"chatCheckpointSeparator": "Colore del separatore del checkpoint della chat."
 		},
 		"vs/workbench/contrib/chat/common/chatContextKeys": {
-			"chatCanRequestBePaused": "True quando la richiesta corrente può essere sospesa.",
 			"chatEditApplied": "True quando le modifiche sono state applicate al testo della chat.",
 			"chatEditingCanRedo": "True quando è possibile ripetere un'interazione nel pannello di modifica.",
 			"chatEditingCanUndo": "True quando è possibile annullare un'interazione nel pannello di modifica.",
@@ -6844,21 +6957,26 @@
 			"chatHasCustomChatModes": "True quando la chat dispone di modalità chat personalizzate disponibili.",
 			"chatHasFileAttachments": "True quando la chat contiene file allegati.",
 			"chatIsEnabled": "True quando la chat è abilitata perché un partecipante della chat predefinito viene attivato con un’implementazione.",
+			"chatIsHistoryItem": "True when the chat session item is from history.",
 			"chatItemId": "L’ID dell'elemento della chat.",
 			"chatLastItemId": "ID dell'ultimo elemento della chat.",
 			"chatMode": "Il \"tipo\" della modalità chat corrente - Agente per modalità personalizzate.",
+			"chatModelsAreUserSelectable": "True quando l'utente può selezionare manualmente il modello di chat.",
 			"chatPanelExtensionParticipantRegistered": "Vero quando un partecipante alla chat predefinito viene registrato per il pannello da un'estensione.",
 			"chatPanelLocation": "Posizione del pannello della chat.",
 			"chatParticipantRegistered": "True quando un partecipante della chat predefinito viene registrato per il gruppo.",
 			"chatPromptFileAttachedContextDescription": "Vero quando alla chat è collegato un file di richieste.",
 			"chatRemoteJobCreating": "True quando viene creato un processo dell'agente di codifica remoto.",
 			"chatRequest": "L'elemento della chat è una richiesta",
-			"chatRequestIsPaused": "True quando la richiesta corrente è in pausa.",
 			"chatResponse": "L'elemento della chat è una risposta.",
 			"chatResponseErrored": "True quando la risposta della chat ha restituito un errore.",
 			"chatResponseFiltered": "Vero quando la risposta della chat è stata filtrata dal server.",
 			"chatResponseSupportsIssueReporting": "Vero quando la risposta della chat corrente supporta la segnalazione dei problemi.",
 			"chatSessionResponseDetectedAgentOrCommand": "Quando l'agente o il comando è stato rilevato automaticamente",
+			"chatSessionType": "Tipo dell'elemento della sessione di chat corrente.",
+			"chatSkipRequestInProgressMessage": "Vero quando il messaggio di richiesta di chat in corso deve essere ignorato.",
+			"chatToolCount": "Numero di strumenti disponibili nella modalità chat corrente.",
+			"chatToolGroupingThreshold": "Numero di strumenti da cui si inizia a eseguire il raggruppamento virtuale.",
 			"enableRemoteCodingAgentPromptFileOverlay": "Indica se la funzionalità di sovrimpressione del file di richiesta dell'agente di codifica remoto è abilitata",
 			"hasRemoteCodingAgent": "Verificare se sono disponibili agenti di codifica remoti",
 			"inChat": "True quando lo stato attivo è nel widget della chat, false in caso contrario.",
@@ -6871,6 +6989,7 @@
 			"interactiveSessionCurrentlyEditingInput": "Vero quando l'input della richiesta corrente in basso è in fase di modifica.",
 			"interactiveSessionRequestInProgress": "True quando la richiesta corrente è ancora in corso.",
 			"interactiveSessionResponseVote": "Quando la risposta è stata approvata, è impostata su 'up'. Quando viene espresso un voto contrario, è impostato su 'down'. In caso contrario, è una stringa vuota.",
+			"lockedToCodingAgent": "È vero quando il widget della chat è bloccato alla sessione dell'agente di codifica.",
 			"toolsCount": "Numero di strumenti disponibili nella chat."
 		},
 		"vs/workbench/contrib/chat/common/chatEditingService": {
@@ -6891,10 +7010,12 @@
 		"vs/workbench/contrib/chat/common/chatModel": {
 			"codeCitation": "Codice simile trovato con 1 tipo di licenza",
 			"codeCitations": "Codice simile trovato con i tipi di licenza {0}",
-			"editsSummary": "Sono state apportate modifiche."
+			"copyrightContentRetry": "Risposta cancellata a causa di una possibile corrispondenza con il codice pubblico. Verrà effettuato un nuovo tentativo con la richiesta modificata.",
+			"editsSummary": "Sono state apportate modifiche.",
+			"filteredContentRetry": "Risposta cancellata a causa dei filtri di sicurezza dei contenuti. Verrà effettuato un nuovo tentativo con la richiesta modificata."
 		},
 		"vs/workbench/contrib/chat/common/chatModes": {
-			"agentDescription": "Compilare in modo autonomo.",
+			"agentDescription": "Fornisci istruzioni.",
 			"chatDescription": "Porre una domanda.",
 			"editsDescription": "Modificare file."
 		},
@@ -6906,8 +7027,7 @@
 			"newChat": "Nuova chat"
 		},
 		"vs/workbench/contrib/chat/common/chatSessionStore": {
-			"join.chatSessionStore": "Salvataggio della cronologia della chat",
-			"newChat": "Nuova chat"
+			"join.chatSessionStore": "Salvataggio della cronologia della chat"
 		},
 		"vs/workbench/contrib/chat/common/chatVariableEntries": {
 			"chat.attachment.problems.all": "Tutti i problemi",
@@ -6948,6 +7068,7 @@
 			"chat.prompt.frontMatter.inactiveBackground.description": "Colore di sfondo di un blocco di intestazione front-matter inattivo."
 		},
 		"vs/workbench/contrib/chat/common/promptSyntax/languageProviders/promptHeaderDiagnosticsProvider": {
+			"promptHeaderDiagnosticsProvider.modeNotFound": "Modalità sconosciuta '{0}'. Modalità disponibili: {1}",
 			"promptHeaderDiagnosticsProvider.modelNotFound": "Modello sconosciuto \"{0}\"",
 			"promptHeaderDiagnosticsProvider.modelNotSuited": "Il modello \"{0}\" non è adatto per la modalità agente",
 			"promptHeaderDiagnosticsProvider.toolNotFound": "Strumento sconosciuto \"{0}\""
@@ -6962,7 +7083,12 @@
 			"promptHeader.mode.model": "Modello da usare in questa modalità.",
 			"promptHeader.mode.tools": "Strumenti da usare in questa modalità.",
 			"promptHeader.prompt.description": "Descrizione del file di richiesta. Può essere usato per fornire contesto o informazioni aggiuntive sulla richiesta all'autore della richiesta.",
-			"promptHeader.prompt.mode": "Modalità (chiedi, modifica o agente) da usare durante l'esecuzione di questa richiesta.",
+			"promptHeader.prompt.mode": "Modalità da usare in questo prompt.",
+			"promptHeader.prompt.mode.builtInDesc": "Modalità chat predefinita",
+			"promptHeader.prompt.mode.builtin": "**Modalità predefinite:**",
+			"promptHeader.prompt.mode.custom": "**Modalità personalizzate:**",
+			"promptHeader.prompt.mode.customDesc": "Modalità chat personalizzata",
+			"promptHeader.prompt.mode.description": "Modalità chat da usare quando si esegue questo prompt.",
 			"promptHeader.prompt.model": "Modello da usare in questa richiesta.",
 			"promptHeader.prompt.tools": "Strumenti da usare in questa richiesta.",
 			"toolSetName": "Set di strumenti: {0}\r\n\r\n"
@@ -6981,10 +7107,10 @@
 			"prompt.header.metadata.string.diagnostics.invalid-language": "La proprietà di intestazione \"{0}\" è valida solo nei file di istruzioni."
 		},
 		"vs/workbench/contrib/chat/common/promptSyntax/parsers/promptHeader/metadata/base/enum": {
-			"prompt.header.metadata.enum.diagnostics.invalid-value": "I metadati '{0}' devono essere uno tra {1}, ottenuto '{2}'."
+			"prompt.header.metadata.enum.diagnostics.invalid-value": "La proprietà '{0}' deve essere una di {1}, ma è '{2}'."
 		},
 		"vs/workbench/contrib/chat/common/promptSyntax/parsers/promptHeader/metadata/base/string": {
-			"prompt.header.metadata.string.diagnostics.invalid-value-type": "I metadati '{0}' devono essere ''{1}, ottenuto '{2}'."
+			"prompt.header.metadata.string.diagnostics.invalid-value-type": "La proprietà '{0}' deve essere di tipo '{1}', ma è '{2}'."
 		},
 		"vs/workbench/contrib/chat/common/promptSyntax/parsers/promptHeader/metadata/tools": {
 			"prompt.header.metadata.tools.diagnostics.duplicate-tool-name": "Nome dello strumento duplicato \"{0}\".",
@@ -6993,7 +7119,7 @@
 			"prompt.header.metadata.tools.diagnostics.invalid-value-type": "Deve essere una matrice di nomi di strumenti. È stato ottenuto \"{0}\"."
 		},
 		"vs/workbench/contrib/chat/common/promptSyntax/parsers/promptHeader/promptHeader": {
-			"prompt.header.metadata.mode.diagnostics.incompatible-with-tools": "Gli strumenti possono essere usati solo in modalità \"agent\", ma la modalità è impostata su \"{0}\". Gli strumenti verranno ignorati."
+			"prompt.header.metadata.mode.diagnostics.incompatible-with-tools": "Gli strumenti non possono essere usati in modalità '{0}' e verranno ignorati."
 		},
 		"vs/workbench/contrib/chat/common/promptSyntax/parsers/topError": {
 			"broken": "interrotto",
@@ -7014,7 +7140,7 @@
 			"canBeReferencedInPrompt": "Se true, questo strumento viene visualizzato come allegato che l'utente può aggiungere manualmente alla richiesta. I partecipanti alla chat riceveranno lo strumento in {0}.",
 			"condition": "Condizione che deve essere true perché questo strumento sia abilitato. Si noti che uno strumento può essere ancora richiamato da un'altra estensione anche quando la relativa condizione 'when' è false.",
 			"descriptions": "Descrizione",
-			"icon": "Icona che rappresenta questo strumento. Un percorso di file, un oggetto con percorsi di file per i temi scuri e chiari o un riferimento all'icona del tema, ad esempio \"$(zap)\"",
+			"icon": "Icona che rappresenta questo strumento. Un percorso di file, un oggetto con percorsi di file per i temi scuri e chiari o un riferimento all'icona del tema, ad esempio \"\\$(zap)\"",
 			"icon.dark": "Percorso dell'icona quando viene usato un tema scuro",
 			"icon.light": "Percorso dell'icona quando viene usato un tema chiaro",
 			"langModelToolSets": "Set di strumenti per modelli linguistici",
@@ -7046,16 +7172,13 @@
 			"workbench.action.chat.openStorageFolder.label": "Aprire la cartella di archiviazione della chat"
 		},
 		"vs/workbench/contrib/chat/electron-browser/actions/voiceChatActions": {
-			"installProviderForVoiceChat.justification": "Il supporto del microfono richiede questa estensione.",
 			"keywordActivation.status.active": "Ascolto di 'Hey Code'...",
 			"keywordActivation.status.inactive": "In attesa della fine della chat vocale...",
 			"keywordActivation.status.name": "Attivazione di parole chiave vocali",
 			"listening": "Sto ascoltando",
-			"retry": "Riprova",
 			"scopedChatSynthesisInProgress": "Definito come posizione in cui è in corso la registrazione vocale dal microfono per la chat vocale. Questa chiave è definita solo con ambito, per contesto di chat.",
 			"scopedVoiceChatGettingReady": "Vero quando ci si prepara per ricevere l'input vocale dal microfono per la chat vocale. Questa chiave è definita solo con ambito, per contesto di chat.",
 			"scopedVoiceChatInProgress": "Definito come posizione in cui è in corso la registrazione vocale dal microfono per la chat vocale. Questa chiave è definita solo con ambito, per contesto di chat.",
-			"unknownSetupError": "Si è verificato un errore durante la configurazione della chat vocale. Riprovare?",
 			"voice.keywordActivation": "Controlla se la frase parola chiave 'Hey Code' è riconosciuta per avviare una sessione di chat vocale. L'abilitazione di questa opzione avvierà la registrazione dal microfono, ma l'audio viene elaborato localmente e non viene mai inviato a un server.",
 			"voice.keywordActivation.chatInContext": "L'attivazione delle parole chiave è abilitata e l'ascolto di \"Hey Code\" per avviare una sessione di chat vocale nell'editor o nella visualizzazione attiva a seconda dello stato attivo della tastiera.",
 			"voice.keywordActivation.chatInView": "L'attivazione delle parole chiave è abilitata e in ascolto di 'Hey Code' per avviare una sessione di chat vocale nella visualizzazione chat.",
@@ -7064,7 +7187,6 @@
 			"voice.keywordActivation.quickChat": "L'attivazione delle parole chiave è abilitata e in ascolto di 'Hey Code' per avviare una sessione di chat vocale nella chat veloce.",
 			"workbench.action.chat.holdToVoiceChatInChatView.label": "Tenere premuto per passare alla Chat vocale in visualizzazione Chat",
 			"workbench.action.chat.inlineVoiceChat": "Chat vocale inline",
-			"workbench.action.chat.installProviderForVoiceChat.label": "Avvia chat vocale",
 			"workbench.action.chat.quickVoiceChat.label": "Chat vocale veloce",
 			"workbench.action.chat.readChatResponseAloud": "Leggi ad alta voce",
 			"workbench.action.chat.startVoiceChat.label": "Avvia chat vocale",
@@ -7075,12 +7197,17 @@
 			"workbench.action.speech.stopReadAloud": "Interrompi lettura ad alta voce"
 		},
 		"vs/workbench/contrib/chat/electron-browser/chat.contribution": {
+			"changeWorkspace.detail": "La richiesta di chat verrà interrotta se si cambia l'area di lavoro.",
 			"changeWorkspace.message": "È in corso una richiesta di chat. Modificare l'area di lavoro?",
+			"chatRequestInProgress": "È in corso una richiesta di chat.",
+			"closeTheWindow.detail": "Chiudendo la finestra, la richiesta di chat verrà interrotta.",
 			"closeTheWindow.message": "È in corso una richiesta di chat. Chiudere la finestra?",
 			"copilotWorkspaceTrust": "Copilot è attualmente supportato solo nelle aree di lavoro attendibili.",
+			"exit.detail": "Uscendo, la richiesta di chat verrà interrotta.",
 			"exit.message": "È in corso una richiesta di chat. Uscire?",
-			"quit.detail": "Se si continua, la richiesta di chat verrà annullata.",
+			"quit.detail": "Uscendo, la richiesta di chat verrà interrotta.",
 			"quit.message": "È in corso una richiesta di chat. Uscire?",
+			"reloadTheWindow.detail": "La richiesta di chat verrà interrotta se si ricarica la finestra.",
 			"reloadTheWindow.message": "È in corso una richiesta di chat. Ricaricare la finestra?"
 		},
 		"vs/workbench/contrib/chat/electron-browser/tools/fetchPageTool": {
@@ -7815,6 +7942,7 @@
 			"addConfiguration": "Aggiungi configurazione...",
 			"addInlineBreakpoint": "Aggiungi punto di interruzione in linea",
 			"addToWatchExpressions": "Aggiungi a espressione di controllo",
+			"attachToCurrentCodeRenderer": "Collega al renderer di codice corrente",
 			"callStackBottom": "Passare alla fine dello stack di chiamate",
 			"callStackDown": "Spostarsi in basso nello stack di chiamate",
 			"callStackTop": "Passare all'inizio dello stack di chiamate",
@@ -7840,13 +7968,15 @@
 			"selectAndStartDebugging": "Seleziona e avvia il debug",
 			"selectDebugConsole": "Selezionare console di debug",
 			"selectDebugSession": "Seleziona sessione di debug",
+			"selectExceptionBreakpointsPlaceholder": "Seleziona i punti di interruzione delle eccezioni abilitati",
 			"startDebug": "Avvia debug",
 			"startWithoutDebugging": "Avvia senza eseguire debug",
 			"stepIntoDebug": "Esegui istruzione",
 			"stepIntoTargetDebug": "Esegui istruzione nella destinazione",
 			"stepOutDebug": "Esci da istruzione/routine",
 			"stepOverDebug": "Esegui istruzione/routine",
-			"stop": "Arresta"
+			"stop": "Arresta",
+			"toggleExceptionBreakpoints": "Attiva/disattiva i punti di interruzione delle eccezioni"
 		},
 		"vs/workbench/contrib/debug/browser/debugConfigurationManager": {
 			"DebugConfig.failed": "Non è possibile creare il file 'launch.json' all'interno della cartella '.vscode' ({0}).",
@@ -8438,15 +8568,16 @@
 			"cloudChangesLog": "Modifiche cloud"
 		},
 		"vs/workbench/contrib/editTelemetry/browser/editStats/aiStatsStatusBar": {
-			"aiStatsStatusBarHeader": "AI Usage Statistics",
+			"aiStats.statusBar.configure": "Configura",
+			"aiStatsStatusBarHeader": "Statistiche di utilizzo IA",
 			"inlineSuggestions": "Suggerimenti inline",
 			"inlineSuggestionsStatusBar": "Barra di stato dei suggerimenti inline",
-			"text1": "Manual vs. AI typing ratio: {0}",
-			"text2": "Accepted inline suggestions today: {0}"
+			"text1": "IA rispetto alla media di digitazione: {0}",
+			"text2": "Suggerimenti inline accettati oggi: {0}"
 		},
 		"vs/workbench/contrib/editTelemetry/browser/editTelemetry.contribution": {
 			"editTelemetry": "Modifica telemetria",
-			"editor.aiStats.enabled": "Controlla se abilitare le statistiche IA nell'editor.",
+			"editor.aiStats.enabled": "Controlla se abilitare le statistiche IA nell'editor. Il misuratore rappresenta la quantità media di codice inserito dall'IA rispetto alla digitazione manuale in un periodo di 24 ore.",
 			"telemetry.editStats.detailed.enabled": "Controlla se abilitare la telemetria per le statistiche di modifica dettagliate (invia le statistiche solo se la telemetria generale è abilitata).",
 			"telemetry.editStats.enabled": "Controlla se abilitare la telemetria per le statistiche di modifica (invia statistiche solo se la telemetria generale è abilitata).",
 			"telemetry.editStats.showDecorations": "Controlla se mostrare decorazioni per la telemetria di modifica.",
@@ -9043,7 +9174,7 @@
 			"download": "Scaricare",
 			"download title": "Selezionare la cartella in cui scaricare VSIX",
 			"download.completed": "Download di VSIX completato",
-			"download.failed": "Error while downloading the VSIX: {0}",
+			"download.failed": "Errore durante il download di VSIX: {0}",
 			"downloading...": "Download di VSIX...",
 			"enable locally": "Please {0} per abilitare questa estensione a livello locale.",
 			"enable remote": "{0} per abilitare questa estensione in {1}.",
@@ -9151,14 +9282,14 @@
 			"searchExtensionsTool.userDescription": "Cercare le estensioni nel marketplace delle estensioni di Visual Studio Code."
 		},
 		"vs/workbench/contrib/extensions/electron-browser/debugExtensionHostAction": {
-			"debugExtensionHost": "Avvia il debug dell'host dell'estensione in una nuova finestra",
+			"debugExtensionHost": "Esegui il debug dell'host dell'estensione in una nuova finestra",
 			"debugExtensionHost.launch.name": "Collegare host dell'estensione",
 			"debugExtensionHost.progress": "Collegamento del debugger all'host dell'estensione",
-			"openDevToolsForExtensionHost": "Open Developer Tools for Extension Host",
+			"openDevToolsForExtensionHost": "Esegui il debug dell'host di estensione negli strumenti di sviluppo",
 			"restart1": "Debug delle estensioni",
 			"restart2": "Per il debug delle estensioni è necessario il riavvio. Riavviare \"{0}\" ora?",
 			"restart3": "&&Riavviare",
-			"selectExtensionHost": "Pick extension host"
+			"selectExtensionHost": "Seleziona host dell'estensione"
 		},
 		"vs/workbench/contrib/extensions/electron-browser/extensionProfileService": {
 			"profilingExtensionHost": "Profilatura dell'host dell'estensione",
@@ -9739,13 +9870,14 @@
 			"moveToPreviousHunk": "Passa alla modifica precedente",
 			"rerun": "Riesegui",
 			"reveal": "Attiva/Disattiva chat inline",
-			"run": "Editor chat inline",
+			"run": "Open Inline Chat",
 			"showChanges": "Attiva/Disattiva modifiche",
 			"startInlineChat": "Icona che genera la chat inline dalla barra degli strumenti editor.",
 			"unstash": "Riprendi ultima chat inline ignorata",
 			"viewInChat": "Visualizza nella chat"
 		},
 		"vs/workbench/contrib/inlineChat/browser/inlineChatController": {
+			"askOrEditInContext": "Chiedi o modifica nel contesto",
 			"create.fail": "Non è stato possibile avviare la chat dell'editor",
 			"empty": "Nessun risultato. Affinare l'input e riprovare.",
 			"err.apply": "Non è stato possibile applicare le modifiche.",
@@ -9810,7 +9942,7 @@
 			"inlineChatResponseTypes": "Tipo di risposte ricevute, niente ancora, solo messaggi o modifiche e messaggi locali",
 			"inlineChatVisible": "Indica se l'input dell'editor interattivo è visibile",
 			"lineSuffixHint": "Indica se le righe in conflitto con il linguaggio naturale o lo pseudo codice mostrano un suggerimento per continuare con la chat inline. Ad esempio, 'class Person with name and hobbies' mostra un suggerimento per continuare con la chat.",
-			"notebookAgent": "Enable agent-like behavior for inline chat widget in notebooks. Depends on the `#inlineChat.enableV2#` setting being enabled."
+			"notebookAgent": "Abilita comportamento simile a un agente dal widget chat inline nel notebook. Dipende dall'abilitazione dell'impostazione '#inlineChat.enableV2#'."
 		},
 		"vs/workbench/contrib/inlineChat/electron-browser/inlineChatActions": {
 			"holdForSpeech": "Tenere premuto per Voce"
@@ -10423,6 +10555,7 @@
 			"mcp.addConfiguration.description": "Installa un nuovo MCP (Model Context Protocol) nelle impostazioni mcp.json",
 			"mcp.addServer": "Aggiungi server",
 			"mcp.addServer.description": "Aggiungere una nuova configurazione del server",
+			"mcp.autoStart": "Avvio automatico dei server MCP quando si invia un messaggio di chat",
 			"mcp.browseResources": "Sfoglia risorse...",
 			"mcp.command.browse": "Server MCP",
 			"mcp.command.browse.mcp": "Esplora server",
@@ -10443,8 +10576,12 @@
 			"mcp.configureSamplingModels.ph": "Selezionare i modelli a cui {0} può accedere tramite il campionamento MCP",
 			"mcp.disconnect": "Disconnetti account",
 			"mcp.editStoredInput": "Modifica input archiviato",
+			"mcp.err.md.multi": "Non è possibile avviare più server MCP:\r\n\r\n{0}",
+			"mcp.err.md.single": "Non è possibile avviare il server {0} MCP.",
 			"mcp.list": "Elenca i server",
 			"mcp.newTools": "Nuovi strumenti disponibili ({0})",
+			"mcp.newTools.md.multi": "I server MCP sono stati aggiornati e potrebbero avere nuovi strumenti disponibili:\r\n\r\n{0}",
+			"mcp.newTools.md.single": "Il server {0} MCP è stato aggiornato e potrebbe avere nuovi strumenti disponibili.",
 			"mcp.options": "Opzioni server",
 			"mcp.resetCachedTools": "Reimposta strumenti memorizzati nella cache",
 			"mcp.resetTrust": "Reimposta attendibilità",
@@ -10476,9 +10613,10 @@
 			"install.title": "Installa il server MCP {0}",
 			"mcp.command.placeholder": "Comando da eseguire (con argomenti facoltativi)",
 			"mcp.command.title": "Immetti comando",
-			"mcp.confirmPublish": "Installare {0} da {1}?",
+			"mcp.confirmPublish": "Installare {0}{1} da {2}?",
 			"mcp.docker.placeholder": "Nome immagine (ad esempio, mcp/imagename)",
 			"mcp.docker.title": "Immetto nome immagine Docker",
+			"mcp.error.openHelpUri": "Apri l'URL della guida",
 			"mcp.error.retry": "Prova con un pacchetto diverso",
 			"mcp.loading.title": "Caricamento dettagli pacchetto...",
 			"mcp.npm.placeholder": "Nome pacchetto (ad esempio @org/package)",
@@ -10505,6 +10643,7 @@
 			"mcp.serverType.pip.description": "Installa da un nome pacchetto PIP",
 			"mcp.serverType.placeholder": "Scegli il tipo di server MCP da aggiungere",
 			"mcp.servers.browse": "Sfogliare i server MCP...",
+			"mcp.servers.discovery": "Aggiungi da un'altra applicazione...",
 			"mcp.target..remote.description": "Disponibile in questo computer remoto, eseguito in {0}",
 			"mcp.target.remote": "Remoto",
 			"mcp.target.title": "Scegli dove installare il server MCP",
@@ -10585,6 +10724,7 @@
 		},
 		"vs/workbench/contrib/mcp/browser/mcpServerActions": {
 			"config": "Mostrare la configurazione",
+			"configJson": "Mostra configurazione (JSON)",
 			"disabled - not allowed": "Questo server MCP è disabilitato perché {0}",
 			"install": "Installare",
 			"installing": "Installazione",
@@ -10664,7 +10804,7 @@
 			"cannot be installed": "Non è possibile installare il server MCP '{0}' perché non è disponibile in questa installazione.",
 			"mcp.configuration.userLocalValue": "Globale in {0}",
 			"not an extension": "L'oggetto specificato non è un server mcp.",
-			"overwriting": "Overwriting mcp server '{0}' from {1} with {2}."
+			"overwriting": "Sovrascrittura del server MCP '{0}' da {1} con {2}."
 		},
 		"vs/workbench/contrib/mcp/common/discovery/extensionMcpDiscovery": {
 			"invalidData": "È prevista una matrice di raccolte MCP",
@@ -10693,9 +10833,13 @@
 			"app.mcp.json.url.pattern": "L'URL deve iniziare con 'http://' o 'https://'.",
 			"id": "ID",
 			"mcp.discovery.source.claude-desktop": "Desktop Claude",
+			"mcp.discovery.source.claude-desktop.config": "Configurazione desktop claude ('claude_desktop_config.json')",
 			"mcp.discovery.source.cursor-global": "Cursore (Globale)",
+			"mcp.discovery.source.cursor-global.config": "Configurazione globale del cursore ('~/.cursor/mcp.json')",
 			"mcp.discovery.source.cursor-workspace": "Cursore (Area di lavoro)",
+			"mcp.discovery.source.cursor-workspace.config": "Configurazione dell'area di lavoro del cursore ('.cursor/mcp.json')",
 			"mcp.discovery.source.windsurf": "Windsurf",
+			"mcp.discovery.source.windsurf.config": "Configurazioni windsurf ('~/.codeium/windsurf/mcp_config.json')",
 			"mcpServerDefinitionProviders": "Server MCP",
 			"name": "Nome",
 			"vscode.extension.contributes.mcp": "Contribuisce ai server MCP (Model Context Protocol). Gli utenti devono usare anche `vscode.lm.registerMcpServerDefinitionProvider`.",
@@ -10713,24 +10857,24 @@
 			"mcp.debug.pythonBinReq": "Il server MCP deve essere avviato con l'eseguibile \"python\" per abilitare il debug, ma è stato avviato con \"{0}\""
 		},
 		"vs/workbench/contrib/mcp/common/mcpLanguageModelToolContribution": {
-			"mcp.tool.warning": "Note that MCP servers or malicious conversation content may attempt to misuse '{0}' through tools.",
-			"mcp.toolset": "{0}: All Tools",
-			"msg.ran": "Ran {0} ",
-			"msg.run": "Running {0}",
-			"msg.subtitle": "{0} (MCP Server)",
-			"msg.title": "Run {0}"
+			"mcp.tool.warning": "Tenere presente che i server MCP o i contenuti dannosi delle conversazioni potrebbero tentare di utilizzare in modo improprio '{0}' tramite gli strumenti.",
+			"mcp.toolset": "{0}: tutti gli strumenti",
+			"msg.ran": "{0} eseguito ",
+			"msg.run": "{0} in esecuzione",
+			"msg.subtitle": "{0} (Server MCP)",
+			"msg.title": "Esegui {0}"
 		},
 		"vs/workbench/contrib/mcp/common/mcpRegistry": {
 			"mcp.launchError": "Errore durante l'avvio di {0}: {1}",
 			"mcp.launchError.openConfig": "Apri configurazione",
-			"mcp.trust.details": "The MCP server {0} was updated. MCP servers may add context to your chat session and lead to unexpected behavior. Do you want to trust and run this server?",
-			"mcp.trust.detailsMulti": "Several updated MCP servers were discovered:\r\n\r\n{0}\r\n\r\n MCP servers may add context to your chat session and lead to unexpected behavior. Do you want to trust and run these server?",
+			"mcp.trust.details": "Il server MCP {0} è stato aggiornato. I server MCP possono aggiungere contesto alla sessione di chat e causare comportamenti imprevisti. Vuoi considerare attendibile ed eseguire questo server?",
+			"mcp.trust.detailsMulti": "Sono stati individuati diversi server MCP aggiornati:\r\n\r\n{0}\r\n\r\n I server MCP possono aggiungere contesto alla sessione di chat e causare comportamenti imprevisti. Vuoi considerare attendibile ed eseguire questi server?",
 			"mcp.trust.no": "Non considerare attendibile",
-			"mcp.trust.pick": "Pick Trusted",
+			"mcp.trust.pick": "Seleziona Attendibile",
 			"mcp.trust.yes": "Attendibilità",
-			"trustFromExt": "from {0}",
-			"trustTitleWithOrigin": "Trust and run MCP server {0}?",
-			"trustTitleWithOriginMulti": "Trust and run {0} MCP servers?"
+			"trustFromExt": "da {0}",
+			"trustTitleWithOrigin": "Vuoi considerare attendibile ed eseguire {0}?",
+			"trustTitleWithOriginMulti": "Vuoi considerare attendibile ed eseguire {0}?"
 		},
 		"vs/workbench/contrib/mcp/common/mcpSamplingLog": {
 			"mcp.sampling.rpd": "{0} richieste totali negli ultimi 7 giorni."
@@ -10763,6 +10907,10 @@
 			"mcpServer.starting": "Avvio del server {0}",
 			"mcpServer.state": "Stato connessione: {0}",
 			"mcpServer.stopping": "Arresto del server {0}"
+		},
+		"vs/workbench/contrib/mcp/common/mcpService": {
+			"mcp.autostart.configure": "Configura avvio automatico di MCP",
+			"mcp.autostart.progress": "Avvio del server MCP: {0}"
 		},
 		"vs/workbench/contrib/mcp/common/mcpTypes": {
 			"mcpstate.error": "Errore {0}",
@@ -11119,7 +11267,7 @@
 			"breadcrumbs.showCodeCells": "Se è abilitata, gli elementi di navigazione del notebook contengono le celle del codice.",
 			"filter": "Filtra voci",
 			"notebook.gotoSymbols.showAllSymbols": "Se abilitata, l'indicatore rapido dei simboli Go to visualizza i simboli del codice completo del notebook, nonché le intestazioni Markdown.",
-			"outline.showCodeCellSymbols": "Se questa opzione è abilitata, la struttura del notebook mostra i simboli delle celle del codice. Si basa sull'abilitazione di 'notebook.outline.showCodeCells'.",
+			"outline.showCodeCellSymbols": "Se questa opzione è abilitata, la struttura del blocco appunti i simboli delle celle del codice. Si basa sull'abilitazione di '#notebook.outline.showCodeCells#'.",
 			"outline.showCodeCells": "Se è abilitata, la struttura del notebook mostra le celle del codice.",
 			"outline.showMarkdownHeadersOnly": "Se questa opzione è abilitata, la struttura del notebook mostra solo le celle Markdown contenenti un'intestazione.",
 			"toggleCodeCellSymbols": "Simboli cella di codice",
@@ -11198,7 +11346,7 @@
 			"notebookChatUserDidEdit": "Indica se l'utente ha apportato modifiche sopra la chat di cella del notebook"
 		},
 		"vs/workbench/contrib/notebook/browser/controller/chat/notebookChatController": {
-			"default.placeholder": "Fai una domanda",
+			"default.placeholder": "Chiedi o modifica nel contesto",
 			"welcome.1": "Il codice generato dall'intelligenza artificiale potrebbe non essere corretto"
 		},
 		"vs/workbench/contrib/notebook/browser/controller/coreActions": {
@@ -11228,6 +11376,7 @@
 			"notebookActions.deleteCell": "Elimina cella",
 			"notebookActions.editCell": "Modifica cella",
 			"notebookActions.quitEdit": "Arresta modifica della cella",
+			"notebookActions.quitEditAllCells": "Interrompi la modifica di tutte le celle",
 			"pickAction": "Seleziona azione",
 			"pickLanguageToConfigure": "Seleziona modalità linguaggio",
 			"selectNotebookIndentation": "Seleziona rientro"
@@ -13631,7 +13780,7 @@
 			"ProblemPatternExtPoint": "Aggiunge come contributo i criteri di problema",
 			"ProblemPatternParser.invalidRegexp": "Errore: la stringa {0} non è un'espressione regolare valida.\r\n",
 			"ProblemPatternParser.loopProperty.notLast": "La proprietà loop è supportata solo sul matcher dell'ultima riga.",
-			"ProblemPatternParser.problemPattern.emptyPattern": "The problem pattern is invalid. It must contain at least one pattern.",
+			"ProblemPatternParser.problemPattern.emptyPattern": "Il modello di problema non è valido. Deve contenere almeno un criterio.",
 			"ProblemPatternParser.problemPattern.kindProperty.notFirst": "Il criterio del problema non è valido. La proprietà kind deve essere specificata solo nel primo elemento",
 			"ProblemPatternParser.problemPattern.missingLocation": "Il criterio del problema non è valido. Il tipo deve essere \"file\" oppure deve il criterio deve includere un gruppo di corrispondenze di tipo line o posizione.",
 			"ProblemPatternParser.problemPattern.missingProperty": "Il criterio del problema non è valido. Deve includere almeno un file e un messaggio.",
@@ -13697,7 +13846,8 @@
 			"tasks.processExecutionSupported": "Indica se le attività ProcessExecution sono supportate. Provare a usarle nella clausola when di un contributo 'taskDefinition'.",
 			"tasks.serverlessWebContext": "Vero quando è presente sul Web senza autorità remota.",
 			"tasks.shellExecutionSupported": "Indica se le attività ShellExecution sono supportate. Provare a usarle nella clausola when di un contributo 'taskDefinition'.",
-			"tasks.taskCommandsRegistered": "Indica se i comandi dell'attività sono stati già registrati"
+			"tasks.taskCommandsRegistered": "Indica se i comandi dell'attività sono stati già registrati",
+			"tasks.tasksAvailable": "Indica se sono disponibili attività nell'area di lavoro."
 		},
 		"vs/workbench/contrib/tasks/common/taskTemplates": {
 			"Maven": "Consente di eseguire comandi Maven comuni",
@@ -13844,11 +13994,12 @@
 		"vs/workbench/contrib/terminal/browser/terminalMenus": {
 			"defaultTerminalProfile": "{0} (Predefinito)",
 			"launchProfile": "Avvia profilo...",
+			"miNewInNewWindow": "Nuova &&finestra terminale",
 			"miNewTerminal": "&&Nuovo terminale",
 			"miRunActiveFile": "Esegui &&file attivo",
 			"miRunSelectedText": "Esegui testo &&selezionato",
 			"miSplitTerminal": "Terminale &&diviso",
-			"splitTerminal": "Terminale diviso",
+			"split.profile": "Dividi terminale con profilo",
 			"workbench.action.tasks.configureTaskRunner": "Configura attività...",
 			"workbench.action.tasks.runTask": "Esegui attività...",
 			"workbench.action.terminal.changeColor": "Cambia colore...",
@@ -13984,6 +14135,7 @@
 			"terminalOverviewRuler.findMatchHighlightForeground": "Colore indicatore righello panoramica per trovare corrispondenze nel terminale."
 		},
 		"vs/workbench/contrib/terminal/common/terminalConfiguration": {
+			"autoApproveMode.description": "Controlla se consentire l'approvazione automatica nell'esecuzione dello strumento terminale.",
 			"cwd": "la directory di lavoro corrente del terminale.",
 			"cwdFolder": "la directory di lavoro corrente del terminale, visualizzata per le aree di lavoro multi-radice o in una singola area di lavoro radice quando il valore è diverso dalla directory di lavoro iniziale. In Windows questa opzione verrà visualizzata solo quando è abilitata l'integrazione della shell.",
 			"enableFileLinks.notRemote": "Abilitare solo quando non si è in un'area di lavoro remota.",
@@ -14146,6 +14298,7 @@
 		"vs/workbench/contrib/terminal/common/terminalContextKey": {
 			"inTerminalRunCommandPickerContextKey": "Indica se la selezione dell'esecuzione del comando del terminale è attualmente aperta.",
 			"isSplitTerminalContextKey": "Indica se il terminale della scheda evidenziata è un terminale diviso.",
+			"splitPaneActive": "Indica se il terminale attivo è un pannello diviso.",
 			"terminalAltBufferActive": "Indica se il buffer alternativo del terminale è attivo.",
 			"terminalCountContextKey": "Numero corrente di terminali.",
 			"terminalEditorFocusContextKey": "Indica se un terminale nell'area dell'editor è evidenziato.",
@@ -14169,6 +14322,7 @@
 			"local": "Locale",
 			"moveIntoNewWindow": "Sposta terminale in una nuova finestra",
 			"moveToEditor": "Sposta il terminale nell'area dell'editor",
+			"newInNewWindow": "Nuova finestra terminale",
 			"previousSessionCategory": "sessione precedente",
 			"splitTerminal": "Terminale diviso",
 			"splitTerminal.short": "Dividi",
@@ -14275,68 +14429,98 @@
 			"runCommand": "Esegui comando chat",
 			"runFirst": "Esegui per primo",
 			"runFirstCommand": "Esegui primo comando chat",
-			"startChat": "Chat in linea del terminale",
+			"startChat": "Open Inline Chat",
+			"terminalCategory": "Terminal",
 			"viewInChat": "Visualizza nella chat"
 		},
 		"vs/workbench/contrib/terminalContrib/chat/browser/terminalChatWidget": {
-			"askAI": "Chiedi all'intelligenza artificiale"
+			"askAboutCommands": "Chiedi informazioni sui comandi"
 		},
 		"vs/workbench/contrib/terminalContrib/chat/common/terminalInitialHintConfiguration": {
 			"terminal.integrated.initialHint": "Controlla se il primo terminale senza input mostrerà un suggerimento sulle azioni disponibili quando è attivo."
 		},
-		"vs/workbench/contrib/terminalContrib/chatAgentTools/browser/bufferOutputPolling": {
-			"poll.terminal.accept": "Sì",
-			"poll.terminal.polling": "Copilot continuerà a controllare l'output per determinare quando il terminale diventa inattivo per un massimo di 2 minuti.",
-			"poll.terminal.reject": "No",
-			"poll.terminal.waiting": "Continuare ad attendere il completamento di `{0}`?"
+		"vs/workbench/contrib/terminalContrib/chatAgentTools/browser/runInTerminalHelpers": {
+			"autoApprove.baseCommand": "Consenti sempre comandi: {0}",
+			"autoApprove.baseCommandSingle": "Consenti sempre comando: {0}",
+			"autoApprove.configure": "Configura approvazione automatica...",
+			"autoApprove.exactCommand": "Consenti sempre la riga di comando esatta: {0}"
 		},
-		"vs/workbench/contrib/terminalContrib/chatAgentTools/browser/getTerminalOutputTool": {
+		"vs/workbench/contrib/terminalContrib/chatAgentTools/browser/terminal.chatAgentTools.contribution": {
+			"addTerminalSelection": "Aggiungi selezione terminale alla chat",
+			"terminalSelection": "Selezione terminale",
+			"toolset.runCommands": "Esegue i comandi nel terminale",
+			"toolset.runTasks": "Esegue le attività e recupera i rispettivi output per l'area di lavoro"
+		},
+		"vs/workbench/contrib/terminalContrib/chatAgentTools/browser/tools/getTerminalLastCommandTool": {
+			"getTerminalLastCommand.past": "È stato ottenuto l'ultimo comando del terminale",
+			"getTerminalLastCommand.progressive": "Acquisizione dell'ultimo comando del terminale",
+			"terminalLastCommandTool.displayName": "Ottieni l'ultimo comando del terminale"
+		},
+		"vs/workbench/contrib/terminalContrib/chatAgentTools/browser/tools/getTerminalOutputTool": {
 			"bg.past": "Output del terminale in background controllato",
 			"bg.progressive": "Controllo dell'output del terminale in background",
-			"getTerminalOutputTool.displayName": "Recupera output del terminale"
+			"getTerminalOutputTool.displayName": "Ottieni l'output del terminale"
 		},
-		"vs/workbench/contrib/terminalContrib/chatAgentTools/browser/runInTerminalTool": {
-			"runInTerminal.background": "Esegui comando nel terminale in background",
-			"runInTerminal.foreground": "Esegui comando nel terminale",
+		"vs/workbench/contrib/terminalContrib/chatAgentTools/browser/tools/getTerminalSelectionTool": {
+			"getTerminalSelection.past": "Leggi selezione terminale",
+			"getTerminalSelection.progressive": "Lettura selezione terminale",
+			"terminalSelectionTool.displayName": "Ottieni selezione terminale"
+		},
+		"vs/workbench/contrib/terminalContrib/chatAgentTools/browser/tools/monitoring/outputMonitor": {
+			"poll.terminal.accept": "Yes",
+			"poll.terminal.acceptRun": "Yes",
+			"poll.terminal.confirmRun": "Run `{0}` in the terminal?",
+			"poll.terminal.confirmRunDetail": "The terminal output appears to require a response. Do you want to send `{0}` to the terminal?",
+			"poll.terminal.polling": "This will continue to poll for output to determine when the terminal becomes idle for up to 2 minutes.",
+			"poll.terminal.reject": "No",
+			"poll.terminal.rejectRun": "No",
+			"poll.terminal.waiting": "Continue waiting for `{0}`?"
+		},
+		"vs/workbench/contrib/terminalContrib/chatAgentTools/browser/tools/runInTerminalTool": {
+			"autoApprove.global": "Approvato automaticamente dall'impostazione {0}",
+			"autoApprove.rule": "Approvato automaticamente dalla regola {0}",
+			"autoApprove.rules": "Approvato automaticamente dalle regole {0}",
+			"autoApproveDenied.rule": "Approvazione automatica negata dalla regola {0}",
+			"autoApproveDenied.rules": "Approvazione automatica negata dalle regole {0}",
+			"ruleTooltip": "Visualizza regola nelle impostazioni",
+			"ruleTooltip.global": "Visualizza impostazioni",
+			"runInTerminal": "Eseguire il comando '{0}'?",
+			"runInTerminal.background": "Eseguire il comando '{0}'? (terminale in background)",
+			"runInTerminal.promptInjectionDisclaimer": "Il contenuto Web può contenere codice dannoso o tentare attacchi del tipo prompt injection.",
 			"runInTerminalTool.displayName": "Esegui nel terminale",
 			"runInTerminalTool.userDescription": "Strumento per eseguire comandi nel terminale"
 		},
-		"vs/workbench/contrib/terminalContrib/chatAgentTools/browser/task.chatAgentTools.contribution": {
-			"toolset.runTasks": "Runs tasks and gets their output for your workspace"
+		"vs/workbench/contrib/terminalContrib/chatAgentTools/browser/tools/task/createAndRunTaskTool": {
+			"allowTaskCreationExecution": "Consentire la creazione e l'esecuzione di attività?",
+			"alreadyRunning": "L'attività '{0}' è già in esecuzione.",
+			"copilotChat.fetchingTask": "Risoluzione dell'attività",
+			"copilotChat.noTerminal": "L'attività è stata avviata ma non è stato trovato alcun terminale per: `{0}`",
+			"copilotChat.runningTask": "L'attività '{0}' è in esecuzione",
+			"copilotChat.taskNotFound": "Attività non trovata: `{0}`",
+			"copilotCreateTask": "Copilot creerà l'attività \"{0}\" con il comando \"{1}\"{2}.",
+			"createAndRunTask.displayName": "Creare ed eseguire un'attività",
+			"createAndRunTask.modelDescription": "Crea ed esegue un'attività di compilazione, esecuzione o personalizzata per l'area di lavoro generando o aggiungendo a un file tasks.json in base alla struttura del progetto, come package.json o README.md. Se l'utente richiede di compilare, eseguire o avviare e non dispone di un file tasks.json, usare questo strumento. Se viene richiesto di creare o aggiungere un'attività, usare questo strumento.",
+			"createAndRunTask.userDescription": "Crea ed esegui un'attività nell'area di lavoro",
+			"createdTask": "L'attività '{0}' è stata creata",
+			"createdTaskPast": "L'attività '{0}' è stata creata",
+			"taskExists": "L'attività \"{0}\" esiste già.",
+			"taskExistsPast": "L'attività \"{0}\" esiste già."
 		},
-		"vs/workbench/contrib/terminalContrib/chatAgentTools/browser/task/createAndRunTaskTool": {
-			"allowTaskCreationExecution": "Allow task creation and execution?",
-			"alreadyRunning": "Task `{0}` is already running.",
-			"copilotChat.checkingOutput": "Checking output for `{0}`",
-			"copilotChat.fetchingTask": "Resolving the task",
-			"copilotChat.noTerminal": "Task started but no terminal was found for: `{0}`",
-			"copilotChat.runningTask": "Running task `{0}`",
-			"copilotChat.taskNotFound": "Task not found: `{0}`",
-			"copilotCreateTask": "Copilot will create the task `{0}` with command `{1}`{2}.",
-			"createAndRunTask.displayName": "Create and run Task",
-			"createAndRunTask.modelDescription": "For a workspace, this tool will create a task based on the package.json, README.md, and project structure so that the project can be built and run.",
-			"createAndRunTask.userDescription": "Create and run a task in the workspace",
-			"createdTask": "Created task `{0}`",
-			"createdTaskPast": "Created task `{0}`",
-			"taskExists": "Task `{0}` already exists.",
-			"taskExistsPast": "Task `{0}` already exists."
-		},
-		"vs/workbench/contrib/terminalContrib/chatAgentTools/browser/task/getTaskOutputTool": {
-			"copilotChat.checkedTerminalOutput": "Checked output for task `{0}`",
-			"copilotChat.checkingTerminalOutput": "Checking output for task `{0}`",
+		"vs/workbench/contrib/terminalContrib/chatAgentTools/browser/tools/task/getTaskOutputTool": {
+			"copilotChat.checkedTerminalOutput": "Output controllato per l'attività '{0}'",
+			"copilotChat.checkingTerminalOutput": "Controllo dell'output per l'attività '{0}' in corso...",
 			"copilotChat.taskAlreadyRunning": "L'attività `{0}` è già in esecuzione.",
 			"copilotChat.taskNotFound": "Attività non trovata: `{0}`",
 			"copilotChat.terminalNotFound": "Terminale non trovato per l'attività `{0}`",
-			"getTaskOutputTool.displayName": "Recupera output attività"
+			"getTaskOutputTool.displayName": "Ottieni output attività"
 		},
-		"vs/workbench/contrib/terminalContrib/chatAgentTools/browser/task/runTaskTool": {
+		"vs/workbench/contrib/terminalContrib/chatAgentTools/browser/tools/task/runTaskTool": {
 			"copilotChat.allowTaskRunMsg": "Consentire a Copilot di eseguire l'attività `{0}`?",
 			"copilotChat.allowTaskRunTitle": "Consentire l'esecuzione dell'attività?",
-			"copilotChat.checkingOutput": "Controllo dell'output per `{0}`",
 			"copilotChat.noTerminal": "L'attività è stata avviata ma non è stato trovato alcun terminale per: `{0}`",
-			"copilotChat.ranTask": "`{0}` eseguito",
-			"copilotChat.runningTask": "Esecuzione di `{0}`",
-			"copilotChat.startedTask": "`{0}` avviato",
+			"copilotChat.ranTask": "'{0}' eseguito",
+			"copilotChat.runningTask": "Esecuzione di '{0}'",
+			"copilotChat.startedTask": "'{0}' avviato",
 			"copilotChat.taskAlreadyActive": "L'attività è già in esecuzione.",
 			"copilotChat.taskAlreadyRunning": "L'attività `{0}` è già in esecuzione.",
 			"copilotChat.taskIsAlreadyRunning": "`{0}` è già in esecuzione.",
@@ -14345,11 +14529,13 @@
 			"runInTerminalTool.displayName": "Esegui attività",
 			"runInTerminalTool.userDescription": "Strumento per l'esecuzione di attività nell'area di lavoro"
 		},
-		"vs/workbench/contrib/terminalContrib/chatAgentTools/browser/terminal.chatAgentTools.contribution": {
-			"toolset.runCommands": "Esegue i comandi nel terminale"
+		"vs/workbench/contrib/terminalContrib/chatAgentTools/browser/tools/task/taskHelpers": {
+			"copilotChat.taskFailedWithExitCode": "Task `{0}` failed with exit code {1}."
 		},
 		"vs/workbench/contrib/terminalContrib/chatAgentTools/common/terminalChatAgentToolsConfiguration": {
-			"autoApprove.description.commandLine": "È possibile utilizzare un oggetto per effettuare la corrispondenza con la riga di comando completa invece dei comandi secondari e inline corrispondenti, ad esempio {0}. Questo verrà verificato _dopo_ che i comandi secondari sono stati controllati, avendo la precedenza anche sui comandi secondari negati.",
+			"autoApprove.deprecated": "Usare invece {0}",
+			"autoApprove.description.commandLine": "È possibile usare un oggetto per effettuare la corrispondenza con la riga di comando completa invece dei comandi secondari e inline corrispondenti, ad esempio {0}. Per ottenere l'approvazione automatica, sia il sottocomando che la riga di comando non devono essere esplicitamente negati;è quindi necessario che siano approvati tutti i sottocomandi o la riga di comando.",
+			"autoApprove.description.examples.binTest": "Consenti tutti i comandi che corrispondono al percorso {0} ({1}, {2} ecc.)",
 			"autoApprove.description.examples.description": "Descrizione",
 			"autoApprove.description.examples.mkdir": "Consenti tutti i comandi che iniziano con {0}",
 			"autoApprove.description.examples.npmRunBuild": "Consenti tutti i comandi che iniziano con {0}",
@@ -14362,7 +14548,7 @@
 			"autoApprove.description.examples.title": "Esempi:",
 			"autoApprove.description.examples.value": "Valore",
 			"autoApprove.description.intro": "Elenco di comandi o espressioni regolari che consentono di verificare se l'esecuzione dei comandi dello strumento terminale richiede un'approvazione esplicita. Verranno confrontati con l'inizio di un comando. È possibile specificare un'espressione regolare racchiudendo la stringa tra {0} caratteri seguiti da eventuali flag facoltativi, come {1} per la distinzione tra maiuscole e minuscole.",
-			"autoApprove.description.subCommands": "Nota: questi comandi ed espressioni regolari vengono valutati per ogni _sub-command_ all'interno di una _command line_ completa quindi {0}, ad esempio, richiede che sia {1} sia {2} corrispondano a una voce {3} e non corrispondano a una voce {4} per essere approvati automaticamente. Vengono rilevati anche i comandi inline, quindi {5} richiede che sia {5} sia {6} siano approvati.",
+			"autoApprove.description.subCommands": "Tieni presente che questi comandi ed espressioni regolari vengono valutati per ogni _sub-command_ all'interno di una _command line_ completa quindi {0}, ad esempio, richiederà che sia {1} sia {2} corrispondano a una voce {3} e non corrispondano a una voce {4} per essere approvati automaticamente. I comandi inline come {5} (sostituzione comando) o {6} (sostituzione processo) attualmente sono bloccati per impostazione predefinita tramite regole generali che rilevano questi modelli.",
 			"autoApprove.description.values": "Imposta su {0} per approvare automaticamente i comandi, su {1} per richiedere sempre l'approvazione esplicita o su {2} per rimuovere il valore impostato.",
 			"autoApprove.false": "Richiedere l'approvazione esplicita per il criterio.",
 			"autoApprove.key": "L'inizio di un comando con cui effettuare una corrispondenza. È possibile specificare un'espressione regolare racchiudendo la stringa tra caratteri '/'.",
@@ -14370,7 +14556,8 @@
 			"autoApprove.matchCommandLine.false": "Confronta i comandi secondari e i comandi inline, ad esempio, 'foo && bar' dovrà corrispondere sia a 'foo' sia a 'bar'.",
 			"autoApprove.matchCommandLine.true": "Trova la corrispondenza con la riga di comando completa, ad esempio 'foo && bar'.",
 			"autoApprove.null": "Ignorare il criterio: è utile per annullare l'impostazione dello stesso criterio definito in un ambito superiore.",
-			"autoApprove.true": "Approvare automaticamente il criterio."
+			"autoApprove.true": "Approvare automaticamente il criterio.",
+			"shellIntegrationTimeout.description": "Configura la durata in millisecondi dell'attesa per il rilevamento dell'integrazione della shell quando l'esecuzione nello strumento del terminale avvia un nuovo terminale. Imposta su '0' per attendere il tempo minimo; il valore predefinito '-1' indica che il tempo di attesa è variabile in base al valore di {0} e se è una finestra remota. Un valore elevato può essere utile se la shell inizia molto lentamente e un valore basso se non si usa intenzionalmente l'integrazione della shell."
 		},
 		"vs/workbench/contrib/terminalContrib/clipboard/browser/terminal.clipboard.contribution": {
 			"workbench.action.terminal.copyAndClearSelection": "Copiare e cancellare selezione",
@@ -14607,9 +14794,8 @@
 			"suggest.inlineSuggestion.alwaysOnTop": "Abilita la funzionalità e aggiungi sempre il suggerimento inline all'inizio.",
 			"suggest.inlineSuggestion.alwaysOnTopExceptExactMatch": "Abilita la funzionalità e ordina il suggerimento inline senza forzarlo a essere in primo piano. Ciò significa che le corrispondenze esatte saranno superiori al suggerimento inline.",
 			"suggest.inlineSuggestion.off": "Disabilita la funzionalità.",
-			"suggest.provider.description": "Whether to enable this provider.",
-			"suggest.provider.pwsh.deprecation": "This is deprecated as it has performance problems, the upcoming LSP provider will supersede this.",
-			"suggest.provider.pwsh.description": "Enable or disable the PowerShell script-based provider. This enables PowerShell-specific argument completion.",
+			"suggest.provider.description": "Indica se abilitare questo provider.",
+			"suggest.provider.lsp.description": "Abilita o disabilita il provider basato su LSP. Ciò consente il completamento degli argomenti specifici del protocollo del server di linguaggio.",
 			"suggest.providers": "I provider sono abilitati per impostazione predefinita. Ometterli impostando l'ID del provider su 'false'.",
 			"suggest.quickSuggestions": "Controlla se i suggerimenti devono essere visualizzati automaticamente durante la digitazione. Tenere anche conto dell'impostazione {0} che controlla se i suggerimenti vengono attivati dai caratteri speciali.",
 			"suggest.quickSuggestions.arguments": "Abilita i suggerimenti rapidi per gli argomenti, qualsiasi elemento dopo la prima parola in un input della riga di comando.",
@@ -14667,9 +14853,12 @@
 			"coverage.toggleInline": "Attiva/Disattiva code coverage inline",
 			"testing.coverageForTestAvailable": "{0} test con esecuzione completata di codice in questo file",
 			"testing.filterActionLabel": "Filtra copertura da testare",
+			"testing.hideCoverageInExplorer": "Nascondi copertura in Esplora",
 			"testing.hideInlineCoverage": "Nascondi copertura inline",
 			"testing.rerun": "Riesegui",
 			"testing.showInlineCoverage": "Mostra copertura inline",
+			"testing.toggleCoverageInExplorerDesc": "Attiva/disattiva la visualizzazione della copertura dei test nella visualizzazione Esplora risorse.",
+			"testing.toggleCoverageInExplorerTitle": "Attiva/disattiva copertura in Esplora",
 			"testing.toggleInlineCoverage": "Attiva/Disattiva inline",
 			"testing.toggleToolbarDesc": "Consente di attivare o disattivare la barra di copertura permanente nell'editor.",
 			"testing.toggleToolbarTitle": "Barra degli strumenti Copertura test"
@@ -14725,6 +14914,7 @@
 			"testCoverageTreeLabel": "Esplora copertura del test",
 			"testing.changeCoverageFilter": "Filtra copertura per test",
 			"testing.changeCoverageSort": "Cambia ordinamento",
+			"testing.coverageCollapseAll": "Collapse All Coverage",
 			"testing.coverageSortByCoverage": "Ordina per code coverage",
 			"testing.coverageSortByCoverageDescription": "I file e le dichiarazioni sono ordinati per copertura totale",
 			"testing.coverageSortByLocation": "Ordina per posizione",
@@ -15000,17 +15190,17 @@
 			"testing.treeElementLabel": "{0} ({1})"
 		},
 		"vs/workbench/contrib/testing/common/testingChatAgentTool": {
-			"runTestTool.confirm.all": "The model wants to run all tests.",
-			"runTestTool.confirm.invocation": "Running tests...",
-			"runTestTool.confirm.message": "The model wants to run tests in {0}.",
-			"runTestTool.confirm.title": "Allow test run?",
-			"runTestTool.invoke.cancelled": "Test run was cancelled.",
-			"runTestTool.invoke.filesProgress": "Discovering tests...",
-			"runTestTool.invoke.filterProgress": "Filtering tests...",
-			"runTestTool.invoke.progress": "Starting test run...",
-			"runTestTool.noRunStarted": "No test run was started. This may be an issue with your test runner or extension.",
-			"runTestTool.noTests": "No tests found in the files",
-			"runTestTool.userDescription": "Runs unit tests"
+			"runTestTool.confirm.all": "Il modello vuole eseguire tutti i test.",
+			"runTestTool.confirm.invocation": "Esecuzione dei test in corso...",
+			"runTestTool.confirm.message": "Il modello vuole eseguire i test in {0}.",
+			"runTestTool.confirm.title": "Consentire l'esecuzione dei test?",
+			"runTestTool.invoke.cancelled": "Esecuzione dei test annullata.",
+			"runTestTool.invoke.filesProgress": "Individuazione dei test in corso...",
+			"runTestTool.invoke.filterProgress": "Filtraggio dei test in corso...",
+			"runTestTool.invoke.progress": "Avvio dell'esecuzione dei test in corso...",
+			"runTestTool.noRunStarted": "Nessuna esecuzione dei test è stata avviata. Il problema potrebbe derivare dal test runner o dall'estensione.",
+			"runTestTool.noTests": "Non sono stati trovati test nei file",
+			"runTestTool.userDescription": "Esegue gli unit test"
 		},
 		"vs/workbench/contrib/testing/common/testingContentProvider": {
 			"runNoOutout": "L'esecuzione dei test non ha registrato alcun output."
@@ -15027,6 +15217,7 @@
 			"testing.hasCoverableTests": "Indica se un test controller ha registrato una configurazione di copertura",
 			"testing.hasCoverageInFile": "Indica che la copertura è stata riportata nell'editor corrente.",
 			"testing.hasDebuggableTests": "Indica se un test controller ha registrato una configurazione di debug",
+			"testing.hasInlineCoverageDetails": "Indica se la copertura dettagliata per riga è disponibile per la visualizzazione inline",
 			"testing.hasNonDefaultConfig": "Indica se un test controller ha registrato una configurazione non predefinita",
 			"testing.hasPerTestCoverage": "Indica se la copertura per test è disponibile",
 			"testing.hasRunnableTests": "Indica se un test controller ha registrato una configurazione di esecuzione",
@@ -15048,11 +15239,11 @@
 			"testing.testResultState": "Valore disponibile per test/elemento/risultato che indica lo stato dell'elemento."
 		},
 		"vs/workbench/contrib/testing/common/testingProgressMessages": {
-			"testProgress.completed": "{0}/{1} tests passed ({2}%)",
-			"testProgress.running": "Running tests, {0}/{1} passed ({2}%)",
-			"testProgress.runningInitial": "Running tests...",
-			"testProgressWithSkip.completed": "{0}/{1} tests passed ({2}%, {3} skipped)",
-			"testProgressWithSkip.running": "Running tests, {0}/{1} tests passed ({2}%, {3} skipped)"
+			"testProgress.completed": "{0}/{1} test superati ({2}%)",
+			"testProgress.running": "Esecuzione dei test. {0}/{1} superati ({2}%)",
+			"testProgress.runningInitial": "Esecuzione dei test in corso...",
+			"testProgressWithSkip.completed": "{0}/{1} test superati ({2}%, {3} ignorato/i)",
+			"testProgressWithSkip.running": "Esecuzione dei test. {0}/{1} test superati ({2}%, {3} ignorati)"
 		},
 		"vs/workbench/contrib/testing/common/testResult": {
 			"runFinished": "Esecuzione dei test a ({0})",
@@ -15544,7 +15735,6 @@
 			"acessibleViewHint": "Ispezionarlo nella visualizzazione accessibile ({0}).\r\n",
 			"acessibleViewHintNoKbOpen": "Ispezionarlo nella visualizzazione accessibile tramite il comando Apri visualizzazione accessibile che attualmente non è attivabile tramite il tasto di scelta rapida.\r\n",
 			"allDone": "Contrassegna come completato",
-			"back": "Indietro",
 			"checkboxTitle": "Se selezionata, questa pagina verrà visualizzata all'avvio.",
 			"close": "Nascondi",
 			"closeAriaLabel": "Nascondi",
@@ -15555,18 +15745,13 @@
 			"gettingStarted.someStepsComplete": "{0} di {1} passaggi completati",
 			"goBack": "Indietro",
 			"imageShowing": "Immagine che mostra {0}",
-			"last": "Inizia a scrivere codice",
-			"lastStep": "Inizia a scrivere codice",
 			"new": "Nuovo",
 			"newItems": "Aggiornato",
-			"next": "Avanti",
 			"nextOne": "Sezione successiva",
-			"nextStep": "Avanti",
 			"noRecents": "Non sono presenti cartelle recenti,",
 			"openFolder": "aprire una cartella",
 			"optOut": "rifiuta esplicitamente",
 			"pickWalkthroughs": "Apri procedura dettagliata...",
-			"previousStep": "Passaggio precedente",
 			"privacy statement": "informativa sulla privacy",
 			"recent": "Recenti",
 			"show more recents": "Mostra tutte le cartelle recenti {0}",
@@ -15593,7 +15778,6 @@
 			"welcome.markStepComplete": "Contrassegna il passaggio come completato",
 			"welcome.markStepInomplete": "Contrassegna il passaggio come incompleto",
 			"welcome.showAllWalkthroughs": "Apri procedura dettagliata...",
-			"welcome.showNewWelcome": "Apri la nuova esperienza di benvenuto",
 			"workbench.startupEditor": "Controlla quale editor viene visualizzato all'avvio se non ne viene ripristinato nessuno dalla sessione precedente.",
 			"workbench.startupEditor.newUntitledFile": "Aprire un nuovo file di testo senza nome. Valido solo quando si apre una finestra vuota.",
 			"workbench.startupEditor.none": "Avvia senza un editor.",
@@ -15692,8 +15876,6 @@
 			"gettingStarted.accessibilitySignals.title": "Ottimizzare i segnali di accessibilità da ricevere tramite audio o un dispositivo Braille",
 			"gettingStarted.accessibleView.description.interpolated": "La visualizzazione accessibile è disponibile per il terminale, il passaggio del mouse, le notifiche, i commenti, l'output del notebook, le risposte della chat, i completamenti inline e l'output della console di debug.\r\n Con lo stato attivo in una di queste funzionalità, si può aprire con il comando Apri visualizzazione accessibile.\r\n{0}",
 			"gettingStarted.accessibleView.title": "Gli utenti di utilità per la lettura dello schermo possono esaminare il contenuto riga per riga, carattere per carattere nella visualizzazione accessibile.",
-			"gettingStarted.agentMode.description": "Analizza il problema, pianifica i passaggi successivi e apporta automaticamente eventuali modifiche necessarie.",
-			"gettingStarted.agentMode.title": "Modalità agente",
 			"gettingStarted.beginner.description": "Ottieni una panoramica delle funzionalità più essenziali",
 			"gettingStarted.beginner.title": "Informazioni sulle nozioni fondamentali",
 			"gettingStarted.beginner.walkthroughPageTitle": "Funzionalità essenziali",
@@ -15704,9 +15886,7 @@
 			"gettingStarted.commandPaletteAccessibility.description.interpolated": "Esegui comandi senza il mouse per eseguire qualunque attività in VS Code.\r\n{0}",
 			"gettingStarted.commandPaletteAccessibility.title": "Sblocca la produttività con il riquadro comandi ",
 			"gettingStarted.copilotSetup.description": "È possibile usare [Copilot]({0}) per generare codice in più file, correggere gli errori, porre domande sul codice e molto altro usando il linguaggio naturale.",
-			"gettingStarted.copilotSetup.title": "Usa gratuitamente funzionalità di intelligenza artificiale con Copilot",
-			"gettingStarted.customize.description": "Scambia modelli, aggiungi strumenti in modalità agente e crea istruzioni personalizzate.\r\n{0}",
-			"gettingStarted.customize.title": "Personalizzato in base alle tue abitudini di lavoro",
+			"gettingStarted.copilotSetup.title": "Use AI features with GitHub Copilot for free",
 			"gettingStarted.debug.description.interpolated": "Accelerare il ciclo di modifica, build, test e debug configurando una configurazione di avvio.\r\n{0}",
 			"gettingStarted.debug.title": "Guarda il codice in azione",
 			"gettingStarted.extensions.description.interpolated": "Le estensioni sono potenziamenti di VS Code. Spaziano da pratici strumenti per la produttività, all'espansione di funzionalità già pronte all'uso, fino all'aggiunta di funzionalità completamente nuove.\r\n{0}",
@@ -15716,7 +15896,7 @@
 			"gettingStarted.findLanguageExts.title": "Supporto completo per tutti i linguaggi",
 			"gettingStarted.goToSymbol.description.interpolated": "Il comando Vai al simbolo è utile per spostarsi tra punti di riferimento importanti in un documento.\r\n{0}",
 			"gettingStarted.goToSymbol.title": "Passare ai simboli in un file",
-			"gettingStarted.hover.description.interpolated": "While focus is in the editor on a variable or symbol, a hover can be focused with the Show or Open Hover command.\r\n{0}",
+			"gettingStarted.hover.description.interpolated": "Mentre è in stato attivo nell'editor su una variabile o un simbolo, è possibile evidenziare il puntatore del mouse con il comando Mostra o Apri al passaggio del mouse.\r\n{0}",
 			"gettingStarted.hover.title": "Accedere al passaggio del mouse nell'editor per ottenere altre informazioni su una variabile o un simbolo",
 			"gettingStarted.installGit.description.interpolated": "Installare Git per tenere traccia delle modifiche nei progetti.\r\n{0}\r\n{1}la finestra Ricarica{2} dopo l'installazione per completare l'installazione di Git.",
 			"gettingStarted.installGit.title": "Installa GIT",
@@ -15726,15 +15906,10 @@
 			"gettingStarted.keyboardShortcuts.title": "Personalizza i tasti di scelta rapida",
 			"gettingStarted.menuBar.description.interpolated": "La barra dei menu completa è disponibile nel menu a discesa per dare più spazio al codice. Attivarne/Disattivarne la visualizzazione per accedervi più rapidamente. \r\n{0}",
 			"gettingStarted.menuBar.title": "Solo i componenti dell'interfaccia utente necessari",
-			"gettingStarted.nes.description": "Ottieni suggerimenti per il codice che prevedono la tua prossima modifica.",
-			"gettingStarted.nes.title": "Suggerimenti di modifica successivi",
-			"gettingStarted.new.description": "Potenzia la scrittura di codice con l'intelligenza artificiale",
-			"gettingStarted.new.title": "Introduzione a VS Code",
-			"gettingStarted.new.walkthroughPageTitle": "Configura VS Code",
 			"gettingStarted.newFile.description": "Aprire un nuovo file di testo senza titolo, un notebook o un editor personalizzato.",
 			"gettingStarted.newFile.title": "Nuovo file...",
-			"gettingStarted.newWorkspaceChat.description": "Crea una nuova area di lavoro con Copilot",
-			"gettingStarted.newWorkspaceChat.title": "Nuova area di lavoro con Copilot...",
+			"gettingStarted.newWorkspaceChat.description": "Consente di chattare per creare una nuova area di lavoro",
+			"gettingStarted.newWorkspaceChat.title": "Genera nuova area di lavoro...",
 			"gettingStarted.notebook.title": "Personalizza notebook",
 			"gettingStarted.notebook.walkthroughPageTitle": "Notebooks",
 			"gettingStarted.notebookProfile.description": "Consente di modificare il funzionamento dei notebook nel modo preferito",
@@ -15793,9 +15968,6 @@
 			"keyboardShortcuts": "Tasti di scelta rapida",
 			"listSignalAnnouncements": "Elenca annunci segnale",
 			"listSignalSounds": "Elenca suoni segnale",
-			"newgettingStarted.commandPalette.title": "Tutti i comandi a portata di mano",
-			"newgettingStarted.findLanguageExts.description.interpolated": "Installare le estensioni del linguaggio necessarie nel toolkit.\r\n{0}",
-			"newgettingStarted.findLanguageExts.title": "Supporto per tutte le lingue",
 			"openAccessibilityHelp": "Aprire guida all’accessibilità",
 			"openAccessibilitySettings": "Apri impostazioni accessibilità",
 			"openAccessibleView": "Apri visualizzazione accessibile",
@@ -15813,7 +15985,6 @@
 			"setupCopilotButton.signIn": "Configura Copilot",
 			"showOrFocusHover": "Mostra o sposta lo stato attivo al passaggio del mouse",
 			"showTerminal": "Apri terminale",
-			"signUp": "Abilita funzionalità IA",
 			"titleID": "Sfoglia temi colore",
 			"toggleFold": "Attiva/Disattiva riduzione",
 			"toggleFoldRecursively": "Attiva/Disattiva riduzione in modo ricorsivo",
@@ -16061,14 +16232,15 @@
 			"keyboard shortcuts": "Tasti di scelta rapida",
 			"menuContexts": "Contesti menu",
 			"menus.changeTitle": "Menu delle modifiche inline del codice sorgente",
+			"menus.chatMultiDiffContext": "The Chat Multi-Diff context menu.",
 			"menus.chatSessions": "Menu Sessioni chat.",
-			"menus.chatTerminal": "Sottomenu Chat nel menu di scelta rapida del terminale.",
 			"menus.chatTextEditor": "Sottomenu Chat nel menu di scelta rapida dell'editor di testo.",
 			"menus.commandPalette": "Riquadro comandi",
 			"menus.debugCallstackContext": "Menu di scelta rapida per la visualizzazione dello stack di chiamate di debug",
 			"menus.debugCreateConfiguation": "Menu di configurazione per la creazione del debug",
 			"menus.debugToolBar": "Menu della barra degli strumenti di debug",
 			"menus.debugVariablesContext": "Menu di scelta rapida per la visualizzazione delle variabili di debug",
+			"menus.debugWatchContext": "Menu a comparsa per la visualizzazione del controllo di debug",
 			"menus.diffEditorGutterToolBarMenus": "Barra degli strumenti di rilegatura nell'editor diff",
 			"menus.editorContext": "Menu di scelta rapida dell'editor",
 			"menus.editorContextCopyAs": "Sottomenu 'Copia con nome' nel menu di scelta rapida dell'editor",
@@ -16557,6 +16729,7 @@
 			"vscode.extension.activationEvents.onFileSystem": "Un evento di attivazione emesso ogni volta che si accede a un file o a una cartella con lo schema specificato.",
 			"vscode.extension.activationEvents.onIssueReporterOpened": "Evento di attivazione generato all'apertura del reporter problemi.",
 			"vscode.extension.activationEvents.onLanguage": "Un evento di attivazione emesso ogni volta che viene aperto un file che risolve nella lingua specificata.",
+			"vscode.extension.activationEvents.onLanguageModelChat": "Un evento di attivazione emesso quando viene richiesto un provider di modelli di chat per il fornitore specificato.",
 			"vscode.extension.activationEvents.onLanguageModelTool": "Evento di attivazione generato quando viene richiamato lo strumento del modello linguistico specificato.",
 			"vscode.extension.activationEvents.onMcpCollection": "Un evento di attivazione emesso ogni volta che viene richiesto uno strumento dal server MCP.",
 			"vscode.extension.activationEvents.onNotebook": "Evento di attivazione generato ogni volta che viene aperto il documento del notebook specificato.",

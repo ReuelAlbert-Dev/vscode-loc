@@ -326,11 +326,11 @@
 			"editor.experimental.asyncTokenization": "Určuje, jestli se má tokenizace provádět asynchronně ve webovém pracovním procesu.",
 			"editor.experimental.asyncTokenizationLogging": "Určuje, jestli se má protokolovat asynchronní tokenizace. Pouze pro ladění.",
 			"editor.experimental.asyncTokenizationVerification": "Určuje, zda se má asynchronní tokenizace ověřit pomocí tokenizace starší verze pozadí. Může zpomalit tokenizaci. Pouze pro ladění.",
-			"editor.experimental.preferTreeSitter.css": "Určuje, jestli se má zapnout parsování sitteru stromu pro css. Pro css bude mít přednost před nastavením editor.experimental.treeSitterTelemetry.",
-			"editor.experimental.preferTreeSitter.ini": "Určuje, jestli se má zapnout parsování sitteru stromu pro akci ini. Pro akci ini bude mít přednost před nastavením editor.experimental.treeSitterTelemetry.",
-			"editor.experimental.preferTreeSitter.regex": "Určuje, jestli se má zapnout parsování sitteru stromu pro regex. Pro regex bude mít přednost před nastavením editor.experimental.treeSitterTelemetry.",
-			"editor.experimental.preferTreeSitter.typescript": "Určuje, jestli se má zapnout parsování sitteru stromu pro typescript. Pro typescript bude mít přednost před nastavením editor.experimental.treeSitterTelemetry.",
-			"editor.experimental.treeSitterTelemetry": "Určuje, jestli se má zapnout parsování sitteru stromu a shromažďovat telemetrie. Nastavení editor.experimental.preferTreeSitter pro konkrétní jazyky bude mít přednost.",
+			"editor.experimental.preferTreeSitter.css": "Určuje, jestli se má zapnout parsování sitteru stromu pro css. Pro css bude mít přednost před nastavením #editor.experimental.treeSitterTelemetry#.",
+			"editor.experimental.preferTreeSitter.ini": "Určuje, jestli se má zapnout parsování sitteru stromu pro ini. Pro ini bude mít přednost před nastavením #editor.experimental.treeSitterTelemetry#.",
+			"editor.experimental.preferTreeSitter.regex": "Určuje, jestli se má zapnout parsování sitteru stromu pro regex. Pro regex bude mít přednost před nastavením #editor.experimental.treeSitterTelemetry#.",
+			"editor.experimental.preferTreeSitter.typescript": "Určuje, jestli se má zapnout parsování sitteru stromu pro typescript. Pro typescript bude mít přednost před nastavením #editor.experimental.treeSitterTelemetry#.",
+			"editor.experimental.treeSitterTelemetry": "Určuje, jestli se má zapnout parsování sitteru stromu a shromažďovat telemetrie. Nastavení #editor.experimental.preferTreeSitter# pro konkrétní jazyky bude mít přednost.",
 			"editorConfigurationTitle": "Editor",
 			"hideUnchangedRegions.contextLineCount": "Určuje, kolik řádků se použije jako kontext při porovnávání nezměněných oblastí.",
 			"hideUnchangedRegions.enabled": "Určuje, jestli editor rozdílů zobrazuje nezměněné oblasti.",
@@ -573,7 +573,7 @@
 			"hover.above": "Pokud je místo, upřednostňujte zobrazení ukazatele myši nad řádkem.",
 			"hover.delay": "Určuje dobu prodlevy (v milisekundách), po jejímž uplynutí se zobrazí popisek při umístění ukazatele myši na prvek.",
 			"hover.enabled": "Určuje, jestli se má zobrazit popisek po umístění ukazatele myši na prvek.",
-			"hover.hidingDelay": "Určuje dobu prodlevy (v milisekundách), po jejímž uplynutí se skryje popisek při umístění ukazatele myši na prvek. Vyžaduje povolení parametru editor.hover.sticky.",
+			"hover.hidingDelay": "Určuje dobu prodlevy (v milisekundách), po jejímž uplynutí se skryje popisek při umístění ukazatele myši na prvek. Vyžaduje povolení parametru #editor.hover.sticky#.",
 			"hover.sticky": "Určuje, jestli má popisek zobrazený při umístění ukazatele myši na prvek zůstat viditelný.",
 			"inertialScroll": "Udělejte posouvání inerciální – užitečné hlavně s touchpadem v Linuxu.",
 			"inlayHints.enable": "Povolí vložené tipy v editoru.",
@@ -588,6 +588,8 @@
 			"inlineSuggest.edits.showCollapsed": "Určuje, jestli se bude návrh zobrazovat jako sbalený, dokud se na něj nepřeskáče.",
 			"inlineSuggest.enabled": "Určuje, jestli se mají v editoru automaticky zobrazovat vložené návrhy.",
 			"inlineSuggest.fontFamily": "Určuje rodinu písem vložených návrhů.",
+			"inlineSuggest.minShowDelay": "Určuje minimální zpoždění v milisekundách, po kterém se po zadání zobrazí vložené návrhy.",
+			"inlineSuggest.showOnSuggestConflict": "Určuje, jestli se mají zobrazovat vložené návrhy, když dojde ke konfliktu návrhů.",
 			"inlineSuggest.showToolbar": "Určuje, kdy se má zobrazit panel nástrojů vložených návrhů.",
 			"inlineSuggest.showToolbar.always": "Pokaždé, když se zobrazí vložený návrh, zobrazí se panel nástrojů vložených návrhů.",
 			"inlineSuggest.showToolbar.never": "Nikdy nezobrazí panel nástrojů vložených návrhů.",
@@ -663,13 +665,13 @@
 			"quickSuggestions.strings": "Povoluje rychlé návrhy uvnitř řetězců.",
 			"quickSuggestionsDelay": "Určuje dobu prodlevy (v milisekundách), po jejímž uplynutí se budou zobrazovat rychlé návrhy.",
 			"renameOnType": "Určuje, jestli editor provádí automaticky přejmenování při psaní.",
-			"renameOnTypeDeprecate": "Tato možnost je zastaralá, použijte místo ní možnost editor.linkedEditing.",
+			"renameOnTypeDeprecate": "Tato možnost je zastaralá, použijte místo ní možnost #editor.linkedEditing#.",
 			"renderControlCharacters": "Určuje, jestli má editor vykreslovat řídicí znaky.",
 			"renderFinalNewline": "Když soubor končí novým řádkem, vykreslit číslo posledního řádku",
 			"renderLineHighlight": "Určuje, jak má editor vykreslovat zvýraznění aktuálního řádku.",
 			"renderLineHighlight.all": "Zvýrazní jak mezeru u okraje, tak aktuální řádek.",
 			"renderLineHighlightOnlyWhenFocus": "Určuje, jestli má editor vykreslovat zvýraznění aktuálního řádku, pouze pokud má editor fokus.",
-			"renderRichScreenReaderContent": "Zda se má vykreslovat bohatý obsah pro čtečky obrazovky, když je povoleno editor.editContext.",
+			"renderRichScreenReaderContent": "Zda se má vykreslovat bohatý obsah pro čtečky obrazovky, když je povoleno nastavení #editor.editContext#.",
 			"renderWhitespace": "Určuje, jak má editor vykreslovat prázdné znaky.",
 			"renderWhitespace.boundary": "Vykreslovat prázdné znaky s výjimkou jednoduchých mezer mezi slovy",
 			"renderWhitespace.selection": "Vykreslovat prázdné znaky pouze u vybraného textu",
@@ -760,7 +762,7 @@
 			"wordBreak": "Určuje pravidla oddělení slov používaná pro text v čínštině, japonštině nebo korejštině (CJK).",
 			"wordBreak.keepAll": "Pro text v čínštině, japonštině nebo korejštině (CJK) by se neměly používat oddělení slov. U jiných textů je chování stejné jako normální chování.",
 			"wordBreak.normal": "Použijte výchozí pravidlo zalomení řádku.",
-			"wordSegmenterLocales": "Locales to be used for word segmentation when doing word related navigations or operations. Specify the BCP 47 language tag of the word you wish to recognize (e.g., ja, zh-CN, zh-Hant-TW, etc.).",
+			"wordSegmenterLocales": "Národní prostředí, která se mají použít pro segmentaci slov při navigaci nebo operacích souvisejících s slovem Zadejte značku jazyka BCP 47 slova, které chcete rozpoznat (např. ja, zh-CN, zh-Hant-TW atd.).",
 			"wordSeparators": "Znaky, které se použijí jako oddělovače slov při navigaci nebo operacích v textu",
 			"wordWrap": "Určuje, jak by se měly zalamovat řádky",
 			"wordWrap.bounded": "Řádky se budou zalamovat při minimálním viewportu (zobrazení) a hodnotě #editor.wordWrapColumn#.",
@@ -768,7 +770,7 @@
 			"wordWrap.on": "Řádky se budou zalamovat podle šířky viewportu (zobrazení).",
 			"wordWrap.wordWrapColumn": "Řádky se budou zalamovat podle hodnoty #editor.wordWrapColumn#.",
 			"wordWrapColumn": "Určuje sloupec pro zalamování v editoru, když má nastavení #editor.wordWrap# hodnotu wordWrapColumn nebo bounded.",
-			"wrapOnEscapedLineFeeds": "Řídí, zda má literál `\\n` vyvolat wordWrap.\r\nnapříklad\r\n```c\r\nchar* str=\"hello\\nworld\"\r\n```\r\nse zobrazí jako\r\n```c\r\nchar* str=\"hello\\n\r\n           world\"\r\n```",
+			"wrapOnEscapedLineFeeds": "Určuje, jestli má literál \\n aktivovat wordWrap, pokud je povoleno #editor.wordWrap#.\r\n\r\nPříklad:\r\n```c\r\nchar* str=\"hello\\nworld\"\r\n```\r\nse zobrazí jako\r\n```c\r\nchar* str=\"hello\\n\r\n           world\"\r\n```",
 			"wrappingIndent": "Určuje odsazení zalomených řádků.",
 			"wrappingIndent.deepIndent": "Zalomené řádky získají odsazení +2 směrem k nadřazenému objektu.",
 			"wrappingIndent.indent": "Zalomené řádky získají odsazení +1 směrem k nadřazenému objektu.",
@@ -2116,12 +2118,18 @@
 			"contextkey.scanner.hint.didYouMean2": "Měli jste na mysli {0} nebo {1}?",
 			"contextkey.scanner.hint.didYouMean3": "Měli jste na mysli {0}, {1} nebo {2}?"
 		},
+		"vs/platform/dialogs/browser/dialog": {
+			"aboutDetail": "Verze: {0}\r\nPotvrzení: {1}\r\nDatum: {2}\r\nProhlížeč: {3}"
+		},
 		"vs/platform/dialogs/common/dialogs": {
 			"cancelButton": "Zrušit",
 			"moreFile": "...nezobrazuje se 1 další soubor",
 			"moreFiles": "...nezobrazuje se několik dalších souborů (celkem {0})",
 			"okButton": "&&OK",
 			"yesButton": "&&Ano"
+		},
+		"vs/platform/dialogs/electron-browser/dialog": {
+			"aboutDetail": "Verze: {0}\r\nPotvrzení změn: {1}\r\nDatum: {2}\r\nElectron: {3}\r\nElectronBuildId: {4}\r\nChromium: {5}\r\nNode.js: {6}\r\nV8: {7}\r\nOS: {8}"
 		},
 		"vs/platform/dialogs/electron-main/dialogMainService": {
 			"open": "Otevřít",
@@ -2176,7 +2184,6 @@
 			"reuseWindow": "Umožňuje vynutit otevření souboru nebo složky v již otevřeném okně.",
 			"reuseWindowForChat": "Vynutit použití posledního aktivního okna pro relaci chatu",
 			"showVersions": "Umožňuje zobrazit verze nainstalovaných rozšíření, když se použije možnost --list-extensions.",
-			"startupExperimentGroup": "Přepsat spouštěcí skupinu experimentů",
 			"status": "Umožňuje vytisknout informace o použití a diagnostické informace.",
 			"stdinUsage": "Pokud se má číst z stdin, připojte znak „-“ (například „{0}“)",
 			"subcommands": "Podpříkazy",
@@ -2577,7 +2584,7 @@
 			"quickInput.visibleCount": "Počet výsledků: {0}"
 		},
 		"vs/platform/quickinput/browser/quickInputList": {
-			"quickInput": "Quick Input"
+			"quickInput": "Rychlý vstup"
 		},
 		"vs/platform/quickinput/browser/quickInputUtils": {
 			"executeCommand": "Kliknutím provedete příkaz {0}."
@@ -2588,10 +2595,10 @@
 			"terminal.commands.pinned": "připnuto"
 		},
 		"vs/platform/quickinput/browser/tree/quickInputTreeAccessibilityProvider": {
-			"quickTree": "Quick Tree"
+			"quickTree": "Rychlý strom"
 		},
 		"vs/platform/quickinput/browser/tree/quickTree": {
-			"quickInputBox.ariaLabel": "Type to narrow down results."
+			"quickInputBox.ariaLabel": "Pokud chcete zúžit počet výsledků, začněte psát."
 		},
 		"vs/platform/remoteTunnel/common/remoteTunnel": {
 			"remoteTunnelLog": "Vzdálená služba tunelového propojení"
@@ -2637,7 +2644,7 @@
 			"telemetry.enableTelemetry": "Povolte shromažďování diagnostických dat. To nám pomáhá lépe pochopit, jak probíhá {0} a kde je třeba provést vylepšení.",
 			"telemetry.enableTelemetryMd": "Povolte shromažďování diagnostických dat. To nám pomáhá lépe pochopit, jak probíhá {0} a kde je třeba provést vylepšení. [Další informace]({1}) o tom, co shromažďujeme, a naše prohlášení o zásadách ochrany osobních údajů.",
 			"telemetry.errors": "Telemetrie chyb",
-			"telemetry.feedback.enabled": "Umožňuje povolit mechanismy zpětné vazby, jako jsou sestavy problémů, průzkumy a možnosti zpětné vazby, ve funkcích, jako je Copilot Chat.",
+			"telemetry.feedback.enabled": "Enable feedback mechanisms such as the issue reporter, surveys, and other feedback options.",
 			"telemetry.restart": "Aby se změny hlášení o chybách projevily, musí se provést úplné restartování aplikace.",
 			"telemetry.telemetryLevel.crash": "Odesílá hlášení o selhání na úrovni operačního systému.",
 			"telemetry.telemetryLevel.default": "Odesílá data o využití, chyby a hlášení o selhání.",
@@ -3232,6 +3239,9 @@
 			"provideClientDetails": "Pokračovat",
 			"yes": "Ano"
 		},
+		"vs/workbench/api/browser/mainThreadChatSessions": {
+			"interruptActiveResponse": "Opravdu chcete přerušit aktivní relaci?"
+		},
 		"vs/workbench/api/browser/mainThreadCLICommands": {
 			"cannot be installed": "Rozšíření {0} se nedá nainstalovat, protože je deklarované tak, aby se nespouštělo v tomto nastavení."
 		},
@@ -3691,8 +3701,8 @@
 			"sideBarPosition": "Pozice primárního postranního panelu",
 			"sidebar": "Postranní panel",
 			"sidebarContainer": "Postranní pruh / {0}",
-			"sidebarHidden": "Primary Side Bar hidden",
-			"sidebarVisible": "Primary Side Bar shown",
+			"sidebarHidden": "Skryt primární postranní panel",
+			"sidebarVisible": "Zobrazen primární postranní panel",
 			"statusBar": "Stavový řádek",
 			"statusBarIcon": "Představuje stavový řádek",
 			"tabBar": "Panel karet",
@@ -3829,8 +3839,8 @@
 			"top": "Nahoře"
 		},
 		"vs/workbench/browser/parts/auxiliarybar/auxiliaryBarActions": {
-			"auxiliaryBarHidden": "Secondary Side Bar hidden",
-			"auxiliaryBarVisible": "Secondary Side Bar shown",
+			"auxiliaryBarHidden": "Skryt sekundární postranní panel",
+			"auxiliaryBarVisible": "Zobrazen sekundární postranní panel",
 			"closeIcon": "Ikona pro zavření sekundárního postranního panelu.",
 			"closeSecondarySideBar": "Skrýt sekundární postranní panel",
 			"focusAuxiliaryBar": "Fokus na sekundární postranní panel",
@@ -3884,7 +3894,6 @@
 			"viewsAndMoreActions": "Zobrazení a další akce..."
 		},
 		"vs/workbench/browser/parts/dialogs/dialogHandler": {
-			"aboutDetail": "Verze: {0}\r\nPotvrzení: {1}\r\nDatum: {2}\r\nProhlížeč: {3}",
 			"copy": "&&Kopírovat",
 			"ok": "OK"
 		},
@@ -3962,6 +3971,7 @@
 		"vs/workbench/browser/parts/editor/diffEditorCommands": {
 			"compare": "Porovnat",
 			"compare.nextChange": "Přejít na další změnu",
+			"compare.openSide": "Open Active Diff Side",
 			"compare.previousChange": "Přejít na předchozí změnu",
 			"swapDiffSides": "Prohodit levou a pravou stranu editoru",
 			"toggleInlineView": "Přepnout vložené (inline) zobrazení"
@@ -4106,6 +4116,7 @@
 		"vs/workbench/browser/parts/editor/editorActions": {
 			"clearButtonLabel": "&&Vymazat",
 			"clearEditorHistory": "Vymazat historii editoru",
+			"clearEditorHistoryWithoutConfirm": "Clear Editor History without Confirmation",
 			"clearRecentFiles": "Vymazat naposledy otevřené...",
 			"closeAllEditors": "Zavřít všechny editory",
 			"closeAllGroups": "Zavřít všechny skupiny editorů",
@@ -4300,6 +4311,7 @@
 			"requiresFolderTrustText": "Soubor není zobrazen v editoru, protože složce nebyl udělen vztah důvěryhodnosti.",
 			"requiresWorkspaceTrustText": "Soubor není zobrazen v editoru, protože pracovnímu prostoru nebyl udělen vztah důvěryhodnosti.",
 			"retry": "Zkusit znovu",
+			"showLogs": "Zobrazit protokoly",
 			"trustRequiredEditor": "Je vyžadován vztah důvěryhodnosti pracovního prostoru.",
 			"unavailableResourceErrorEditorText": "Editor nelze otevřít, protože soubor nebyl nalezen.",
 			"unknownErrorEditorTextWithError": "Editor nelze otevřít z důvodu neočekávané chyby. Další podrobnosti naleznete v protokolu.",
@@ -4348,7 +4360,10 @@
 			"pickEndOfLine": "Vybrat sekvenci konce řádku",
 			"pickLanguage": "Vybrat režim jazyka",
 			"pickLanguageToConfigure": "Vybrat režim jazyka, který se má přidružit k {0}",
+			"reopen": "Zahodit změny a znovu otevřít",
 			"reopenWithEncoding": "Znovu otevřít s kódováním",
+			"reopenWithEncodingDetail": "Tato operace zahodí všechny neuložené změny.",
+			"reopenWithEncodingWarning": "Chcete vrátit aktivní textový editor a znovu ho otevřít s jiným kódováním?",
 			"saveWithEncoding": "Uložit s kódováním",
 			"selectEOL": "Vybrat sekvenci konce řádku",
 			"selectEncoding": "Vybrat kódování",
@@ -4400,6 +4415,7 @@
 			"loading": "Načítání...",
 			"manage": "Správa",
 			"manage profile": "Spravovat {0} (profil)",
+			"manageDynamicAuthProviders": "Spravovat poskytovatele dynamického ověřování...",
 			"manageTrustedExtensions": "Spravovat důvěryhodná rozšíření",
 			"manageTrustedMCPServers": "Spravovat důvěryhodné servery MCP",
 			"signOut": "Odhlásit se"
@@ -4765,6 +4781,7 @@
 			"sharedViewState": "Zachová nejnovější stav zobrazení editoru (například pozici posouvání) ve všech skupinách editorů a tento stav obnoví, pokud se pro skupinu editorů nenajde žádný konkrétní stav zobrazení editoru.",
 			"showEditorTabs": "Určuje, jestli se mají otevřené editory zobrazovat jako jednotlivé karty, jedna velká karta nebo jestli by se oblast nadpisu neměla zobrazovat.",
 			"showIcons": "Určuje, jestli se mají otevřené editory zobrazovat s ikonou nebo ne. Tato možnost vyžaduje, aby byl také povolen motiv ikon souboru.",
+			"showTabIndex": "Pokud je tato možnost povolená, zobrazí se index karty. Tato hodnota je ignorována, pokud možnost {0} není nastavena na hodnotu {1}.",
 			"sideBarLocation": "Určuje umístění primárního postranního panelu a panelu aktivity. Můžou se zobrazovat na levé nebo pravé straně pracovní plochy. Sekundární postranní panel se zobrazí na opačné straně pracovní plochy.",
 			"sideBySideDirection": "Určuje výchozí směr pro editory, které se otevírají vedle sebe (například z Průzkumníka). Ve výchozím nastavení se editory otevírají napravo od aktuálně aktivního editoru. Pokud nastavení změníte na hodnotu down, editory se budou otevírat pod aktuálně aktivním editorem. To má také vliv na akci rozdělení editoru na panelu nástrojů editoru.",
 			"splitInGroupLayout": "Určuje rozložení, když je editor rozdělený ve skupině editorů, zda bude svislé, nebo vodorovné.",
@@ -4777,6 +4794,7 @@
 			"tabScrollbarHeight": "Určuje výšku posuvníků používaných pro karty a popisy cest v oblasti názvu editoru.",
 			"tabSizing": "Určuje velikost karet editorů. Tato hodnota je ignorována, pokud možnost {0} není nastavena na hodnotu {1}.",
 			"tips.enabled": "Pokud je povoleno, zobrazí v případě, že není otevřený žádný editor, tipy ve vodoznacích.",
+			"titleScrollbarVisibility": "Určuje viditelnost posuvníků používaných pro karty a popisy cest v oblasti názvu editoru.",
 			"untitledLabelFormat": "Určuje formát popisku pro editor bez názvu.",
 			"useSplitJSON": "Určuje, jestli se má při úpravách nastavení ve formátu JSON používat rozdělený editor JSON.",
 			"viewVisibility": "Řídí viditelnost akcí v záhlaví zobrazení. Akce v záhlaví zobrazení jsou buď vždy viditelné, nebo viditelné, pouze když má zobrazení fokus nebo se na něj umístí ukazatel myši.",
@@ -4865,6 +4883,9 @@
 			"workbench.editor.tabSizingFixedMinWidth": "Určuje minimální šířku karet, když je velikost {0} nastavena na {1}.",
 			"workbench.editor.titleScrollbarSizing.default": "Výchozí velikost",
 			"workbench.editor.titleScrollbarSizing.large": "Zvětší velikost, což usnadňuje uchopení myší",
+			"workbench.editor.titleScrollbarVisibility.auto": "Vodorovný posuvník bude viditelný pouze v případě potřeby.",
+			"workbench.editor.titleScrollbarVisibility.hidden": "Vodorovný posuvník bude vždy skrytý.",
+			"workbench.editor.titleScrollbarVisibility.visible": "Vodorovný posuvník bude vždy viditelný.",
 			"workbench.editor.untitled.labelFormat.content": "Název souboru bez názvu je odvozen z obsahu jeho prvního řádku, pokud k němu není přidružena cesta k souboru. Tento název bude použit jako náhradní v případě, že je řádek prázdný nebo obsahuje neslovné znaky.",
 			"workbench.editor.untitled.labelFormat.name": "Název souboru bez názvu není odvozen z obsahu souboru.",
 			"workbench.fontAliasing.antialiased": "Vyhlazovat písmo na úrovni pixelů, ne na úrovni subpixelů. Může to písmo celkově zesvětlit.",
@@ -4945,6 +4966,7 @@
 			"embedderIdentifier": "Identifikátor vloženého modulu podle produktové služby, pokud je definovaný",
 			"focusedView": "Identifikátor zobrazení, které má fokus klávesnice",
 			"groupEditorsCount": "Počet otevřených skupin editorů",
+			"inAutomation": "Whether VS Code is running under automation/smoke test",
 			"inZenMode": "Určuje, jestli je povolený režim Zen.",
 			"isAuxiliaryWindow": "Okno je pomocné okno.",
 			"isAuxiliaryWindowFocusedContext": "Určuje, jestli má pomocné okno fokus.",
@@ -5225,6 +5247,7 @@
 			"argv.logLevel": "Úroveň protokolu, která se má použít. Výchozí hodnota je info. Povolené hodnoty jsou error, warn, info, debug, trace a off.",
 			"argv.passwordStore": "Nakonfiguruje back-end, který se používá k ukládání tajných kódů v Linuxu. Tento argument se ve Windows a macOS ignoruje.",
 			"argv.proxyBypassList": "Umožňuje obejít libovolný zadaný proxy server pro zadaný seznam hostitelů oddělených středníkem. Ukázková hodnota <local>;*.microsoft.com;*foo.com;1.2.3.4:5678 použije proxy server pro všechny hostitele s výjimkou místních adres (localhost, 127.0.0.1 atd.), subdomén microsoft.com, hostitelů obsahujících příponu foo.com a všeho na adrese 1.2.3.4:5678.",
+			"argv.remoteDebuggingPort": "Určuje port, který se má použít pro vzdálené ladění.",
 			"argv.useInMemorySecretStorage": "Zajišťuje, aby se pro úložiště tajných kódů místo použití úložiště přihlašovacích údajů operačního systému používalo úložiště v paměti. Často se používá při spouštění testů rozšíření VS Code nebo při potížích s úložištěm přihlašovacích údajů.",
 			"closeWhenEmpty": "Controls whether closing the last editor should also close the window. This setting only applies for windows that do not show folders.",
 			"confirmSaveUntitledWorkspace": "Určuje, jestli se v potvrzovacím dialogovém okně při přepnutí do jiného pracovního prostoru zobrazí výzva k uložení nebo zahození otevřeného pracovního prostoru bez názvu v okně. Když se zakáže potvrzovací dialog, pracovní prostor bez názvu se vždycky zahodí.",
@@ -5287,7 +5310,6 @@
 			"join.closeStorage": "Ukládá se stav uživatelského rozhraní"
 		},
 		"vs/workbench/electron-browser/parts/dialogs/dialogHandler": {
-			"aboutDetail": "Verze: {0}\r\nPotvrzení změn: {1}\r\nDatum: {2}\r\nElectron: {3}\r\nElectronBuildId: {4}\r\nChromium: {5}\r\nNode.js: {6}\r\nV8: {7}\r\nOS: {8}",
 			"copy": "&&Kopírovat",
 			"okButton": "OK"
 		},
@@ -5612,6 +5634,7 @@
 			"noAccounts": "Toto rozšíření aktuálně nepoužívá žádné účty.",
 			"pickAProviderTitle": "Spravovat předvolby účtu rozšíření",
 			"placeholder v2": "Spravovat předvolby účtu {0} pro: {1}…",
+			"selectExtension": "Vyberte rozšíření, pro které chcete spravovat předvolby účtu.",
 			"selectProvider": "Vyberte zprostředkovatele ověřování, pro kterého chcete spravovat předvolby účtu.",
 			"title": "Předvolby účtu {0} pro tento pracovní prostor",
 			"use new account": "Použít nový účet..."
@@ -5763,6 +5786,13 @@
 			"to": "volající pro {0}",
 			"tree.aria": "Hierarchie volání"
 		},
+		"vs/workbench/contrib/chat/browser/actions/chatAccessibilityActions": {
+			"chat.category": "Chat",
+			"chatNotReady": "Rozhraní chatu není připravené.",
+			"focusChatConfirmation": "Přesunout fokus na potvrzení chatu",
+			"noChatSession": "Nenašla se žádná aktivní relace chatu.",
+			"noConfirmationRequired": "Nevyžaduje se žádné potvrzení chatu."
+		},
 		"vs/workbench/contrib/chat/browser/actions/chatAccessibilityHelp": {
 			"chat.announcement": "Odpovědi na chat budou oznámeny, jakmile přijdou. Odpověď bude označovat počet bloků kódu, pokud nějaké jsou, a zbytek odpovědi.",
 			"chat.differencePanel": "Zobrazení chatu na panelu je trvalé rozhraní, které podporuje také navigaci v navrhovaných doplňujících otázkách, zatímco zobrazení rychlého chatu je přechodné rozhraní pro zadávání a prohlížení požadavků.",
@@ -5793,7 +5823,7 @@
 			"chatEditing.sections": "Mezi úpravami v editoru můžete přecházet mezi předchozími{0} a dalšími{1}",
 			"chatEditing.undoKeepSounds": "Při přijetí nebo vrácení změny zpět se přehrají zvuky. Zvuky lze zakázat pomocí možností accessibility.signals.editsKept a accessibility.signals.editsUndone.",
 			"chatEditing.viewChanges": "- Zobrazit změny{0}.",
-			"chatEditing.viewPreviousEdits": "- View Previous Edits{0}.",
+			"chatEditing.viewPreviousEdits": "- Zobrazit předchozí úpravy{0}.",
 			"inlineChat.access": "Dá se aktivovat prostřednictvím akcí kódu nebo přímo pomocí příkazu Vložený chat: Spustit vložený chat{0}.",
 			"inlineChat.contextActions": "Akce kontextové nabídky můžou spouštět požadavek s předponou /. Pokud chcete zjistit takové připravené příkazy, zadejte /.",
 			"inlineChat.diff": "Jakmile budete v editoru rozdílů, přejděte do režimu kontroly pomocí{0}. Pomocí šipek nahoru a dolů můžete procházet řádky s navrhovanými změnami.",
@@ -5802,6 +5832,7 @@
 			"inlineChat.overview": "Vložený chat probíhá v editoru kódu a bere v úvahu aktuální výběr. Je užitečný pro provádění změn v aktuálním editoru. Například oprava diagnostiky, dokumentace nebo refaktoringu kódu. Mějte na paměti, že kód vygenerovaný umělou inteligencí může obsahovat nepřesnosti a chyby.",
 			"inlineChat.requestHistory": "Ve vstupním poli můžete pomocí tlačítek Zobrazit předchozí{0} a Zobrazit další{1} procházet historií žádostí. Upravte vstup a pomocí klávesy Enter nebo tlačítka odeslat spusťte nový požadavek.",
 			"inlineChat.toolbar": "Tabulátor slouží k dosažení podmíněných částí, jako jsou příkazy, stav, odpovědi na zprávy a další.",
+			"workbench.action.chat.announceConfirmation": "Pokud chcete přesunout fokus na dialogy s čekajícími potvrzeními chatu, vyvolejte příkaz pro přesunutí fokusu na stav potvrzení chatu{0}.",
 			"workbench.action.chat.editing.attachFiles": "- Připojit soubory{0}.",
 			"workbench.action.chat.focus": "Pokud chcete přesunout fokus na seznam žádostí a odpovědí chatu, na který lze přecházet pomocí šipek nahoru a dolů, vyvolejte příkaz pro přesunutí fokusu na chat{0}.",
 			"workbench.action.chat.focusInput": "Pokud chcete přesunout fokus na vstupní pole pro žádosti o chat, vyvolejte příkaz pro přesunutí fokusu na vstup chatu{0}.",
@@ -5814,18 +5845,26 @@
 			"agent.newSession": "Chcete začít novou relaci?",
 			"agent.newSession.confirm": "Ano",
 			"agent.newSessionMessage": "Změnou režimu chatu se ukončí vaše aktuální relace úprav. Chcete změnit režim chatu?",
-			"ai actions": "Akce AI",
 			"chat.category": "Chat",
 			"chat.clear.label": "Vymazat všechny chaty pracovního prostoru",
+			"chat.editToolApproval.label": "Upravit schválení nástroje",
+			"chat.editToolApproval.title": "Nastavení schválení pro {0}",
 			"chat.history.label": "Zobrazit chaty…",
 			"chat.history.recent": "Poslední chaty",
 			"chat.history.rename": "Přejmenovat",
 			"chat.history.showMore": "Zobrazit další...",
 			"chat.history.showMoreAgents": "Zobrazit další...",
+			"chat.openNewChatToTheSide.label": "Otevřít nový editor chatu na straně",
 			"chat.toggleDefaultVisibility.label": "Standardně zobrazit zobrazení",
+			"chat.toolApproval.manual": "Vždy vyžadovat ruční schválení",
+			"chat.toolApproval.profile": "Automaticky schvalovat globálně",
+			"chat.toolApproval.session": "Automaticky schválit pro tuto relaci",
+			"chat.toolApproval.workspace": "Automaticky schválit pro tento pracovní prostor",
 			"chatAndCompletionsQuotaExceeded": "Dosáhli jste kvóty pro měsíční počet zpráv chatu a dokončování kódu.",
 			"chatQuotaExceeded": "Dosáhli jste měsíční kvóty počtu zpráv v chatu. Stále máte k dispozici bezplatná dokončování kódu.",
 			"chatQuotaExceededButton": "Bylo dosaženo kvóty pro zprávy chatu plánu Copilot Free. Kliknutím zobrazíte podrobnosti.",
+			"chatSessions.newChatInSideBar": "Otevřít nový chat na bočním panelu",
+			"chatSessions.openNewChatInNewWindow": "Otevřít nový chat v novém okně",
 			"chatWith": "Chat s rozšířením",
 			"completionsQuotaExceeded": "Dosáhli jste měsíční kvóty pro dokončování kódu. Stále máte k dispozici zprávy chatu na úrovni Free.",
 			"config.label": "Konfigurovat chat…",
@@ -5833,8 +5872,13 @@
 			"copilotQuotaReached": "Dosáhli jste kvóty pro Copilot.",
 			"currentChatLabel": "aktuální",
 			"dismiss": "Zavřít",
+			"explain": "Explain",
+			"fix": "Fix",
+			"generateCode": "Generate Code",
+			"generateDocs": "Generate Docs",
 			"generateInstructions": "Vygenerovat soubor s pokyny k pracovnímu prostoru",
 			"generateInstructions.short": "Vygenerovat pokyny",
+			"generateTests": "Generate Tests",
 			"interactiveSession.clearHistory.label": "Vymazat historii vstupu",
 			"interactiveSession.focusInput.label": "Vstup chatu na intenzivní práci",
 			"interactiveSession.history.clear": "Vymazat všechny chaty pracovního prostoru",
@@ -5844,21 +5888,24 @@
 			"interactiveSession.history.title": "Historie chatu pracovního prostoru",
 			"interactiveSession.history.titleAll": "Veškerá historie chatu pracovního prostoru",
 			"interactiveSession.open": "Nový editor chatu",
-			"manageCopilot": "Spravovat Copilot",
+			"manageCopilot": "Spravovat chat",
 			"more": "Další…",
 			"newChatTitle": "Nový název chatu",
 			"openChat": "Otevřít chat",
+			"openChatFeatureSettings": "Nastavení chatu",
+			"openChatFeatureSettings.short": "Nastavení chatu",
 			"openChatMode": "Otevřít chat ({0})",
 			"quotaResetDate": "Kvóta se resetuje {0}.",
 			"resetTrustedTools": "Potvrzení resetování nástroje",
 			"resetTrustedToolsSuccess": "Předvolby potvrzení nástroje byly resetovány.",
+			"review": "Code Review",
 			"showCopilotUsageExtensions": "Zobrazit rozšíření pomocí Copilotu",
 			"signInToChatSetup": "Přihlásit se a používat Copilot...",
 			"switchChat.confirmPhrase": "Přepnutím chatů ukončíte aktuální relaci úprav.",
 			"switchMode.confirmPhrase": "Přepnutím režimů chatů ukončíte aktuální relaci úprav.",
 			"title4": "Copilot",
-			"toggle.chatControl": "Ovládací prvky Copilotu",
-			"toggle.chatControlsDescription": "Přepnout viditelnost ovládacích prvků Copilotu v záhlaví",
+			"toggle.chatControl": "Ovládací prvky chatu",
+			"toggle.chatControlsDescription": "Přepnout viditelnost ovládacích prvků chatu v záhlaví",
 			"toggleChat": "Přepnout chat",
 			"upgradeChat": "Upgradovat plán Copilotu",
 			"upgradePlan": "Upgradovat plán Copilotu",
@@ -5937,11 +5984,12 @@
 			"interactive.submitWithoutDispatch.label": "Odeslat",
 			"interactive.switchToNextModel.label": "Přepnout na další model",
 			"interactive.toggleAgent.label": "Nastavit režim chatu",
-			"interactive.toggleRequestPausd.label": "Přepnout žádost pozastavena",
 			"remoteAgentError": "Relace agenta pro psaní kódu byla zrušena.",
+			"remoteAgentResponse": "Odpověď agenta pro psaní kódu: {0}",
+			"remoteAgentResponse2": "Vaše práce bude pokračovat v této žádosti o přijetí změn.",
 			"remoteJobCreating": "Delegování na agenta pro psaní kódu",
-			"requestIsPaused": "Žádost o obnovení činnosti",
-			"requestNotPaused": "Pozastavit žádost",
+			"selectCodingAgent": "Vybrat agenta kódování",
+			"sendToRemoteAgent": "Odeslat agentovi pro psaní kódu",
 			"setChatMode": "Nastavit režim"
 		},
 		"vs/workbench/contrib/chat/browser/actions/chatFileTreeActions": {
@@ -5982,6 +6030,19 @@
 			"toggle.isPartialQuery": "Určuje, jestli je dotaz částečný; počká na další uživatelský vstup",
 			"toggle.query": "Dotaz pro otevření rychlého chatu s"
 		},
+		"vs/workbench/contrib/chat/browser/actions/chatSessionActions": {
+			"chat.openSessionInNewEditorGroup.label": "Open Chat to the Side",
+			"chat.openSessionInNewWindow.label": "Open Chat in New Window",
+			"chat.openSessionInSidebar.label": "Open Chat in Sidebar",
+			"openSessionInNewEditorGroup": "Open in New Editor Group",
+			"openSessionInNewWindow": "Open in New Window",
+			"openSessionInSidebar": "Open in Sidebar",
+			"renameSession": "Přejmenovat",
+			"renameSession.emptyName": "Název nesmí být prázdný.",
+			"renameSession.error": "Nepovedlo se přejmenovat relaci chatu: {0}",
+			"renameSession.nameTooLong": "Název je příliš dlouhý (maximálně 100 znaků)",
+			"renameSession.placeholder": "Zadejte nový název pro relaci chatu."
+		},
 		"vs/workbench/contrib/chat/browser/actions/chatTitleActions": {
 			"chat.retry.confirmation.checkbox": "Příště se už neptat",
 			"chat.retry.confirmation.message2": "Tato akce vrátí zpět úpravy provedené v {0} od této žádosti.",
@@ -6001,24 +6062,22 @@
 			"chat.tools.placeholder.global": "Vyberte nástroje, které jsou k dispozici pro chat.",
 			"chat.tools.placeholder.mode": "Vybrat nástroje pro tento režim chatu",
 			"chat.tools.placeholder.session": "Vybrat nástroje pro tuto relaci chatu",
+			"chatTools.tooManyEnabled": "Jsou povolené nástroje (více než {0}), takže může docházet k degradovaným voláním nástrojů.",
 			"label": "Konfigurovat nástroje..."
 		},
 		"vs/workbench/contrib/chat/browser/actions/chatToolPicker": {
-			"addAny": "Přidat další nástroje...",
-			"addExtension": "Nainstalovat rozšíření…",
-			"addExtensionButton": "Install Extension...",
-			"addMcpServer": "Add MCP Server...",
-			"addServer": "Přidat server MCP…",
+			"addExtensionButton": "Nainstalovat rozšíření…",
+			"addMcpServer": "Přidat server MCP…",
 			"configMcpCol": "Nakonfigurovat: {0}",
-			"configToolSet": "Konfigurovat sady nástrojů...",
-			"configToolSets": "Configure Tool Sets...",
-			"configureTools": "Configure Tools",
+			"configToolSets": "Konfigurovat sady nástrojů...",
+			"configureTools": "Konfigurovat nástroje",
 			"defaultBucketLabel": "Předdefinované",
 			"editUserBucket": "Upravit sadu nástrojů",
 			"ext": "Rozšíření: {0}",
 			"mcpShowOutput": "Zobrazit výstup",
 			"mcplabel": "Server MCP: {0}",
 			"noTools": "Přidat nástroje do chatu",
+			"toolLimitExceeded": "Nástroje ({0}) jsou povolené. Nad nástroji {1} můžete zaznamenat degradované volání nástrojů.",
 			"userBucket": "Sady uživatelsky definovaných nástrojů"
 		},
 		"vs/workbench/contrib/chat/browser/actions/codeBlockOperations": {
@@ -6055,10 +6114,12 @@
 			"chat": "Chat",
 			"chat.agent.enabled.description": "Povolit režim agenta pro {0}. Pokud je tato možnost povolená, můžete režim agenta aktivovat prostřednictvím rozevíracího seznamu v zobrazení.",
 			"chat.agent.maxRequests": "Maximální počet požadavků, které má Copilot v režimu agenta použít na jednu repliku. Po dosažení limitu požádá Copilot uživatele o potvrzení, že má pokračovat ve zpracování.",
+			"chat.agent.showThinking": "Určuje, jestli se má v odpovědích na chat zobrazit proces myšlení modelu.",
 			"chat.checkpoints.enabled": "Povolí kontrolní body v chatu. Kontrolní body umožňují obnovit chat do předchozího stavu.",
-			"chat.checkpoints.showFileChanges": "Controls whether to show chat checkpoint file changes.",
+			"chat.checkpoints.showFileChanges": "Určuje, jestli se mají zobrazit změny souboru kontrolního bodu chatu.",
 			"chat.commandCenter.enabled": "Určuje, jestli centrum příkazů zobrazuje nabídku akcí pro řízení Copilotu (vyžaduje {0}).",
 			"chat.detectParticipant.enabled": "Povolí automatickou detekci účastníka chatu pro panelový chat.",
+			"chat.disableAIFeatures": "Disable and hide built-in AI features provided by GitHub Copilot, including chat, code completions and next edit suggestions.",
 			"chat.editRequests": "Umožňuje upravovat žádosti v chatu. To vám umožní změnit obsah žádosti a znovu ji odeslat do modelu.",
 			"chat.editing.autoAcceptDelay": "Zpoždění, po kterém budou automaticky přijaty změny provedené chatem Hodnoty jsou v sekundách, hodnota 0 znamená zakázáno a maximum je 100 sekund.",
 			"chat.editing.confirmEditRequestRemoval": "Určuje, jestli se má před odebráním žádosti a přidružených úprav zobrazit potvrzení.",
@@ -6077,13 +6138,12 @@
 			"chat.implicitContext.value.never": "Implicitní kontext není nikdy povolen.",
 			"chat.instructions.config.locations.description": "Zadejte umístění souborů s pokyny (`*{0}`), které se dají připojit v relacích chatu. [Přečtěte si další informace]({1}).\r\n\r\nRelativní cesty se řeší z kořenových složek vašeho pracovního prostoru.",
 			"chat.instructions.config.locations.title": "Umístění souborů pokynů",
-			"chat.manageTasksTool.enabled": "Enables manageTasksTool in chat. This tool allows you to use task lists in chat.",
-			"chat.mathEnabled.description": "Povolení matematického vykreslování v odpovědích chatu pomocí Katexu.",
-			"chat.mcp.assisted.nuget.enabled.description": "Enables NuGet packages for AI-assisted MCP server installation. Used to install MCP servers by name from the central registry for .NET packages (NuGet.org).",
-			"chat.mcp.autostart": "Controls whether MCP servers should be automatically started when the chat messages are submitted.",
-			"chat.mcp.autostart.never": "Never automatically start MCP servers.",
-			"chat.mcp.autostart.newAndOutdated": "Automatically start new and outdated MCP servers that are not yet running.",
-			"chat.mcp.autostart.onlyNew": "Only automatically start new MCP servers that have never been run.",
+			"chat.mathEnabled.description": "Povolení matematického vykreslování v odpovědích chatu pomocí KaTexu.",
+			"chat.mcp.assisted.nuget.enabled.description": "Povolí balíčky NuGet pro instalaci serveru MCP s asistencí AI. Používá se k instalaci serverů MCP podle názvu z centrálního registru pro balíčky .NET (NuGet.org).",
+			"chat.mcp.autostart": "Určuje, jestli se mají automaticky spouštět servery MCP při odeslání chatových zpráv.",
+			"chat.mcp.autostart.never": "Nikdy automaticky nespouštět servery MCP",
+			"chat.mcp.autostart.newAndOutdated": "Automaticky spouštět nové a zastaralé servery MCP, které ještě nejsou spuštěné.",
+			"chat.mcp.autostart.onlyNew": "Automaticky spouštět pouze nové servery MCP, které nebyly nikdy spuštěny.",
 			"chat.mcp.enabled": "Umožňuje integraci se servery protokolu kontextu modelu, aby bylo možné poskytovat další nástroje a funkce.",
 			"chat.mcp.serverSampling": "Konfiguruje, které modely jsou vystavené serverům MCP pro vzorkování (vytváření požadavků modelu na pozadí). Toto nastavení lze upravit grafickým způsobem pod příkazem {0}.",
 			"chat.mcp.serverSampling.allowedDuringChat": "Určuje, jestli tento server během volání nástrojů v relaci chatu provádí žádosti o vzorkování.",
@@ -6103,35 +6163,35 @@
 			"chat.sendElementsToChat.enabled": "Určuje, jestli se prvky dají odesílat do chatu z jednoduchého prohlížeče.",
 			"chat.sessionsViewLocation.description": "Určuje, kde se má zobrazit nabídka relací agenta.",
 			"chat.signInDialogVariant": "Umožňuje řídit varianty přihlašovacího dialogového okna.",
+			"chat.todoListTool.enabled": "Umožňuje vytvářet seznamy úkolů v chatu, které agent používá jako nástroj pro plánování, sledování průběhu a správu kontextu pro složité vývojové pracovní postupy.",
+			"chat.todoListTool.writeOnly": "Pokud je tato možnost povolená, nástroj pro úkoly (todo) funguje v režimu jen pro zápis, přičemž vyžaduje, aby si agent pamatoval úkoly v kontextu.",
 			"chat.tools.autoApprove.description": "Určuje, jestli by mělo být použití nástroje automaticky schváleno. Umožňuje automatické spuštění všech nástrojů bez potvrzení uživatelem, čímž potlačí veškerá nastavení specifická pro daný nástroj, například automatické schválení terminálu. Používejte obezřetně: Pečlivě si projděte vybrané nástroje a buďte obzvláště obezřetní vůči možným zdrojům injektáže výzev!",
+			"chat.tools.autoApprove.edits": "Určuje, zda se mají automaticky schvalovat úpravy provedené chatem. Ve výchozím nastavení se schvalují všechny úpravy s výjimkou úprav provedených v určitých souborech, které můžou způsobit okamžité neúmyslné vedlejší účinky, například **/.vscode/*.json.\r\n\r\nSoubory se porovnávají se globálními vzory v pořadí, v jakém jsou uvedeny.",
 			"chat.tools.autoApprove.markdownDescription": "Určuje, jestli by mělo být použití nástroje automaticky schváleno.\r\n\r\nUmožňuje automatické spuštění _všech_ nástrojů bez potvrzení uživatelem, čímž potlačí veškerá nastavení specifická pro daný nástroj, například automatické schválení terminálu.\r\n\r\nPoužívejte obezřetně: Pečlivě si projděte vybrané nástroje a buďte obzvláště obezřetní vůči možným zdrojům injektáže výzev!",
-			"chat.tools.useTreePicker": "Use the new tree-based tools picker interface instead of the flat list. Provides better hierarchical organization of tools and tool sets with collapsible sections, improved visual hierarchy, and native tree interactions. MCP servers are displayed as expandable parent nodes with their tools as children.",
 			"chat.undoRequests.restoreInput": "Určuje, jestli se má při provedení žádosti o vrácení zpět obnovit vstup chatu. Vstup bude vyplněn textem žádosti, která byla obnovena.",
 			"chat.useFileStorage": "Povoluje ukládání relací chatu na disk místo ve službě úložiště. Povolením této možnosti se provede jednorázová migrace stávajících relací na nový formát pro jednotlivé pracovní prostory.",
 			"clear": "Zahájit nový chat",
-			"file": "Zvolte soubor v pracovním prostoru",
 			"interactiveSession.editor.fontFamily": "Určuje rodinu písem v blocích kódu chatu.",
 			"interactiveSession.editor.fontSize": "Určuje velikost písma v pixelech v blocích kódu chatu.",
 			"interactiveSession.editor.fontWeight": "Určuje tloušťku písma v blocích kódu chatu.",
 			"interactiveSession.editor.lineHeight": "Určuje výšku řádku v pixelech v blocích kódu chatu. K výpočtu výšky řádku z velikosti písma použijte 0.",
 			"interactiveSession.editor.wordWrap": "Určuje, jestli se řádky mají zalamovat do bloků kódu chatu.",
 			"interactiveSessionConfigurationTitle": "Chat",
-			"mcp.discovery.enabled": "Umožňuje na počítači nakonfigurovat zjišťování serverů protokolu kontextu modelu. Nastavením na true nebo false lze zakázat nebo povolit všechny požadované zdroje a zdroje mapování.",
-			"mcp.discovery.source": "Povolí zjišťování serverů {0}.",
+			"mcp.discovery.enabled": "Konfiguruje zjišťování serverů s protokolem kontextu modelu z konfigurace z různých jiných aplikací.",
 			"mcp.gallery.serviceUrl": "Nakonfigurovat adresu URL služby Galerie MCP pro připojení k",
 			"mcp.list": "Vypsat servery",
 			"save-chat-to-prompt-file": "Uložit chat do souboru výzvy"
 		},
 		"vs/workbench/contrib/chat/browser/chatAccessibilityProvider": {
 			"chat": "Chat",
-			"multiCodeBlock": "{0}{1}{2} code blocks: {3} {4}",
-			"multiCodeBlockHint": "{0}{1}{2}{3} code blocks: {4}{5} {6}",
+			"multiCodeBlock": "{0}{1}{2} bloky/bloků kódu: {3} {4}",
+			"multiCodeBlockHint": "{0}{1}{2}{3} bloky/bloků kódu: {4}{5} {6}",
 			"multiFileTreeHint": "{0} stromy/stromů souborů ",
 			"multiTableHint": "Počet tabulek: {0} ",
 			"noCodeBlocks": "{0}{1}{2} {3}",
 			"noCodeBlocksHint": "{0}{1}{2}{3}{4} {5}",
-			"singleCodeBlock": "{0}{1}1 code block: {2} {3}",
-			"singleCodeBlockHint": "{0}{1}{2}1 code block: {3} {4}{5}",
+			"singleCodeBlock": "{0}{1}1 blok kódu: {2} {3}",
+			"singleCodeBlockHint": "{0}{1}{2}1 blok kódu: {3} {4}{5}",
 			"singleFileTreeHint": "1 strom souborů ",
 			"singleTableHint": "1 tabulka ",
 			"toolCompletedHint": "Nástroj {0} byl dokončen.",
@@ -6175,6 +6235,9 @@
 		"vs/workbench/contrib/chat/browser/chatContentParts/chatAgentCommandContentPart": {
 			"rerun": "Znovu spustit bez {0}{1}"
 		},
+		"vs/workbench/contrib/chat/browser/chatContentParts/chatChangesSummaryPart": {
+			"chat.viewFileChangesSummary": "Zobrazit všechny změny souborů"
+		},
 		"vs/workbench/contrib/chat/browser/chatContentParts/chatCodeCitationContentPart": {
 			"viewMatches": "Zobrazit shody"
 		},
@@ -6190,6 +6253,7 @@
 			"dismiss": "Zavřít"
 		},
 		"vs/workbench/contrib/chat/browser/chatContentParts/chatConfirmationWidget": {
+			"chat.confirmationWidget.ariaLabel": "Dialogové okno potvrzení chatu {0} {1}",
 			"defaultTitle": "Chat: Vyžaduje se potvrzení",
 			"notificationDetail": "Aktuální relace chatu vyžaduje vaše potvrzení, aby mohla pokračovat.",
 			"notificationTitle": "Chat: {0}"
@@ -6206,10 +6270,21 @@
 			"chat.codeblock.insertions.one": "Počet vložení: 1",
 			"summary": "Upraveno: {0}, {1}, {2}"
 		},
+		"vs/workbench/contrib/chat/browser/chatContentParts/chatMultiDiffContentPart": {
+			"chatMultiDiff.manyFiles": "Změněné soubory: {0}",
+			"chatMultiDiff.oneFile": "Změněn 1 soubor",
+			"chatMultiDiffList": "Změny souborů"
+		},
+		"vs/workbench/contrib/chat/browser/chatContentParts/chatPinnedContentPart": {
+			"chat.pinned.thinking.header.base": "Thinking...",
+			"chat.pinned.thinking.header.count": "Thought for a few seconds...",
+			"chat.pinned.thinking.header.count.time": "Thought for {0}"
+		},
 		"vs/workbench/contrib/chat/browser/chatContentParts/chatProgressContentPart": {
-			"pausedMessage": "Pozastaveno",
-			"resume": "Kliknutím to můžete pokračovat.",
 			"workingMessage": "Pracuje se…"
+		},
+		"vs/workbench/contrib/chat/browser/chatContentParts/chatPullRequestContentPart": {
+			"chatPullRequest.seeMore": "Zobrazit více"
 		},
 		"vs/workbench/contrib/chat/browser/chatContentParts/chatQuotaExceededPart": {
 			"clickToContinue": "Kliknutím to můžete zkusit znovu.",
@@ -6220,6 +6295,7 @@
 		"vs/workbench/contrib/chat/browser/chatContentParts/chatReferencesContentPart": {
 			"addToChat": "Přidat soubor do chatu",
 			"chatCollapsibleList": "Sbalitelný seznam odkazů na chat",
+			"chatEditingSession.fileCounts": "Přidané řádky: {0}, odebrané řádky: {1}",
 			"copyLink": "Kopírovat odkaz",
 			"setting.hover": "Otevřít nastavení {0}",
 			"usedReferencesPlural": "Použité odkazy na {0}",
@@ -6228,6 +6304,12 @@
 		"vs/workbench/contrib/chat/browser/chatContentParts/chatTextEditContentPart": {
 			"edits0": "Provádění změn bylo přerušeno.",
 			"editsSummary": "Provedly se změny."
+		},
+		"vs/workbench/contrib/chat/browser/chatContentParts/chatTodoListWidget": {
+			"chat.todoList.clearButton": "Vymazat všechny úkoly",
+			"chat.todoList.clearButton.ariaLabel": "Vymazat všechny úkoly",
+			"chat.todoList.title": "Úkoly",
+			"chat.todoList.titleWithProgress": "Úkoly ({0}/{1})"
 		},
 		"vs/workbench/contrib/chat/browser/chatContentParts/chatToolInputOutputContentPart": {
 			"chat.input": "Vstup",
@@ -6247,12 +6329,17 @@
 			"installExtensions": "Nainstalovat rozšíření",
 			"installExtensionsConfirmation": "Klikněte na tlačítko Nainstalovat na rozšíření a po dokončení stiskněte Pokračovat."
 		},
-		"vs/workbench/contrib/chat/browser/chatContentParts/toolInvocationParts/chatTaskListSubPart": {
-			"chat.task.title": "Tasks"
-		},
-		"vs/workbench/contrib/chat/browser/chatContentParts/toolInvocationParts/chatTerminalToolSubPart": {
-			"cancel": "Zrušit",
-			"continue": "Pokračovat"
+		"vs/workbench/contrib/chat/browser/chatContentParts/toolInvocationParts/chatTerminalToolConfirmationSubPart": {
+			"autoApprove.button.enable": "Povolit",
+			"autoApprove.enable": "Povolit automatické schválení...",
+			"autoApprove.markdown": "To umožní autonomní spouštění konfigurovatelné podmnožiny příkazů v terminálu. Poskytuje *ochranu s vynaložením maximálního úsilí* a předpokládá, že agent nejedná se zlým úmyslem.",
+			"autoApprove.title": "Povolit automatické schválení terminálu?",
+			"continue": "Pokračovat",
+			"newRule": "Přidání pravidla automatického schvalování {0} ",
+			"newRule.plural": "Přidání pravidel automatického schvalování {0}",
+			"ruleTooltip": "Zobrazit pravidlo v nastavení",
+			"skip": "Skip",
+			"skip.detail": "Proceed without executing this command"
 		},
 		"vs/workbench/contrib/chat/browser/chatContentParts/toolInvocationParts/chatToolConfirmationSubPart": {
 			"allowGloballTooltip": "Vždy povolit tomuto nástroji běžet bez potvrzení",
@@ -6264,10 +6351,19 @@
 			"cancel": "Zrušit",
 			"chat.input": "Vstup",
 			"continue": "Pokračovat",
-			"seeMore": "Zobrazit více"
+			"seeMore": "Zobrazit více",
+			"showMore": "Zobrazit více"
+		},
+		"vs/workbench/contrib/chat/browser/chatContentParts/toolInvocationParts/chatToolInvocationPart": {
+			"chat.autoapprove.lmServicePerTool.profile": "Automaticky schváleno pro tento profil",
+			"chat.autoapprove.lmServicePerTool.session": "Automaticky schváleno pro tuto relaci",
+			"chat.autoapprove.lmServicePerTool.workspace": "Automaticky schváleno pro tento pracovní prostor",
+			"chat.autoapprove.setting": "Automaticky schváleno uživatelem {0}",
+			"edit": "Upravit"
 		},
 		"vs/workbench/contrib/chat/browser/chatContentParts/toolInvocationParts/chatToolOutputPart": {
-			"loading": "Rendering tool output..."
+			"chat.toolOutputError": "Error rendering the tool output",
+			"loading": "Výstup nástroje pro vykreslování..."
 		},
 		"vs/workbench/contrib/chat/browser/chatDragAndDrop": {
 			"attacAsContext": "Připojit {0} jako kontext",
@@ -6287,8 +6383,8 @@
 			"acceptAllEdits": "Zachovat všechny úpravy",
 			"addFilesFromReferences": "Přidat soubory z odkazů",
 			"chat.editRequests.label": "Upravit žádost",
-			"chat.editing.discardAll.confirmation.manyFiles": "Tato akce vrátí zpět změny provedené uživatelem {0} v(e) {1} souborech. Chcete pokračovat?",
-			"chat.editing.discardAll.confirmation.oneFile": "Tato akce vrátí zpět změny provedené uživatelem {0} v {1}. Chcete pokračovat?",
+			"chat.editing.discardAll.confirmation.manyFiles": "Tato akce vrátí zpět změny provedené v {0} souborech. Chcete pokračovat?",
+			"chat.editing.discardAll.confirmation.oneFile": "Tato akce vrátí zpět změny provedené v {0}. Chcete pokračovat?",
 			"chat.editing.discardAll.confirmation.primaryButton": "Ano",
 			"chat.editing.discardAll.confirmation.title": "Chcete vrátit zpět všechny úpravy?",
 			"chat.openFileUpdatedBySnapshot.label": "Otevřít soubor",
@@ -6347,7 +6443,6 @@
 		"vs/workbench/contrib/chat/browser/chatEditing/chatEditingEditorOverlay": {
 			"0Of0": "—",
 			"nOfM": "{0} z(e) {1}",
-			"paused": "Pozastaveno",
 			"tooltip": "{0} ({1})",
 			"tooltip_11": "1 změna v 1 souboru",
 			"tooltip_1n": "1 změna v(e) {0} souborech",
@@ -6432,8 +6527,10 @@
 			"chatAttachFiles": "Vyhledejte soubory a kontext, které chcete přidat do své žádosti.",
 			"chatEditingSession.addSuggested": "Přidat návrh",
 			"chatEditingSession.addSuggestion": "Přidat {0} návrhů",
+			"chatEditingSession.ariaLabelWithCounts": "{0}, přidané řádky: {1}, odebrané řádky: {2}",
 			"chatEditingSession.manyFiles.1": "Počet změněných souborů: {0}",
 			"chatEditingSession.oneFile.1": "1 změněný soubor",
+			"chatEditingSession.toggleWorkingSet": "Přepnout změněné soubory",
 			"chatInput.accessibilityHelp": "Vstup chatu {0}",
 			"chatInput.accessibilityHelpNoKb": "Vstup chatu {0} Stisknutím klávesy Enter odešlete žádost. Další informace získáte pomocí příkazu Nápověda k funkcím přístupnosti chatu.",
 			"chatInput.mode.agent": "(Režim agenta), upravujte soubory ve vašem pracovním prostoru.",
@@ -6451,7 +6548,6 @@
 			"missingContext": "Chybějící kontext",
 			"offensiveOrUnsafe": "Urážlivá nebo nejistá",
 			"other": "Jiné",
-			"paused": "Pozastaveno",
 			"poorlyWrittenOrFormatted": "Špatně napsaná nebo naformátovaná",
 			"refusedAValidRequest": "Zamítnutí platného požadavku",
 			"renderFailMsg": "Obsah se nepodařilo vykreslit.",
@@ -6462,8 +6558,9 @@
 			"working": "Probíhá zpracování"
 		},
 		"vs/workbench/contrib/chat/browser/chatOutputItemRenderer": {
-			"chatOutputRenderer.mimeTypes": "MIME types that this renderer can handle",
-			"vscode.extension.contributes.chatOutputRenderer": "Contributes a renderer for specific MIME types in chat outputs"
+			"chatOutputRenderer.mimeTypes": "Typy MIME, které tento renderer dokáže zpracovat",
+			"chatOutputRenderer.viewType": "Jedinečný identifikátor rendereru.",
+			"vscode.extension.contributes.chatOutputRenderer": "Přidává renderer pro konkrétní typy MIME ve výstupech chatu"
 		},
 		"vs/workbench/contrib/chat/browser/chatParticipant.contribution": {
 			"chat.viewContainer.label": "Chat",
@@ -6507,20 +6604,29 @@
 			"pastedImageName": "Vložený obrázek"
 		},
 		"vs/workbench/contrib/chat/browser/chatSessions": {
-			"chat.sessions": "Chat Sessions",
+			"chat.sessions": "Relace chatu",
 			"chat.sessions.chatView": "Chat",
-			"chat.sessions.chatView.description": "Chat View",
-			"chat.sessions.title": "Chat Sessions",
-			"chatSessions.treeAriaLabel": "Chat Sessions",
-			"interactiveSession.open": "New Chat Editor"
+			"chat.sessions.chatView.description": "Zobrazení chatu",
+			"chat.sessions.showHistory": "History",
+			"chat.sessions.title": "Relace chatu",
+			"chatSessionInputAriaLabel": "Zadejte název relace. Potvrďte stisknutím klávesy Enter nebo zrušte klávesou Esc.",
+			"chatSessions": "Chat Sessions",
+			"chatSessions.dragLabel": "{0} relací chatu",
+			"chatSessions.loading": "Načítají se relace chatu...",
+			"chatSessions.noResults": "Žádné místní relace chatu\r\n[Zahájit chat](command:workbench.action.openChat)",
+			"chatSessions.refreshing": "Aktualizují se relace chatu...",
+			"interactiveSession.open": "Nový editor chatu"
 		},
 		"vs/workbench/contrib/chat/browser/chatSessions.contribution": {
-			"chatSessionsExtPoint": "Contributes chat session integrations to the chat widget.",
-			"chatSessionsExtPoint.description": "Description of the chat session for use in menus and tooltips.",
-			"chatSessionsExtPoint.displayName": "A longer name for this item which is used for display in menus.",
-			"chatSessionsExtPoint.id": "A unique identifier for this item.",
-			"chatSessionsExtPoint.name": "Name shown in the chat widget. (eg: @agent)",
-			"chatSessionsExtPoint.when": "Condition which must be true to show this item."
+			"chatSessionNotFound": "Pro zahájení nové [relace agenta pro psaní kódu]({0}) použijte #copilotCodingAgent.",
+			"chatSessionsExtPoint": "Přidává integrace relací chatu do widgetu chatu.",
+			"chatSessionsExtPoint.chatSessionType": "Jedinečný identifikátor pro typ chatovací relace.",
+			"chatSessionsExtPoint.description": "Popis relace chatu pro použití v nabídkách a popisech.",
+			"chatSessionsExtPoint.displayName": "Delší název pro tuto položku, který se používá k zobrazení v nabídkách.",
+			"chatSessionsExtPoint.name": "Název zobrazený ve widgetu chatu. (např. @agent)",
+			"chatSessionsExtPoint.when": "Podmínka, která musí mít hodnotu true, aby se zobrazila tato položka.",
+			"continueInNewChat": "Pokračujte v **{0}** v novém editoru chatu",
+			"interactiveSession.openNewSessionEditor": "Nový editor chatu {0}"
 		},
 		"vs/workbench/contrib/chat/browser/chatSetup": {
 			"chat.category": "Chat",
@@ -6533,17 +6639,19 @@
 			"enterpriseInstance": "Jaká je vaše instance {0}?",
 			"enterpriseInstancePlaceholder": "například „octocat“ nebo „https://octocat.ghe.com“...",
 			"forceSignIn": "Pokud chcete používat Copilot, přihlaste se",
-			"hideChatSetup": "Skrýt Copilot",
-			"hideChatSetupButton": "Skrýt Copilot",
-			"hideChatSetupConfirm": "Opravdu chcete skrýt Copilot?",
-			"hideChatSetupDetail": "Copilot můžete obnovit spuštěním příkazu {0}.",
+			"hideChatSetup": "Skrýt funkce AI",
+			"hideChatSetupButton": "Skrýt funkce AI",
+			"hideChatSetupConfirm": "Opravdu chcete skrýt funkce AI?",
+			"hideChatSetupDetail": "Funkce AI můžete obnovit spuštěním příkazu {0}.",
 			"installingCopilot": "Připravuje se Copilot.",
 			"invalidEnterpriseInstance": "Musíte zadat platnou instanci {0} (tj. octocat nebo https://octocat.ghe.com).",
 			"manageOverages": "Správa nadlimitního využití Copilotu",
 			"managePlan": "Upgradovat na Copilot Pro",
+			"restartExtensionHost.reason.disable": "Disabling AI features",
+			"restartExtensionHost.reason.enable": "Enabling AI features",
 			"retry": "Zkusit znovu",
 			"settingUpCopilotNeeded": "Abyste mohli používat chat, musíte nastavit Copilot.",
-			"settings": "{0} Copilot Free, Pro a Pro+ můžou zobrazovat návrhy [veřejného kódu]({1}) a vaše data můžeme použít ke zlepšování produktů. Tato [nastavení]({2}) můžete kdykoli změnit.",
+			"settings": "Pokračováním vyjadřujete souhlas s {0}[Podmínkami]({1}) a [Prohlášením o zásadách ochrany osobních údajů]({2}). {3} Copilot může zobrazovat [veřejný kód]({4}) návrhy a používat vaše data k vylepšování produktu. Tato [nastavení]({5}) můžete kdykoli změnit.",
 			"setupChatProgress": "Připravuje se Copilot...",
 			"setupChatSignIn2": "Přihlašujete se k {0}.",
 			"setupCopilot": "Nastavit Copilot",
@@ -6551,10 +6659,10 @@
 			"setupErrorDialog": "Nepovedlo se nastavit Copilot. Chcete to zkusit znovu?",
 			"setupToolDisplayName": "Nový pracovní prostor",
 			"setupToolsDescription": "Umožňuje vygenerovat nový pracovní prostor ve VS Code.",
-			"signIn": "Pokud chcete používat Copilot, přihlaste se",
+			"signIn": "Přihlásit se a používat {0} Copilot",
 			"skipForNow": "Prozatím přeskočit",
-			"startUsing": "Začínáme používat Copilot",
-			"triggerChatSetup": "Používejte AI funkce s Copilotem zdarma...",
+			"startUsing": "Začínáme používat {0} Copilot",
+			"triggerChatSetup": "Use AI Features with GitHub Copilot for free...",
 			"triggerChatSetupFromAccounts": "Přihlásit se a používat Copilot...",
 			"trustNeeded": "Abyste mohli chat používat, musíte tomuto pracovnímu prostoru důvěřovat.",
 			"unknownSetupError": "Při nastavování Copilotu došlo k chybě. Chcete to zkusit znovu?",
@@ -6573,6 +6681,7 @@
 			"cancelSnooze": "Zrušit odložení",
 			"chatAndCompletionsQuotaExceededStatus": "Dosáhli jste kvóty.",
 			"chatQuotaExceededStatus": "Bylo dosaženo kvóty chatu.",
+			"chatSessionsTitle": "Chat Sessions",
 			"chatStatus": "Stav Copilotu",
 			"chatsLabel": "Zprávy v chatu",
 			"codeCompletions": "Dokončování kódu",
@@ -6598,6 +6707,7 @@
 			"gaugeForeground": "Barva popředí měřidla.",
 			"gaugeWarningBackground": "Barva pozadí upozornění měřidla.",
 			"gaugeWarningForeground": "Barva popředí upozornění měřidla.",
+			"inProgressChatSession": "$(loading~spin) {0} {1} in progress",
 			"learnMore": "Další informace",
 			"limitQuota": "Kvóta se resetuje {0}.",
 			"notSignedIntoCopilot": "Odhlášeno",
@@ -6616,11 +6726,14 @@
 			"signInDescription": "Přihlaste se, abyste mohli používat funkce nástroje Copilot AI.",
 			"signInToUseCopilotButton": "Pokud chcete používat Copilot, přihlaste se",
 			"upgradeToCopilotPro": "Upgradovat na Copilot Pro",
-			"usageTitle": "Využití Copilotu"
+			"usageTitle": "Využití Copilotu",
+			"viewChatSessionsLabel": "View Chat Sessions",
+			"viewChatSessionsTooltip": "View Chat Sessions"
 		},
 		"vs/workbench/contrib/chat/browser/chatWidget": {
 			"agentMessage": "Požádejte Copilot, aby upravil vaše soubory v [režimu agenta]({0}). Copilot automaticky použije více žádostí k výběru souborů k úpravě, spuštění příkazů terminálu a iteraci chyb.",
 			"agentTitle": "Sestavení s režimem agenta.",
+			"chat.input.placeholder.lockedToAgent": "Chat with {0}",
 			"chatDescription": "Zeptejte se na svůj kód.",
 			"chatDisclaimer": "Odpovědi umělé inteligence mohou být nepřesné.",
 			"chatMessage": "Copilot využívá umělou inteligenci, nelze proto vyloučit chyby. Než výstup použijete, pečlivě ho zkontrolujte.",
@@ -6634,6 +6747,8 @@
 			"chatWidget.suggestedPrompts.newProjectPrompt": "Vytvořit #new projekt Hello World v TypeScriptu",
 			"chatWidget.tips": "{0} nebo napište {1} pro připojení kontextu\r\n\r\n{2} pro chat s rozšířeními\r\n\r\nNapište {3} pro použití příkazů",
 			"chatWidget.tips.withoutParticipants": "{0} nebo napište {1} pro připojení kontextu",
+			"codingAgentMessage": "Tato relace chatu bude přeposlána agentovi {0} pro psaní kódu",
+			"codingAgentTitle": "Chat s {0}",
 			"editsHelp": "Spusťte relaci úprav tak, že definujete sadu souborů, se kterými chcete pracovat. Pak požádejte Copilot o změny, které chcete provést.",
 			"editsTitle": "Upravit v kontextu.",
 			"expChatAdditionalMessage": "Před použitím pečlivě zkontrolujte výstup AI.",
@@ -6669,8 +6784,7 @@
 			"tool_source_completion": "{0}: {1}"
 		},
 		"vs/workbench/contrib/chat/browser/contrib/chatInputEditorContrib": {
-			"askPlaceholderHint": "# pro přidání kontextu, @ pro rozšíření, / pro příkazy",
-			"editPlaceholderHint": "# pro přidání kontextu"
+			"chatPlaceholderHint": "Přidejte kontext (#), rozšíření (@), příkazy (/)"
 		},
 		"vs/workbench/contrib/chat/browser/contrib/chatInputEditorHover": {
 			"hoverAccessibilityChatAgent": "Tady je část zobrazovaná po najetí myší na agenta chatu."
@@ -6832,10 +6946,9 @@
 			"chat.requestCodeBorder": "Barva ohraničení bloků kódu v bublině žádosti o chat",
 			"chat.slashCommandBackground": "Barva pozadí příkazu lomítka chatu.",
 			"chat.slashCommandForeground": "Barva popředí příkazu lomítka chatu.",
-			"chatCheckpointSeparator": "Chat checkpoint separator color."
+			"chatCheckpointSeparator": "Barva oddělovače kontrolního bodu chatu"
 		},
 		"vs/workbench/contrib/chat/common/chatContextKeys": {
-			"chatCanRequestBePaused": "True, když se aktuální požadavek může pozastavit",
 			"chatEditApplied": "True, pokud se použily úpravy textu chatu.",
 			"chatEditingCanRedo": "Pravda, pokud je možné opakovat interakci na panelu pro úpravy.",
 			"chatEditingCanUndo": "Pravda, pokud je možné vrátit zpět interakci na panelu pro úpravy.",
@@ -6844,21 +6957,26 @@
 			"chatHasCustomChatModes": "True, pokud má chat k dispozici vlastní režimy chatu.",
 			"chatHasFileAttachments": "True, pokud má chat přiložené soubory.",
 			"chatIsEnabled": "True, pokud je chat povolen, protože je aktivován výchozí účastník chatu s implementací.",
+			"chatIsHistoryItem": "True when the chat session item is from history.",
 			"chatItemId": "ID položky chatu",
 			"chatLastItemId": "ID poslední položky chatu",
 			"chatMode": "Druh aktuálního režimu chatu – agent pro vlastní režimy.",
+			"chatModelsAreUserSelectable": "True, když uživatel může model chatu vybrat ručně",
 			"chatPanelExtensionParticipantRegistered": "True, pokud je výchozí účastník chatu zaregistrovaný pro panel z rozšíření.",
 			"chatPanelLocation": "Umístění panelu chatu",
 			"chatParticipantRegistered": "True, pokud je pro panel zaregistrován výchozí účastník chatu.",
 			"chatPromptFileAttachedContextDescription": "True, když je v chatu připojený soubor výzvy.",
 			"chatRemoteJobCreating": "True, když se vytváří úloha agenta vzdáleného psaní kódu.",
 			"chatRequest": "Položka chatu je žádost",
-			"chatRequestIsPaused": "True, pokud je aktuální žádost pozastavená",
 			"chatResponse": "Položka chatu je odpověď",
 			"chatResponseErrored": "True, pokud odpověď chatu vedla k chybě.",
 			"chatResponseFiltered": "Pravda, když server vyfiltroval odpověď chatu.",
 			"chatResponseSupportsIssueReporting": "True, když aktuální odpověď na chat podporuje hlášení problémů",
 			"chatSessionResponseDetectedAgentOrCommand": "Když se agent nebo příkaz zjistí automaticky",
+			"chatSessionType": "Typ aktuální položky relace chatu",
+			"chatSkipRequestInProgressMessage": "True, když se má přeskočit zpráva o probíhajícím požadavku na chat.",
+			"chatToolCount": "Počet nástrojů dostupných v aktuálním režimu chatu.",
+			"chatToolGroupingThreshold": "Počet nástrojů, se kterými začneme provádět virtuální seskupování.",
 			"enableRemoteCodingAgentPromptFileOverlay": "Určuje, jestli je povolená funkce překryvného souboru výzvy agenta vzdáleného kódování",
 			"hasRemoteCodingAgent": "Určuje, jestli je k dispozici jakýkoli vzdálený agent psaní kódu",
 			"inChat": "True, pokud je fokus ve widgetu chatu, jinak false.",
@@ -6871,6 +6989,7 @@
 			"interactiveSessionCurrentlyEditingInput": "True, když se upravuje aktuální vstup požadavku v dolní části.",
 			"interactiveSessionRequestInProgress": "True, pokud aktuální požadavek stále probíhá.",
 			"interactiveSessionResponseVote": "Když se hlasuje pro odpověď, nastaví se na „pro“. Když se hlasuje proti ní, nastaví se na „proti“. V opačném případě jde o prázdný řetězec.",
+			"lockedToCodingAgent": "Má hodnotu True, když je widget chatu uzamčen k relaci agenta pro psaní kódu.",
 			"toolsCount": "Počet nástrojů dostupných v chatu."
 		},
 		"vs/workbench/contrib/chat/common/chatEditingService": {
@@ -6891,10 +7010,12 @@
 		"vs/workbench/contrib/chat/common/chatModel": {
 			"codeCitation": "Našel se podobný kód s 1 typem licence.",
 			"codeCitations": "Našel se podobný kód s tím počtem typů licencí: {0}.",
-			"editsSummary": "Provedly se změny."
+			"copyrightContentRetry": "Odpověď se vymazala kvůli možné shodě s veřejným kódem. Zkouší se to znovu s upravenou výzvou.",
+			"editsSummary": "Provedly se změny.",
+			"filteredContentRetry": "Odpověď se vymazala kvůli filtrům pro zabezpečení obsahu. Zkouší se to znovu s upravenou výzvou."
 		},
 		"vs/workbench/contrib/chat/common/chatModes": {
-			"agentDescription": "Budujte autonomně.",
+			"agentDescription": "Poskytněte pokyny.",
 			"chatDescription": "Položte otázku.",
 			"editsDescription": "Upravujte soubory."
 		},
@@ -6906,8 +7027,7 @@
 			"newChat": "Nový chat"
 		},
 		"vs/workbench/contrib/chat/common/chatSessionStore": {
-			"join.chatSessionStore": "Ukládá se historie chatu.",
-			"newChat": "Nový chat"
+			"join.chatSessionStore": "Ukládá se historie chatu."
 		},
 		"vs/workbench/contrib/chat/common/chatVariableEntries": {
 			"chat.attachment.problems.all": "Všechny problémy",
@@ -6948,6 +7068,7 @@
 			"chat.prompt.frontMatter.inactiveBackground.description": "Barva pozadí neaktivního bloku hlavičky Front Matter"
 		},
 		"vs/workbench/contrib/chat/common/promptSyntax/languageProviders/promptHeaderDiagnosticsProvider": {
+			"promptHeaderDiagnosticsProvider.modeNotFound": "Neznámý režim {0} Dostupné režimy: {1}",
 			"promptHeaderDiagnosticsProvider.modelNotFound": "Neznámý model „{0}“",
 			"promptHeaderDiagnosticsProvider.modelNotSuited": "Model {0} není vhodný pro režim agenta",
 			"promptHeaderDiagnosticsProvider.toolNotFound": "Neznámý nástroj „{0}“"
@@ -6962,7 +7083,12 @@
 			"promptHeader.mode.model": "Model, který se má použít v tomto režimu.",
 			"promptHeader.mode.tools": "Nástroje, které se mají použít v tomto režimu.",
 			"promptHeader.prompt.description": "Popis souboru výzvy. Dá se použít k poskytnutí dalšího kontextu nebo informací o výzvě autorovi výzvy.",
-			"promptHeader.prompt.mode": "Režim (dotaz, úprava nebo agent), který se má použít při spuštění této výzvy.",
+			"promptHeader.prompt.mode": "Režim, který se má použít v této výzvě",
+			"promptHeader.prompt.mode.builtInDesc": "Integrovaný režim chatu",
+			"promptHeader.prompt.mode.builtin": "**Integrované režimy:**",
+			"promptHeader.prompt.mode.custom": "**Vlastní režimy:**",
+			"promptHeader.prompt.mode.customDesc": "Vlastní režim chatu",
+			"promptHeader.prompt.mode.description": "Režim chatu, který se má použít při spuštění této výzvy",
 			"promptHeader.prompt.model": "Model, který se má použít v této výzvě.",
 			"promptHeader.prompt.tools": "Nástroje, které se mají použít v této výzvě.",
 			"toolSetName": "Sada nástrojů: {0}\r\n\r\n"
@@ -6981,10 +7107,10 @@
 			"prompt.header.metadata.string.diagnostics.invalid-language": "Vlastnost hlavičky „{0}“ je platná pouze v souborech instrukcí."
 		},
 		"vs/workbench/contrib/chat/common/promptSyntax/parsers/promptHeader/metadata/base/enum": {
-			"prompt.header.metadata.enum.diagnostics.invalid-value": "Metadata {0} musí být jedna z těchto hodnot: {1}, získáno: {2}."
+			"prompt.header.metadata.enum.diagnostics.invalid-value": "Vlastnost {0} musí být jedna z těchto hodnot: {1}, získáno: {2}."
 		},
 		"vs/workbench/contrib/chat/common/promptSyntax/parsers/promptHeader/metadata/base/string": {
-			"prompt.header.metadata.string.diagnostics.invalid-value-type": "Metadata {0} musí být {1}, získáno: {2}."
+			"prompt.header.metadata.string.diagnostics.invalid-value-type": "Vlastnost {0} musí být typu {1}, získáno {2}."
 		},
 		"vs/workbench/contrib/chat/common/promptSyntax/parsers/promptHeader/metadata/tools": {
 			"prompt.header.metadata.tools.diagnostics.duplicate-tool-name": "Duplicitní název nástroje {0}",
@@ -6993,7 +7119,7 @@
 			"prompt.header.metadata.tools.diagnostics.invalid-value-type": "Musí to být pole názvů nástrojů. Obdrželo se: {0}."
 		},
 		"vs/workbench/contrib/chat/common/promptSyntax/parsers/promptHeader/promptHeader": {
-			"prompt.header.metadata.mode.diagnostics.incompatible-with-tools": "Nástroje lze použít pouze v režimu agent, ale režim je nastaven na hodnotu „{0}“. Nástroje budou ignorovány."
+			"prompt.header.metadata.mode.diagnostics.incompatible-with-tools": "Nástroje nelze použít v režimu {0} a budou ignorovány."
 		},
 		"vs/workbench/contrib/chat/common/promptSyntax/parsers/topError": {
 			"broken": "přerušeno",
@@ -7014,7 +7140,7 @@
 			"canBeReferencedInPrompt": "Pokud je hodnota True, zobrazí se tento nástroj jako příloha, kterou může uživatel přidat do své žádosti ručně. Účastníci chatu obdrží nástroj v {0}.",
 			"condition": "Podmínka, která musí být vyhodnocena jako true, aby byl tento nástroj povolen. Upozorňujeme, že nástroj může být vyvolán i jiným rozšířením, a to i v případě, že je jeho podmínka when vyhodnocena jako false.",
 			"descriptions": "Popis",
-			"icon": "Ikona, která představuje tento nástroj. Může to být cesta k souboru, objekt s cestami k souborům pro tmavý a světlý motiv nebo odkaz na ikonu motivu, například „$(zap)“.",
+			"icon": "Ikona, která představuje tento nástroj. Může to být cesta k souboru, objekt s cestami k souborům pro tmavý a světlý motiv nebo odkaz na ikonu motivu, například \\$(zap).",
 			"icon.dark": "Cesta k ikoně při použití tmavého motivu",
 			"icon.light": "Cesta k ikoně při použití světlého motivu",
 			"langModelToolSets": "Sady nástrojů jazykového modelu",
@@ -7046,16 +7172,13 @@
 			"workbench.action.chat.openStorageFolder.label": "Otevřít složku úložiště chatu"
 		},
 		"vs/workbench/contrib/chat/electron-browser/actions/voiceChatActions": {
-			"installProviderForVoiceChat.justification": "Podpora mikrofonu vyžaduje rozšíření.",
 			"keywordActivation.status.active": "Naslouchání „Hey Code“…",
 			"keywordActivation.status.inactive": "Čeká se na ukončení hlasové konverzace…",
 			"keywordActivation.status.name": "Aktivace hlasovými klíčovými slovy",
 			"listening": "Poslouchám",
-			"retry": "Zkusit znovu",
 			"scopedChatSynthesisInProgress": "Definováno jako umístění, kde probíhá záznam hlasu z mikrofonu pro hlasový chat. Tento klíč je definován pouze ve vymezeném oboru podle kontextu chatu.",
 			"scopedVoiceChatGettingReady": "Pravda, když se připravujete na příjem hlasového vstupu z mikrofonu pro hlasový chat. Tento klíč je definován pouze ve vymezeném oboru podle kontextu chatu.",
 			"scopedVoiceChatInProgress": "Definováno jako umístění, kde probíhá záznam hlasu z mikrofonu pro hlasový chat. Tento klíč je definován pouze ve vymezeném oboru podle kontextu chatu.",
-			"unknownSetupError": "Při nastavování hlasové konverzace došlo k chybě. Chcete to zkusit znovu?",
 			"voice.keywordActivation": "Určuje, jestli se rozpozná fráze klíčového slova Hey Code, aby se spustila relace hlasové konverzace. Když se tato možnost povolí, spustí se nahrávání z mikrofonu, ale zvuk se zpracuje místně a nikdy se neodešle na server.",
 			"voice.keywordActivation.chatInContext": "Aktivace klíčovými slovy je povolená a naslouchá funkci Hey Code, aby se v aktivním editoru spustila relace hlasové konverzace nebo zobrazení v závislosti na fokusu klávesnice.",
 			"voice.keywordActivation.chatInView": "Aktivace klíčovými slovy je povolená a naslouchá funkci Hey Code, aby se v zobrazení chatu spustila relace hlasové konverzace.",
@@ -7064,7 +7187,6 @@
 			"voice.keywordActivation.quickChat": "Aktivace klíčovými slovy je povolená a naslouchá funkci Hey Code, aby se v rychlém chatu spustila relace hlasové konverzace.",
 			"workbench.action.chat.holdToVoiceChatInChatView.label": "Podržením zobrazíte hlasový chat v zobrazení chatu",
 			"workbench.action.chat.inlineVoiceChat": "Vložená hlasová konverzace",
-			"workbench.action.chat.installProviderForVoiceChat.label": "Zahájit hlasový chat",
 			"workbench.action.chat.quickVoiceChat.label": "Rychlá hlasová konverzace",
 			"workbench.action.chat.readChatResponseAloud": "Číst nahlas",
 			"workbench.action.chat.startVoiceChat.label": "Zahájit hlasový chat",
@@ -7075,12 +7197,17 @@
 			"workbench.action.speech.stopReadAloud": "Zastavit čtení nahlas"
 		},
 		"vs/workbench/contrib/chat/electron-browser/chat.contribution": {
+			"changeWorkspace.detail": "Pokud změníte pracovní prostor, žádost o chat se zastaví.",
 			"changeWorkspace.message": "Probíhá žádost o chat. Opravdu chcete změnit pracovní prostor?",
+			"chatRequestInProgress": "Probíhá žádost o chat.",
+			"closeTheWindow.detail": "Pokud okno zavřete, žádost o chat se zastaví.",
 			"closeTheWindow.message": "Probíhá žádost o chat. Opravdu chcete okno zavřít?",
 			"copilotWorkspaceTrust": "Copilot se v současné době podporuje jenom v důvěryhodných pracovních prostorech.",
+			"exit.detail": "Žádost o chat se zastaví, pokud ji ukončíte.",
 			"exit.message": "Probíhá žádost o chat. Opravdu chcete skončit?",
-			"quit.detail": "Pokud budete pokračovat, žádost na chat bude zrušena.",
+			"quit.detail": "Žádost o chat se zastaví, pokud ji ukončíte.",
 			"quit.message": "Probíhá žádost o chat. Opravdu chcete skončit?",
+			"reloadTheWindow.detail": "Pokud okno znovu načtete, žádost o chat se zastaví.",
 			"reloadTheWindow.message": "Probíhá žádost o chat. Opravdu chcete znovu načíst okno?"
 		},
 		"vs/workbench/contrib/chat/electron-browser/tools/fetchPageTool": {
@@ -7815,6 +7942,7 @@
 			"addConfiguration": "Přidat konfiguraci...",
 			"addInlineBreakpoint": "Přidat vloženou zarážku",
 			"addToWatchExpressions": "Přidat do kukátka",
+			"attachToCurrentCodeRenderer": "Připojit k aktuálnímu rendereru kódu",
 			"callStackBottom": "Přejít na konec zásobníku volání",
 			"callStackDown": "Procházet zásobník volání dolů",
 			"callStackTop": "Přejít na začátek zásobníku volání",
@@ -7840,13 +7968,15 @@
 			"selectAndStartDebugging": "Vybrat a spustit ladění",
 			"selectDebugConsole": "Vybrat konzolu ladění",
 			"selectDebugSession": "Vybrat relaci ladění",
+			"selectExceptionBreakpointsPlaceholder": "Vybrat povolené zarážky výjimek",
 			"startDebug": "Spustit ladění",
 			"startWithoutDebugging": "Spustit bez ladění",
 			"stepIntoDebug": "Krokovat s vnořením",
 			"stepIntoTargetDebug": "Krok do cíle",
 			"stepOutDebug": "Krokovat s vystoupením",
 			"stepOverDebug": "Krokovat bez vnoření",
-			"stop": "Zastavit"
+			"stop": "Zastavit",
+			"toggleExceptionBreakpoints": "Přepnout zarážky výjimek"
 		},
 		"vs/workbench/contrib/debug/browser/debugConfigurationManager": {
 			"DebugConfig.failed": "Soubor launch.json nelze vytvořit ve složce .vscode ({0}).",
@@ -8438,15 +8568,16 @@
 			"cloudChangesLog": "Změny v cloudu"
 		},
 		"vs/workbench/contrib/editTelemetry/browser/editStats/aiStatsStatusBar": {
-			"aiStatsStatusBarHeader": "AI Usage Statistics",
+			"aiStats.statusBar.configure": "Nakonfigurovat",
+			"aiStatsStatusBarHeader": "Statistika využití AI",
 			"inlineSuggestions": "Vložené návrhy",
 			"inlineSuggestionsStatusBar": "Stavový řádek vložených návrhů",
-			"text1": "Manual vs. AI typing ratio: {0}",
-			"text2": "Accepted inline suggestions today: {0}"
+			"text1": "Průměr AI vs. psaní: {0}",
+			"text2": "Přijaté vložené návrhy dnes: {0}"
 		},
 		"vs/workbench/contrib/editTelemetry/browser/editTelemetry.contribution": {
 			"editTelemetry": "Upravit telemetrii",
-			"editor.aiStats.enabled": "Určuje, jestli se mají v editoru povolit statistiky AI.",
+			"editor.aiStats.enabled": "Určuje, jestli se mají v editoru povolit statistiky AI. Měřidlo představuje průměrné množství kódu vloženého umělou inteligencí v porovnání s ručním psaním v průběhu 24 hodin.",
 			"telemetry.editStats.detailed.enabled": "Určuje, jestli se má povolit telemetrie pro podrobné statistiky úprav (odesílá statistiku jenom v případě, že je povolená obecná telemetrie).",
 			"telemetry.editStats.enabled": "Určuje, jestli se má povolit telemetrie pro úpravu statistiky (odesílá statistiku jenom v případě, že je povolená obecná telemetrie).",
 			"telemetry.editStats.showDecorations": "Určuje, jestli se mají zobrazovat dekorace pro úpravu telemetrie.",
@@ -9043,7 +9174,7 @@
 			"download": "Stáhnout",
 			"download title": "Vyberte složku, do které se má stáhnout VSIX",
 			"download.completed": "Stažení VSIX bylo úspěšně dokončeno.",
-			"download.failed": "Error while downloading the VSIX: {0}",
+			"download.failed": "Chyba při stahování souboru VSIX: {0}",
 			"downloading...": "Stahuje se soubor VSIX...",
 			"enable locally": "Pokud chcete toto rozšíření povolit místně, proveďte prosím toto: {0}.",
 			"enable remote": "Pokud chcete toto rozšíření povolit v {1}, proveďte prosím toto: {0}.",
@@ -9151,14 +9282,14 @@
 			"searchExtensionsTool.userDescription": "Vyhledejte rozšíření v Visual Studio Code Extensions Marketplace."
 		},
 		"vs/workbench/contrib/extensions/electron-browser/debugExtensionHostAction": {
-			"debugExtensionHost": "Spustit hostitele rozšíření ladění v novém okně",
+			"debugExtensionHost": "Hostitel rozšíření ladění v novém okně",
 			"debugExtensionHost.launch.name": "Připojit hostitele rozšíření",
 			"debugExtensionHost.progress": "Připojení ladicího programu k hostiteli rozšíření",
-			"openDevToolsForExtensionHost": "Open Developer Tools for Extension Host",
+			"openDevToolsForExtensionHost": "Hostitel rozšíření ladění ve vývojářských nástrojích",
 			"restart1": "Rozšíření pro ladění",
 			"restart2": "Aby bylo možné ladit rozšíření, je nutný restart. Chcete teď{0} restartovat?",
 			"restart3": "&&Restartovat",
-			"selectExtensionHost": "Pick extension host"
+			"selectExtensionHost": "Vybrat hostitele rozšíření"
 		},
 		"vs/workbench/contrib/extensions/electron-browser/extensionProfileService": {
 			"profilingExtensionHost": "Profilování hostitele rozšíření",
@@ -9739,13 +9870,14 @@
 			"moveToPreviousHunk": "Přejít na předchozí změnu",
 			"rerun": "Spustit znovu",
 			"reveal": "Přepnout vložený chat",
-			"run": "Vložený chat editoru",
+			"run": "Open Inline Chat",
 			"showChanges": "Přepnout změny",
 			"startInlineChat": "Ikona, která vytvoří vložený chat z panelu nástrojů editoru",
 			"unstash": "Pokračovat v posledním zavřeném vloženém chatu",
 			"viewInChat": "Zobrazit v chatu"
 		},
 		"vs/workbench/contrib/inlineChat/browser/inlineChatController": {
+			"askOrEditInContext": "Zeptat se nebo upravit v kontextu",
 			"create.fail": "Nepovedlo se spustit chat editoru",
 			"empty": "Žádné výsledky, upřesněte prosím svůj vstup a zkuste to znovu",
 			"err.apply": "Nepovedlo se zavést změny.",
@@ -9810,7 +9942,7 @@
 			"inlineChatResponseTypes": "Jaké typy odpovědí byly přijaty, zatím nic, jen zprávy, nebo zprávy a místní úpravy",
 			"inlineChatVisible": "Určuje, jestli je interaktivní vstup editoru viditelný",
 			"lineSuffixHint": "Určuje, zda řádky, které jsou v přirozeném jazyce nebo pseudokódu, zobrazují nápovědu pro pokračování v vloženém chatu. Například \"třída Osoba se jménem a zájmy\" by zobrazila nápovědu pro pokračování v chatu.",
-			"notebookAgent": "Enable agent-like behavior for inline chat widget in notebooks. Depends on the `#inlineChat.enableV2#` setting being enabled."
+			"notebookAgent": "Umožňuje povolit chování podobné agentovi pro widget vloženého chatu v poznámkových blocích. Závisí na povoleném nastavení #inlineChat.enableV2#."
 		},
 		"vs/workbench/contrib/inlineChat/electron-browser/inlineChatActions": {
 			"holdForSpeech": "Podržte pro řeč"
@@ -10423,6 +10555,7 @@
 			"mcp.addConfiguration.description": "Nainstaluje nový protokol kontextu modelu do nastavení mcp.json",
 			"mcp.addServer": "Přidat server",
 			"mcp.addServer.description": "Přidat novou konfiguraci serveru",
+			"mcp.autoStart": "Automaticky spouštět servery MCP při odesílání zprávy chatu",
 			"mcp.browseResources": "Procházet prostředky...",
 			"mcp.command.browse": "Servery MCP",
 			"mcp.command.browse.mcp": "Procházet servery",
@@ -10443,8 +10576,12 @@
 			"mcp.configureSamplingModels.ph": "Vyberte modely, ke kterým má {0} přístup prostřednictvím vzorkování MCP.",
 			"mcp.disconnect": "Odpojit účet",
 			"mcp.editStoredInput": "Upravit uložený vstup",
+			"mcp.err.md.multi": "Více serverů MCP se nepodařilo úspěšně spustit:\r\n\r\n{0}",
+			"mcp.err.md.single": "Server MCP {0} se nepodařilo úspěšně spustit.",
 			"mcp.list": "Vypsat servery",
 			"mcp.newTools": "K dispozici jsou nové nástroje ({0})",
+			"mcp.newTools.md.multi": "Servery MCP byly aktualizovány a můžou mít k dispozici nové nástroje:\r\n\r\n{0}",
+			"mcp.newTools.md.single": "Server MCP {0} byl aktualizován a může mít k dispozici nové nástroje.",
 			"mcp.options": "Možnosti serveru",
 			"mcp.resetCachedTools": "Resetovat nástroje uložené v mezipaměti",
 			"mcp.resetTrust": "Obnovit důvěru",
@@ -10476,9 +10613,10 @@
 			"install.title": "Nainstalovat server MCP {0}",
 			"mcp.command.placeholder": "Příkaz, který se má spustit (s volitelnými argumenty)",
 			"mcp.command.title": "Zadejte příkaz",
-			"mcp.confirmPublish": "Nainstalovat {0} z {1}?",
+			"mcp.confirmPublish": "Nainstalovat {0}{1} z {2}?",
 			"mcp.docker.placeholder": "Název image (např. mcp/imagename)",
 			"mcp.docker.title": "Zadejte název image Dockeru",
+			"mcp.error.openHelpUri": "Otevřít adresu URL nápovědy",
 			"mcp.error.retry": "Vyzkoušejte jiný balíček",
 			"mcp.loading.title": "Načítají se podrobnosti balíčku...",
 			"mcp.npm.placeholder": "Název balíčku (např. @org/balíček)",
@@ -10505,6 +10643,7 @@
 			"mcp.serverType.pip.description": "Instalace z názvu balíčku Pip",
 			"mcp.serverType.placeholder": "Zvolte typ serveru MCP, který se má přidat",
 			"mcp.servers.browse": "Procházet servery MCP...",
+			"mcp.servers.discovery": "Přidat z jiné aplikace...",
 			"mcp.target..remote.description": "K dispozici na tomto vzdáleném počítači, běží na {0}",
 			"mcp.target.remote": "Vzdálené",
 			"mcp.target.title": "Zvolte, kam se má server MCP nainstalovat",
@@ -10585,6 +10724,7 @@
 		},
 		"vs/workbench/contrib/mcp/browser/mcpServerActions": {
 			"config": "Zobrazit konfiguraci",
+			"configJson": "Zobrazit konfiguraci (JSON)",
 			"disabled - not allowed": "Tento server MCP je zakázán, protože {0}",
 			"install": "Nainstalovat",
 			"installing": "Probíhá instalace",
@@ -10664,7 +10804,7 @@
 			"cannot be installed": "Server MCP {0} nelze nainstalovat, protože není v této instalaci k dispozici.",
 			"mcp.configuration.userLocalValue": "Globální v: {0}",
 			"not an extension": "Zadaný objekt není server mcp.",
-			"overwriting": "Overwriting mcp server '{0}' from {1} with {2}."
+			"overwriting": "Přepisuje se server MCP {0} z {1} pomocí {2}."
 		},
 		"vs/workbench/contrib/mcp/common/discovery/extensionMcpDiscovery": {
 			"invalidData": "Očekávalo se pole kolekcí MCP.",
@@ -10693,9 +10833,13 @@
 			"app.mcp.json.url.pattern": "Adresa URL musí začínat na http:// nebo https://.",
 			"id": "ID",
 			"mcp.discovery.source.claude-desktop": "Claude Desktop",
+			"mcp.discovery.source.claude-desktop.config": "Konfigurace Claude Desktopu (claude_desktop_config.json)",
 			"mcp.discovery.source.cursor-global": "Kurzor (globální)",
+			"mcp.discovery.source.cursor-global.config": "Globální konfigurace kurzoru (~/.cursor/mcp.json)",
 			"mcp.discovery.source.cursor-workspace": "Kurzor (pracovní prostor)",
+			"mcp.discovery.source.cursor-workspace.config": "Konfigurace pracovního prostoru kurzoru (.cursor/mcp.json)",
 			"mcp.discovery.source.windsurf": "Windsurf",
+			"mcp.discovery.source.windsurf.config": "Konfigurace windsurfu (~/.codeium/windsurf/mcp_config.json)",
 			"mcpServerDefinitionProviders": "Servery MCP",
 			"name": "Název",
 			"vscode.extension.contributes.mcp": "Přidává servery s protokolem kontextu modelu. Uživatelé této funkce by také měli používat vscode.lm.registerMcpServerDefinitionProvider.",
@@ -10713,24 +10857,24 @@
 			"mcp.debug.pythonBinReq": "Aby bylo možné povolit ladění, musí být server MCP spuštěn se spustitelným souborem „python“. Byl ale spuštěn s: „{0}“."
 		},
 		"vs/workbench/contrib/mcp/common/mcpLanguageModelToolContribution": {
-			"mcp.tool.warning": "Note that MCP servers or malicious conversation content may attempt to misuse '{0}' through tools.",
-			"mcp.toolset": "{0}: All Tools",
-			"msg.ran": "Ran {0} ",
-			"msg.run": "Running {0}",
-			"msg.subtitle": "{0} (MCP Server)",
-			"msg.title": "Run {0}"
+			"mcp.tool.warning": "Poznámka: Servery MCP nebo škodlivý konverzační obsah se můžou pokusit zneužít {0} prostřednictvím nástrojů.",
+			"mcp.toolset": "{0}: Všechny nástroje",
+			"msg.ran": "Spuštěno: {0} ",
+			"msg.run": "Běží: {0}",
+			"msg.subtitle": "{0} (server MCP)",
+			"msg.title": "Spustit {0}"
 		},
 		"vs/workbench/contrib/mcp/common/mcpRegistry": {
 			"mcp.launchError": "Při spouštění {0} došlo k chybě: {1}",
 			"mcp.launchError.openConfig": "Otevřít konfiguraci",
-			"mcp.trust.details": "The MCP server {0} was updated. MCP servers may add context to your chat session and lead to unexpected behavior. Do you want to trust and run this server?",
-			"mcp.trust.detailsMulti": "Several updated MCP servers were discovered:\r\n\r\n{0}\r\n\r\n MCP servers may add context to your chat session and lead to unexpected behavior. Do you want to trust and run these server?",
+			"mcp.trust.details": "Server MCP {0} byl aktualizován. Servery MCP můžou do relace chatu přidávat kontext, což může vést k neočekávanému chování. Chcete důvěřovat tomuto serveru a spustit ho?",
+			"mcp.trust.detailsMulti": "Bylo zjištěno několik aktualizovaných serverů MCP:\r\n\r\n{0}\r\n\r\n Servery MCP můžou do relace chatu přidávat kontext, což může vést k neočekávanému chování. Chcete těmto serverům důvěřovat a spustit je?",
 			"mcp.trust.no": "Nedůvěřovat",
-			"mcp.trust.pick": "Pick Trusted",
+			"mcp.trust.pick": "Vybrat důvěryhodné",
 			"mcp.trust.yes": "Důvěřovat",
-			"trustFromExt": "from {0}",
-			"trustTitleWithOrigin": "Trust and run MCP server {0}?",
-			"trustTitleWithOriginMulti": "Trust and run {0} MCP servers?"
+			"trustFromExt": "z {0}",
+			"trustTitleWithOrigin": "Chcete důvěřovat serveru MCP {0} a spustit ho?",
+			"trustTitleWithOriginMulti": "Chcete důvěřovat serverům MCP {0} a spustit je?"
 		},
 		"vs/workbench/contrib/mcp/common/mcpSamplingLog": {
 			"mcp.sampling.rpd": "Celkový počet požadavků za posledních 7 dnů: {0}"
@@ -10763,6 +10907,10 @@
 			"mcpServer.starting": "Spouští se server {0}",
 			"mcpServer.state": "Stav připojení: {0}",
 			"mcpServer.stopping": "Zastavuje se server {0}"
+		},
+		"vs/workbench/contrib/mcp/common/mcpService": {
+			"mcp.autostart.configure": "Konfigurace automatického spuštění MCP",
+			"mcp.autostart.progress": "Spouští se server MCP: {0}"
 		},
 		"vs/workbench/contrib/mcp/common/mcpTypes": {
 			"mcpstate.error": "Chyba {0}",
@@ -11119,7 +11267,7 @@
 			"breadcrumbs.showCodeCells": "Pokud se tato možnost povolí, popis cesty poznámkového bloku bude obsahovat buňky kódu.",
 			"filter": "Filtrovat položky",
 			"notebook.gotoSymbols.showAllSymbols": "Pokud je tato možnost povolena, zobrazí se při rychlé volbě Přejít na symbol kompletní symboly kódu z poznámkového bloku a také hlavičky Markdownu.",
-			"outline.showCodeCellSymbols": "Pokud je povolená tato možnost, zobrazí se v osnově poznámkového bloku symboly buněk kódu. Vyžaduje, aby byla povolena možnost notebook.outline.showCodeCells.",
+			"outline.showCodeCellSymbols": "Pokud je povolená tato možnost, zobrazí se v osnově poznámkového bloku symboly buněk kódu. Vyžaduje, aby byla povolena možnost #notebook.outline.showCodeCells#.",
 			"outline.showCodeCells": "Pokud je povolená osnova poznámkového bloku, zobrazí buňky kódu.",
 			"outline.showMarkdownHeadersOnly": "Pokud je povolena tato možnost, zobrazí se v osnově poznámkového bloku pouze buňky Markdownu obsahující záhlaví.",
 			"toggleCodeCellSymbols": "Symboly buněk kódu",
@@ -11198,7 +11346,7 @@
 			"notebookChatUserDidEdit": "Určuje, jestli uživatel provedl změny v chatu v buňce poznámkového bloku."
 		},
 		"vs/workbench/contrib/notebook/browser/controller/chat/notebookChatController": {
-			"default.placeholder": "Zeptejte se",
+			"default.placeholder": "Zeptat se nebo upravit v kontextu",
 			"welcome.1": "Kód vygenerovaný umělou inteligencí může být nesprávný"
 		},
 		"vs/workbench/contrib/notebook/browser/controller/coreActions": {
@@ -11228,6 +11376,7 @@
 			"notebookActions.deleteCell": "Odstranit buňku",
 			"notebookActions.editCell": "Upravit buňku",
 			"notebookActions.quitEdit": "Ukončit úpravy buňky",
+			"notebookActions.quitEditAllCells": "Ukončit úpravy všech buněk",
 			"pickAction": "Vybrat akci",
 			"pickLanguageToConfigure": "Vybrat režim jazyka",
 			"selectNotebookIndentation": "Vybrat odsazení"
@@ -13631,7 +13780,7 @@
 			"ProblemPatternExtPoint": "Přidává vzory problémů.",
 			"ProblemPatternParser.invalidRegexp": "Error: The string {0} is not a valid regular expression.\r\n",
 			"ProblemPatternParser.loopProperty.notLast": "Vlastnost loop je podporována pouze v matcheru problémů posledního řádku.",
-			"ProblemPatternParser.problemPattern.emptyPattern": "The problem pattern is invalid. It must contain at least one pattern.",
+			"ProblemPatternParser.problemPattern.emptyPattern": "Vzor problému je neplatný. Musí obsahovat alespoň jeden vzor.",
 			"ProblemPatternParser.problemPattern.kindProperty.notFirst": "Vzor problému je neplatný. Vlastnost kind musí být zadána pouze v prvním prvku.",
 			"ProblemPatternParser.problemPattern.missingLocation": "Vzor problému je neplatný. Musí mít buď nastavený typ file, nebo musí mít skupinu shody pro řádky nebo umístění.",
 			"ProblemPatternParser.problemPattern.missingProperty": "Vzor problému je neplatný. Musí obsahovat aspoň soubor a zprávu.",
@@ -13697,7 +13846,8 @@
 			"tasks.processExecutionSupported": "Určuje, jestli se podporují úlohy ProcessExecution. Zvažte možnost použít toto v klauzuli when příspěvku taskDefinition.",
 			"tasks.serverlessWebContext": "True, pokud je na webu bez vzdálené autority.",
 			"tasks.shellExecutionSupported": "Určuje, jestli se podporují úlohy ShellExecution. Zvažte možnost použít toto v klauzuli when příspěvku taskDefinition.",
-			"tasks.taskCommandsRegistered": "Určuje, jestli se příkazy úlohy ještě nezaregistrovaly."
+			"tasks.taskCommandsRegistered": "Určuje, jestli se příkazy úlohy ještě nezaregistrovaly.",
+			"tasks.tasksAvailable": "Určuje, jestli jsou v pracovním prostoru k dispozici nějaké úkoly."
 		},
 		"vs/workbench/contrib/tasks/common/taskTemplates": {
 			"Maven": "Provede běžné příkazy Maven.",
@@ -13844,11 +13994,12 @@
 		"vs/workbench/contrib/terminal/browser/terminalMenus": {
 			"defaultTerminalProfile": "{0} (výchozí)",
 			"launchProfile": "Profil spouštění…",
+			"miNewInNewWindow": "Nové &&okno terminálu",
 			"miNewTerminal": "&&Nový terminál",
 			"miRunActiveFile": "Spustit &&aktivní soubor",
 			"miRunSelectedText": "Spustit &&vybraný text",
 			"miSplitTerminal": "&&Rozdělit terminál",
-			"splitTerminal": "Rozdělit terminál",
+			"split.profile": "Rozdělit terminál s profilem",
 			"workbench.action.tasks.configureTaskRunner": "Konfigurovat úlohy...",
 			"workbench.action.tasks.runTask": "Spustit úlohu...",
 			"workbench.action.terminal.changeColor": "Změnit barvu...",
@@ -13984,6 +14135,7 @@
 			"terminalOverviewRuler.findMatchHighlightForeground": "Barva značky přehledového pravítka pro vyhledání shod v terminálu."
 		},
 		"vs/workbench/contrib/terminal/common/terminalConfiguration": {
+			"autoApproveMode.description": "Určuje, jestli se má povolit automatické schvalování při spuštění v nástroji terminálu.",
 			"cwd": "aktuální pracovní adresář terminálu.",
 			"cwdFolder": "aktuální pracovní adresář terminálu zobrazený pro vícekořenové pracovní prostory nebo v jednokořenovém pracovním prostoru, pokud se hodnota liší od počátečního pracovního adresáře. Ve Windows se tato možnost zobrazí jen v případě, že je povolená integrace prostředí.",
 			"enableFileLinks.notRemote": "Povolte pouze v případě, že není ve vzdáleném pracovním prostoru.",
@@ -14146,6 +14298,7 @@
 		"vs/workbench/contrib/terminal/common/terminalContextKey": {
 			"inTerminalRunCommandPickerContextKey": "Určuje, jestli je aktuálně otevřený nástroj pro výběr příkazů spuštění terminálu.",
 			"isSplitTerminalContextKey": "Určuje, zda je prioritní terminál karty rozdělený terminál.",
+			"splitPaneActive": "Určuje, jestli je aktivní terminál rozděleným podoknem.",
 			"terminalAltBufferActive": "Určuje, zda je alternativní vyrovnávací paměť terminálu aktivní.",
 			"terminalCountContextKey": "Aktuální počet terminálů.",
 			"terminalEditorFocusContextKey": "Určuje, zda je terminál v oblasti editoru prioritní.",
@@ -14169,6 +14322,7 @@
 			"local": "Místní",
 			"moveIntoNewWindow": "Přesunout terminál do nového okna",
 			"moveToEditor": "Přesunout terminál do oblasti editoru",
+			"newInNewWindow": "Nové okno terminálu",
 			"previousSessionCategory": "předchozí relace",
 			"splitTerminal": "Rozdělit terminál",
 			"splitTerminal.short": "Rozdělit",
@@ -14275,68 +14429,98 @@
 			"runCommand": "Spustit příkaz chatu",
 			"runFirst": "Spustit jako první",
 			"runFirstCommand": "Spustit první příkaz chatu",
-			"startChat": "Vložený chat terminálu",
+			"startChat": "Open Inline Chat",
+			"terminalCategory": "Terminal",
 			"viewInChat": "Zobrazit v chatu"
 		},
 		"vs/workbench/contrib/terminalContrib/chat/browser/terminalChatWidget": {
-			"askAI": "Zeptat se AI"
+			"askAboutCommands": "Zeptat se na příkazy"
 		},
 		"vs/workbench/contrib/terminalContrib/chat/common/terminalInitialHintConfiguration": {
 			"terminal.integrated.initialHint": "Určuje, jestli první terminál bez vstupu zobrazí nápovědu k dostupným akcím, když má fokus."
 		},
-		"vs/workbench/contrib/terminalContrib/chatAgentTools/browser/bufferOutputPolling": {
-			"poll.terminal.accept": "Ano",
-			"poll.terminal.polling": "Copilot se bude dál dotazovat na výstup, aby určil, kdy se terminál stane nečinný po dobu až 2 minut.",
-			"poll.terminal.reject": "Ne",
-			"poll.terminal.waiting": "Chcete pokračovat v čekání, až {0} dokončí probíhající akci?"
+		"vs/workbench/contrib/terminalContrib/chatAgentTools/browser/runInTerminalHelpers": {
+			"autoApprove.baseCommand": "Vždy povolit příkazy: {0}",
+			"autoApprove.baseCommandSingle": "Vždy povolit příkaz: {0}",
+			"autoApprove.configure": "Konfigurovat automatické schvalování...",
+			"autoApprove.exactCommand": "Vždy povolit přesný příkazový řádek: {0}"
 		},
-		"vs/workbench/contrib/terminalContrib/chatAgentTools/browser/getTerminalOutputTool": {
+		"vs/workbench/contrib/terminalContrib/chatAgentTools/browser/terminal.chatAgentTools.contribution": {
+			"addTerminalSelection": "Přidat výběr terminálu do chatu",
+			"terminalSelection": "Výběr terminálu",
+			"toolset.runCommands": "Spustí příkazy v terminálu",
+			"toolset.runTasks": "Spustí úlohy a získá jejich výstup pro váš pracovní prostor."
+		},
+		"vs/workbench/contrib/terminalContrib/chatAgentTools/browser/tools/getTerminalLastCommandTool": {
+			"getTerminalLastCommand.past": "Načetl se poslední příkaz terminálu",
+			"getTerminalLastCommand.progressive": "Načítá se poslední příkaz terminálu",
+			"terminalLastCommandTool.displayName": "Načíst poslední příkaz terminálu"
+		},
+		"vs/workbench/contrib/terminalContrib/chatAgentTools/browser/tools/getTerminalOutputTool": {
 			"bg.past": "Kontroluje se výstup terminálu na pozadí",
 			"bg.progressive": "Kontroluje se výstup terminálu na pozadí",
-			"getTerminalOutputTool.displayName": "Získat výstup terminálu"
+			"getTerminalOutputTool.displayName": "Načíst výstup terminálu"
 		},
-		"vs/workbench/contrib/terminalContrib/chatAgentTools/browser/runInTerminalTool": {
-			"runInTerminal.background": "Spustit příkaz v terminálu na pozadí",
-			"runInTerminal.foreground": "Spustit příkaz na terminálu",
+		"vs/workbench/contrib/terminalContrib/chatAgentTools/browser/tools/getTerminalSelectionTool": {
+			"getTerminalSelection.past": "Přečíst výběr terminálu",
+			"getTerminalSelection.progressive": "Čtení výběru terminálu",
+			"terminalSelectionTool.displayName": "Načíst výběr terminálu"
+		},
+		"vs/workbench/contrib/terminalContrib/chatAgentTools/browser/tools/monitoring/outputMonitor": {
+			"poll.terminal.accept": "Yes",
+			"poll.terminal.acceptRun": "Yes",
+			"poll.terminal.confirmRun": "Run `{0}` in the terminal?",
+			"poll.terminal.confirmRunDetail": "The terminal output appears to require a response. Do you want to send `{0}` to the terminal?",
+			"poll.terminal.polling": "This will continue to poll for output to determine when the terminal becomes idle for up to 2 minutes.",
+			"poll.terminal.reject": "No",
+			"poll.terminal.rejectRun": "No",
+			"poll.terminal.waiting": "Continue waiting for `{0}`?"
+		},
+		"vs/workbench/contrib/terminalContrib/chatAgentTools/browser/tools/runInTerminalTool": {
+			"autoApprove.global": "Automaticky schváleno nastavením {0}",
+			"autoApprove.rule": "Automaticky schváleno pravidlem {0}",
+			"autoApprove.rules": "Automaticky schváleno pravidly {0}",
+			"autoApproveDenied.rule": "Automatické schválení zamítnuto pravidlem {0}",
+			"autoApproveDenied.rules": "Automatické schválení zamítnuto pravidly {0}",
+			"ruleTooltip": "Zobrazit pravidlo v nastavení",
+			"ruleTooltip.global": "Zobrazit nastavení",
+			"runInTerminal": "Spustit příkaz {0}?",
+			"runInTerminal.background": "Spustit příkaz {0}? (terminál na pozadí)",
+			"runInTerminal.promptInjectionDisclaimer": "Webový obsah může obsahovat škodlivý kód nebo se pokusit o útoky prostřednictvím injektáže výzvy.",
 			"runInTerminalTool.displayName": "Spustit v terminálu",
 			"runInTerminalTool.userDescription": "Nástroj pro spouštění příkazů v terminálu"
 		},
-		"vs/workbench/contrib/terminalContrib/chatAgentTools/browser/task.chatAgentTools.contribution": {
-			"toolset.runTasks": "Runs tasks and gets their output for your workspace"
+		"vs/workbench/contrib/terminalContrib/chatAgentTools/browser/tools/task/createAndRunTaskTool": {
+			"allowTaskCreationExecution": "Chcete povolit vytvoření a provedení úlohy?",
+			"alreadyRunning": "Úloha {0} již běží.",
+			"copilotChat.fetchingTask": "Řešení úlohy",
+			"copilotChat.noTerminal": "Úloha byla spuštěna, ale nebyl nalezen žádný terminál pro: „{0}“",
+			"copilotChat.runningTask": "Běží úloha {0}",
+			"copilotChat.taskNotFound": "Úloha nebyla nalezena: {0}",
+			"copilotCreateTask": "Copilot vytvoří úlohu {0} pomocí příkazu {1} {2}.",
+			"createAndRunTask.displayName": "Vytvořit a spustit úlohu",
+			"createAndRunTask.modelDescription": "Vytvoří a spustí sestavení, spuštění nebo vlastní úlohu pro pracovní prostor vygenerováním nebo přidáním do souboru tasks.json na základě struktury projektu (například package.json nebo README.md). Pokud uživatel požádá o sestavení nebo spuštění a nemá žádný soubor tasks.json, použijte tento nástroj. Pokud žádá o vytvoření nebo přidání úlohy, použijte tento nástroj.",
+			"createAndRunTask.userDescription": "Vytvořit a spustit úlohu v pracovním prostoru",
+			"createdTask": "Vytvořena úloha {0}",
+			"createdTaskPast": "Vytvořena úloha {0}",
+			"taskExists": "Úloha {0} už existuje.",
+			"taskExistsPast": "Úloha {0} už existuje."
 		},
-		"vs/workbench/contrib/terminalContrib/chatAgentTools/browser/task/createAndRunTaskTool": {
-			"allowTaskCreationExecution": "Allow task creation and execution?",
-			"alreadyRunning": "Task `{0}` is already running.",
-			"copilotChat.checkingOutput": "Checking output for `{0}`",
-			"copilotChat.fetchingTask": "Resolving the task",
-			"copilotChat.noTerminal": "Task started but no terminal was found for: `{0}`",
-			"copilotChat.runningTask": "Running task `{0}`",
-			"copilotChat.taskNotFound": "Task not found: `{0}`",
-			"copilotCreateTask": "Copilot will create the task `{0}` with command `{1}`{2}.",
-			"createAndRunTask.displayName": "Create and run Task",
-			"createAndRunTask.modelDescription": "For a workspace, this tool will create a task based on the package.json, README.md, and project structure so that the project can be built and run.",
-			"createAndRunTask.userDescription": "Create and run a task in the workspace",
-			"createdTask": "Created task `{0}`",
-			"createdTaskPast": "Created task `{0}`",
-			"taskExists": "Task `{0}` already exists.",
-			"taskExistsPast": "Task `{0}` already exists."
-		},
-		"vs/workbench/contrib/terminalContrib/chatAgentTools/browser/task/getTaskOutputTool": {
-			"copilotChat.checkedTerminalOutput": "Checked output for task `{0}`",
-			"copilotChat.checkingTerminalOutput": "Checking output for task `{0}`",
+		"vs/workbench/contrib/terminalContrib/chatAgentTools/browser/tools/task/getTaskOutputTool": {
+			"copilotChat.checkedTerminalOutput": "Byl zkontrolován výstup pro úlohu {0}.",
+			"copilotChat.checkingTerminalOutput": "Kontroluje se výstup pro úlohu {0}.",
 			"copilotChat.taskAlreadyRunning": "Úloha „{0}“ již běží.",
 			"copilotChat.taskNotFound": "Úloha nebyla nalezena: {0}",
 			"copilotChat.terminalNotFound": "Pro úlohu „{0}“ nebyl nalezen terminál",
 			"getTaskOutputTool.displayName": "Načíst výstup úlohy"
 		},
-		"vs/workbench/contrib/terminalContrib/chatAgentTools/browser/task/runTaskTool": {
+		"vs/workbench/contrib/terminalContrib/chatAgentTools/browser/tools/task/runTaskTool": {
 			"copilotChat.allowTaskRunMsg": "Chcete funkci Copilot povolit spuštění úlohy {0}?",
 			"copilotChat.allowTaskRunTitle": "Chcete povolit spuštění úlohy?",
-			"copilotChat.checkingOutput": "Kontroluje se výstup pro „{0}“",
 			"copilotChat.noTerminal": "Úloha byla spuštěna, ale nebyl nalezen žádný terminál pro: „{0}“",
-			"copilotChat.ranTask": "Spuštěno: {0}",
-			"copilotChat.runningTask": "Běží {0}",
-			"copilotChat.startedTask": "Spuštěno: „{0}“",
+			"copilotChat.ranTask": "Proběhlo: {0}",
+			"copilotChat.runningTask": "Běží: {0}",
+			"copilotChat.startedTask": "Zahájeno: {0}",
 			"copilotChat.taskAlreadyActive": "Úloha již běží.",
 			"copilotChat.taskAlreadyRunning": "Úloha „{0}“ již běží.",
 			"copilotChat.taskIsAlreadyRunning": "{0} už běží.",
@@ -14345,11 +14529,13 @@
 			"runInTerminalTool.displayName": "Spustit úlohu",
 			"runInTerminalTool.userDescription": "Nástroj pro spouštění úloh v pracovním prostoru"
 		},
-		"vs/workbench/contrib/terminalContrib/chatAgentTools/browser/terminal.chatAgentTools.contribution": {
-			"toolset.runCommands": "Spustí příkazy v terminálu"
+		"vs/workbench/contrib/terminalContrib/chatAgentTools/browser/tools/task/taskHelpers": {
+			"copilotChat.taskFailedWithExitCode": "Task `{0}` failed with exit code {1}."
 		},
 		"vs/workbench/contrib/terminalContrib/chatAgentTools/common/terminalChatAgentToolsConfiguration": {
-			"autoApprove.description.commandLine": "Objekt lze použít k porovnání s celým příkazovým řádkem namísto odpovídajících dílčích a vložených příkazů, například {0}. Zkontroluje se _po_ kontrole dílčích příkazů a má přednost i před zamítnutými dílčími příkazy.",
+			"autoApprove.deprecated": "Místo toho použijte {0}",
+			"autoApprove.description.commandLine": "Objekt lze použít k porovnání s celým příkazovým řádkem namísto odpovídajících dílčích a vložených příkazů, například {0}. Aby bylo možné automaticky schválit _oba_ prvky – dílčí příkaz i příkazový řádek – nesmí být výslovně zamítnuty. Musí být schválené _buď_ všechny dílčí příkazy nebo příkazový řádek.",
+			"autoApprove.description.examples.binTest": "Povolit všechny příkazy, které odpovídají cestě {0} ({1}, {2} atd.)",
 			"autoApprove.description.examples.description": "Popis",
 			"autoApprove.description.examples.mkdir": "Povolit všechny příkazy začínající na {0}",
 			"autoApprove.description.examples.npmRunBuild": "Povolit všechny příkazy začínající na {0}",
@@ -14362,7 +14548,7 @@
 			"autoApprove.description.examples.title": "Příklady:",
 			"autoApprove.description.examples.value": "Hodnota",
 			"autoApprove.description.intro": "Seznam příkazů nebo regulárních výrazů, které určují, jestli příkazy nástroje spouštěné v terminálu vyžadují výslovné schválení. Ty se budou shodovat se začátkem příkazu. Regulární výraz lze zadat zabalením řetězce do znaků {0} následovaných volitelnými příznaky, jako je například {1} pro rozlišování velkých a malých písmen.",
-			"autoApprove.description.subCommands": "Poznámka: Tyto příkazy a regulární výrazy se vyhodnocují pro každý _dílčí příkaz_ v rámci celého _příkazového řádku_, takže například {0} bude potřebovat {1} i {2}, aby byla vyhodnocena shoda s položkou {3}, a nesmí odpovídat položce {4}, aby došlo k automatickému schválení. Detekují se také vložené příkazy, takže {5} bude ke schválení potřebovat {5} i {6}.",
+			"autoApprove.description.subCommands": "Poznámka: Tyto příkazy a regulární výrazy jsou vyhodnocovány pro každý _dílčí příkaz_ v rámci celého _příkazového řádku_, takže například {0} bude potřebovat {1} i {2}, aby byla vyhodnocena shoda s položkou {3}, a nesmí být vyhodnocena shoda s položkou {4}, aby došlo k automatickému schválení. Vložené příkazy, jako je {5} (nahrazení příkazu) nebo {6} (nahrazení procesu), jsou v současné době ve výchozím nastavení blokovány prostřednictvím rozsáhlejších pravidel, která tyto vzorce detekují.",
 			"autoApprove.description.values": "Nastavte na {0}, pokud se mají příkazy schvalovat automaticky, na {1}, pokud se má vždy vyžadovat výslovné schválení, nebo na {2}, pokud se má zrušit nastavení hodnoty.",
 			"autoApprove.false": "Umožňuje vyžadovat explicitní schválení pro vzor.",
 			"autoApprove.key": "Začátek příkazu, proti kterému se má porovnávat. Regulární výraz lze zadat zabalením řetězce do znaků /.",
@@ -14370,7 +14556,8 @@
 			"autoApprove.matchCommandLine.false": "Shoda s dílčími a vloženými příkazy, např. „foo && bar“ bude ke shodě potřebovat jak „foo“, tak „bar“",
 			"autoApprove.matchCommandLine.true": "Shoda s celým příkazovým řádkem, např. „foo &bar“",
 			"autoApprove.null": "Umožňuje ignorovat vzor, což je užitečné pro zrušení nastavení stejného vzoru ve větším rozsahu.",
-			"autoApprove.true": "Umožňuje automaticky schválit vzor."
+			"autoApprove.true": "Umožňuje automaticky schválit vzor.",
+			"shellIntegrationTimeout.description": "Konfiguruje dobu v milisekundách, po kterou se má čekat na integraci prostředí, když nástroj Spustit v terminálu spustí nový terminál. Při nastavení hodnoty 0 se čeká minimální dobu, výchozí hodnota -1 znamená, že doba čekání je proměnlivá v závislosti na hodnotě {0} a na tom, zda se jedná o vzdálené okno. Vysoká hodnota může být užitečná, pokud se vaše prostředí spouští velmi pomalu, a nízká hodnota, pokud záměrně nepoužíváte integraci prostředí."
 		},
 		"vs/workbench/contrib/terminalContrib/clipboard/browser/terminal.clipboard.contribution": {
 			"workbench.action.terminal.copyAndClearSelection": "Kopírovat a vymazat výběr",
@@ -14607,9 +14794,8 @@
 			"suggest.inlineSuggestion.alwaysOnTop": "Povolte funkci a vždy na začátek vložte vložený návrh.",
 			"suggest.inlineSuggestion.alwaysOnTopExceptExactMatch": "Povolí funkci a seřadí vložený návrh bez vynucení, aby byl nahoře. To znamená, že přesné shody budou nad vloženým návrhem.",
 			"suggest.inlineSuggestion.off": "Zakáže funkci.",
-			"suggest.provider.description": "Whether to enable this provider.",
-			"suggest.provider.pwsh.deprecation": "This is deprecated as it has performance problems, the upcoming LSP provider will supersede this.",
-			"suggest.provider.pwsh.description": "Enable or disable the PowerShell script-based provider. This enables PowerShell-specific argument completion.",
+			"suggest.provider.description": "Určuje, jestli se má povolit tento poskytovatel.",
+			"suggest.provider.lsp.description": "Umožňuje povolit nebo zakázat zprostředkovatele založeného na LSP. To umožňuje dokončování argumentů specifických pro protokol jazykového serveru.",
 			"suggest.providers": "Zprostředkovatelé jsou ve výchozím nastavení povoleni. Vynecháte je nastavením ID zprostředkovatele na false.",
 			"suggest.quickSuggestions": "Určuje, jestli se při psaní mají automaticky zobrazovat návrhy. Pozor také na nastavení {0}, které řídí, jestli budou návrhy vyvolány speciálními znaky.",
 			"suggest.quickSuggestions.arguments": "Povolí rychlé návrhy argumentů, cokoli za prvním slovem ve vstupu příkazového řádku.",
@@ -14667,9 +14853,12 @@
 			"coverage.toggleInline": "Přepnout vložený rozsah testování",
 			"testing.coverageForTestAvailable": "Počet testů, které spustily kód v tomto souboru: {0}",
 			"testing.filterActionLabel": "Filtrovat pokrytí k testování",
+			"testing.hideCoverageInExplorer": "Skrýt pokrytí v Průzkumníku",
 			"testing.hideInlineCoverage": "Skrýt vložené pokrytí",
 			"testing.rerun": "Spustit znovu",
 			"testing.showInlineCoverage": "Zobrazit vložené pokrytí",
+			"testing.toggleCoverageInExplorerDesc": "Umožňuje přepnout zobrazení pokrytí testu v zobrazení Průzkumníku souborů.",
+			"testing.toggleCoverageInExplorerTitle": "Přepnout pokrytí v Průzkumníku",
 			"testing.toggleInlineCoverage": "Přepnout vložené zobrazení",
 			"testing.toggleToolbarDesc": "Přepne panel pokrytí jedním prstem v editoru.",
 			"testing.toggleToolbarTitle": "Panel nástrojů pokrytí testu"
@@ -14725,6 +14914,7 @@
 			"testCoverageTreeLabel": "Průzkumník pokrytí testu",
 			"testing.changeCoverageFilter": "Filtrovat pokrytí podle testu",
 			"testing.changeCoverageSort": "Změnit pořadí řazení",
+			"testing.coverageCollapseAll": "Collapse All Coverage",
 			"testing.coverageSortByCoverage": "Seřadit podle rozsahu testování",
 			"testing.coverageSortByCoverageDescription": "Soubory a deklarace jsou seřazené podle celkového rozsahu testování.",
 			"testing.coverageSortByLocation": "Seřadit podle umístění",
@@ -15000,17 +15190,17 @@
 			"testing.treeElementLabel": "{0} ({1})"
 		},
 		"vs/workbench/contrib/testing/common/testingChatAgentTool": {
-			"runTestTool.confirm.all": "The model wants to run all tests.",
-			"runTestTool.confirm.invocation": "Running tests...",
-			"runTestTool.confirm.message": "The model wants to run tests in {0}.",
-			"runTestTool.confirm.title": "Allow test run?",
-			"runTestTool.invoke.cancelled": "Test run was cancelled.",
-			"runTestTool.invoke.filesProgress": "Discovering tests...",
-			"runTestTool.invoke.filterProgress": "Filtering tests...",
-			"runTestTool.invoke.progress": "Starting test run...",
-			"runTestTool.noRunStarted": "No test run was started. This may be an issue with your test runner or extension.",
-			"runTestTool.noTests": "No tests found in the files",
-			"runTestTool.userDescription": "Runs unit tests"
+			"runTestTool.confirm.all": "Model chce spustit všechny testy.",
+			"runTestTool.confirm.invocation": "Spouštějí se testy…",
+			"runTestTool.confirm.message": "Model chce spouštět testy v {0}.",
+			"runTestTool.confirm.title": "Povolit testovací běh?",
+			"runTestTool.invoke.cancelled": "Testovací běh byl zrušen.",
+			"runTestTool.invoke.filesProgress": "Hledají se testy…",
+			"runTestTool.invoke.filterProgress": "Filtrují se testy...",
+			"runTestTool.invoke.progress": "Spouští se testovací běh…",
+			"runTestTool.noRunStarted": "Nebyl spuštěn žádný testovací běh. Může se jednat o problém s vaším spouštěčem testů nebo rozšířením.",
+			"runTestTool.noTests": "V souborech se nenašly žádné testy",
+			"runTestTool.userDescription": "Spustí testy jednotek"
 		},
 		"vs/workbench/contrib/testing/common/testingContentProvider": {
 			"runNoOutout": "Testovací běh neevidoval žádný výstup."
@@ -15027,6 +15217,7 @@
 			"testing.hasCoverableTests": "Označuje, zda nějaký kontroler testů zaregistroval konfiguraci pokrytí.",
 			"testing.hasCoverageInFile": "Indikuje, že v aktuálním editoru bylo hlášeno pokrytí.",
 			"testing.hasDebuggableTests": "Určuje, zda nějaký kontroler testů zaregistroval konfiguraci ladění.",
+			"testing.hasInlineCoverageDetails": "Určuje, jestli je pro vložené zobrazení k dispozici podrobné pokrytí podle řádků.",
 			"testing.hasNonDefaultConfig": "Označuje, zda některý kontroler testů zaregistroval nevýchozí konfiguraci.",
 			"testing.hasPerTestCoverage": "Označuje, jestli je k dispozici pokrytí pro jednotlivé testy.",
 			"testing.hasRunnableTests": "Určuje, zda nějaký kontroler testů zaregistroval konfiguraci spuštení.",
@@ -15048,11 +15239,11 @@
 			"testing.testResultState": "Hodnota dostupná pro testování/položku/výsledek označující stav položky"
 		},
 		"vs/workbench/contrib/testing/common/testingProgressMessages": {
-			"testProgress.completed": "{0}/{1} tests passed ({2}%)",
-			"testProgress.running": "Running tests, {0}/{1} passed ({2}%)",
-			"testProgress.runningInitial": "Running tests...",
-			"testProgressWithSkip.completed": "{0}/{1} tests passed ({2}%, {3} skipped)",
-			"testProgressWithSkip.running": "Running tests, {0}/{1} tests passed ({2}%, {3} skipped)"
+			"testProgress.completed": "Počet úspěšných testů: {0}/{1} ({2} %)",
+			"testProgress.running": "Spouštějí se testy, počet úspěšných: {0}/{1} ({2} %)",
+			"testProgress.runningInitial": "Spouštějí se testy…",
+			"testProgressWithSkip.completed": "Počet úspěšných testů: {0}/{1} ({2} %, přeskočeno: {3})",
+			"testProgressWithSkip.running": "Spouštějí testy, počet úspěšných testů: {0}/{1} ({2} %, přeskočeno: {3})"
 		},
 		"vs/workbench/contrib/testing/common/testResult": {
 			"runFinished": "Testovací běh v {0}",
@@ -15544,7 +15735,6 @@
 			"acessibleViewHint": "Zkontrolujte to v přístupném zobrazení ({0}).\r\n",
 			"acessibleViewHintNoKbOpen": "Zkontrolujte to v přístupném zobrazení pomocí příkazu Otevřít přístupné zobrazení, které se v tuto chvíli nedá aktivovat klávesovou zkratkou.\r\n",
 			"allDone": "Označit jako hotové",
-			"back": "Zpět",
 			"checkboxTitle": "Pokud je tato možnost zaškrtnutá, zobrazí se tato stránka při spuštění.",
 			"close": "Skrýt",
 			"closeAriaLabel": "Skrýt",
@@ -15555,18 +15745,13 @@
 			"gettingStarted.someStepsComplete": "Dokončené kroky: {0} z {1}",
 			"goBack": "Přejít zpět",
 			"imageShowing": "Obrázek zobrazující {0}",
-			"last": "Pustit se do psaní kódu",
-			"lastStep": "Pustit se do psaní kódu",
 			"new": "Nové",
 			"newItems": "Aktualizováno",
-			"next": "Další",
 			"nextOne": "Další oddíl",
-			"nextStep": "Další",
 			"noRecents": "Nemáte žádné poslední složky,",
 			"openFolder": "otevřít složku",
 			"optOut": "Odhlásit",
 			"pickWalkthroughs": "Otevřít návod",
-			"previousStep": "Předchozí krok",
 			"privacy statement": "prohlášení o zásadách ochrany osobních údajů",
 			"recent": "Nedávné",
 			"show more recents": "Zobrazit všechny nedávné složky {0}",
@@ -15593,7 +15778,6 @@
 			"welcome.markStepComplete": "Označit krok jako dokončený",
 			"welcome.markStepInomplete": "Označit krok jako nedokončený",
 			"welcome.showAllWalkthroughs": "Otevřít návod",
-			"welcome.showNewWelcome": "Otevřít nové uvítací prostředí",
 			"workbench.startupEditor": "Určuje, který editor se má zobrazit při spuštění, pokud není žádný obnoven z předchozí relace.",
 			"workbench.startupEditor.newUntitledFile": "Umožňuje otevřít nový textový soubor bez názvu (platí pouze při otevírání prázdného okna).",
 			"workbench.startupEditor.none": "Spustit bez editoru",
@@ -15692,8 +15876,6 @@
 			"gettingStarted.accessibilitySignals.title": "Nastavte si podrobně, které signály přístupnosti chcete přijímat zvukově nebo pomocí zařízení pro Braillovo písmo.",
 			"gettingStarted.accessibleView.description.interpolated": "Přístupné zobrazení je k dispozici pro terminál, popisky zobrazované po umístění ukazatele myši na prvek, oznámení, komentáře, výstup poznámkového bloku, odpovědi chatu, vložená dokončování a výstup konzoly ladění.\r\n S fokusem na některé z těchto funkcí se dá otevřít pomocí příkazu Otevřít přístupné zobrazení.\r\n{0}",
 			"gettingStarted.accessibleView.title": "Uživatelé čtečky obrazovky mohou v přístupném zobrazení prohlížet obsah řádek po řádku a znak po znaku.",
-			"gettingStarted.agentMode.description": "Analyzuje problém, plánuje další kroky a provádí za vás změny.",
-			"gettingStarted.agentMode.title": "Režim agenta",
 			"gettingStarted.beginner.description": "Získejte přehled o nejdůležitějších funkcích",
 			"gettingStarted.beginner.title": "Naučte se základy",
 			"gettingStarted.beginner.walkthroughPageTitle": "Základní funkce",
@@ -15704,9 +15886,7 @@
 			"gettingStarted.commandPaletteAccessibility.description.interpolated": "Spouštějte příkazy pro jakékoli úlohy ve VS Code bez nutnosti používat myš.\r\n{0}",
 			"gettingStarted.commandPaletteAccessibility.title": "Pracujte produktivněji díky využívání palety příkazů ",
 			"gettingStarted.copilotSetup.description": "Pomocí [Copilotu]({0}) můžete generovat kód napříč více soubory, opravovat chyby, klást otázky týkající se kódu a provádět řadu dalších činností pomocí přirozeného jazyka.",
-			"gettingStarted.copilotSetup.title": "Používejte AI funkce s Copilotem zdarma",
-			"gettingStarted.customize.description": "Prohodí modely, přidá nástroje režimu agenta a vytvoří přizpůsobené pokyny.\r\n{0}",
-			"gettingStarted.customize.title": "Přizpůsobeno vašemu způsobu práce",
+			"gettingStarted.copilotSetup.title": "Use AI features with GitHub Copilot for free",
 			"gettingStarted.debug.description.interpolated": "Urychlete cyklus úprav, sestavení, testování a ladění nastavením konfigurace spuštění.\r\n{0}",
 			"gettingStarted.debug.title": "Sledujte svůj kód v akci",
 			"gettingStarted.extensions.description.interpolated": "Rozšíření vylepšují VS Code. Nabízejí užitečné nástroje pro produktivitu, rozšiřují původní funkce, nebo třeba přidávají funkce, které jsou zcela nové.\r\n{0}",
@@ -15716,7 +15896,7 @@
 			"gettingStarted.findLanguageExts.title": "Bohatá podpora pro všechny vaše jazyky",
 			"gettingStarted.goToSymbol.description.interpolated": "Příkaz Přejít na symbol je užitečný pro přechod mezi důležitými orientačními body v dokumentu.\r\n{0}",
 			"gettingStarted.goToSymbol.title": "Přejít na symboly v souboru",
-			"gettingStarted.hover.description.interpolated": "While focus is in the editor on a variable or symbol, a hover can be focused with the Show or Open Hover command.\r\n{0}",
+			"gettingStarted.hover.description.interpolated": "S fokusem v editoru na proměnné nebo symbolu lze na informace zobrazované po najetí myší přesunout fokus pomocí příkazu Zobrazit nebo otevřít informace po umístění ukazatele myši.\r\n{0}",
 			"gettingStarted.hover.title": "Pokud chcete získat další informace o proměnné nebo symbolu, otevřete popisek zobrazovaný po umístění ukazatele myši.",
 			"gettingStarted.installGit.description.interpolated": "Pokud chcete sledovat změny v projektech, nainstalujte Git.\r\n{0}\r\n{1}Po instalaci znovu načtěte okno {2}, aby se dokončilo nastavení Gitu.",
 			"gettingStarted.installGit.title": "Nainstalovat Git",
@@ -15726,15 +15906,10 @@
 			"gettingStarted.keyboardShortcuts.title": "Přizpůsobení klávesových zkratek",
 			"gettingStarted.menuBar.description.interpolated": "V rozbalovací nabídce je k dispozici úplný řádek nabídek, který uvolní místo pro váš kód. Přepněte jeho vzhled pro rychlejší přístup. \r\n{0}",
 			"gettingStarted.menuBar.title": "Správné množství uživatelského rozhraní",
-			"gettingStarted.nes.description": "Získejte návrhy kódu předpovídající vaše další úpravy.",
-			"gettingStarted.nes.title": "Návrh dalších úprav",
-			"gettingStarted.new.description": "Zvyšte efektivitu kódování pomocí AI",
-			"gettingStarted.new.title": "Začínáme s VS Code",
-			"gettingStarted.new.walkthroughPageTitle": "Nastavení VS Code",
 			"gettingStarted.newFile.description": "Otevře nový textový soubor bez názvu, poznámkový blok nebo vlastní editor.",
 			"gettingStarted.newFile.title": "Nový soubor…",
-			"gettingStarted.newWorkspaceChat.description": "Vytvoření nového pracovního prostoru pomocí Copilotu",
-			"gettingStarted.newWorkspaceChat.title": "Nový pracovní prostor pomocí Copilotu...",
+			"gettingStarted.newWorkspaceChat.description": "Vytvořte nový pracovní prostor prostřednictvím chatu.",
+			"gettingStarted.newWorkspaceChat.title": "Vygenerovat nový pracovní prostor...",
 			"gettingStarted.notebook.title": "Přizpůsobit poznámkové bloky",
 			"gettingStarted.notebook.walkthroughPageTitle": "Poznámkové bloky",
 			"gettingStarted.notebookProfile.description": "Získejte poznámkové bloky, které budou podle vašich představ.",
@@ -15793,9 +15968,6 @@
 			"keyboardShortcuts": "Klávesové zkratky",
 			"listSignalAnnouncements": "Vypsat signalizační oznámení",
 			"listSignalSounds": "Vypsat signalizační zvuky",
-			"newgettingStarted.commandPalette.title": "Všechny příkazy na dosah ruky",
-			"newgettingStarted.findLanguageExts.description.interpolated": "Nainstalujte jazyková rozšíření, která potřebujete ve své sadě nástrojů.\r\n{0}",
-			"newgettingStarted.findLanguageExts.title": "Podpora pro všechny jazyky",
 			"openAccessibilityHelp": "Otevřít nápovědu k přístupnosti",
 			"openAccessibilitySettings": "Otevřít nastavení přístupnosti",
 			"openAccessibleView": "Otevřít přístupné zobrazení",
@@ -15813,7 +15985,6 @@
 			"setupCopilotButton.signIn": "Nastavit Copilot",
 			"showOrFocusHover": "Zobrazit nebo zaměřit na najetí myší",
 			"showTerminal": "Otevřít terminál",
-			"signUp": "Povolení funkcí AI",
 			"titleID": "Procházet barevné motivy",
 			"toggleFold": "Přepnout sbalení",
 			"toggleFoldRecursively": "Přepnout možnost Sbalit rekurzivně",
@@ -16061,14 +16232,15 @@
 			"keyboard shortcuts": "Klávesové zkratky",
 			"menuContexts": "Kontexty nabídek",
 			"menus.changeTitle": "Nabídka vložených (inline) změn správy zdrojového kódu",
+			"menus.chatMultiDiffContext": "The Chat Multi-Diff context menu.",
 			"menus.chatSessions": "Nabídka relací chatu",
-			"menus.chatTerminal": "Podnabídka Chat v místní nabídce Terminálu.",
 			"menus.chatTextEditor": "Podnabídka Chat v místní nabídce textového editoru.",
 			"menus.commandPalette": "Paleta příkazů",
 			"menus.debugCallstackContext": "Místní nabídka zobrazení zásobníku volání ladění",
 			"menus.debugCreateConfiguation": "Nabídka konfigurace pro vytvoření ladění",
 			"menus.debugToolBar": "Nabídka panelu nástrojů ladění",
 			"menus.debugVariablesContext": "Místní nabídka zobrazení proměnných pro ladění",
+			"menus.debugWatchContext": "Místní nabídka zobrazení sledování ladění",
 			"menus.diffEditorGutterToolBarMenus": "Panel nástrojů na okraji v editoru rozdílů",
 			"menus.editorContext": "Místní nabídka editoru",
 			"menus.editorContextCopyAs": "Podnabídka Kopírovat jako v místní nabídce editoru",
@@ -16557,6 +16729,7 @@
 			"vscode.extension.activationEvents.onFileSystem": "Aktivační událost vyvolaná při každém přístupu k souboru nebo složce s daným schématem",
 			"vscode.extension.activationEvents.onIssueReporterOpened": "Aktivační událost vysílaná při otevření sestavy problémů",
 			"vscode.extension.activationEvents.onLanguage": "Aktivační událost vyvolaná vždy, když se otevře soubor rozpoznaný jako soubor pro konkrétní jazyk",
+			"vscode.extension.activationEvents.onLanguageModelChat": "Aktivační událost vygenerovaná při vyžádání poskytovatele modelu chatu pro daného dodavatele",
 			"vscode.extension.activationEvents.onLanguageModelTool": "Aktivační událost vygenerovaná při vyvolání zadaného nástroje jazykového modelu.",
 			"vscode.extension.activationEvents.onMcpCollection": "Aktivační událost vygenerovaná při vyžádání nástroje ze serveru MCP.",
 			"vscode.extension.activationEvents.onNotebook": "Aktivační událost vygenerovaná vždy, když se otevře zadaný dokument poznámkového bloku",

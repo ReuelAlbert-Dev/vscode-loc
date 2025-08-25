@@ -326,11 +326,11 @@
 			"editor.experimental.asyncTokenization": "控制是否应在 Web 辅助进程上异步进行标记化。",
 			"editor.experimental.asyncTokenizationLogging": "控制是否应记录异步词汇切分。仅用于调试。",
 			"editor.experimental.asyncTokenizationVerification": "控制是否应对旧版后台令牌化验证异步令牌化。可能会减慢令牌化速度。仅用于调试。",
-			"editor.experimental.preferTreeSitter.css": "控制是否应为 css 启用 Tree Sitter 分析。对于 css，此操作将优先于 `editor.experimental.treeSitterTelemetry`。",
-			"editor.experimental.preferTreeSitter.ini": "控制是否应为 ini 启用 tree sitter 分析。对于 ini，此操作将优先于 `editor.experimental.treeSitterTelemetry`。",
-			"editor.experimental.preferTreeSitter.regex": "控制是否应为正则表达式启用 tree sitter 分析。对于正则表达式，此操作将优先于 `editor.experimental.treeSitterTelemetry`。",
-			"editor.experimental.preferTreeSitter.typescript": "控制是否应为 Typescript 启用 tree sitter 分析。对于 Typescript，此操作将优先于 `editor.experimental.treeSitterTelemetry`。",
-			"editor.experimental.treeSitterTelemetry": "控制是否应启用树坐标分析和收集遥测数据。将“editor.experimental.preferTreeSitter”设置为特定语言将优先。",
+			"editor.experimental.preferTreeSitter.css": "控制是否应为 css 启用 Tree Sitter 分析。对于 css，此操作将优先于 `#editor.experimental.treeSitterTelemetry#`。",
+			"editor.experimental.preferTreeSitter.ini": "控制是否应为 ini 启用 tree sitter 分析。对于 ini，此操作将优先于 `#editor.experimental.treeSitterTelemetry#`。",
+			"editor.experimental.preferTreeSitter.regex": "控制是否应为正则表达式启用 tree sitter 分析。对于正则表达式，此操作将优先于 `#editor.experimental.treeSitterTelemetry#`。",
+			"editor.experimental.preferTreeSitter.typescript": "控制是否应为 Typescript 启用 tree sitter 分析。对于 Typescript，此操作将优先于 `#editor.experimental.treeSitterTelemetry#`。",
+			"editor.experimental.treeSitterTelemetry": "控制是否应启用树 sitter 分析和收集遥测数据。设置 `#editor.experimental.preferTreeSitter#` 以优先使用特定语言。",
 			"editorConfigurationTitle": "编辑器",
 			"hideUnchangedRegions.contextLineCount": "控制在比较未改变的区域时使用多少行作为上下文。",
 			"hideUnchangedRegions.enabled": "控制差异编辑器是否显示未更改的区域。",
@@ -573,7 +573,7 @@
 			"hover.above": "如果有空间，首选在线条上方显示悬停。",
 			"hover.delay": "控制显示悬停提示前的等待时间 (毫秒)。",
 			"hover.enabled": "控制是否显示悬停提示。",
-			"hover.hidingDelay": "控制隐藏悬停提示前的等待时间(毫秒)。需要启用“editor.hover.sticky”。",
+			"hover.hidingDelay": "控制隐藏悬停提示前的延迟时间(毫秒)。需要启用 `#editor.hover.sticky#`。",
 			"hover.sticky": "控制当鼠标移动到悬停提示上时，其是否保持可见。",
 			"inertialScroll": "为滚动设置惯性 - 最适合用于 Linux 上的触摸板。",
 			"inlayHints.enable": "在编辑器中启用内联提示。",
@@ -588,6 +588,8 @@
 			"inlineSuggest.edits.showCollapsed": "控制在跳到建议之前，建议是否显示为折叠。",
 			"inlineSuggest.enabled": "控制是否在编辑器中自动显示内联建议。",
 			"inlineSuggest.fontFamily": "控制内联建议的字体系列。",
+			"inlineSuggest.minShowDelay": "控制键入后显示内联建议前的最小延迟(以毫秒为单位)。",
+			"inlineSuggest.showOnSuggestConflict": "控制是否在存在建议冲突时显示内联建议。",
 			"inlineSuggest.showToolbar": "控制何时显示内联建议工具栏。",
 			"inlineSuggest.showToolbar.always": "每当显示内联建议时，显示内联建议工具栏。",
 			"inlineSuggest.showToolbar.never": "从不显示内联建议工具栏。",
@@ -663,13 +665,13 @@
 			"quickSuggestions.strings": "在字符串内启用快速建议。",
 			"quickSuggestionsDelay": "控制显示快速建议前的等待时间 (毫秒)。",
 			"renameOnType": "控制是否在编辑器中输入时自动重命名。",
-			"renameOnTypeDeprecate": "已弃用，请改用 \"editor.linkedEditing\"。",
+			"renameOnTypeDeprecate": "已弃用，请改用 `#editor.linkedEditing#`。",
 			"renderControlCharacters": "控制编辑器是否显示控制字符。",
 			"renderFinalNewline": "当文件以换行符结束时, 呈现最后一行的行号。",
 			"renderLineHighlight": "控制编辑器的当前行进行高亮显示的方式。",
 			"renderLineHighlight.all": "同时突出显示导航线和当前行。",
 			"renderLineHighlightOnlyWhenFocus": "控制编辑器是否仅在焦点在编辑器时突出显示当前行。",
-			"renderRichScreenReaderContent": "是否在启用 `editor.editContext` 时呈现丰富的屏幕阅读器内容。",
+			"renderRichScreenReaderContent": "启用 `#editor.editContext#` 设置时是否呈现丰富的屏幕阅读器内容。",
 			"renderWhitespace": "控制编辑器在空白字符上显示符号的方式。",
 			"renderWhitespace.boundary": "呈现空格字符(字词之间的单个空格除外)。",
 			"renderWhitespace.selection": "仅在选定文本上呈现空白字符。",
@@ -760,7 +762,7 @@
 			"wordBreak": "控制中文/日语/韩语(CJK)文本使用的断字规则。",
 			"wordBreak.keepAll": "中文/日语/韩语(CJK)文本不应使用断字功能。非 CJK 文本行为与普通文本行为相同。",
 			"wordBreak.normal": "使用默认换行规则。",
-			"wordSegmenterLocales": "Locales to be used for word segmentation when doing word related navigations or operations. Specify the BCP 47 language tag of the word you wish to recognize (e.g., ja, zh-CN, zh-Hant-TW, etc.).",
+			"wordSegmenterLocales": "执行与字词相关的导航或操作时用于分词的区域设置。指定要识别的字词的 BCP 47 语言标记(如 ja、zh-CN、zh-Hant-TW 等)。",
 			"wordSeparators": "执行单词相关的导航或操作时作为单词分隔符的字符。",
 			"wordWrap": "控制折行的方式。",
 			"wordWrap.bounded": "在视区宽度和 `#editor.wordWrapColumn#` 中的较小值处折行。",
@@ -768,7 +770,7 @@
 			"wordWrap.on": "将在视区宽度处换行。",
 			"wordWrap.wordWrapColumn": "在 `#editor.wordWrapColumn#` 处折行。",
 			"wordWrapColumn": "在 `#editor.wordWrap#` 为 `wordWrapColumn` 或 `bounded` 时，控制编辑器的折行列。",
-			"wrapOnEscapedLineFeeds": "控制文本 `\\n` 是否应触发 wordWrap。\r\n例如\r\n```c\r\nchar* str=\"hello\\nworld\"\r\n```\r\n将显示为\r\n```c\r\nchar* str=\"hello\\n\r\n           world\"\r\n```",
+			"wrapOnEscapedLineFeeds": "控制在启用 `#editor.wordWrap#` 时文本 `\\n` 是否应触发 wordWrap。\r\n\r\n例如:\r\n```c\r\nchar* str=\"hello\\nworld\"\r\n```\r\n将显示为\r\n```c\r\nchar* str=\"hello\\n\r\n           world\"\r\n```",
 			"wrappingIndent": "控制折行的缩进。",
 			"wrappingIndent.deepIndent": "折行的缩进量比其父级多 2。",
 			"wrappingIndent.indent": "折行的缩进量比其父级多 1。",
@@ -1577,8 +1579,8 @@
 			"editor.transformToCamelcase": "转换为驼峰式大小写",
 			"editor.transformToKebabcase": "转换为短横线小写",
 			"editor.transformToLowercase": "转换为小写",
-			"editor.transformToPascalcase": "转换为帕斯卡式大小写形式",
-			"editor.transformToSnakecase": "转换为蛇形命名法",
+			"editor.transformToPascalcase": "转换为帕斯卡式大小写",
+			"editor.transformToSnakecase": "转换为下划线小写",
 			"editor.transformToTitlecase": "转换为词首字母大写",
 			"editor.transformToUppercase": "转换为大写",
 			"editor.transpose": "转置光标处的字符",
@@ -2116,12 +2118,18 @@
 			"contextkey.scanner.hint.didYouMean2": "你指的是 {0} 还是 {1}?",
 			"contextkey.scanner.hint.didYouMean3": "你指的是 {0}、{1} 还是 {2}?"
 		},
+		"vs/platform/dialogs/browser/dialog": {
+			"aboutDetail": "版本: {0}\r\n提交: {1}\r\n日期: {2}\r\n浏览器: {3}"
+		},
 		"vs/platform/dialogs/common/dialogs": {
 			"cancelButton": "取消",
 			"moreFile": "...1 个其他文件未显示",
 			"moreFiles": "...{0} 个其他文件未显示",
 			"okButton": "确定(&&O)",
 			"yesButton": "是(&&Y)"
+		},
+		"vs/platform/dialogs/electron-browser/dialog": {
+			"aboutDetail": "版本: {0}\r\n提交: {1}\r\n日期: {2}\r\nElectron: {3}\r\nElectronBuildId: {4}\r\nChromium: {5}\r\nNode.js: {6}\r\nV8: {7}\r\nOS: {8}"
 		},
 		"vs/platform/dialogs/electron-main/dialogMainService": {
 			"open": "打开",
@@ -2176,7 +2184,6 @@
 			"reuseWindow": "强制在已打开的窗口中打开文件或文件夹。",
 			"reuseWindowForChat": "强制使用最后一个活动窗口进行聊天会话。",
 			"showVersions": "使用 --list-extensions 时，显示已安装扩展的版本。",
-			"startupExperimentGroup": "替代启动试验组。",
 			"status": "打印进程使用情况和诊断信息。",
 			"stdinUsage": "要从 stdin 中读取，请追加 \"-\" (例如 \"{0}\")",
 			"subcommands": "子命令",
@@ -2577,7 +2584,7 @@
 			"quickInput.visibleCount": "{0} 个结果"
 		},
 		"vs/platform/quickinput/browser/quickInputList": {
-			"quickInput": "Quick Input"
+			"quickInput": "快速输入"
 		},
 		"vs/platform/quickinput/browser/quickInputUtils": {
 			"executeCommand": "单击以执行命令 \"{0}\""
@@ -2588,10 +2595,10 @@
 			"terminal.commands.pinned": "已固定"
 		},
 		"vs/platform/quickinput/browser/tree/quickInputTreeAccessibilityProvider": {
-			"quickTree": "Quick Tree"
+			"quickTree": "快速树"
 		},
 		"vs/platform/quickinput/browser/tree/quickTree": {
-			"quickInputBox.ariaLabel": "Type to narrow down results."
+			"quickInputBox.ariaLabel": "在此输入可缩小结果范围。"
 		},
 		"vs/platform/remoteTunnel/common/remoteTunnel": {
 			"remoteTunnelLog": "远程隧道服务"
@@ -2637,7 +2644,7 @@
 			"telemetry.enableTelemetry": "启用要收集的诊断数据。这有助于我们更好地了解 {0} 的执行情况以及哪里需要改进。",
 			"telemetry.enableTelemetryMd": "启用要收集的诊断数据。这有助于我们更好地了解 {0} 的执行情况以及哪里需要改进。[阅读详细信息]({1})关于我们收集的内容和隐私声明。",
 			"telemetry.errors": "错误遥测",
-			"telemetry.feedback.enabled": "在 Copilot Chat 等功能中启用反馈机制，例如问题报告器、调查和反馈选项。",
+			"telemetry.feedback.enabled": "Enable feedback mechanisms such as the issue reporter, surveys, and other feedback options.",
 			"telemetry.restart": "若要使崩溃报告更改生效，必须完全重新启动应用程序。",
 			"telemetry.telemetryLevel.crash": "发送 OS 级别故障报告。",
 			"telemetry.telemetryLevel.default": "发送使用情况数据、错误、故障报告。",
@@ -3232,6 +3239,9 @@
 			"provideClientDetails": "继续",
 			"yes": "是"
 		},
+		"vs/workbench/api/browser/mainThreadChatSessions": {
+			"interruptActiveResponse": "是否确实要中断活动会话?"
+		},
 		"vs/workbench/api/browser/mainThreadCLICommands": {
 			"cannot be installed": "无法安装“{0}”扩展，因为它被声明为不在此安装程序中运行。"
 		},
@@ -3691,8 +3701,8 @@
 			"sideBarPosition": "主侧栏位置",
 			"sidebar": "侧边栏",
 			"sidebarContainer": "侧边栏/{0}",
-			"sidebarHidden": "Primary Side Bar hidden",
-			"sidebarVisible": "Primary Side Bar shown",
+			"sidebarHidden": "主侧边栏已隐藏",
+			"sidebarVisible": "主侧边栏已显示",
 			"statusBar": "状态栏",
 			"statusBarIcon": "表示状态栏",
 			"tabBar": "选项卡栏",
@@ -3829,8 +3839,8 @@
 			"top": "顶部"
 		},
 		"vs/workbench/browser/parts/auxiliarybar/auxiliaryBarActions": {
-			"auxiliaryBarHidden": "Secondary Side Bar hidden",
-			"auxiliaryBarVisible": "Secondary Side Bar shown",
+			"auxiliaryBarHidden": "辅助侧边栏已隐藏",
+			"auxiliaryBarVisible": "辅助侧边栏已显示",
 			"closeIcon": "用于关闭辅助侧栏的图标。",
 			"closeSecondarySideBar": "隐藏辅助侧栏",
 			"focusAuxiliaryBar": "将焦点置于辅助侧栏",
@@ -3884,7 +3894,6 @@
 			"viewsAndMoreActions": "视图和更多操作…"
 		},
 		"vs/workbench/browser/parts/dialogs/dialogHandler": {
-			"aboutDetail": "版本: {0}\r\n提交: {1}\r\n日期: {2}\r\n浏览器: {3}",
 			"copy": "复制(&&C)",
 			"ok": "确定"
 		},
@@ -3962,6 +3971,7 @@
 		"vs/workbench/browser/parts/editor/diffEditorCommands": {
 			"compare": "比较",
 			"compare.nextChange": "转到下一个更改",
+			"compare.openSide": "Open Active Diff Side",
 			"compare.previousChange": "转到上一个更改",
 			"swapDiffSides": "切换编辑器左右端",
 			"toggleInlineView": "切换内联视图"
@@ -4106,6 +4116,7 @@
 		"vs/workbench/browser/parts/editor/editorActions": {
 			"clearButtonLabel": "清除(&&C)",
 			"clearEditorHistory": "清除编辑器历史记录",
+			"clearEditorHistoryWithoutConfirm": "Clear Editor History without Confirmation",
 			"clearRecentFiles": "清除最近打开的…",
 			"closeAllEditors": "关闭所有编辑器",
 			"closeAllGroups": "关闭所有编辑器组",
@@ -4300,6 +4311,7 @@
 			"requiresFolderTrustText": "该文件未在编辑器中显示，因为尚未向该文件夹授予信任。",
 			"requiresWorkspaceTrustText": "该文件未在编辑器中显示，因为尚未向该工作区夹授予信任。",
 			"retry": "重试",
+			"showLogs": "显示日志",
 			"trustRequiredEditor": "需要工作区信任",
 			"unavailableResourceErrorEditorText": "由于找不到该文件，因此无法打开编辑器。",
 			"unknownErrorEditorTextWithError": "由于意外错误，无法打开编辑器。有关详细信息，请参阅日志。",
@@ -4348,7 +4360,10 @@
 			"pickEndOfLine": "选择行尾序列",
 			"pickLanguage": "选择语言模式",
 			"pickLanguageToConfigure": "选择要与“{0}”关联的语言模式",
+			"reopen": "放弃更改并重新打开",
 			"reopenWithEncoding": "通过编码重新打开",
+			"reopenWithEncodingDetail": "这将放弃所有未保存的更改。",
+			"reopenWithEncodingWarning": "是否要还原活动文本编辑器并使用其他编码重新打开?",
 			"saveWithEncoding": "通过编码保存",
 			"selectEOL": "选择行尾序列",
 			"selectEncoding": "选择编码",
@@ -4400,6 +4415,7 @@
 			"loading": "正在加载...",
 			"manage": "管理",
 			"manage profile": "管理 {0} (配置文件)",
+			"manageDynamicAuthProviders": "管理动态身份验证提供程序...",
 			"manageTrustedExtensions": "管理受信任的扩展",
 			"manageTrustedMCPServers": "管理受信任的 MCP 服务器",
 			"signOut": "注销"
@@ -4765,6 +4781,7 @@
 			"sharedViewState": "跨所有编辑器组保留最新的编辑器视图状态(例如滚动位置等)并在未找到编辑器组的特定编辑器视图状态时进行还原。",
 			"showEditorTabs": "控制打开的编辑器是否显示为单个选项卡还是一个大选项卡，或者标题区域是否应显示。",
 			"showIcons": "控制是否在打开的编辑器中显示图标。这要求同时启用文件图标主题。",
+			"showTabIndex": "启用后，将显示选项卡索引。如果未将 {0} 设置为 {1}，则会忽略此值。",
 			"sideBarLocation": "控制主边栏和活动栏的位置。它们可以显示在工作台的左侧或右侧。辅助边栏将显示在工作台的另一侧。",
 			"sideBySideDirection": "控制编辑器在并排打开时(例如从资源管理器)出现的默认位置。默认在当前活动编辑器右侧打开。若更改为 \"down\"，则在当前活动编辑器下方打开。这也会影响编辑器工具栏中的拆分编辑器操作。",
 			"splitInGroupLayout": "控制在编辑器组中垂直或水平拆分编辑器时的布局。",
@@ -4777,6 +4794,7 @@
 			"tabScrollbarHeight": "控制编辑器标题区域中用于选项卡和面包屑的滚动条的高度。",
 			"tabSizing": "控制编辑器选项卡的大小。如果未将 {0} 设置为 {1}，则会忽略此值。",
 			"tips.enabled": "启用后，当没有打开编辑器时将显示水印提示。",
+			"titleScrollbarVisibility": "控制编辑器标题区域中用于选项卡和面包屑的滚动条的可见性。",
 			"untitledLabelFormat": "控制无标题编辑器的标签格式。",
 			"useSplitJSON": "控制在将设置编辑为 json 时是否使用拆分 json 编辑器。",
 			"viewVisibility": "控制是否显示视图头部的操作项。视图头部操作项可以一直，或是仅当聚焦到和悬停在视图上时显示。",
@@ -4865,6 +4883,9 @@
 			"workbench.editor.tabSizingFixedMinWidth": "控制将 {0} 大小设置为 {1} 时选项卡的最小宽度。",
 			"workbench.editor.titleScrollbarSizing.default": "默认大小。",
 			"workbench.editor.titleScrollbarSizing.large": "增加大小，以便更轻松地通过鼠标抓取。",
+			"workbench.editor.titleScrollbarVisibility.auto": "水平滚动条仅在必要时可见。",
+			"workbench.editor.titleScrollbarVisibility.hidden": "水平滚动条将始终隐藏。",
+			"workbench.editor.titleScrollbarVisibility.visible": "水平滚动条将始终可见。",
 			"workbench.editor.untitled.labelFormat.content": "无标题文件的名称派生自其第一行的内容，除非它有关联的文件路径。如果行为空或不包含单词字符，它将回退到名称。",
 			"workbench.editor.untitled.labelFormat.name": "无标题文件的名称不是从文件的内容派生的。",
 			"workbench.fontAliasing.antialiased": "进行像素而不是次像素级别的字体平滑。可能会导致字体整体显示得更细。",
@@ -4945,6 +4966,7 @@
 			"embedderIdentifier": "根据产品服务的嵌入器标识符(如果已定义)",
 			"focusedView": "具有键盘焦点的视图的标识符",
 			"groupEditorsCount": "打开的编辑器组数",
+			"inAutomation": "Whether VS Code is running under automation/smoke test",
 			"inZenMode": "是否已启用 Zen 模式",
 			"isAuxiliaryWindow": "窗口是辅助窗口",
 			"isAuxiliaryWindowFocusedContext": "辅助窗口是否成为焦点",
@@ -5225,6 +5247,7 @@
 			"argv.logLevel": "要使用的日志级别。默认值为 “info”。允许的值为 “error”、“warn”、“info”、“debug”、“trace” 和 “off”。",
 			"argv.passwordStore": "配置用于在 Linux 上存储机密的后端。此参数在 Windows 和 macOS 上会被忽略。",
 			"argv.proxyBypassList": "对于给定的分号分隔的主机列表，绕过任何指定代理。示例值 \"<local>;*.microsoft.com;*foo.com;1.2.3.4:5678\" 将对除以下主机外的所有主机使用代理服务器: 本地地址(localhost、127.0.0.1 等)、microsoft.com 子域、包含后缀 foo.com 的主机以及位于 1.2.3.4:5678 的主机",
+			"argv.remoteDebuggingPort": "指定用于远程调试的端口。",
 			"argv.useInMemorySecretStorage": "确保内存中存储将用于机密存储，而不是使用 OS 的凭据存储。此选项通常在运行 VS Code 扩展测试或遇到凭据存储问题时使用。",
 			"closeWhenEmpty": "控制关闭最后一个编辑器时是否还应关闭该窗口。此设置仅适用于不显示文件夹的窗口。",
 			"confirmSaveUntitledWorkspace": "控制切换到另一个工作区时是否显示确认对话框，以询问是保存还是放弃窗口中打开的无标题工作区。禁用确认对话框将始终放弃无标题工作区。",
@@ -5287,7 +5310,6 @@
 			"join.closeStorage": "正在保存 UI 状态"
 		},
 		"vs/workbench/electron-browser/parts/dialogs/dialogHandler": {
-			"aboutDetail": "版本: {0}\r\n提交: {1}\r\n日期: {2}\r\nElectron: {3}\r\nElectronBuildId: {4}\r\nChromium: {5}\r\nNode.js: {6}\r\nV8: {7}\r\nOS: {8}",
 			"copy": "复制(&&C)",
 			"okButton": "确定"
 		},
@@ -5612,6 +5634,7 @@
 			"noAccounts": "此扩展当前未使用任何帐户。",
 			"pickAProviderTitle": "管理扩展帐户首选项",
 			"placeholder v2": "管理 {1} 的“{0}”帐户首选项...",
+			"selectExtension": "选择要管理其帐户首选项的扩展",
 			"selectProvider": "选择要管理其帐户首选项的身份验证提供商",
 			"title": "此工作区的“{0}”帐户首选项",
 			"use new account": "使用新帐户..."
@@ -5763,6 +5786,13 @@
 			"to": "{0} 的调用方",
 			"tree.aria": "调用层次结构"
 		},
+		"vs/workbench/contrib/chat/browser/actions/chatAccessibilityActions": {
+			"chat.category": "聊天",
+			"chatNotReady": "聊天界面未准备就绪。",
+			"focusChatConfirmation": "聚焦聊天确认",
+			"noChatSession": "找不到活动聊天会话。",
+			"noConfirmationRequired": "无需聊天确认"
+		},
 		"vs/workbench/contrib/chat/browser/actions/chatAccessibilityHelp": {
 			"chat.announcement": "聊天答复将在他们进入时公布。答复将指示代码块的数量(如果有)，然后指示响应的其余部分。",
 			"chat.differencePanel": "面板聊天视图是支持导航建议的后续问题的永久性界面，而快速聊天视图是用于发出和查看请求的暂时性界面。",
@@ -5793,7 +5823,7 @@
 			"chatEditing.sections": "通过导航上一个{0} 和下一个{1} 在编辑器中的编辑之间导航",
 			"chatEditing.undoKeepSounds": "接受或撤消更改时，将播放声音。可以使用 accessibility.signals.editsKept 和 accessibility.signals.editsUndone 禁用声音。",
 			"chatEditing.viewChanges": "- 查看更改{0}。",
-			"chatEditing.viewPreviousEdits": "- View Previous Edits{0}.",
+			"chatEditing.viewPreviousEdits": "- 查看以前的编辑 {0}。",
 			"inlineChat.access": "可通过代码操作激活，也可直接使用“内联聊天: 启动内联聊天”命令 ({0}) 激活。",
 			"inlineChat.contextActions": "弹出菜单操作可以运行前缀为 /. Type / 的请求，以发现此类现成命令。",
 			"inlineChat.diff": "进入差异编辑器后，使用 ({0}) 进入评审模式。使用向上和向下箭头导航包含建议的更改的行。",
@@ -5802,6 +5832,7 @@
 			"inlineChat.overview": "内联聊天发生在代码编辑器中，并考虑到当前所选内容。对当前编辑器进行更改很有用。例如，修复诊断、文档或重构代码。请注意，AI 生成的代码可能不正确。",
 			"inlineChat.requestHistory": "在输入框中，使用“显示上一条{0}”和“显示下一条{1}”来浏览请求历史记录。编辑输入，并使用 Enter 或“提交”按钮来运行新请求。",
 			"inlineChat.toolbar": "使用选项卡访问命令、状态、消息响应等条件部分。",
+			"workbench.action.chat.announceConfirmation": "若要聚焦待定聊天确认对话框，请调用“聚焦聊天确认状态”命令{0}。",
 			"workbench.action.chat.editing.attachFiles": "- 附加文件{0}。",
 			"workbench.action.chat.focus": "如果要将焦点放在聊天请求/响应列表上（可使用向上和向下箭头进行导航），请调用“将焦点放在聊天上”命令 ({0})。",
 			"workbench.action.chat.focusInput": "若要将焦点放在聊天请求的输入框上，请调用“将焦点放在聊天输入上”命令 ({0})。",
@@ -5814,18 +5845,26 @@
 			"agent.newSession": "启动新会话?",
 			"agent.newSession.confirm": "是",
 			"agent.newSessionMessage": "更改聊天模式将结束当前的编辑会话。是否要更改聊天模式?",
-			"ai actions": "AI 操作",
 			"chat.category": "聊天",
 			"chat.clear.label": "清除所有工作区聊天",
+			"chat.editToolApproval.label": "编辑工具审批",
+			"chat.editToolApproval.title": "对 {0} 的审批设置",
 			"chat.history.label": "显示聊天...",
 			"chat.history.recent": "最近聊天",
 			"chat.history.rename": "重命名",
 			"chat.history.showMore": "显示更多...",
 			"chat.history.showMoreAgents": "显示更多...",
+			"chat.openNewChatToTheSide.label": "打开侧边的新聊天编辑器",
 			"chat.toggleDefaultVisibility.label": "默认显示视图",
+			"chat.toolApproval.manual": "始终需要手动审批",
+			"chat.toolApproval.profile": "全局自动审批",
+			"chat.toolApproval.session": "对此会话自动审批",
+			"chat.toolApproval.workspace": "对此工作区自动审批",
 			"chatAndCompletionsQuotaExceeded": "你已达到每月聊天消息和代码完成配额。",
 			"chatQuotaExceeded": "你已达到每月聊天消息配额。你仍然可以使用免费代码完成。",
 			"chatQuotaExceededButton": "已达到 Copilot Free 计划聊天消息配额。单击以获取详细信息。",
+			"chatSessions.newChatInSideBar": "在侧栏中打开新聊天",
+			"chatSessions.openNewChatInNewWindow": "在新窗口中打开新聊天",
 			"chatWith": "使用扩展聊天",
 			"completionsQuotaExceeded": "你已达到每月代码补全配额。你仍然可以使用免费聊天消息。",
 			"config.label": "配置聊天...",
@@ -5833,8 +5872,13 @@
 			"copilotQuotaReached": "已达到 Copilot 配额",
 			"currentChatLabel": "当前",
 			"dismiss": "关闭",
+			"explain": "Explain",
+			"fix": "Fix",
+			"generateCode": "Generate Code",
+			"generateDocs": "Generate Docs",
 			"generateInstructions": "生成工作区指令文件",
 			"generateInstructions.short": "生成指令",
+			"generateTests": "Generate Tests",
 			"interactiveSession.clearHistory.label": "清除输入历史记录",
 			"interactiveSession.focusInput.label": "焦点聊天输入",
 			"interactiveSession.history.clear": "清除所有工作区聊天",
@@ -5844,21 +5888,24 @@
 			"interactiveSession.history.title": "工作区聊天历史记录",
 			"interactiveSession.history.titleAll": "全部工作区聊天历史记录",
 			"interactiveSession.open": "新建聊天编辑器",
-			"manageCopilot": "管理 Copilot",
+			"manageCopilot": "管理聊天",
 			"more": "更多...",
 			"newChatTitle": "新聊天标题",
 			"openChat": "打开聊天",
+			"openChatFeatureSettings": "聊天设置",
+			"openChatFeatureSettings.short": "聊天设置",
 			"openChatMode": "打开聊天({0})",
 			"quotaResetDate": "限额将于 {0} 重置。",
 			"resetTrustedTools": "重置工具确认",
 			"resetTrustedToolsSuccess": "已重置工具确认首选项。",
+			"review": "Code Review",
 			"showCopilotUsageExtensions": "显示使用 Copilot 的扩展",
 			"signInToChatSetup": "登录以使用 Copilot...",
 			"switchChat.confirmPhrase": "切换聊天将结束当前编辑会话。",
 			"switchMode.confirmPhrase": "切换聊天模式将结束当前的编辑会话。",
 			"title4": "Copilot",
-			"toggle.chatControl": "Copilot 控件",
-			"toggle.chatControlsDescription": "切换标题栏中 Copilot 控件的可见性",
+			"toggle.chatControl": "聊天控件",
+			"toggle.chatControlsDescription": "切换标题栏中聊天控件的可见性",
 			"toggleChat": "切换聊天",
 			"upgradeChat": "升级 Copilot 计划",
 			"upgradePlan": "升级 Copilot 计划",
@@ -5937,11 +5984,12 @@
 			"interactive.submitWithoutDispatch.label": "发送",
 			"interactive.switchToNextModel.label": "切换到下一个模型",
 			"interactive.toggleAgent.label": "设置聊天模式",
-			"interactive.toggleRequestPausd.label": "切换请求已暂停",
 			"remoteAgentError": "编码智能体会话已取消。",
-			"remoteJobCreating": "委派给编码代理",
-			"requestIsPaused": "恢复请求",
-			"requestNotPaused": "暂停请求",
+			"remoteAgentResponse": "编码智能体响应: {0}",
+			"remoteAgentResponse2": "此拉取请求将继续执行你的工作。",
+			"remoteJobCreating": "正在委托给编码代理",
+			"selectCodingAgent": "选择编码代理",
+			"sendToRemoteAgent": "发送到编码智能体",
 			"setChatMode": "设置模式"
 		},
 		"vs/workbench/contrib/chat/browser/actions/chatFileTreeActions": {
@@ -5982,6 +6030,19 @@
 			"toggle.isPartialQuery": "查询是否为部分查询; 它将等待更多用户输入",
 			"toggle.query": "用于打开快速聊天的查询"
 		},
+		"vs/workbench/contrib/chat/browser/actions/chatSessionActions": {
+			"chat.openSessionInNewEditorGroup.label": "Open Chat to the Side",
+			"chat.openSessionInNewWindow.label": "Open Chat in New Window",
+			"chat.openSessionInSidebar.label": "Open Chat in Sidebar",
+			"openSessionInNewEditorGroup": "Open in New Editor Group",
+			"openSessionInNewWindow": "Open in New Window",
+			"openSessionInSidebar": "Open in Sidebar",
+			"renameSession": "重命名",
+			"renameSession.emptyName": "名称不得为空。",
+			"renameSession.error": "未能重命名聊天会话: {0}",
+			"renameSession.nameTooLong": "名称太长(最多 100 个字符)",
+			"renameSession.placeholder": "输入聊天会话的新名称"
+		},
 		"vs/workbench/contrib/chat/browser/actions/chatTitleActions": {
 			"chat.retry.confirmation.checkbox": "不再询问",
 			"chat.retry.confirmation.message2": "这将撤消自此请求以来对 {0} 所做的编辑。",
@@ -6001,24 +6062,22 @@
 			"chat.tools.placeholder.global": "选择可用于聊天的工具。",
 			"chat.tools.placeholder.mode": "选择此聊天模式的工具",
 			"chat.tools.placeholder.session": "选择此聊天会话的工具",
+			"chatTools.tooManyEnabled": "启用了超过 {0} 个工具，可能会遇到工具调用降级。",
 			"label": "配置工具..."
 		},
 		"vs/workbench/contrib/chat/browser/actions/chatToolPicker": {
-			"addAny": "添加更多工具...",
-			"addExtension": "安装扩展...",
-			"addExtensionButton": "Install Extension...",
-			"addMcpServer": "Add MCP Server...",
-			"addServer": "添加 MCP 服务器...",
+			"addExtensionButton": "安装扩展...",
+			"addMcpServer": "添加 MCP 服务器...",
 			"configMcpCol": "配置 {0}",
-			"configToolSet": "配置工具集...",
-			"configToolSets": "Configure Tool Sets...",
-			"configureTools": "Configure Tools",
+			"configToolSets": "配置工具集...",
+			"configureTools": "配置工具",
 			"defaultBucketLabel": "内置",
 			"editUserBucket": "编辑工具集",
 			"ext": "扩展: {0}",
 			"mcpShowOutput": "显示输出",
 			"mcplabel": "MCP 服务器: {0}",
 			"noTools": "添加工具以进行聊天",
+			"toolLimitExceeded": "已启用 {0} 个工具。超过 {1} 个工具时，可能会遇到工具调用降级。",
 			"userBucket": "用户定义的工具集"
 		},
 		"vs/workbench/contrib/chat/browser/actions/codeBlockOperations": {
@@ -6055,10 +6114,12 @@
 			"chat": "聊天",
 			"chat.agent.enabled.description": "为 {0} 启用代理模式。启用此模式后，可以通过视图中的下拉列表激活代理模式。",
 			"chat.agent.maxRequests": "允许 Copilot 在智能体模式下每轮次使用的最大请求数。达到限制后，Copilot 将要求用户确认是否应继续。",
+			"chat.agent.showThinking": "控制是否在聊天答复中显示模型的思考过程。",
 			"chat.checkpoints.enabled": "在聊天中启用检查点。使用检查点可以将聊天还原到以前的状态。",
-			"chat.checkpoints.showFileChanges": "Controls whether to show chat checkpoint file changes.",
+			"chat.checkpoints.showFileChanges": "控制是否显示聊天检查点文件更改。",
 			"chat.commandCenter.enabled": "控制命令中心是否显示用于控制 Copilot 的操作菜单(需要 {0})。",
 			"chat.detectParticipant.enabled": "为 panel 聊天启用聊天参与者自动删除功能。",
+			"chat.disableAIFeatures": "Disable and hide built-in AI features provided by GitHub Copilot, including chat, code completions and next edit suggestions.",
 			"chat.editRequests": "启用在聊天中编辑请求。借助此操作，可以更改请求内容并将其重新提交到模型。",
 			"chat.editing.autoAcceptDelay": "自动接受聊天所做的更改之后的延迟。值以秒为单位，“0” 表示禁用，最大值为 “100” 秒。",
 			"chat.editing.confirmEditRequestRemoval": "是否在删除请求及其关联的编辑之前显示确认消息。",
@@ -6077,13 +6138,12 @@
 			"chat.implicitContext.value.never": "从不启用隐式上下文。",
 			"chat.instructions.config.locations.description": "指定可在聊天会话中附加的指令文件(`*{0}`)的位置。[了解详细信息]({1})。\r\n\r\n相对路径是从工作区的根文件夹解析的。",
 			"chat.instructions.config.locations.title": "指令文件位置",
-			"chat.manageTasksTool.enabled": "Enables manageTasksTool in chat. This tool allows you to use task lists in chat.",
-			"chat.mathEnabled.description": "使用 Katex 在聊天答复中启用数学渲染。",
-			"chat.mcp.assisted.nuget.enabled.description": "Enables NuGet packages for AI-assisted MCP server installation. Used to install MCP servers by name from the central registry for .NET packages (NuGet.org).",
-			"chat.mcp.autostart": "Controls whether MCP servers should be automatically started when the chat messages are submitted.",
-			"chat.mcp.autostart.never": "Never automatically start MCP servers.",
-			"chat.mcp.autostart.newAndOutdated": "Automatically start new and outdated MCP servers that are not yet running.",
-			"chat.mcp.autostart.onlyNew": "Only automatically start new MCP servers that have never been run.",
+			"chat.mathEnabled.description": "使用 KaTeX 在聊天答复中启用数学渲染。",
+			"chat.mcp.assisted.nuget.enabled.description": "为 AI 辅助的 MCP 服务器安装启用 NuGet 包。对于 .NET 包(NuGet.org)，用于按中央注册表中的名称安装 MCP 服务器。",
+			"chat.mcp.autostart": "控制在提交聊天消息时是否应自动启动 MCP 服务器。",
+			"chat.mcp.autostart.never": "绝不要自动启动 MCP 服务器。",
+			"chat.mcp.autostart.newAndOutdated": "自动启动尚未运行的新的和过时的 MCP 服务器。",
+			"chat.mcp.autostart.onlyNew": "仅自动启动从未运行过的新 MCP 服务器。",
 			"chat.mcp.enabled": "启用与模型上下文协议服务器的集成，以提供其他工具和功能。",
 			"chat.mcp.serverSampling": "配置向 MCP 服务器公开哪些模型以进行采样(在后台发出模型请求)。可以在“{0}”命令下以图形方式编辑此设置。",
 			"chat.mcp.serverSampling.allowedDuringChat": "此服务器是否在聊天会话中的工具调用期间发出采样请求。",
@@ -6103,35 +6163,35 @@
 			"chat.sendElementsToChat.enabled": "控制是否可以从简单浏览器将元素发送到聊天。",
 			"chat.sessionsViewLocation.description": "控制代理会话菜单的显示位置。",
 			"chat.signInDialogVariant": "控制登录对话框的变体。",
+			"chat.todoListTool.enabled": "在聊天中启用待办事项列表，代理以该列表作为工具对复杂开发工作流进行规划、进度跟踪和上下文管理。",
+			"chat.todoListTool.writeOnly": "启用后，待办事项工具在只写模式下运行，这要求代理在上下文中记住待办事项。",
 			"chat.tools.autoApprove.description": "控制是否应自动批准工具使用。允许所有工具在未经用户确认的情况下自动运行，从而覆盖任何特定于工具的设置(例如终端自动批准)。谨慎使用: 仔细查看所选工具，并特别注意可能的提示注入源!",
+			"chat.tools.autoApprove.edits": "控制是否自动批准聊天所做的编辑。默认设置是批准所有编辑，但对某些文件所做的可能会导致立即产生意外副作用的编辑除外，例如 `**/.vscode/*.json`。\r\n\r\n文件按照指定的顺序与 glob 模式匹配。",
 			"chat.tools.autoApprove.markdownDescription": "控制是否应自动批准工具使用。\r\n\r\n允许_所有_工具在未经用户确认的情况下自动运行，从而覆盖任何特定于工具的设置(例如终端自动批准)。\r\n\r\n谨慎使用: 仔细查看所选工具，并特别注意可能的提示注入源!",
-			"chat.tools.useTreePicker": "Use the new tree-based tools picker interface instead of the flat list. Provides better hierarchical organization of tools and tool sets with collapsible sections, improved visual hierarchy, and native tree interactions. MCP servers are displayed as expandable parent nodes with their tools as children.",
 			"chat.undoRequests.restoreInput": "控制在发出撤消请求时是否应还原聊天的输入。输入将使用已还原请求的文本填充。",
 			"chat.useFileStorage": "启用在磁盘上而不是存储服务中存储聊天会话。启用此功能后，将按工作区将现有会话一次性迁移到新格式。",
 			"clear": "启动新聊天",
-			"file": "选择工作区中的文件",
 			"interactiveSession.editor.fontFamily": "控制聊天代码块中的字体系列。",
 			"interactiveSession.editor.fontSize": "控制聊天代码块中的字号(以像素为单位)。",
 			"interactiveSession.editor.fontWeight": "控制聊天代码块中的字体粗细。",
 			"interactiveSession.editor.lineHeight": "聊天代码块中的行高(以像素为单位)。使用 0 可根据字号计算行高。",
 			"interactiveSession.editor.wordWrap": "控制行是否应整合在聊天代码块中。",
 			"interactiveSessionConfigurationTitle": "聊天",
-			"mcp.discovery.enabled": "在计算机上配置模型上下文协议服务器的发现。可以将其设置为 `true` 或 `false` 以禁用或启用所有源，以及要启用的映射源。",
-			"mcp.discovery.source": "启用 {0} 服务器发现",
+			"mcp.discovery.enabled": "配置从各种其他应用程序的配置中发现模型上下文协议服务器。",
 			"mcp.gallery.serviceUrl": "配置 MCP 库服务 URL 以连接到以下位置:",
 			"mcp.list": "列出服务器",
 			"save-chat-to-prompt-file": "将聊天保存到提示文件"
 		},
 		"vs/workbench/contrib/chat/browser/chatAccessibilityProvider": {
 			"chat": "聊天",
-			"multiCodeBlock": "{0}{1}{2} code blocks: {3} {4}",
-			"multiCodeBlockHint": "{0}{1}{2}{3} code blocks: {4}{5} {6}",
+			"multiCodeBlock": "{0}{1}{2} 个代码块: {3} {4}",
+			"multiCodeBlockHint": "{0}{1}{2}{3} 个代码块: {4}{5} {6}",
 			"multiFileTreeHint": "{0} 个文件树",
 			"multiTableHint": "{0} 个表",
 			"noCodeBlocks": "{0}{1}{2} {3}",
 			"noCodeBlocksHint": "{0}{1}{2}{3}{4} {5}",
-			"singleCodeBlock": "{0}{1}1 code block: {2} {3}",
-			"singleCodeBlockHint": "{0}{1}{2}1 code block: {3} {4}{5}",
+			"singleCodeBlock": "{0}{1}1 个代码块: {2} {3}",
+			"singleCodeBlockHint": "{0}{1}{2}1 个代码块: {3} {4}{5}",
 			"singleFileTreeHint": "1 个文件树",
 			"singleTableHint": "1 个表",
 			"toolCompletedHint": "已完成工具 {0}。",
@@ -6175,6 +6235,9 @@
 		"vs/workbench/contrib/chat/browser/chatContentParts/chatAgentCommandContentPart": {
 			"rerun": "重新运行而不使用 {0}{1}"
 		},
+		"vs/workbench/contrib/chat/browser/chatContentParts/chatChangesSummaryPart": {
+			"chat.viewFileChangesSummary": "查看所有文件更改"
+		},
 		"vs/workbench/contrib/chat/browser/chatContentParts/chatCodeCitationContentPart": {
 			"viewMatches": "查看匹配项"
 		},
@@ -6190,6 +6253,7 @@
 			"dismiss": "关闭"
 		},
 		"vs/workbench/contrib/chat/browser/chatContentParts/chatConfirmationWidget": {
+			"chat.confirmationWidget.ariaLabel": "聊天确认对话框 {0} {1}",
 			"defaultTitle": "聊天: 需要确认",
 			"notificationDetail": "当前聊天会话需要确认才能继续。",
 			"notificationTitle": "聊天: {0}"
@@ -6206,10 +6270,21 @@
 			"chat.codeblock.insertions.one": "1 次插入",
 			"summary": "已编辑 {0}、{1}、{2}"
 		},
+		"vs/workbench/contrib/chat/browser/chatContentParts/chatMultiDiffContentPart": {
+			"chatMultiDiff.manyFiles": "已更改 {0} 个文件",
+			"chatMultiDiff.oneFile": "已更改 1 个文件",
+			"chatMultiDiffList": "文件更改"
+		},
+		"vs/workbench/contrib/chat/browser/chatContentParts/chatPinnedContentPart": {
+			"chat.pinned.thinking.header.base": "Thinking...",
+			"chat.pinned.thinking.header.count": "Thought for a few seconds...",
+			"chat.pinned.thinking.header.count.time": "Thought for {0}"
+		},
 		"vs/workbench/contrib/chat/browser/chatContentParts/chatProgressContentPart": {
-			"pausedMessage": "已暂停",
-			"resume": "单击以恢复",
 			"workingMessage": "正在运行..."
+		},
+		"vs/workbench/contrib/chat/browser/chatContentParts/chatPullRequestContentPart": {
+			"chatPullRequest.seeMore": "查看更多"
 		},
 		"vs/workbench/contrib/chat/browser/chatContentParts/chatQuotaExceededPart": {
 			"clickToContinue": "单击以重试。",
@@ -6220,6 +6295,7 @@
 		"vs/workbench/contrib/chat/browser/chatContentParts/chatReferencesContentPart": {
 			"addToChat": "将文件添加到聊天",
 			"chatCollapsibleList": "可折叠聊天引用列表",
+			"chatEditingSession.fileCounts": "已添加 {0} 行，已移除 {1} 行",
 			"copyLink": "复制链接",
 			"setting.hover": "打开设置“{0}”",
 			"usedReferencesPlural": "已使用 {0} 个引用",
@@ -6228,6 +6304,12 @@
 		"vs/workbench/contrib/chat/browser/chatContentParts/chatTextEditContentPart": {
 			"edits0": "已中止进行更改。",
 			"editsSummary": "已进行更改。"
+		},
+		"vs/workbench/contrib/chat/browser/chatContentParts/chatTodoListWidget": {
+			"chat.todoList.clearButton": "清除所有待办事项",
+			"chat.todoList.clearButton.ariaLabel": "清除所有待办事项",
+			"chat.todoList.title": "待办事项",
+			"chat.todoList.titleWithProgress": "待办事项({0}/{1})"
 		},
 		"vs/workbench/contrib/chat/browser/chatContentParts/chatToolInputOutputContentPart": {
 			"chat.input": "输入",
@@ -6247,12 +6329,17 @@
 			"installExtensions": "安装扩展",
 			"installExtensionsConfirmation": "单击扩展上的“安装”按钮，完成后按“继续”。"
 		},
-		"vs/workbench/contrib/chat/browser/chatContentParts/toolInvocationParts/chatTaskListSubPart": {
-			"chat.task.title": "Tasks"
-		},
-		"vs/workbench/contrib/chat/browser/chatContentParts/toolInvocationParts/chatTerminalToolSubPart": {
-			"cancel": "取消",
-			"continue": "继续"
+		"vs/workbench/contrib/chat/browser/chatContentParts/toolInvocationParts/chatTerminalToolConfirmationSubPart": {
+			"autoApprove.button.enable": "启用",
+			"autoApprove.enable": "启用自动审批...",
+			"autoApprove.markdown": "这将允许可配置的命令子集在终端中自动运行。它提供*最大限度保护*，并假定代理没有恶意行为。",
+			"autoApprove.title": "是否启用终端自动审批?",
+			"continue": "继续",
+			"newRule": "已添加自动批准规则 {0}",
+			"newRule.plural": "已添加自动批准规则 {0}",
+			"ruleTooltip": "在设置中查看规则",
+			"skip": "Skip",
+			"skip.detail": "Proceed without executing this command"
 		},
 		"vs/workbench/contrib/chat/browser/chatContentParts/toolInvocationParts/chatToolConfirmationSubPart": {
 			"allowGloballTooltip": "始终允许此工具运行而无需确认。",
@@ -6264,10 +6351,19 @@
 			"cancel": "取消",
 			"chat.input": "输入",
 			"continue": "继续",
-			"seeMore": "查看更多"
+			"seeMore": "查看更多",
+			"showMore": "显示更多"
+		},
+		"vs/workbench/contrib/chat/browser/chatContentParts/toolInvocationParts/chatToolInvocationPart": {
+			"chat.autoapprove.lmServicePerTool.profile": "已对此配置文件自动审批",
+			"chat.autoapprove.lmServicePerTool.session": "已对此会话自动审批",
+			"chat.autoapprove.lmServicePerTool.workspace": "已对此工作区自动审批",
+			"chat.autoapprove.setting": "已由 {0} 自动审批",
+			"edit": "编辑"
 		},
 		"vs/workbench/contrib/chat/browser/chatContentParts/toolInvocationParts/chatToolOutputPart": {
-			"loading": "Rendering tool output..."
+			"chat.toolOutputError": "Error rendering the tool output",
+			"loading": "正在呈现工具输出..."
 		},
 		"vs/workbench/contrib/chat/browser/chatDragAndDrop": {
 			"attacAsContext": "将 {0} 附加为上下文",
@@ -6287,8 +6383,8 @@
 			"acceptAllEdits": "保留所有编辑",
 			"addFilesFromReferences": "从引用添加文件",
 			"chat.editRequests.label": "编辑请求",
-			"chat.editing.discardAll.confirmation.manyFiles": "这将撤消 {0} 在 {1} 中所做的更改。是否继续?",
-			"chat.editing.discardAll.confirmation.oneFile": "这将撤消 {0} 在 {1} 中所做的更改。是否继续?",
+			"chat.editing.discardAll.confirmation.manyFiles": "这将撤消在 {0} 文件中所做的更改。是否继续?",
+			"chat.editing.discardAll.confirmation.oneFile": "这将撤消在 {0} 中所做的更改。是否继续?",
 			"chat.editing.discardAll.confirmation.primaryButton": "是",
 			"chat.editing.discardAll.confirmation.title": "撤消所有编辑？",
 			"chat.openFileUpdatedBySnapshot.label": "打开文件",
@@ -6347,7 +6443,6 @@
 		"vs/workbench/contrib/chat/browser/chatEditing/chatEditingEditorOverlay": {
 			"0Of0": "—",
 			"nOfM": "{0}/{1}",
-			"paused": "已暂停",
 			"tooltip": "{0} ({1})",
 			"tooltip_11": "1 个文件中有 1 个更改",
 			"tooltip_1n": "{0} 个文件中有 1 个更改",
@@ -6432,8 +6527,10 @@
 			"chatAttachFiles": "搜索要添加到请求的文件和上下文",
 			"chatEditingSession.addSuggested": "添加建议",
 			"chatEditingSession.addSuggestion": "添加建议 {0}",
+			"chatEditingSession.ariaLabelWithCounts": "{0}，已添加 {1} 行，已移除 {2} 行",
 			"chatEditingSession.manyFiles.1": "已更改 {0} 个文件",
 			"chatEditingSession.oneFile.1": "已更改 1 个文件",
+			"chatEditingSession.toggleWorkingSet": "切换已更改的文件。",
 			"chatInput.accessibilityHelp": "聊天输入 {0}。",
 			"chatInput.accessibilityHelpNoKb": "聊天输入 {0} 按 Enter 以发送请求。有关详细信息，请使用聊天辅助功能帮助命令。",
 			"chatInput.mode.agent": "(代理模式)，在工作区中编辑文件。",
@@ -6451,7 +6548,6 @@
 			"missingContext": "缺少上下文",
 			"offensiveOrUnsafe": "冒犯性或不安全",
 			"other": "其他",
-			"paused": "已暂停",
 			"poorlyWrittenOrFormatted": "写作或格式不佳",
 			"refusedAValidRequest": "已拒绝有效请求",
 			"renderFailMsg": "未能呈现内容",
@@ -6462,8 +6558,9 @@
 			"working": "正在工作"
 		},
 		"vs/workbench/contrib/chat/browser/chatOutputItemRenderer": {
-			"chatOutputRenderer.mimeTypes": "MIME types that this renderer can handle",
-			"vscode.extension.contributes.chatOutputRenderer": "Contributes a renderer for specific MIME types in chat outputs"
+			"chatOutputRenderer.mimeTypes": "此呈现器可处理的 MIME 类型",
+			"chatOutputRenderer.viewType": "呈现器的唯一标识符。",
+			"vscode.extension.contributes.chatOutputRenderer": "为聊天输出中的特定 MIME 类型提供呈现器"
 		},
 		"vs/workbench/contrib/chat/browser/chatParticipant.contribution": {
 			"chat.viewContainer.label": "聊天",
@@ -6507,20 +6604,29 @@
 			"pastedImageName": "粘贴的图像"
 		},
 		"vs/workbench/contrib/chat/browser/chatSessions": {
-			"chat.sessions": "Chat Sessions",
-			"chat.sessions.chatView": "Chat",
-			"chat.sessions.chatView.description": "Chat View",
-			"chat.sessions.title": "Chat Sessions",
-			"chatSessions.treeAriaLabel": "Chat Sessions",
-			"interactiveSession.open": "New Chat Editor"
+			"chat.sessions": "聊天会话",
+			"chat.sessions.chatView": "聊天",
+			"chat.sessions.chatView.description": "聊天视图",
+			"chat.sessions.showHistory": "History",
+			"chat.sessions.title": "聊天会话",
+			"chatSessionInputAriaLabel": "键入会话名称。按 Enter 键确认或按 Esc 键取消。",
+			"chatSessions": "Chat Sessions",
+			"chatSessions.dragLabel": "{0} 聊天会话",
+			"chatSessions.loading": "正在加载聊天会话...",
+			"chatSessions.noResults": "无本地聊天会话\r\n[开始聊天](command:workbench.action.openChat)",
+			"chatSessions.refreshing": "正在刷新聊天会话...",
+			"interactiveSession.open": "新聊天编辑器"
 		},
 		"vs/workbench/contrib/chat/browser/chatSessions.contribution": {
-			"chatSessionsExtPoint": "Contributes chat session integrations to the chat widget.",
-			"chatSessionsExtPoint.description": "Description of the chat session for use in menus and tooltips.",
-			"chatSessionsExtPoint.displayName": "A longer name for this item which is used for display in menus.",
-			"chatSessionsExtPoint.id": "A unique identifier for this item.",
-			"chatSessionsExtPoint.name": "Name shown in the chat widget. (eg: @agent)",
-			"chatSessionsExtPoint.when": "Condition which must be true to show this item."
+			"chatSessionNotFound": "使用 `#copilotCodingAgent` 开始新的[编码智能体会话]({0})。",
+			"chatSessionsExtPoint": "向聊天小组件提供聊天会话集成。",
+			"chatSessionsExtPoint.chatSessionType": "聊天会话类型的唯一标识符。",
+			"chatSessionsExtPoint.description": "用于菜单和工具提示的聊天会话的说明。",
+			"chatSessionsExtPoint.displayName": "此项的更长名称，用于在菜单中显示。",
+			"chatSessionsExtPoint.name": "聊天小组件中显示的名称。(例如: @agent)",
+			"chatSessionsExtPoint.when": "此条件必须为 true 才能显示此项。",
+			"continueInNewChat": "在新的聊天编辑器中继续 **{0}**",
+			"interactiveSession.openNewSessionEditor": "新的 {0} 聊天编辑器"
 		},
 		"vs/workbench/contrib/chat/browser/chatSetup": {
 			"chat.category": "聊天",
@@ -6533,17 +6639,19 @@
 			"enterpriseInstance": "你的 {0} 实例是什么?",
 			"enterpriseInstancePlaceholder": "即\"octocat\" 或 \"https://octocat.ghe.com\"...",
 			"forceSignIn": "登录以使用 Copilot",
-			"hideChatSetup": "隐藏 Copilot",
-			"hideChatSetupButton": "隐藏 Copilot",
-			"hideChatSetupConfirm": "是否确实要隐藏 Copilot?",
-			"hideChatSetupDetail": "可以通过运行“{0}”命令来还原 Copilot。",
+			"hideChatSetup": "隐藏 AI 功能",
+			"hideChatSetupButton": "隐藏 AI 功能",
+			"hideChatSetupConfirm": "是否确实要隐藏 AI 功能?",
+			"hideChatSetupDetail": "可通过运行“{0}”命令来还原 AI 功能。",
 			"installingCopilot": "正在准备 Copilot",
 			"invalidEnterpriseInstance": "必须输入有效的 {0} 实例(即 \"octocat\" 或 \"https://octocat.ghe.com\")",
 			"manageOverages": "管理 Copilot 超额",
 			"managePlan": "升级到 Copilot Pro",
+			"restartExtensionHost.reason.disable": "Disabling AI features",
+			"restartExtensionHost.reason.enable": "Enabling AI features",
 			"retry": "重试",
 			"settingUpCopilotNeeded": "你需要设置 Copilot 并登录以使用对话助手。",
-			"settings": "{0} Copilot Free、Pro 和 Pro+ 可能会显示 [公共代码]({1})建议，我们可能会使用你的数据来改进产品。可以随时更改这些 [设置]({2})。",
+			"settings": "继续操作即表示你同意 {0} 的[条款]({1})和[隐私声明]({2})。{3} Copilot 可能会显示[公共代码]({4})建议并使用你的数据来改进产品。你可以随时更改这些[设置]({5})。",
 			"setupChatProgress": "正在准备 Copilot...",
 			"setupChatSignIn2": "正在登录到 {0}。",
 			"setupCopilot": "设置 Copilot。",
@@ -6551,10 +6659,10 @@
 			"setupErrorDialog": "Copilot 设置失败。是否要重试?",
 			"setupToolDisplayName": "新建工作区",
 			"setupToolsDescription": "在 VS Code 中搭建新工作区的基架",
-			"signIn": "登录以使用 Copilot",
+			"signIn": "登录以使用 {0} Copilot",
 			"skipForNow": "暂时跳过",
-			"startUsing": "开始使用 Copilot",
-			"triggerChatSetup": "免费借助 Copilot 使用 AI 功能...",
+			"startUsing": "开始使用 {0} Copilot",
+			"triggerChatSetup": "Use AI Features with GitHub Copilot for free...",
 			"triggerChatSetupFromAccounts": "登录以使用 Copilot...",
 			"trustNeeded": "你需要信任此工作区才能使用聊天。",
 			"unknownSetupError": "设置 Copilot 时出错。是否要重试？",
@@ -6573,6 +6681,7 @@
 			"cancelSnooze": "取消推迟",
 			"chatAndCompletionsQuotaExceededStatus": "已达到配额",
 			"chatQuotaExceededStatus": "已达到聊天配额",
+			"chatSessionsTitle": "Chat Sessions",
 			"chatStatus": "Copilot 状态",
 			"chatsLabel": "聊天消息",
 			"codeCompletions": "代码完成",
@@ -6598,6 +6707,7 @@
 			"gaugeForeground": "仪表前景色。",
 			"gaugeWarningBackground": "仪表警告背景色。",
 			"gaugeWarningForeground": "仪表警告前景色。",
+			"inProgressChatSession": "$(loading~spin) {0} {1} in progress",
 			"learnMore": "了解详细信息",
 			"limitQuota": "限额重置为 {0}。",
 			"notSignedIntoCopilot": "已注销",
@@ -6616,11 +6726,14 @@
 			"signInDescription": "登录以使用 Copilot AI 功能。",
 			"signInToUseCopilotButton": "登录以使用 Copilot",
 			"upgradeToCopilotPro": "升级到 Copilot Pro",
-			"usageTitle": "Copilot 使用情况"
+			"usageTitle": "Copilot 使用情况",
+			"viewChatSessionsLabel": "View Chat Sessions",
+			"viewChatSessionsTooltip": "View Chat Sessions"
 		},
 		"vs/workbench/contrib/chat/browser/chatWidget": {
 			"agentMessage": "要求 Copilot 在 [代理模式]({0})下编辑文件。Copilot 将自动使用多个请求来选取要编辑的文件、运行终端命令并迭代处理错误。",
 			"agentTitle": "使用代理模式生成。",
+			"chat.input.placeholder.lockedToAgent": "Chat with {0}",
 			"chatDescription": "询问代码的情况。",
 			"chatDisclaimer": "AI 答复可能不准确。",
 			"chatMessage": "Copilot 由 AI 提供支持，因此可能会出现错误。请在使用前仔细查看输出。",
@@ -6634,6 +6747,8 @@
 			"chatWidget.suggestedPrompts.newProjectPrompt": "使用 TypeScript 创建 #new Hello World 项目",
 			"chatWidget.tips": "{0} 或输入 {1} 以附加上下文\r\n\r\n{2} 与扩展聊天\r\n\r\n输入 {3} 以使用命令",
 			"chatWidget.tips.withoutParticipants": "{0} 或输入 {1} 以附加上下文",
+			"codingAgentMessage": "此聊天会话将转发给 {0} 编码智能体",
+			"codingAgentTitle": "与 {0} 聊天",
 			"editsHelp": "通过定义要使用的一组文件来启动编辑会话。然后要求 Copilot 进行你想要的更改。",
 			"editsTitle": "在上下文中编辑。",
 			"expChatAdditionalMessage": "请在使用之前仔细查看 AI 输出。",
@@ -6669,8 +6784,7 @@
 			"tool_source_completion": "{0}: {1}"
 		},
 		"vs/workbench/contrib/chat/browser/contrib/chatInputEditorContrib": {
-			"askPlaceholderHint": "# 用于添加上下文，@ 表示扩展，/ 表示命令",
-			"editPlaceholderHint": "# 用于添加上下文"
+			"chatPlaceholderHint": "添加上下文(#)、扩展(@)、命令(/)"
 		},
 		"vs/workbench/contrib/chat/browser/contrib/chatInputEditorHover": {
 			"hoverAccessibilityChatAgent": "此处有一个聊天代理悬停部件。"
@@ -6832,10 +6946,9 @@
 			"chat.requestCodeBorder": "聊天请求气泡中代码块的边框颜色。",
 			"chat.slashCommandBackground": "聊天斜线命令的背景色。",
 			"chat.slashCommandForeground": "聊天斜线命令的前景色。",
-			"chatCheckpointSeparator": "Chat checkpoint separator color."
+			"chatCheckpointSeparator": "聊天检查点分隔符颜色。"
 		},
 		"vs/workbench/contrib/chat/common/chatContextKeys": {
-			"chatCanRequestBePaused": "如果当前请求可以暂停，则为 True。",
 			"chatEditApplied": "应用聊天文本编辑后为 True。",
 			"chatEditingCanRedo": "如果可以在编辑面板中重做交互，则为 True。",
 			"chatEditingCanUndo": "如果可以在编辑面板中撤消交互，则为 True。",
@@ -6844,21 +6957,26 @@
 			"chatHasCustomChatModes": "如果聊天具有可用的自定义聊天模式，则为 True。",
 			"chatHasFileAttachments": "当聊天有文件附件时为 True。",
 			"chatIsEnabled": "启用聊天时为 True，因为默认聊天参与者是使用实现激活的。",
+			"chatIsHistoryItem": "True when the chat session item is from history.",
 			"chatItemId": "聊天项的 ID。",
 			"chatLastItemId": "最后一个聊天项的 ID。",
 			"chatMode": "当前聊天模式的“种类”- 自定义模式的代理。",
+			"chatModelsAreUserSelectable": "如果用户可以手动选择聊天模型，则为 True。",
 			"chatPanelExtensionParticipantRegistered": "为扩展面板注册默认聊天参与者时为 True。",
 			"chatPanelLocation": "聊天面板的位置。",
 			"chatParticipantRegistered": "为面板注册默认聊天参与者时为 True。",
 			"chatPromptFileAttachedContextDescription": "当聊天附加了提示文件时为 True。",
 			"chatRemoteJobCreating": "创建远程编码智能体作业时为 True。",
 			"chatRequest": "聊天项是一个请求",
-			"chatRequestIsPaused": "当前请求暂停时为 True。",
 			"chatResponse": "聊天项是一个响应。",
 			"chatResponseErrored": "当聊天响应导致错误时为 True。",
 			"chatResponseFiltered": "服务器筛选掉聊天响应时为 True。",
 			"chatResponseSupportsIssueReporting": "如果当前聊天响应支持问题报告，则为 True。",
 			"chatSessionResponseDetectedAgentOrCommand": "当自动检测到代理或命令时",
+			"chatSessionType": "当前聊天会话项的类型。",
+			"chatSkipRequestInProgressMessage": "如果应跳过“聊天请求正在进行中”消息，则为 True。",
+			"chatToolCount": "当前聊天模式下可用的工具数。",
+			"chatToolGroupingThreshold": "开始执行虚拟分组时的工具数。",
 			"enableRemoteCodingAgentPromptFileOverlay": "是否启用远程编码代理提示文件覆盖功能",
 			"hasRemoteCodingAgent": "是否有可用的远程编码智能体",
 			"inChat": "当焦点位于聊天小组件中时为 true，否则为 false。",
@@ -6871,6 +6989,7 @@
 			"interactiveSessionCurrentlyEditingInput": "编辑底部的当前请求输入时为 True。",
 			"interactiveSessionRequestInProgress": "当前请求仍在进行时为 True。",
 			"interactiveSessionResponseVote": "对响应投赞成票后，其设置为 \"up\"。投反对票时，设置为 \"down\"。否则为空字符串。",
+			"lockedToCodingAgent": "当聊天小组件锁定到编码智能体会话时为 True。",
 			"toolsCount": "聊天中可用工具的数量。"
 		},
 		"vs/workbench/contrib/chat/common/chatEditingService": {
@@ -6891,10 +7010,12 @@
 		"vs/workbench/contrib/chat/common/chatModel": {
 			"codeCitation": "找到具有 1 个许可证类型的类似代码",
 			"codeCitations": "找到具有 {0} 个许可证类型的类似代码",
-			"editsSummary": "已进行更改。"
+			"copyrightContentRetry": "已清除响应，因为可能与公共代码匹配，请使用修改后的提示重试。",
+			"editsSummary": "已进行更改。",
+			"filteredContentRetry": "由于内容安全筛选器已清除响应，请使用修改后的提示重试。"
 		},
 		"vs/workbench/contrib/chat/common/chatModes": {
-			"agentDescription": "自主生成。",
+			"agentDescription": "提供指令。",
 			"chatDescription": "提问。",
 			"editsDescription": "编辑文件。"
 		},
@@ -6906,8 +7027,7 @@
 			"newChat": "新建聊天"
 		},
 		"vs/workbench/contrib/chat/common/chatSessionStore": {
-			"join.chatSessionStore": "正在保存聊天历史记录",
-			"newChat": "新建聊天"
+			"join.chatSessionStore": "正在保存聊天历史记录"
 		},
 		"vs/workbench/contrib/chat/common/chatVariableEntries": {
 			"chat.attachment.problems.all": "所有问题",
@@ -6948,6 +7068,7 @@
 			"chat.prompt.frontMatter.inactiveBackground.description": "非活动 Front Matter 头信息块的背景色。"
 		},
 		"vs/workbench/contrib/chat/common/promptSyntax/languageProviders/promptHeaderDiagnosticsProvider": {
+			"promptHeaderDiagnosticsProvider.modeNotFound": "未知模式“{0}”。可用模式: {1}",
 			"promptHeaderDiagnosticsProvider.modelNotFound": "未知模型“{0}”",
 			"promptHeaderDiagnosticsProvider.modelNotSuited": "模型“{0}”不适用于代理模式",
 			"promptHeaderDiagnosticsProvider.toolNotFound": "未知工具“{0}”"
@@ -6962,7 +7083,12 @@
 			"promptHeader.mode.model": "要在此模式下使用的模型。",
 			"promptHeader.mode.tools": "要在此模式下使用的工具。",
 			"promptHeader.prompt.description": "提示文件的说明。它可用于向提示作者提供有关提示的其他上下文或信息。",
-			"promptHeader.prompt.mode": "运行此提示时要使用的模式(询问、编辑或代理)。",
+			"promptHeader.prompt.mode": "要在此提示中使用的模式。",
+			"promptHeader.prompt.mode.builtInDesc": "内置聊天模式",
+			"promptHeader.prompt.mode.builtin": "**内置模式:**",
+			"promptHeader.prompt.mode.custom": "**自定义模式:**",
+			"promptHeader.prompt.mode.customDesc": "自定义聊天模式",
+			"promptHeader.prompt.mode.description": "运行此提示时要使用的聊天模式。",
 			"promptHeader.prompt.model": "要在此提示中使用的模型。",
 			"promptHeader.prompt.tools": "要在此提示中使用的工具。",
 			"toolSetName": "工具集: {0}\r\n\r\n"
@@ -6981,10 +7107,10 @@
 			"prompt.header.metadata.string.diagnostics.invalid-language": "\"{0}\" 标头属性仅在指令文件中有效。"
 		},
 		"vs/workbench/contrib/chat/common/promptSyntax/parsers/promptHeader/metadata/base/enum": {
-			"prompt.header.metadata.enum.diagnostics.invalid-value": "“{0}”元数据必须是 {1} 之一，但得到了“{2}”。"
+			"prompt.header.metadata.enum.diagnostics.invalid-value": "\"{0}\" 属性必须是 {1} 之一，但得到了 \"{2}\"。"
 		},
 		"vs/workbench/contrib/chat/common/promptSyntax/parsers/promptHeader/metadata/base/string": {
-			"prompt.header.metadata.string.diagnostics.invalid-value-type": "“{0}”元数据必须是“{1}”，但得到了“{2}”。"
+			"prompt.header.metadata.string.diagnostics.invalid-value-type": "属性 \"{0}\" 的类型必须是 \"{1}\"，但得到了 \"{2}\"。"
 		},
 		"vs/workbench/contrib/chat/common/promptSyntax/parsers/promptHeader/metadata/tools": {
 			"prompt.header.metadata.tools.diagnostics.duplicate-tool-name": "工具名称“{0}”重复。",
@@ -6993,7 +7119,7 @@
 			"prompt.header.metadata.tools.diagnostics.invalid-value-type": "必须是工具名称数组，但得到了 \"{0}\"。"
 		},
 		"vs/workbench/contrib/chat/common/promptSyntax/parsers/promptHeader/promptHeader": {
-			"prompt.header.metadata.mode.diagnostics.incompatible-with-tools": "工具只能在“代理”模式下使用，但该模式设置为“{0}”。这些工具将被忽略。"
+			"prompt.header.metadata.mode.diagnostics.incompatible-with-tools": "工具不能在“{0}”模式下使用，将被忽略。"
 		},
 		"vs/workbench/contrib/chat/common/promptSyntax/parsers/topError": {
 			"broken": "已中断",
@@ -7014,7 +7140,7 @@
 			"canBeReferencedInPrompt": "如果为 true，则此工具将显示为用户可手动添加到其请求中的附件。聊天参与者将在{0} 中收到该工具。",
 			"condition": "要启用此工具时必须为 true 的条件。请注意，即使工具的 `when` 条件为 false，该工具仍可能由另一个扩展调用。",
 			"descriptions": "说明",
-			"icon": "表示此工具的图标。文件路径、具有深色和浅色主题的文件路径的对象，或主题图标引用 (如 `\\$(zap)`)",
+			"icon": "表示此工具的图标。文件路径、具有深色和浅色主题的文件路径的对象，或主题图标引用(如 `\\$(zap)`)",
 			"icon.dark": "使用深色主题时的图标路径",
 			"icon.light": "使用浅色主题时的图标路径",
 			"langModelToolSets": "语言模型工具集",
@@ -7046,16 +7172,13 @@
 			"workbench.action.chat.openStorageFolder.label": "打开聊天存储文件夹"
 		},
 		"vs/workbench/contrib/chat/electron-browser/actions/voiceChatActions": {
-			"installProviderForVoiceChat.justification": "麦克风支持需要此扩展。",
 			"keywordActivation.status.active": "正在侦听“Hey Code”...",
 			"keywordActivation.status.inactive": "正在等待语音聊天结束...",
 			"keywordActivation.status.name": "语音关键字激活",
 			"listening": "我正在收听",
-			"retry": "重试",
 			"scopedChatSynthesisInProgress": "定义为正在录制麦克风语音以进行语音聊天的位置。此密钥仅根据聊天上下文定义范围。",
 			"scopedVoiceChatGettingReady": "当准备好接收来自麦克风的语音输入以进行语音聊天时为 True。此密钥仅根据聊天上下文定义范围。",
 			"scopedVoiceChatInProgress": "定义为正在录制麦克风语音以进行语音聊天的位置。此密钥仅根据聊天上下文定义范围。",
-			"unknownSetupError": "设置语音聊天时出错。是否要重试?",
 			"voice.keywordActivation": "控制是否识别关键字短语“Hey Code”以启动语音聊天会话。启用此项将开始使用麦克风录制，但音频在本地处理，不会发送到服务器。",
 			"voice.keywordActivation.chatInContext": "已启用关键字激活并侦听“Hey Code”以根据键盘焦点，在活动编辑器或视图中启动语音聊天会话。",
 			"voice.keywordActivation.chatInView": "已启用关键字激活并侦听“Hey Code”以在聊天视图中启动语音聊天会话。",
@@ -7064,7 +7187,6 @@
 			"voice.keywordActivation.quickChat": "已启用关键字激活并侦听“Hey Code”以在快速聊天中启动语音聊天会话。",
 			"workbench.action.chat.holdToVoiceChatInChatView.label": "按住以在聊天视图中进行语音聊天",
 			"workbench.action.chat.inlineVoiceChat": "内联语音聊天",
-			"workbench.action.chat.installProviderForVoiceChat.label": "开始语音聊天",
 			"workbench.action.chat.quickVoiceChat.label": "快速语音聊天",
 			"workbench.action.chat.readChatResponseAloud": "大声朗读",
 			"workbench.action.chat.startVoiceChat.label": "开始语音聊天",
@@ -7075,12 +7197,17 @@
 			"workbench.action.speech.stopReadAloud": "停止大声朗读"
 		},
 		"vs/workbench/contrib/chat/electron-browser/chat.contribution": {
+			"changeWorkspace.detail": "如果更改工作区，聊天请求将停止。",
 			"changeWorkspace.message": "正在进行聊天请求。是否确实要更改工作区?",
+			"chatRequestInProgress": "正在进行聊天请求。",
+			"closeTheWindow.detail": "如果关闭窗口，聊天请求将停止。",
 			"closeTheWindow.message": "正在进行聊天请求。是否确实要关闭窗口?",
 			"copilotWorkspaceTrust": "Copilot 目前仅在受信任的工作区中受支持。",
+			"exit.detail": "如果退出，聊天请求将停止。",
 			"exit.message": "正在进行聊天请求。是否确定要退出?",
-			"quit.detail": "如果继续，聊天请求将被取消。",
+			"quit.detail": "如果退出，聊天请求将停止。",
 			"quit.message": "正在进行聊天请求。是否确实要退出?",
+			"reloadTheWindow.detail": "如果重新加载窗口，聊天请求将停止。",
 			"reloadTheWindow.message": "正在进行聊天请求。是否确实要重新加载窗口?"
 		},
 		"vs/workbench/contrib/chat/electron-browser/tools/fetchPageTool": {
@@ -7815,6 +7942,7 @@
 			"addConfiguration": "添加配置…",
 			"addInlineBreakpoint": "添加内联断点",
 			"addToWatchExpressions": "添加到监视",
+			"attachToCurrentCodeRenderer": "附加到当前代码渲染器",
 			"callStackBottom": "导航到调用堆栈底部",
 			"callStackDown": "向下导航调用堆栈",
 			"callStackTop": "导航到调用堆栈顶部",
@@ -7840,13 +7968,15 @@
 			"selectAndStartDebugging": "选择并开始调试",
 			"selectDebugConsole": "选择调试控制台",
 			"selectDebugSession": "选择调试会话",
+			"selectExceptionBreakpointsPlaceholder": "选取已启用的异常断点",
 			"startDebug": "开始调试",
 			"startWithoutDebugging": "开始执行(不调试)",
 			"stepIntoDebug": "单步调试",
 			"stepIntoTargetDebug": "单步执行目标",
 			"stepOutDebug": "单步跳出",
 			"stepOverDebug": "逐过程",
-			"stop": "停止"
+			"stop": "停止",
+			"toggleExceptionBreakpoints": "切换异常断点"
 		},
 		"vs/workbench/contrib/debug/browser/debugConfigurationManager": {
 			"DebugConfig.failed": "无法在 \".vscode\" 文件夹({0})内创建 \"launch.json\" 文件。",
@@ -8438,15 +8568,16 @@
 			"cloudChangesLog": "云更改"
 		},
 		"vs/workbench/contrib/editTelemetry/browser/editStats/aiStatsStatusBar": {
-			"aiStatsStatusBarHeader": "AI Usage Statistics",
+			"aiStats.statusBar.configure": "配置",
+			"aiStatsStatusBarHeader": "AI 使用情况统计信息",
 			"inlineSuggestions": "内联建议",
 			"inlineSuggestionsStatusBar": "内联建议状态栏",
-			"text1": "Manual vs. AI typing ratio: {0}",
-			"text2": "Accepted inline suggestions today: {0}"
+			"text1": "AI 插入与手动键入平均值: {0}",
+			"text2": "今天接受的内联建议: {0}"
 		},
 		"vs/workbench/contrib/editTelemetry/browser/editTelemetry.contribution": {
 			"editTelemetry": "编辑遥测数据",
-			"editor.aiStats.enabled": "控制是否在编辑器中启用 AI 统计功能。",
+			"editor.aiStats.enabled": "控制是否在编辑器中启用 AI 统计功能。该仪表表示 24 小时内 AI 插入的代码量与手动输入的代码量的平均数。",
 			"telemetry.editStats.detailed.enabled": "控制是否启用遥测以获得详细的编辑统计信息(仅在启用常规遥测时发送统计信息)。",
 			"telemetry.editStats.enabled": "控制是否为编辑统计信息启用遥测(仅在启用常规遥测时发送统计信息)。",
 			"telemetry.editStats.showDecorations": "控制是否显示编辑遥测的装饰效果。",
@@ -9043,7 +9174,7 @@
 			"download": "下载",
 			"download title": "选择文件夹以下载 VSIX",
 			"download.completed": "已成功下载 VSIX",
-			"download.failed": "Error while downloading the VSIX: {0}",
+			"download.failed": "下载 VSIX 时出错: {0}",
 			"downloading...": "正在下载 VSIX...",
 			"enable locally": "请使用 {0} 以在本地启用此扩展。",
 			"enable remote": "请 {0} 以在 {1} 启用此扩展。",
@@ -9151,14 +9282,14 @@
 			"searchExtensionsTool.userDescription": "在 Visual Studio Code 扩展商城中搜索扩展"
 		},
 		"vs/workbench/contrib/extensions/electron-browser/debugExtensionHostAction": {
-			"debugExtensionHost": "在新窗口中启动调试扩展主机",
+			"debugExtensionHost": "在新窗口中调试扩展主机",
 			"debugExtensionHost.launch.name": "附加扩展主机",
 			"debugExtensionHost.progress": "正在将调试器附加到扩展主机",
-			"openDevToolsForExtensionHost": "Open Developer Tools for Extension Host",
+			"openDevToolsForExtensionHost": "在开发工具中调试扩展主机",
 			"restart1": "调试扩展",
 			"restart2": "需要重启，才能调试扩展。是否要立即重启“{0}”?",
 			"restart3": "重启(&&R)",
-			"selectExtensionHost": "Pick extension host"
+			"selectExtensionHost": "选择扩展主机"
 		},
 		"vs/workbench/contrib/extensions/electron-browser/extensionProfileService": {
 			"profilingExtensionHost": "分析扩展主机",
@@ -9739,13 +9870,14 @@
 			"moveToPreviousHunk": "移动到上一个更改",
 			"rerun": "重新运行",
 			"reveal": "切换内联聊天",
-			"run": "编辑器内联聊天",
+			"run": "Open Inline Chat",
 			"showChanges": "切换更改",
 			"startInlineChat": "从编辑器工具栏生成内联聊天的图标。",
 			"unstash": "继续上次关闭的内联聊天",
 			"viewInChat": "在聊天中查看"
 		},
 		"vs/workbench/contrib/inlineChat/browser/inlineChatController": {
+			"askOrEditInContext": "在上下文中询问或编辑",
 			"create.fail": "无法启动编辑器聊天",
 			"empty": "无结果，请优化输入并重试",
 			"err.apply": "无法应用更改。",
@@ -9810,7 +9942,7 @@
 			"inlineChatResponseTypes": "回复的类型：已收到、尚未收到、仅消息，或已传递消息和本地编辑",
 			"inlineChatVisible": "交互式编辑器输入是否可见",
 			"lineSuffixHint": "使用自然语言或伪代码的行是否显示继续内联聊天的提示。例如，“具有姓名和爱好的类人”会显示继续聊天的提示。",
-			"notebookAgent": "Enable agent-like behavior for inline chat widget in notebooks. Depends on the `#inlineChat.enableV2#` setting being enabled."
+			"notebookAgent": "从笔记本中的内联聊天小组件启用类似代理的行为。取决于是否启用 `#inlineChat.enableV2#` 设置。"
 		},
 		"vs/workbench/contrib/inlineChat/electron-browser/inlineChatActions": {
 			"holdForSpeech": "保持语音"
@@ -10423,6 +10555,7 @@
 			"mcp.addConfiguration.description": "将新的模型上下文协议安装到 mcp.json 设置",
 			"mcp.addServer": "添加服务器",
 			"mcp.addServer.description": "添加新的服务器配置",
+			"mcp.autoStart": "发送聊天消息时自动启动 MCP 服务器",
 			"mcp.browseResources": "浏览资源...",
 			"mcp.command.browse": "MCP 服务器",
 			"mcp.command.browse.mcp": "浏览服务器",
@@ -10443,8 +10576,12 @@
 			"mcp.configureSamplingModels.ph": "选择{0}可通过 MCP 采样访问的模型",
 			"mcp.disconnect": "断开帐户连接",
 			"mcp.editStoredInput": "编辑存储的输入",
+			"mcp.err.md.multi": "多个 MCP 服务器无法成功启动:\r\n\r\n{0}",
+			"mcp.err.md.single": "MCP 服务器 {0} 无法成功启动。",
 			"mcp.list": "列出服务器",
 			"mcp.newTools": "新工具可用({0} 个)",
+			"mcp.newTools.md.multi": "MCP 服务器已更新，可能有可用的新工具:\r\n\r\n{0}",
+			"mcp.newTools.md.single": "MCP 服务器 {0} 已更新，可能有可用的新工具。",
 			"mcp.options": "服务器选项",
 			"mcp.resetCachedTools": "重置缓存的工具",
 			"mcp.resetTrust": "重置信任",
@@ -10476,9 +10613,10 @@
 			"install.title": "安装 MCP 服务器 {0}",
 			"mcp.command.placeholder": "要运行的命令(带有可选参数)",
 			"mcp.command.title": "输入命令",
-			"mcp.confirmPublish": "是否从 {1} 安装 {0}?",
+			"mcp.confirmPublish": "是否从 {2} 安装 {0}{1}?",
 			"mcp.docker.placeholder": "图像名称(例如 mcp/imagename)",
 			"mcp.docker.title": "输入 Docker 映像名称",
+			"mcp.error.openHelpUri": "打开帮助 URL",
 			"mcp.error.retry": "尝试其他包",
 			"mcp.loading.title": "正在加载包详细信息...",
 			"mcp.npm.placeholder": "包名称(如 @org/package)",
@@ -10505,6 +10643,7 @@
 			"mcp.serverType.pip.description": "根据 PIP 包名称安装",
 			"mcp.serverType.placeholder": "选择要添加的 MCP 服务器类型",
 			"mcp.servers.browse": "浏览 MCP 服务器...",
+			"mcp.servers.discovery": "从另一个应用程序添加...",
 			"mcp.target..remote.description": "在此远程计算机上可用，在 {0} 上运行",
 			"mcp.target.remote": "远程",
 			"mcp.target.title": "选择 MCP 服务器的安装位置",
@@ -10585,6 +10724,7 @@
 		},
 		"vs/workbench/contrib/mcp/browser/mcpServerActions": {
 			"config": "显示配置",
+			"configJson": "显示配置(JSON)",
 			"disabled - not allowed": "此 MCP 服务器已禁用，因为 {0}",
 			"install": "安装",
 			"installing": "正在安装",
@@ -10664,7 +10804,7 @@
 			"cannot be installed": "无法安装“{0}”MCP 服务器，因为它在此安装程序中不可用。",
 			"mcp.configuration.userLocalValue": "{0} 中的全局",
 			"not an extension": "提供的对象不是 MCP 服务器。",
-			"overwriting": "Overwriting mcp server '{0}' from {1} with {2}."
+			"overwriting": "正在使用 {2} 从 {1} 覆盖 MCP 服务器“{0}”。"
 		},
 		"vs/workbench/contrib/mcp/common/discovery/extensionMcpDiscovery": {
 			"invalidData": "应为 MCP 集合数组",
@@ -10693,9 +10833,13 @@
 			"app.mcp.json.url.pattern": "URL 必须以“http://”或“https://”开头。",
 			"id": "ID",
 			"mcp.discovery.source.claude-desktop": "Claude 桌面",
+			"mcp.discovery.source.claude-desktop.config": "Claude Desktop 配置(`claude_desktop_config.json`)",
 			"mcp.discovery.source.cursor-global": "光标(全局)",
+			"mcp.discovery.source.cursor-global.config": "光标全局配置(`~/.cursor/mcp.json`)",
 			"mcp.discovery.source.cursor-workspace": "光标(工作区)",
+			"mcp.discovery.source.cursor-workspace.config": "光标工作区配置(`.cursor/mcp.json`)",
 			"mcp.discovery.source.windsurf": "Windsurf",
+			"mcp.discovery.source.windsurf.config": "Windsurf 配置(`~/.codeium/windsurf/mcp_config.json`)",
 			"mcpServerDefinitionProviders": "MCP 服务器",
 			"name": "名称",
 			"vscode.extension.contributes.mcp": "提供模型上下文协议服务器。此项内容的用户还应使用 `vscode.lm.registerMcpServerDefinitionProvider`。",
@@ -10713,24 +10857,24 @@
 			"mcp.debug.pythonBinReq": "MCP 服务器必须使用“python”可执行文件启动才能启用调试，但实际启动时使用的是“{0}”"
 		},
 		"vs/workbench/contrib/mcp/common/mcpLanguageModelToolContribution": {
-			"mcp.tool.warning": "Note that MCP servers or malicious conversation content may attempt to misuse '{0}' through tools.",
-			"mcp.toolset": "{0}: All Tools",
-			"msg.ran": "Ran {0} ",
-			"msg.run": "Running {0}",
-			"msg.subtitle": "{0} (MCP Server)",
-			"msg.title": "Run {0}"
+			"mcp.tool.warning": "请注意，MCP 服务器或恶意对话内容可能会尝试通过工具滥用“{0}”。",
+			"mcp.toolset": "{0}: 所有工具",
+			"msg.ran": "已运行 {0}",
+			"msg.run": "正在运行 {0}",
+			"msg.subtitle": "{0} (MCP 服务器)",
+			"msg.title": "运行 {0}"
 		},
 		"vs/workbench/contrib/mcp/common/mcpRegistry": {
 			"mcp.launchError": "启动 {0} 时出错: {1}",
 			"mcp.launchError.openConfig": "打开配置",
-			"mcp.trust.details": "The MCP server {0} was updated. MCP servers may add context to your chat session and lead to unexpected behavior. Do you want to trust and run this server?",
-			"mcp.trust.detailsMulti": "Several updated MCP servers were discovered:\r\n\r\n{0}\r\n\r\n MCP servers may add context to your chat session and lead to unexpected behavior. Do you want to trust and run these server?",
+			"mcp.trust.details": "MCP 服务器 {0} 已更新。MCP 服务器可能会向你的聊天会话添加上下文并导致意外行为。你是否要信任并运行此服务器?",
+			"mcp.trust.detailsMulti": "已发现多个更新的 MCP 服务器:\r\n\r\n{0}\r\n\r\n MCP 服务器可能会向你的聊天会话添加上下文并导致意外行为。你是否要信任并运行这些服务器?",
 			"mcp.trust.no": "不信任",
-			"mcp.trust.pick": "Pick Trusted",
+			"mcp.trust.pick": "选择受信任项",
 			"mcp.trust.yes": "信任",
-			"trustFromExt": "from {0}",
-			"trustTitleWithOrigin": "Trust and run MCP server {0}?",
-			"trustTitleWithOriginMulti": "Trust and run {0} MCP servers?"
+			"trustFromExt": "自 {0}",
+			"trustTitleWithOrigin": "是否信任并运行 MCP 服务器 {0}?",
+			"trustTitleWithOriginMulti": "是否信任并运行 {0} MCP 服务器?"
 		},
 		"vs/workbench/contrib/mcp/common/mcpSamplingLog": {
 			"mcp.sampling.rpd": "过去 7 天内共有 {0} 个请求。"
@@ -10763,6 +10907,10 @@
 			"mcpServer.starting": "正在启动服务器 {0}",
 			"mcpServer.state": "连接状态: {0}",
 			"mcpServer.stopping": "正在停止服务器 {0}"
+		},
+		"vs/workbench/contrib/mcp/common/mcpService": {
+			"mcp.autostart.configure": "配置 MCP 自动启动",
+			"mcp.autostart.progress": "正在启动 MCP 服务器: {0}"
 		},
 		"vs/workbench/contrib/mcp/common/mcpTypes": {
 			"mcpstate.error": "错误 {0}",
@@ -11119,7 +11267,7 @@
 			"breadcrumbs.showCodeCells": "启用后，笔记本痕迹包含代码单元格。",
 			"filter": "筛选条目",
 			"notebook.gotoSymbols.showAllSymbols": "启用后，转到符号快速检查将显示笔记本中的完整代码符号以及 Markdown 标头。",
-			"outline.showCodeCellSymbols": "启用后，笔记本大纲将显示代码单元符号。依赖于将启用的 `notebook.outline.showCodeCells`。",
+			"outline.showCodeCellSymbols": "启用后，笔记本大纲将显示代码单元符号。依赖于将启用的 `#notebook.outline.showCodeCells#`。",
 			"outline.showCodeCells": "启用后，笔记本大纲显示代码单元格。",
 			"outline.showMarkdownHeadersOnly": "启用后，笔记本大纲将仅显示包含标头的 Markdown 单元。",
 			"toggleCodeCellSymbols": "代码单元符号",
@@ -11198,7 +11346,7 @@
 			"notebookChatUserDidEdit": "用户是否在笔记本单元格聊天顶部进行了更改"
 		},
 		"vs/workbench/contrib/notebook/browser/controller/chat/notebookChatController": {
-			"default.placeholder": "提问",
+			"default.placeholder": "在上下文中询问或编辑",
 			"welcome.1": "AI 生成的代码可能不正确"
 		},
 		"vs/workbench/contrib/notebook/browser/controller/coreActions": {
@@ -11228,6 +11376,7 @@
 			"notebookActions.deleteCell": "删除单元格",
 			"notebookActions.editCell": "编辑单元格",
 			"notebookActions.quitEdit": "停止编辑单元格",
+			"notebookActions.quitEditAllCells": "停止编辑所有单元格",
 			"pickAction": "选择操作",
 			"pickLanguageToConfigure": "选择语言模式",
 			"selectNotebookIndentation": "选择缩进"
@@ -13631,7 +13780,7 @@
 			"ProblemPatternExtPoint": "提供问题模式",
 			"ProblemPatternParser.invalidRegexp": "错误: 字符串 {0} 不是有效的正则表达式。\r\n",
 			"ProblemPatternParser.loopProperty.notLast": "循环属性仅在最一个行匹配程序上受支持。",
-			"ProblemPatternParser.problemPattern.emptyPattern": "The problem pattern is invalid. It must contain at least one pattern.",
+			"ProblemPatternParser.problemPattern.emptyPattern": "问题模式无效。至少必须包含一个模式。",
 			"ProblemPatternParser.problemPattern.kindProperty.notFirst": "问题模式无效。\"kind\" 属性必须提供，且仅能为第一个元素",
 			"ProblemPatternParser.problemPattern.missingLocation": "问题模式无效。它必须为“file”，代码行或消息匹配组其中的一项。",
 			"ProblemPatternParser.problemPattern.missingProperty": "问题模式无效。必须至少包含一个文件和一条消息。",
@@ -13697,7 +13846,8 @@
 			"tasks.processExecutionSupported": "是否支持 ProcessExecution 任务。请考虑在 \"taskDefinition\" 贡献的 when 子句中使用。",
 			"tasks.serverlessWebContext": "在没有远程机构的 Web 中时为 True。",
 			"tasks.shellExecutionSupported": "是否支持 ShellExecution 任务。请考虑在 \"taskDefinition\" 贡献的 when 子句中使用。",
-			"tasks.taskCommandsRegistered": "是否已注册任务命令"
+			"tasks.taskCommandsRegistered": "是否已注册任务命令",
+			"tasks.tasksAvailable": "工作区中是否有任何可用的任务。"
 		},
 		"vs/workbench/contrib/tasks/common/taskTemplates": {
 			"Maven": "执行常见的 maven 命令",
@@ -13844,11 +13994,12 @@
 		"vs/workbench/contrib/terminal/browser/terminalMenus": {
 			"defaultTerminalProfile": "{0} (默认)",
 			"launchProfile": "启动配置文件...",
+			"miNewInNewWindow": "新建终端窗口(&&W)",
 			"miNewTerminal": "新建终端(&&N)",
 			"miRunActiveFile": "运行活动文件(&&A)",
 			"miRunSelectedText": "运行所选文本(&&S)",
 			"miSplitTerminal": "拆分终端(&&S)",
-			"splitTerminal": "拆分终端",
+			"split.profile": "具有配置文件的拆分终端",
 			"workbench.action.tasks.configureTaskRunner": "配置任务",
 			"workbench.action.tasks.runTask": "运行任务...",
 			"workbench.action.terminal.changeColor": "更改颜色...",
@@ -13927,7 +14078,7 @@
 			"overviewRuler": "概述标尺命令修饰",
 			"rerun": "是否要运行命令: {0}",
 			"terminal.copyCommand": "复制命令",
-			"terminal.copyCommandAndOutput": "复制命令并输出",
+			"terminal.copyCommandAndOutput": "复制命令和输出",
 			"terminal.copyOutput": "复制输出",
 			"terminal.copyOutputAsHtml": "将输出复制为 HTML",
 			"terminal.learnShellIntegration": "了解 Shell 集成",
@@ -13984,6 +14135,7 @@
 			"terminalOverviewRuler.findMatchHighlightForeground": "用于在终端中查找匹配项的概述标尺标记颜色。"
 		},
 		"vs/workbench/contrib/terminal/common/terminalConfiguration": {
+			"autoApproveMode.description": "控制在终端工具中的运行中是否允许自动审批。",
 			"cwd": "终端的当前工作目录。",
 			"cwdFolder": "终端的当前工作目录，当值与初始工作目录不同时，显示在多根工作区或单个根工作区中。在 Windows 上，仅当启用 shell 集成时才会显示此内容。",
 			"enableFileLinks.notRemote": "仅当不在远程工作区中时启用。",
@@ -14146,6 +14298,7 @@
 		"vs/workbench/contrib/terminal/common/terminalContextKey": {
 			"inTerminalRunCommandPickerContextKey": "终端运行命令选取器当前是否处于打开状态。",
 			"isSplitTerminalContextKey": "重点选项卡的终端是否为拆分终端。",
+			"splitPaneActive": "活动终端是否为拆分窗格。",
 			"terminalAltBufferActive": "终端的可选缓冲区是否处于活动状态。",
 			"terminalCountContextKey": "当前终端数。",
 			"terminalEditorFocusContextKey": "是否聚焦编辑器区域中的终端。",
@@ -14169,6 +14322,7 @@
 			"local": "本地",
 			"moveIntoNewWindow": "将终端移动到新窗口",
 			"moveToEditor": "将终端移动到编辑器区域中",
+			"newInNewWindow": "新建终端窗口",
 			"previousSessionCategory": "上一个会话",
 			"splitTerminal": "拆分终端",
 			"splitTerminal.short": "拆分",
@@ -14275,68 +14429,98 @@
 			"runCommand": "聊天命令",
 			"runFirst": "首次运行",
 			"runFirstCommand": "运行第一个聊天命令",
-			"startChat": "终端内联聊天",
+			"startChat": "Open Inline Chat",
+			"terminalCategory": "Terminal",
 			"viewInChat": "在聊天中查看"
 		},
 		"vs/workbench/contrib/terminalContrib/chat/browser/terminalChatWidget": {
-			"askAI": "询问 AI"
+			"askAboutCommands": "询问有关命令的问题"
 		},
 		"vs/workbench/contrib/terminalContrib/chat/common/terminalInitialHintConfiguration": {
 			"terminal.integrated.initialHint": "控制第一个没有输入的终端是否在聚焦时显示有关可用操作的提示。"
 		},
-		"vs/workbench/contrib/terminalContrib/chatAgentTools/browser/bufferOutputPolling": {
-			"poll.terminal.accept": "是",
-			"poll.terminal.polling": "Copilot 将继续轮询输出，以确定终端何时进入空闲状态长达 2 分钟。",
-			"poll.terminal.reject": "否",
-			"poll.terminal.waiting": "是否继续等待“{0}”完成?"
+		"vs/workbench/contrib/terminalContrib/chatAgentTools/browser/runInTerminalHelpers": {
+			"autoApprove.baseCommand": "始终允许命令: {0}",
+			"autoApprove.baseCommandSingle": "始终允许命令: {0}",
+			"autoApprove.configure": "配置自动审批...",
+			"autoApprove.exactCommand": "始终允许确切的命令行: {0}"
 		},
-		"vs/workbench/contrib/terminalContrib/chatAgentTools/browser/getTerminalOutputTool": {
+		"vs/workbench/contrib/terminalContrib/chatAgentTools/browser/terminal.chatAgentTools.contribution": {
+			"addTerminalSelection": "将终端选择添加到聊天",
+			"terminalSelection": "终端选择",
+			"toolset.runCommands": "在终端中运行命令",
+			"toolset.runTasks": "运行任务并为工作区获取其输出"
+		},
+		"vs/workbench/contrib/terminalContrib/chatAgentTools/browser/tools/getTerminalLastCommandTool": {
+			"getTerminalLastCommand.past": "已获取上一个终端命令",
+			"getTerminalLastCommand.progressive": "正在获取上一个终端命令",
+			"terminalLastCommandTool.displayName": "获取终端上一个命令"
+		},
+		"vs/workbench/contrib/terminalContrib/chatAgentTools/browser/tools/getTerminalOutputTool": {
 			"bg.past": "已选中后台终端输出",
 			"bg.progressive": "正在检查后台终端输出",
 			"getTerminalOutputTool.displayName": "获取终端输出"
 		},
-		"vs/workbench/contrib/terminalContrib/chatAgentTools/browser/runInTerminalTool": {
-			"runInTerminal.background": "在后台终端中运行命令",
-			"runInTerminal.foreground": "在终端中运行命令",
+		"vs/workbench/contrib/terminalContrib/chatAgentTools/browser/tools/getTerminalSelectionTool": {
+			"getTerminalSelection.past": "读取终端选择",
+			"getTerminalSelection.progressive": "正在读取终端选择",
+			"terminalSelectionTool.displayName": "获取终端选择"
+		},
+		"vs/workbench/contrib/terminalContrib/chatAgentTools/browser/tools/monitoring/outputMonitor": {
+			"poll.terminal.accept": "Yes",
+			"poll.terminal.acceptRun": "Yes",
+			"poll.terminal.confirmRun": "Run `{0}` in the terminal?",
+			"poll.terminal.confirmRunDetail": "The terminal output appears to require a response. Do you want to send `{0}` to the terminal?",
+			"poll.terminal.polling": "This will continue to poll for output to determine when the terminal becomes idle for up to 2 minutes.",
+			"poll.terminal.reject": "No",
+			"poll.terminal.rejectRun": "No",
+			"poll.terminal.waiting": "Continue waiting for `{0}`?"
+		},
+		"vs/workbench/contrib/terminalContrib/chatAgentTools/browser/tools/runInTerminalTool": {
+			"autoApprove.global": "已通过设置 {0} 自动审批",
+			"autoApprove.rule": "已通过规则 {0} 自动审批",
+			"autoApprove.rules": "已通过规则 {0} 自动审批",
+			"autoApproveDenied.rule": "已通过规则 {0} 拒绝自动审批",
+			"autoApproveDenied.rules": "已通过规则 {0} 拒绝自动审批",
+			"ruleTooltip": "在设置中查看规则",
+			"ruleTooltip.global": "查看设置",
+			"runInTerminal": "运行 `{0}` 命令?",
+			"runInTerminal.background": "运行 `{0}` 命令?(后台终端)",
+			"runInTerminal.promptInjectionDisclaimer": "Web 内容可能包含恶意代码或尝试提示注入攻击。",
 			"runInTerminalTool.displayName": "在终端中运行",
 			"runInTerminalTool.userDescription": "用于在终端中运行命令的工具"
 		},
-		"vs/workbench/contrib/terminalContrib/chatAgentTools/browser/task.chatAgentTools.contribution": {
-			"toolset.runTasks": "Runs tasks and gets their output for your workspace"
+		"vs/workbench/contrib/terminalContrib/chatAgentTools/browser/tools/task/createAndRunTaskTool": {
+			"allowTaskCreationExecution": "是否允许创建和执行任务?",
+			"alreadyRunning": "任务 `{0}` 已在运行。",
+			"copilotChat.fetchingTask": "正在解析任务",
+			"copilotChat.noTerminal": "任务已启动，但找不到“{0}”的终端",
+			"copilotChat.runningTask": "正在运行任务 `{0}`",
+			"copilotChat.taskNotFound": "找不到任务:“{0}”",
+			"copilotCreateTask": "Copilot 将使用命令“{1}”{2}创建任务“{0}”。",
+			"createAndRunTask.displayName": "创建并运行任务",
+			"createAndRunTask.modelDescription": "通过根据项目结构生成或添加到 tasks.json 文件(例如 package.json 或 README.md)，为工作区创建和运行构建、运行或自定义任务。如果用户请求构建、运行或启动，但没有 tasks.json 文件，请使用此工具。如果他们请求创建或添加任务，请使用此工具。",
+			"createAndRunTask.userDescription": "在工作区中创建并运行任务",
+			"createdTask": "已创建任务 `{0}`",
+			"createdTaskPast": "已创建任务 `{0}`",
+			"taskExists": "任务“{0}”已存在。",
+			"taskExistsPast": "任务“{0}”已存在。"
 		},
-		"vs/workbench/contrib/terminalContrib/chatAgentTools/browser/task/createAndRunTaskTool": {
-			"allowTaskCreationExecution": "Allow task creation and execution?",
-			"alreadyRunning": "Task `{0}` is already running.",
-			"copilotChat.checkingOutput": "Checking output for `{0}`",
-			"copilotChat.fetchingTask": "Resolving the task",
-			"copilotChat.noTerminal": "Task started but no terminal was found for: `{0}`",
-			"copilotChat.runningTask": "Running task `{0}`",
-			"copilotChat.taskNotFound": "Task not found: `{0}`",
-			"copilotCreateTask": "Copilot will create the task `{0}` with command `{1}`{2}.",
-			"createAndRunTask.displayName": "Create and run Task",
-			"createAndRunTask.modelDescription": "For a workspace, this tool will create a task based on the package.json, README.md, and project structure so that the project can be built and run.",
-			"createAndRunTask.userDescription": "Create and run a task in the workspace",
-			"createdTask": "Created task `{0}`",
-			"createdTaskPast": "Created task `{0}`",
-			"taskExists": "Task `{0}` already exists.",
-			"taskExistsPast": "Task `{0}` already exists."
-		},
-		"vs/workbench/contrib/terminalContrib/chatAgentTools/browser/task/getTaskOutputTool": {
-			"copilotChat.checkedTerminalOutput": "Checked output for task `{0}`",
-			"copilotChat.checkingTerminalOutput": "Checking output for task `{0}`",
+		"vs/workbench/contrib/terminalContrib/chatAgentTools/browser/tools/task/getTaskOutputTool": {
+			"copilotChat.checkedTerminalOutput": "已检查任务 `{0}` 的输出",
+			"copilotChat.checkingTerminalOutput": "正在检查 `{0}` 的输出",
 			"copilotChat.taskAlreadyRunning": "任务“{0}”已在运行。",
 			"copilotChat.taskNotFound": "找不到任务:“{0}”",
 			"copilotChat.terminalNotFound": "找不到任务“{0}”的终端",
 			"getTaskOutputTool.displayName": "获取任务输出"
 		},
-		"vs/workbench/contrib/terminalContrib/chatAgentTools/browser/task/runTaskTool": {
+		"vs/workbench/contrib/terminalContrib/chatAgentTools/browser/tools/task/runTaskTool": {
 			"copilotChat.allowTaskRunMsg": "是否允许 Copilot 运行任务“{0}”?",
 			"copilotChat.allowTaskRunTitle": "是否允许任务运行?",
-			"copilotChat.checkingOutput": "正在检查“{0}”的输出",
 			"copilotChat.noTerminal": "任务已启动，但找不到“{0}”的终端",
-			"copilotChat.ranTask": "已运行“{0}”",
-			"copilotChat.runningTask": "正在运行“{0}”",
-			"copilotChat.startedTask": "已启动“{0}”",
+			"copilotChat.ranTask": "已运行 `{0}`",
+			"copilotChat.runningTask": "正在运行 `{0}`",
+			"copilotChat.startedTask": "已启动 `{0}`",
 			"copilotChat.taskAlreadyActive": "任务已在运行。",
 			"copilotChat.taskAlreadyRunning": "任务“{0}”已在运行。",
 			"copilotChat.taskIsAlreadyRunning": "“{0}”已在运行。",
@@ -14345,11 +14529,13 @@
 			"runInTerminalTool.displayName": "运行任务",
 			"runInTerminalTool.userDescription": "用于在工作区中运行任务的工具"
 		},
-		"vs/workbench/contrib/terminalContrib/chatAgentTools/browser/terminal.chatAgentTools.contribution": {
-			"toolset.runCommands": "在终端中运行命令"
+		"vs/workbench/contrib/terminalContrib/chatAgentTools/browser/tools/task/taskHelpers": {
+			"copilotChat.taskFailedWithExitCode": "Task `{0}` failed with exit code {1}."
 		},
 		"vs/workbench/contrib/terminalContrib/chatAgentTools/common/terminalChatAgentToolsConfiguration": {
-			"autoApprove.description.commandLine": "对象可用于与完整命令行进行匹配，而不是匹配子命令和内联命令，例如 {0}。这将在检查子命令后进行检查，优先于被拒绝的子命令。",
+			"autoApprove.deprecated": "请改用 {0}",
+			"autoApprove.description.commandLine": "对象可用于与完整命令行进行匹配，而不是匹配子命令和内联命令，例如 {0}。为了实现自动批准，子命令和命令行都不能被显式拒绝，且需要批准所有子命令或命令行。",
+			"autoApprove.description.examples.binTest": "允许与路径 {0} ({1}、{2} 等)匹配的所有命令",
 			"autoApprove.description.examples.description": "描述",
 			"autoApprove.description.examples.mkdir": "允许所有以 {0} 开头的命令",
 			"autoApprove.description.examples.npmRunBuild": "允许所有以 {0} 开头的命令",
@@ -14362,7 +14548,7 @@
 			"autoApprove.description.examples.title": "示例:",
 			"autoApprove.description.examples.value": "值",
 			"autoApprove.description.intro": "命令或正则表达式的列表，它们控制终端工具命令中的运行是否需要显式批准。这些将与命令的开头进行匹配。在正则表达式中，可以用 {0} 字符包裹字符串，后面再添加可选标志(如 {1})以表示不区分大小写。",
-			"autoApprove.description.subCommands": "请注意，这些命令和正则表达式针对完整命令行内的每个字命令进行计算，因此 {0} 等需要 {1} 和 {2} 都匹配 {3} 条目，并且不得与 {4} 条目匹配才能自动批准。由于还会检测到内联命令，因此 {5} 需要同时传递 {5} 和 {6}。",
+			"autoApprove.description.subCommands": "请注意，这些命令和正则表达式是针对完整 _命令行_ 内的每个 _子命令_ 进行计算的，因此 {0} 等需要 {1} 和 {2} 都匹配 {3} 条目，并且不得与 {4} 条目匹配才能自动批准。默认情况下，目前通过检测这些模式的广泛规则阻止 {5} (命令替换)或 {6} (进程替换)等内联命令。",
 			"autoApprove.description.values": "设置为 {0} 可自动批准命令，设置为 {1} 始终需要显式批准，设置为 {2} 则可取消设置值。",
 			"autoApprove.false": "需要显式批准模式。",
 			"autoApprove.key": "要与之匹配的命令的开头。可以通过将字符串用 \"/\" 字符包裹来提供正则表达式。",
@@ -14370,7 +14556,8 @@
 			"autoApprove.matchCommandLine.false": "与子命令和内联命令匹配，例如 `foo && bar` 需要 `foo` 和 `bar` 才能匹配。",
 			"autoApprove.matchCommandLine.true": "与完整命令行进行匹配，例如: `foo && bar`。",
 			"autoApprove.null": "忽略该模式，这对于取消设置在更高的范围设置的同一模式非常有用。",
-			"autoApprove.true": "自动批准模式。"
+			"autoApprove.true": "自动批准模式。",
+			"shellIntegrationTimeout.description": "配置在终端工具中的运行启动新终端时，等待检测到 shell 集成的持续时间(毫秒)。设置为 `0` 表示等待时间最短，默认值 `-1` 则意味着等待时间将根据 {0} 值以及它是否为远程窗口而变化。如果 shell 启动速度非常慢，则较大的值会非常有用，如果有意不使用 shell 集成，则适合使用较小的值。"
 		},
 		"vs/workbench/contrib/terminalContrib/clipboard/browser/terminal.clipboard.contribution": {
 			"workbench.action.terminal.copyAndClearSelection": "复制和清除选择",
@@ -14607,9 +14794,8 @@
 			"suggest.inlineSuggestion.alwaysOnTop": "启用此功能并始终将内联建议置于顶层。",
 			"suggest.inlineSuggestion.alwaysOnTopExceptExactMatch": "启用该功能，对内联建议进行排序，而不强制其位于顶部。这意味着完全匹配将高于内联建议。",
 			"suggest.inlineSuggestion.off": "禁用该功能。",
-			"suggest.provider.description": "Whether to enable this provider.",
-			"suggest.provider.pwsh.deprecation": "This is deprecated as it has performance problems, the upcoming LSP provider will supersede this.",
-			"suggest.provider.pwsh.description": "Enable or disable the PowerShell script-based provider. This enables PowerShell-specific argument completion.",
+			"suggest.provider.description": "是否启用此提供程序。",
+			"suggest.provider.lsp.description": "启用或禁用基于 LSP 的提供程序。这将启用特定于语言服务器协议的参数补全。",
 			"suggest.providers": "提供程序默认启用。通过将提供程序的 ID 设置为 “false” 来忽略它们。",
 			"suggest.quickSuggestions": "控制是否应在键入时自动显示建议。另请注意控制建议是否由特殊字符触发的 {0} 设置。",
 			"suggest.quickSuggestions.arguments": "为参数启用快速建议，在命令行输入中的第一个字之后的任何内容。",
@@ -14667,9 +14853,12 @@
 			"coverage.toggleInline": "切换内联覆盖率",
 			"testing.coverageForTestAvailable": "有 {0} 个测试运行了此文件中的代码",
 			"testing.filterActionLabel": "将覆盖率筛选为测试",
+			"testing.hideCoverageInExplorer": "在资源管理器中隐藏覆盖率",
 			"testing.hideInlineCoverage": "隐藏内联覆盖率",
 			"testing.rerun": "重新运行",
 			"testing.showInlineCoverage": "显示内联覆盖率",
+			"testing.toggleCoverageInExplorerDesc": "在文件资源管理器视图中切换测试覆盖率的显示。",
+			"testing.toggleCoverageInExplorerTitle": "在资源管理器中切换覆盖率",
 			"testing.toggleInlineCoverage": "切换内联",
 			"testing.toggleToolbarDesc": "在编辑器中切换粘滞覆盖率栏。",
 			"testing.toggleToolbarTitle": "测试覆盖率工具栏"
@@ -14725,6 +14914,7 @@
 			"testCoverageTreeLabel": "测试覆盖率资源管理器",
 			"testing.changeCoverageFilter": "按测试筛选覆盖率",
 			"testing.changeCoverageSort": "更改排序顺序",
+			"testing.coverageCollapseAll": "Collapse All Coverage",
 			"testing.coverageSortByCoverage": "按覆盖率排序",
 			"testing.coverageSortByCoverageDescription": "按总覆盖率为文件和声明排序",
 			"testing.coverageSortByLocation": "按位置排序",
@@ -15000,17 +15190,17 @@
 			"testing.treeElementLabel": "{0} ({1})"
 		},
 		"vs/workbench/contrib/testing/common/testingChatAgentTool": {
-			"runTestTool.confirm.all": "The model wants to run all tests.",
-			"runTestTool.confirm.invocation": "Running tests...",
-			"runTestTool.confirm.message": "The model wants to run tests in {0}.",
-			"runTestTool.confirm.title": "Allow test run?",
-			"runTestTool.invoke.cancelled": "Test run was cancelled.",
-			"runTestTool.invoke.filesProgress": "Discovering tests...",
-			"runTestTool.invoke.filterProgress": "Filtering tests...",
-			"runTestTool.invoke.progress": "Starting test run...",
-			"runTestTool.noRunStarted": "No test run was started. This may be an issue with your test runner or extension.",
-			"runTestTool.noTests": "No tests found in the files",
-			"runTestTool.userDescription": "Runs unit tests"
+			"runTestTool.confirm.all": "模型想要运行所有测试。",
+			"runTestTool.confirm.invocation": "正在运行测试...",
+			"runTestTool.confirm.message": "模型想要在 {0} 中运行测试。",
+			"runTestTool.confirm.title": "是否允许测试运行?",
+			"runTestTool.invoke.cancelled": "测试运行已取消。",
+			"runTestTool.invoke.filesProgress": "正在发现测试...",
+			"runTestTool.invoke.filterProgress": "正在筛选测试...",
+			"runTestTool.invoke.progress": "正在启动测试运行...",
+			"runTestTool.noRunStarted": "未启动任何测试运行。这可能是你的测试运行器或扩展存在问题。",
+			"runTestTool.noTests": "在文件中找不到任何测试",
+			"runTestTool.userDescription": "运行单元测试"
 		},
 		"vs/workbench/contrib/testing/common/testingContentProvider": {
 			"runNoOutout": "测试运行未记录任何输出。"
@@ -15027,6 +15217,7 @@
 			"testing.hasCoverableTests": "指示是否有测试控制器注册了覆盖率配置",
 			"testing.hasCoverageInFile": "指示当前编辑器中已报告覆盖情况。",
 			"testing.hasDebuggableTests": "指示是否有测试控制器注册了调试配置",
+			"testing.hasInlineCoverageDetails": "指示是否可以将详细的逐行覆盖率信息用于内联显示",
 			"testing.hasNonDefaultConfig": "指示是否有测试控制器注册了非默认配置",
 			"testing.hasPerTestCoverage": "指示每测试覆盖率是否可用",
 			"testing.hasRunnableTests": "指示是否有测试控制器注册了运行配置",
@@ -15048,11 +15239,11 @@
 			"testing.testResultState": "指示项状态的值可用测试/项/结果。"
 		},
 		"vs/workbench/contrib/testing/common/testingProgressMessages": {
-			"testProgress.completed": "{0}/{1} tests passed ({2}%)",
-			"testProgress.running": "Running tests, {0}/{1} passed ({2}%)",
-			"testProgress.runningInitial": "Running tests...",
-			"testProgressWithSkip.completed": "{0}/{1} tests passed ({2}%, {3} skipped)",
-			"testProgressWithSkip.running": "Running tests, {0}/{1} tests passed ({2}%, {3} skipped)"
+			"testProgress.completed": "{0}/{1} 个测试已通过({2}%)",
+			"testProgress.running": "正在运行测试，通过 {0}/{1} ({2}%)",
+			"testProgress.runningInitial": "正在运行测试...",
+			"testProgressWithSkip.completed": "{0}/{1} 个测试已通过({2}%，{3} 个已跳过)",
+			"testProgressWithSkip.running": "正在运行测试，通过 {0}/{1} ({2}%, {3} 个已跳过)"
 		},
 		"vs/workbench/contrib/testing/common/testResult": {
 			"runFinished": "测试运行时间: {0}",
@@ -15544,7 +15735,6 @@
 			"acessibleViewHint": "在无障碍视图中检查此项({0})。\r\n",
 			"acessibleViewHintNoKbOpen": "通过命令“打开无障碍视图”在无障碍视图中检查此项，该命令当前无法通过键绑定触发。\r\n",
 			"allDone": "标记为完成",
-			"back": "后退",
 			"checkboxTitle": "选中后，此页面将在启动时显示。",
 			"close": "隐藏",
 			"closeAriaLabel": "隐藏",
@@ -15555,18 +15745,13 @@
 			"gettingStarted.someStepsComplete": "已完成 {0} 个步骤，共 {1} 个步骤",
 			"goBack": "返回",
 			"imageShowing": "显示 {0} 的图像",
-			"last": "开始编码",
-			"lastStep": "开始编码",
 			"new": "新建",
 			"newItems": "已更新",
-			"next": "下一步",
 			"nextOne": "下一节",
-			"nextStep": "下一步",
 			"noRecents": "你没有最近使用的文件夹，",
 			"openFolder": "打开文件夹",
 			"optOut": "选择退出",
 			"pickWalkthroughs": "打开演练...",
-			"previousStep": "上一步",
 			"privacy statement": "隐私声明",
 			"recent": "最近",
 			"show more recents": "显示所有最近使用的文件夹 {0}",
@@ -15593,7 +15778,6 @@
 			"welcome.markStepComplete": "标记步骤完成",
 			"welcome.markStepInomplete": "标记步骤未完成",
 			"welcome.showAllWalkthroughs": "打开演练...",
-			"welcome.showNewWelcome": "启用新的欢迎体验",
 			"workbench.startupEditor": "在没有从上一会话中恢复出信息的情况下，控制启动时显示的编辑器。",
 			"workbench.startupEditor.newUntitledFile": "打开新的无标题文本文件(仅在打开空窗口时适用)。",
 			"workbench.startupEditor.none": "在启动时不打开编辑器。",
@@ -15692,8 +15876,6 @@
 			"gettingStarted.accessibilitySignals.title": "微调要通过音频或盲文设备接收的辅助功能信号",
 			"gettingStarted.accessibleView.description.interpolated": "辅助视图可用于终端、悬停、通知、批注、笔记本输出、聊天响应、内联完成和调试控制台输出。\r\n 如果焦点位于这些功能上，则可以使用“打开辅助视图”命令打开它。\r\n{0}",
 			"gettingStarted.accessibleView.title": "屏幕阅读器用户可以在无障碍视图中逐行、逐字检查内容。",
-			"gettingStarted.agentMode.description": "分析问题，规划后续步骤，并为你进行更改。",
-			"gettingStarted.agentMode.title": "代理模式",
 			"gettingStarted.beginner.description": "获取最基本功能的概述",
 			"gettingStarted.beginner.title": "了解基础知识",
 			"gettingStarted.beginner.walkthroughPageTitle": "基本功能",
@@ -15704,9 +15886,7 @@
 			"gettingStarted.commandPaletteAccessibility.description.interpolated": "在 VS Code 中运行命令，无需动用鼠标即可完成任何任务。\r\n{0}",
 			"gettingStarted.commandPaletteAccessibility.title": "使用命令面板释放工作效率",
 			"gettingStarted.copilotSetup.description": "可以使用 [Copilot]({0}) 跨多个文件生成代码、修复错误、询问有关代码的问题，以及使用自然语言进行更多问题。",
-			"gettingStarted.copilotSetup.title": "通过免费版 Copilot 使用 AI 功能",
-			"gettingStarted.customize.description": "交换模型、添加代理模式工具和创建个性化指令。\r\n{0}",
-			"gettingStarted.customize.title": "已按你的工作方式个性化设置",
+			"gettingStarted.copilotSetup.title": "Use AI features with GitHub Copilot for free",
 			"gettingStarted.debug.description.interpolated": "通过设置启动配置来加速编辑、生成、测试和调试循环。\r\n{0}",
 			"gettingStarted.debug.title": "在操作中查看代码",
 			"gettingStarted.extensions.description.interpolated": "扩展是 VS Code 的精华。扩展范围包括方便地提升生产力、扩展现成的功能以及添加全新的功能。\r\n{0}",
@@ -15716,7 +15896,7 @@
 			"gettingStarted.findLanguageExts.title": "对所有语言的丰富支持",
 			"gettingStarted.goToSymbol.description.interpolated": "“转到符号”命令对于在文档中的重要地标之间导航非常有用。\r\n{0}",
 			"gettingStarted.goToSymbol.title": "导航到文件中的符号",
-			"gettingStarted.hover.description.interpolated": "While focus is in the editor on a variable or symbol, a hover can be focused with the Show or Open Hover command.\r\n{0}",
+			"gettingStarted.hover.description.interpolated": "当焦点位于编辑器中的变量或符号上时，可以使用“显示或打开悬停”命令聚焦悬停。\r\n{0}",
 			"gettingStarted.hover.title": "访问编辑器中的悬停以获取有关变量或符号的详细信息",
 			"gettingStarted.installGit.description.interpolated": "安装 Git 以跟踪项目中的更改。\r\n{0}\r\n安装后 {1}重新加载窗口{2} 以完成 Git 安装。",
 			"gettingStarted.installGit.title": "安装 Git",
@@ -15726,15 +15906,10 @@
 			"gettingStarted.keyboardShortcuts.title": "自定义键盘快捷方式",
 			"gettingStarted.menuBar.description.interpolated": "下拉菜单中提供了完整的菜单栏，可为代码腾出空间。切换其外观以加快访问速度。\r\n{0}",
 			"gettingStarted.menuBar.title": "恰好数量的 UI",
-			"gettingStarted.nes.description": "获取预测下一次编辑的代码建议。",
-			"gettingStarted.nes.title": "下一个编辑建议",
-			"gettingStarted.new.description": "使用 AI 增强编码",
-			"gettingStarted.new.title": "开始使用 VS Code",
-			"gettingStarted.new.walkthroughPageTitle": "设置 VS Code",
 			"gettingStarted.newFile.description": "打开新的无标题文本文件、笔记本或自定义编辑器。",
 			"gettingStarted.newFile.title": "新建文件...",
-			"gettingStarted.newWorkspaceChat.description": "使用 Copilot 创建新工作区",
-			"gettingStarted.newWorkspaceChat.title": "使用 Copilot 新建工作区...",
+			"gettingStarted.newWorkspaceChat.description": "聊天以创建新工作区",
+			"gettingStarted.newWorkspaceChat.title": "生成新工作区...",
 			"gettingStarted.notebook.title": "自定义笔记",
 			"gettingStarted.notebook.walkthroughPageTitle": "笔记本",
 			"gettingStarted.notebookProfile.description": "获取笔记，以你喜欢的方式体验",
@@ -15793,9 +15968,6 @@
 			"keyboardShortcuts": "键盘快捷方式",
 			"listSignalAnnouncements": "列出信号公告",
 			"listSignalSounds": "列出信号声音",
-			"newgettingStarted.commandPalette.title": "所有命令触手可及",
-			"newgettingStarted.findLanguageExts.description.interpolated": "在工具包中安装所需的语言扩展。\r\n{0}",
-			"newgettingStarted.findLanguageExts.title": "支持所有语言",
 			"openAccessibilityHelp": "打开辅助功能帮助",
 			"openAccessibilitySettings": "打开辅助功能设置",
 			"openAccessibleView": "打开辅助视图",
@@ -15813,7 +15985,6 @@
 			"setupCopilotButton.signIn": "设置 Copilot",
 			"showOrFocusHover": "显示或聚焦悬停",
 			"showTerminal": "打开终端",
-			"signUp": "启用 AI 功能",
 			"titleID": "浏览颜色主题",
 			"toggleFold": "切换折叠",
 			"toggleFoldRecursively": "以递归方式切换折叠",
@@ -16061,14 +16232,15 @@
 			"keyboard shortcuts": "键盘快捷方式",
 			"menuContexts": "菜单上下文",
 			"menus.changeTitle": "源代码管理内联更改菜单",
+			"menus.chatMultiDiffContext": "The Chat Multi-Diff context menu.",
 			"menus.chatSessions": "“聊天会话”菜单。",
-			"menus.chatTerminal": "终端上下文菜单中的“聊天”子菜单。",
 			"menus.chatTextEditor": "文本编辑器上下文菜单中的“聊天”子菜单。",
 			"menus.commandPalette": "命令面板",
 			"menus.debugCallstackContext": "调试调用堆栈视图上下文菜单",
 			"menus.debugCreateConfiguation": "“调试创建配置”菜单",
 			"menus.debugToolBar": "调试工具栏菜单",
 			"menus.debugVariablesContext": "调试变量视图上下文菜单",
+			"menus.debugWatchContext": "调试监视视图上下文菜单",
 			"menus.diffEditorGutterToolBarMenus": "差异编辑器中的装订线工具栏",
 			"menus.editorContext": "编辑器上下文菜单",
 			"menus.editorContextCopyAs": "编辑器上下文菜单中的“复制为”子菜单",
@@ -16557,6 +16729,7 @@
 			"vscode.extension.activationEvents.onFileSystem": "在使用给定协议打开文件或文件夹时发出的激活事件。",
 			"vscode.extension.activationEvents.onIssueReporterOpened": "问题报告器打开时发出的激活事件。",
 			"vscode.extension.activationEvents.onLanguage": "在打开被解析为指定语言的文件时发出的激活事件。",
+			"vscode.extension.activationEvents.onLanguageModelChat": "请求给定供应商的聊天模型提供程序时发出的激活事件。",
 			"vscode.extension.activationEvents.onLanguageModelTool": "调用指定语言模型工具时发出的激活事件。",
 			"vscode.extension.activationEvents.onMcpCollection": "每当请求 MCP 服务器中的工具时发出的激活事件。",
 			"vscode.extension.activationEvents.onNotebook": "在指定的笔记本文档被打开时发出的激活事件。",
